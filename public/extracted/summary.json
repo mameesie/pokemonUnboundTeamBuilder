@@ -1,0 +1,95 @@
+{
+  "source": {
+    "primaryDataset": "Skeli789 source repositories",
+    "repositories": [
+      "public/Dynamic-Pokemon-Expansion",
+      "public/Complete-Fire-Red-Upgrade"
+    ],
+    "romUsed": false
+  },
+  "generatedFiles": [
+    "/extracted/summary.json",
+    "/extracted/species.json",
+    "/extracted/moves.json",
+    "/extracted/abilities.json",
+    "/extracted/items-partial.json",
+    "/extracted/evolutions.json",
+    "/extracted/learnsets-level.json",
+    "/extracted/learnsets-egg.json",
+    "/extracted/learnsets-tm.json",
+    "/extracted/learnsets-tutor.json",
+    "/extracted/learnsets-combined.json"
+  ],
+  "sections": {
+    "species": {
+      "status": "source-extracted",
+      "count": 1239,
+      "notes": [
+        "Species names and base stats are extracted from the Dynamic Pokemon Expansion source tables."
+      ]
+    },
+    "moves": {
+      "status": "source-extracted",
+      "count": 922,
+      "notes": [
+        "Move names come from CFRU string tables and battle metadata comes from the CFRU move table."
+      ]
+    },
+    "abilities": {
+      "status": "source-extracted",
+      "count": 256,
+      "notes": [
+        "Ability names are extracted from the CFRU string tables."
+      ]
+    },
+    "items": {
+      "status": "source-referenced",
+      "count": 185,
+      "notes": [
+        "Only items referenced by extracted species or evolution data are exported here."
+      ]
+    },
+    "evolutions": {
+      "status": "source-extracted",
+      "count": 712,
+      "notes": [
+        "Evolution methods are extracted directly from the Dynamic Pokemon Expansion evolution table."
+      ]
+    },
+    "learnsetsLevel": {
+      "status": "source-extracted",
+      "count": 1243,
+      "notes": [
+        "Level-up learnsets are extracted from the Dynamic Pokemon Expansion learnset tables."
+      ]
+    },
+    "learnsetsEgg": {
+      "status": "source-extracted",
+      "count": 429,
+      "notes": [
+        "Egg moves are extracted from the Dynamic Pokemon Expansion egg move table."
+      ]
+    },
+    "learnsetsTmHm": {
+      "status": "source-extracted",
+      "count": 1188,
+      "notes": [
+        "TM/HM compatibility is extracted from the Dynamic Pokemon Expansion per-move text files."
+      ]
+    },
+    "learnsetsTutor": {
+      "status": "source-extracted",
+      "count": 1116,
+      "notes": [
+        "Tutor compatibility is extracted from the Dynamic Pokemon Expansion per-move text files."
+      ]
+    },
+    "learnsetsCombined": {
+      "status": "source-extracted",
+      "count": 1243,
+      "notes": [
+        "Combined per-species learnsets include level-up, egg, TM/HM, and tutor sources."
+      ]
+    }
+  }
+}

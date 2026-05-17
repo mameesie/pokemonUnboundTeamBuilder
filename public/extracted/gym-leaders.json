@@ -1,0 +1,4916 @@
+{
+  "source": "pokemonunbound.miraheze.org",
+  "generatedAtNote": "Generated from raw wiki pages via action=raw",
+  "gyms": [
+    {
+      "gymNumber": 1,
+      "location": "Dresco Town",
+      "leader": "Mirskle",
+      "badge": "Leaf Badge",
+      "gymType": "Grass",
+      "sources": {
+        "townPage": "https://pokemonunbound.miraheze.org/wiki/Dresco_Town",
+        "gymPage": "https://pokemonunbound.miraheze.org/wiki/Dresco_Town/Dresco_Town_Gym",
+        "townRaw": "https://pokemonunbound.miraheze.org/wiki/Dresco_Town?action=raw",
+        "gymRaw": "https://pokemonunbound.miraheze.org/wiki/Dresco_Town/Dresco_Town_Gym?action=raw"
+      },
+      "difficulties": [
+        {
+          "battleType": "single",
+          "difficulty": "Difficult",
+          "trainerName": "Mirskle",
+          "trainerClass": "Gym Leader",
+          "location": "Dresco Town",
+          "prize": "5760",
+          "pokemonCount": 3,
+          "team": [
+            {
+              "nationalDex": 670,
+              "pokemon": "Floette",
+              "form": "-Blue",
+              "level": 21,
+              "gender": "female",
+              "types": [
+                "Fairy"
+              ],
+              "ability": "Flower Veil",
+              "abilityMega": null,
+              "nature": "Hardy",
+              "heldItem": "Grass Gem",
+              "evSpread": null,
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Fairy Wind",
+                  "type": "Fairy",
+                  "category": "Special"
+                },
+                {
+                  "name": "Razor Leaf",
+                  "type": "Grass",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Grass Knot",
+                  "type": "Grass",
+                  "category": "Special"
+                },
+                {
+                  "name": "Echoed Voice",
+                  "type": "Normal",
+                  "category": "Special"
+                }
+              ]
+            },
+            {
+              "nationalDex": 44,
+              "pokemon": "Gloom",
+              "form": null,
+              "level": 20,
+              "gender": "male",
+              "types": [
+                "Grass",
+                "Poison"
+              ],
+              "ability": "Chlorophyll",
+              "abilityMega": null,
+              "nature": "Hardy",
+              "heldItem": null,
+              "evSpread": null,
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Acid",
+                  "type": "Poison",
+                  "category": "Special"
+                },
+                {
+                  "name": "Mega Drain",
+                  "type": "Grass",
+                  "category": "Special"
+                },
+                {
+                  "name": "Sweet Scent",
+                  "type": "Normal",
+                  "category": "Status"
+                },
+                {
+                  "name": "Sleep Powder",
+                  "type": "Grass",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 13,
+              "pokemon": "Weedle",
+              "form": null,
+              "level": 18,
+              "gender": "male",
+              "types": [
+                "Bug",
+                "Poison"
+              ],
+              "ability": "Shield Dust",
+              "abilityMega": null,
+              "nature": "Adamant",
+              "heldItem": null,
+              "evSpread": "HP 6, Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Bug Bite",
+                  "type": "Bug",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Electroweb",
+                  "type": "Electric",
+                  "category": "Special"
+                },
+                {
+                  "name": "Poison Sting",
+                  "type": "Poison",
+                  "category": "Physical"
+                },
+                {
+                  "name": "String Shot",
+                  "type": "Bug",
+                  "category": "Status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "battleType": "single",
+          "difficulty": "Expert",
+          "trainerName": "Mirskle",
+          "trainerClass": "Gym Leader",
+          "location": "Dresco Town",
+          "prize": "5760",
+          "pokemonCount": 4,
+          "team": [
+            {
+              "nationalDex": 670,
+              "pokemon": "Floette",
+              "form": "-Blue",
+              "level": 19,
+              "gender": "female",
+              "types": [
+                "Fairy"
+              ],
+              "ability": "Flower Veil",
+              "abilityMega": null,
+              "nature": "Careful",
+              "heldItem": "Grass Gem",
+              "evSpread": "HP 252, Def 4, Sp. Def 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Fairy Wind",
+                  "type": "Fairy",
+                  "category": "Special"
+                },
+                {
+                  "name": "Grass Knot",
+                  "type": "Grass",
+                  "category": "Special"
+                },
+                {
+                  "name": "Wish",
+                  "type": "Normal",
+                  "category": "Status"
+                },
+                {
+                  "name": "Grassy Terrain",
+                  "type": "Grass",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 44,
+              "pokemon": "Gloom",
+              "form": null,
+              "level": 21,
+              "gender": "male",
+              "types": [
+                "Grass",
+                "Poison"
+              ],
+              "ability": "Chlorophyll",
+              "abilityMega": null,
+              "nature": "Calm",
+              "heldItem": null,
+              "evSpread": "HP 252, Def 4, Sp. Def 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Acid",
+                  "type": "Poison",
+                  "category": "Special"
+                },
+                {
+                  "name": "Mega Drain",
+                  "type": "Grass",
+                  "category": "Special"
+                },
+                {
+                  "name": "Ingrain",
+                  "type": "Grass",
+                  "category": "Status"
+                },
+                {
+                  "name": "Sleep Powder",
+                  "type": "Grass",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 13,
+              "pokemon": "Weedle",
+              "form": null,
+              "level": 17,
+              "gender": "male",
+              "types": [
+                "Bug",
+                "Poison"
+              ],
+              "ability": "Technician",
+              "abilityMega": null,
+              "nature": "Adamant",
+              "heldItem": "Silver Powder",
+              "evSpread": "HP 6, Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Bug Bite",
+                  "type": "Bug",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Electroweb",
+                  "type": "Electric",
+                  "category": "Special"
+                },
+                {
+                  "name": "Poison Sting",
+                  "type": "Poison",
+                  "category": "Physical"
+                },
+                {
+                  "name": "String Shot",
+                  "type": "Bug",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 764,
+              "pokemon": "Comfey",
+              "form": null,
+              "level": 18,
+              "gender": "female",
+              "types": [
+                "Fairy"
+              ],
+              "ability": "Triage",
+              "abilityMega": null,
+              "nature": "Bold",
+              "heldItem": "Leftovers",
+              "evSpread": "HP 252, Def 252, Sp. Def 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Magical Leaf",
+                  "type": "Grass",
+                  "category": "Special"
+                },
+                {
+                  "name": "Helping Hand",
+                  "type": "Normal",
+                  "category": "Status"
+                },
+                {
+                  "name": "Flower Shield",
+                  "type": "Fairy",
+                  "category": "Status"
+                },
+                {
+                  "name": "Floral Healing",
+                  "type": "Fairy",
+                  "category": "Status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "battleType": "single",
+          "difficulty": "Insane",
+          "trainerName": "Mirskle",
+          "trainerClass": "Gym Leader",
+          "location": "Dresco Town",
+          "prize": "5760",
+          "pokemonCount": 4,
+          "team": [
+            {
+              "nationalDex": 670,
+              "pokemon": "Floette",
+              "form": "-Blue",
+              "level": 19,
+              "gender": "female",
+              "types": [
+                "Fairy"
+              ],
+              "ability": "Flower Veil",
+              "abilityMega": null,
+              "nature": "Bold",
+              "heldItem": "Grassy Seed",
+              "evSpread": "HP 252, Def 252, Sp. Def 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Moonblast",
+                  "type": "Fairy",
+                  "category": "Special"
+                },
+                {
+                  "name": "Petal Blizzard",
+                  "type": "Grass",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Wish",
+                  "type": "Normal",
+                  "category": "Status"
+                },
+                {
+                  "name": "Grassy Terrain",
+                  "type": "Grass",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 44,
+              "pokemon": "Gloom",
+              "form": null,
+              "level": 21,
+              "gender": "male",
+              "types": [
+                "Grass",
+                "Poison"
+              ],
+              "ability": "Chlorophyll",
+              "abilityMega": null,
+              "nature": "Bold",
+              "heldItem": "Leftovers",
+              "evSpread": "HP 252, Def 252, Sp. Def 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Apple Acid",
+                  "type": "Grass",
+                  "category": "Special"
+                },
+                {
+                  "name": "Moonblast",
+                  "type": "Fairy",
+                  "category": "Special"
+                },
+                {
+                  "name": "Ingrain",
+                  "type": "Grass",
+                  "category": "Status"
+                },
+                {
+                  "name": "Sleep Powder",
+                  "type": "Grass",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 13,
+              "pokemon": "Weedle",
+              "form": null,
+              "level": 17,
+              "gender": "male",
+              "types": [
+                "Bug",
+                "Poison"
+              ],
+              "ability": "Technician",
+              "abilityMega": null,
+              "nature": "Adamant",
+              "heldItem": "Silver Powder",
+              "evSpread": "HP 6, Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Bug Bite",
+                  "type": "Bug",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Electroweb",
+                  "type": "Electric",
+                  "category": "Special"
+                },
+                {
+                  "name": "Poison Sting",
+                  "type": "Poison",
+                  "category": "Physical"
+                },
+                {
+                  "name": "String Shot",
+                  "type": "Bug",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 764,
+              "pokemon": "Comfey",
+              "form": null,
+              "level": 18,
+              "gender": "female",
+              "types": [
+                "Fairy"
+              ],
+              "ability": "Triage",
+              "abilityMega": null,
+              "nature": "Bold",
+              "heldItem": "Leftovers",
+              "evSpread": "HP 252, Def 252, Sp. Def 6",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Draining Kiss",
+                  "type": "Fairy",
+                  "category": "Special"
+                },
+                {
+                  "name": "Helping Hand",
+                  "type": "Normal",
+                  "category": "Status"
+                },
+                {
+                  "name": "Flower Shield",
+                  "type": "Fairy",
+                  "category": "Status"
+                },
+                {
+                  "name": "Floral Healing",
+                  "type": "Fairy",
+                  "category": "Status"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "gymNumber": 2,
+      "location": "Crater Town",
+      "leader": "V\u00e9ga",
+      "badge": "Vision Badge",
+      "gymType": "Dark",
+      "sources": {
+        "townPage": "https://pokemonunbound.miraheze.org/wiki/Crater_Town",
+        "gymPage": "https://pokemonunbound.miraheze.org/wiki/Crater_Town/Crater_Town_Gym",
+        "townRaw": "https://pokemonunbound.miraheze.org/wiki/Crater_Town?action=raw",
+        "gymRaw": "https://pokemonunbound.miraheze.org/wiki/Crater_Town/Crater_Town_Gym?action=raw"
+      },
+      "difficulties": [
+        {
+          "battleType": "single",
+          "difficulty": "Difficult",
+          "trainerName": "V\u00e9ga",
+          "trainerClass": "Gym Leader",
+          "location": "Crater Town",
+          "prize": "4160",
+          "pokemonCount": 3,
+          "team": [
+            {
+              "nationalDex": 510,
+              "pokemon": "Liepard",
+              "form": null,
+              "level": 26,
+              "gender": "male",
+              "types": [
+                "Dark"
+              ],
+              "ability": "Limber",
+              "abilityMega": null,
+              "nature": "Hardy",
+              "heldItem": null,
+              "evSpread": null,
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Thief",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Fury Swipes",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Fake Out",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Pursuit",
+                  "type": "Dark",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 359,
+              "pokemon": "Absol",
+              "form": null,
+              "level": 27,
+              "gender": "male",
+              "types": [
+                "Dark"
+              ],
+              "ability": "Pressure",
+              "abilityMega": null,
+              "nature": "Impish",
+              "heldItem": null,
+              "evSpread": null,
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Thief",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Slash",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Feint",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Pursuit",
+                  "type": "Dark",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 215,
+              "pokemon": "Sneasel",
+              "form": null,
+              "level": 25,
+              "gender": "male",
+              "types": [
+                "Dark",
+                "Ice"
+              ],
+              "ability": "Keen Eye",
+              "abilityMega": null,
+              "nature": "Hardy",
+              "heldItem": null,
+              "evSpread": "HP 252, Def 252, Sp. Def 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Thief",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Icy Wind",
+                  "type": "Ice",
+                  "category": "Special"
+                },
+                {
+                  "name": "Metal Claw",
+                  "type": "Steel",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Fake Out",
+                  "type": "Normal",
+                  "category": "Physical"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "battleType": "single",
+          "difficulty": "Expert",
+          "trainerName": "V\u00e9ga",
+          "trainerClass": "Gym Leader",
+          "location": "Crater Town",
+          "prize": "4160",
+          "pokemonCount": 4,
+          "team": [
+            {
+              "nationalDex": 510,
+              "pokemon": "Liepard",
+              "form": null,
+              "level": 26,
+              "gender": "male",
+              "types": [
+                "Dark"
+              ],
+              "ability": "Unburden",
+              "abilityMega": null,
+              "nature": "Jolly",
+              "heldItem": "Lum Berry",
+              "evSpread": "HP 6, Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Thief",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Play Rough",
+                  "type": "Fairy",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Fake Out",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Pursuit",
+                  "type": "Dark",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 359,
+              "pokemon": "Absol",
+              "form": null,
+              "level": 27,
+              "gender": "male",
+              "types": [
+                "Dark"
+              ],
+              "ability": "Pressure",
+              "abilityMega": null,
+              "nature": "Impish",
+              "heldItem": null,
+              "evSpread": "HP 252, Def 252, Sp. Def 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Knock Off",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Psycho Cut",
+                  "type": "Psychic",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Feint",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Pursuit",
+                  "type": "Dark",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 461,
+              "pokemon": "Weavile",
+              "form": null,
+              "level": 27,
+              "gender": "male",
+              "types": [
+                "Dark",
+                "Ice"
+              ],
+              "ability": "Pressure",
+              "abilityMega": null,
+              "nature": "Impish",
+              "heldItem": "Dark Gem",
+              "evSpread": "HP 252, Def 252, Sp. Def 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Punishment",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Ice Shard",
+                  "type": "Ice",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Swagger",
+                  "type": "Normal",
+                  "category": "Status"
+                },
+                {
+                  "name": "Fake Out",
+                  "type": "Normal",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 430,
+              "pokemon": "Honchkrow",
+              "form": null,
+              "level": 26,
+              "gender": "male",
+              "types": [
+                "Dark",
+                "Flying"
+              ],
+              "ability": "Super Luck",
+              "abilityMega": null,
+              "nature": "Naughty",
+              "heldItem": null,
+              "evSpread": "Atk 128, Sp. Atk 128, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Punishment",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Air Cutter",
+                  "type": "Flying",
+                  "category": "Special"
+                },
+                {
+                  "name": "Night Shade",
+                  "type": "Ghost",
+                  "category": "Special"
+                },
+                {
+                  "name": "Swagger",
+                  "type": "Normal",
+                  "category": "Status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "battleType": "single",
+          "difficulty": "Insane",
+          "trainerName": "V\u00e9ga",
+          "trainerClass": "Gym Leader",
+          "location": "Crater Town",
+          "prize": "4160",
+          "pokemonCount": 5,
+          "team": [
+            {
+              "nationalDex": 510,
+              "pokemon": "Liepard",
+              "form": null,
+              "level": 26,
+              "gender": "male",
+              "types": [
+                "Dark"
+              ],
+              "ability": "Unburden",
+              "abilityMega": null,
+              "nature": "Modest",
+              "heldItem": "Focus Sash",
+              "evSpread": "HP 6, Sp. Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Night Daze",
+                  "type": "Dark",
+                  "category": "Special"
+                },
+                {
+                  "name": "Burning Jealousy",
+                  "type": "Fire",
+                  "category": "Special"
+                },
+                {
+                  "name": "Fake Out",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Thunder Wave",
+                  "type": "Electric",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 359,
+              "pokemon": "Absol",
+              "form": "-Mega",
+              "level": 27,
+              "gender": "male",
+              "types": [
+                "Dark"
+              ],
+              "ability": "Pressure -> Magic Bounce",
+              "abilityMega": null,
+              "nature": "Jolly",
+              "heldItem": "Absolite",
+              "evSpread": "HP 252, Def 252, Sp. Def 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Knock Off",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Close Combat",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Play Rough",
+                  "type": "Fairy",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Swords Dance",
+                  "type": "Normal",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 442,
+              "pokemon": "Spiritomb",
+              "form": null,
+              "level": 27,
+              "gender": "male",
+              "types": [
+                "Ghost",
+                "Dark"
+              ],
+              "ability": "Pressure",
+              "abilityMega": null,
+              "nature": "Bold",
+              "heldItem": "Leftovers",
+              "evSpread": "HP 252, Def 252, Sp. Def 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Hex",
+                  "type": "Ghost",
+                  "category": "Special"
+                },
+                {
+                  "name": "Will-O-Wisp",
+                  "type": "Fire",
+                  "category": "Status"
+                },
+                {
+                  "name": "Calm Mind",
+                  "type": "Psychic",
+                  "category": "Status"
+                },
+                {
+                  "name": "Protect",
+                  "type": "Normal",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 430,
+              "pokemon": "Honchkrow",
+              "form": null,
+              "level": 26,
+              "gender": "male",
+              "types": [
+                "Dark",
+                "Flying"
+              ],
+              "ability": "Super Luck",
+              "abilityMega": null,
+              "nature": "Timid",
+              "heldItem": "Big Root",
+              "evSpread": "HP 6, Sp. Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Oblivion Wing",
+                  "type": "Flying",
+                  "category": "Special"
+                },
+                {
+                  "name": "Heat Wave",
+                  "type": "Fire",
+                  "category": "Special"
+                },
+                {
+                  "name": "Protect",
+                  "type": "Normal",
+                  "category": "Status"
+                },
+                {
+                  "name": "Roost",
+                  "type": "Flying",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 624,
+              "pokemon": "Pawniard",
+              "form": null,
+              "level": 26,
+              "gender": "male",
+              "types": [
+                "Dark",
+                "Steel"
+              ],
+              "ability": "Defiant",
+              "abilityMega": null,
+              "nature": "Adamant",
+              "heldItem": "Eviolite",
+              "evSpread": "HP 6, Sp. Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Iron Head",
+                  "type": "Steel",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Night Slash",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Protect",
+                  "type": "Normal",
+                  "category": "Status"
+                },
+                {
+                  "name": "Swords Dance",
+                  "type": "Normal",
+                  "category": "Status"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "gymNumber": 3,
+      "location": "Blizzard City",
+      "leader": "Alice",
+      "badge": "Wings Badge",
+      "gymType": "Flying",
+      "sources": {
+        "townPage": "https://pokemonunbound.miraheze.org/wiki/Blizzard_City",
+        "gymPage": "https://pokemonunbound.miraheze.org/wiki/Blizzard_City/Blizzard_City_Gym",
+        "townRaw": "https://pokemonunbound.miraheze.org/wiki/Blizzard_City?action=raw",
+        "gymRaw": "https://pokemonunbound.miraheze.org/wiki/Blizzard_City/Blizzard_City_Gym?action=raw"
+      },
+      "difficulties": [
+        {
+          "battleType": "single",
+          "difficulty": "Difficult",
+          "trainerName": "Alice",
+          "trainerClass": "Gym Leader",
+          "location": "Blizzard City",
+          "prize": "5120",
+          "pokemonCount": 4,
+          "team": [
+            {
+              "nationalDex": 85,
+              "pokemon": "Dodrio",
+              "form": null,
+              "level": 32,
+              "gender": "female",
+              "types": [
+                "Normal",
+                "Flying"
+              ],
+              "ability": "Early Bird",
+              "abilityMega": null,
+              "nature": "Hardy",
+              "heldItem": null,
+              "evSpread": null,
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Aerial Ace",
+                  "type": "Flying",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Double Hit",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Steel Wing",
+                  "type": "Steel",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Quick Attack",
+                  "type": "Normal",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 472,
+              "pokemon": "Gliscor",
+              "form": null,
+              "level": 31,
+              "gender": "female",
+              "types": [
+                "Ground",
+                "Flying"
+              ],
+              "ability": "Hyper Cutter",
+              "abilityMega": null,
+              "nature": "Hardy",
+              "heldItem": "Flying Gem",
+              "evSpread": null,
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Bulldoze",
+                  "type": "Ground",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Acrobatics",
+                  "type": "Flying",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Knock Off",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Fire Fang",
+                  "type": "Fire",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 169,
+              "pokemon": "Crobat",
+              "form": null,
+              "level": 32,
+              "gender": "female",
+              "types": [
+                "Poison",
+                "Flying"
+              ],
+              "ability": "Infiltrator",
+              "abilityMega": null,
+              "nature": "Hardy",
+              "heldItem": null,
+              "evSpread": null,
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Venoshock",
+                  "type": "Poison",
+                  "category": "Special"
+                },
+                {
+                  "name": "Aerial Ace",
+                  "type": "Flying",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Bite",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Toxic",
+                  "type": "Poison",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 127,
+              "pokemon": "Pinsir",
+              "form": null,
+              "level": 33,
+              "gender": "female",
+              "types": [
+                "Bug"
+              ],
+              "ability": "Mold Breaker",
+              "abilityMega": null,
+              "nature": "Jolly",
+              "heldItem": null,
+              "evSpread": "HP 6, Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Bug Bite",
+                  "type": "Bug",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Brick Break",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Double Hit",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Rock Tomb",
+                  "type": "Rock",
+                  "category": "Physical"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "battleType": "single",
+          "difficulty": "Expert",
+          "trainerName": "Alice",
+          "trainerClass": "Gym Leader",
+          "location": "Blizzard City",
+          "prize": "5120",
+          "pokemonCount": 5,
+          "team": [
+            {
+              "nationalDex": 774,
+              "pokemon": "Minior",
+              "form": null,
+              "level": 31,
+              "gender": null,
+              "types": [
+                "Rock",
+                "Flying"
+              ],
+              "ability": "Shields Down",
+              "abilityMega": null,
+              "nature": "Adamant",
+              "heldItem": "Snowball",
+              "evSpread": "HP 6, Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Ancientpower",
+                  "type": "Rock",
+                  "category": "Special"
+                },
+                {
+                  "name": "Acrobatics",
+                  "type": "Flying",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Stealth Rock",
+                  "type": "Rock",
+                  "category": "Status"
+                },
+                {
+                  "name": "Confuse Ray",
+                  "type": "Ghost",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 472,
+              "pokemon": "Gliscor",
+              "form": null,
+              "level": 31,
+              "gender": "female",
+              "types": [
+                "Ground",
+                "Flying"
+              ],
+              "ability": "Hyper Cutter",
+              "abilityMega": null,
+              "nature": "Impish",
+              "heldItem": "Flying Gem",
+              "evSpread": "HP 252, Def 252, Sp. Def 6",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Bulldoze",
+                  "type": "Ground",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Acrobatics",
+                  "type": "Flying",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Knock Off",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Fire Fang",
+                  "type": "Fire",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 85,
+              "pokemon": "Dodrio",
+              "form": null,
+              "level": 32,
+              "gender": "female",
+              "types": [
+                "Normal",
+                "Flying"
+              ],
+              "ability": "Early Bird",
+              "abilityMega": null,
+              "nature": "Jolly",
+              "heldItem": null,
+              "evSpread": "HP 6, Atk 252, Def 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Aerial Ace",
+                  "type": "Flying",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Quick Attack",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Steel Wing",
+                  "type": "Steel",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Knock Off",
+                  "type": "Dark",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 127,
+              "pokemon": "Pinsir",
+              "form": "-Mega",
+              "level": 33,
+              "gender": "female",
+              "types": [
+                "Bug",
+                "Flying"
+              ],
+              "ability": "Hyper Cutter",
+              "abilityMega": "Aerilate",
+              "nature": "Jolly",
+              "heldItem": "Pinsirite",
+              "evSpread": "HP 252, Atk 252, Spe 6",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "X-Scissor",
+                  "type": "Bug",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Double Hit",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Brick Break",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Rock Tomb",
+                  "type": "Rock",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 169,
+              "pokemon": "Crobat",
+              "form": null,
+              "level": 32,
+              "gender": "female",
+              "types": [
+                "Poison",
+                "Flying"
+              ],
+              "ability": "Infiltrator",
+              "abilityMega": null,
+              "nature": "Modest",
+              "heldItem": null,
+              "evSpread": "HP 6, Sp. Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Venoshock",
+                  "type": "Poison",
+                  "category": "Special"
+                },
+                {
+                  "name": "Air Cutter",
+                  "type": "Flying",
+                  "category": "Special"
+                },
+                {
+                  "name": "Acrobatics",
+                  "type": "Flying",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Bite",
+                  "type": "Dark",
+                  "category": "Physical"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "battleType": "single",
+          "difficulty": "Insane",
+          "trainerName": "Alice",
+          "trainerClass": "Gym Leader",
+          "location": "Blizzard City",
+          "prize": "5120",
+          "pokemonCount": 5,
+          "team": [
+            {
+              "nationalDex": 227,
+              "pokemon": "Skarmory",
+              "form": null,
+              "level": 32,
+              "gender": "female",
+              "types": [
+                "Steel",
+                "Flying"
+              ],
+              "ability": "Sturdy",
+              "abilityMega": null,
+              "nature": "Impish",
+              "heldItem": "Rocky Helmet",
+              "evSpread": "HP 252, Def 252, Sp. Def 6",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Body Press",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Iron Head",
+                  "type": "Steel",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Stealth Rock",
+                  "type": "Rock",
+                  "category": "Status"
+                },
+                {
+                  "name": "Whirlwind",
+                  "type": "Normal",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 472,
+              "pokemon": "Gliscor",
+              "form": null,
+              "level": 32,
+              "gender": "female",
+              "types": [
+                "Ground",
+                "Flying"
+              ],
+              "ability": "Poison Heal",
+              "abilityMega": null,
+              "nature": "Careful",
+              "heldItem": "Toxic Orb",
+              "evSpread": "HP 252, Def 6, Sp. Def 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Earthquake",
+                  "type": "Ground",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Rock Tomb",
+                  "type": "Rock",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Toxic",
+                  "type": "Poison",
+                  "category": "Status"
+                },
+                {
+                  "name": "Protect",
+                  "type": "Normal",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 85,
+              "pokemon": "Dodrio",
+              "form": null,
+              "level": 32,
+              "gender": "female",
+              "types": [
+                "Normal",
+                "Flying"
+              ],
+              "ability": "Reckless",
+              "abilityMega": null,
+              "nature": "Adamant",
+              "heldItem": "Choice Band",
+              "evSpread": "HP 6, Atk 252, Def 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Brave Bird",
+                  "type": "Flying",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Jump Kick",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Stomping Tantrum",
+                  "type": "Ground",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Knock Off",
+                  "type": "Dark",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 127,
+              "pokemon": "Pinsir",
+              "form": "-Mega",
+              "level": 33,
+              "gender": "female",
+              "types": [
+                "Bug",
+                "Flying"
+              ],
+              "ability": "Hyper Cutter",
+              "abilityMega": "Aerilate",
+              "nature": "Adamant",
+              "heldItem": "Pinsirite",
+              "evSpread": "HP 252, Atk 252, Spe 6",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Facade",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Storm Throw",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Earthquake",
+                  "type": "Ground",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Feint",
+                  "type": "Normal",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 169,
+              "pokemon": "Crobat",
+              "form": null,
+              "level": 32,
+              "gender": "female",
+              "types": [
+                "Poison",
+                "Flying"
+              ],
+              "ability": "Infiltrator",
+              "abilityMega": null,
+              "nature": "Modest",
+              "heldItem": "Focus Sash",
+              "evSpread": "HP 6, Sp. Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Air Slash",
+                  "type": "Flying",
+                  "category": "Special"
+                },
+                {
+                  "name": "Heat Wave",
+                  "type": "Fire",
+                  "category": "Special"
+                },
+                {
+                  "name": "Sludge Bomb",
+                  "type": "Poison",
+                  "category": "Special"
+                },
+                {
+                  "name": "Nasty Plot",
+                  "type": "Dark",
+                  "category": "Status"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "gymNumber": 4,
+      "location": "Fallshore City",
+      "leader": "Mel",
+      "badge": "Fall Badge",
+      "gymType": "Normal",
+      "sources": {
+        "townPage": "https://pokemonunbound.miraheze.org/wiki/Fallshore_City",
+        "gymPage": "https://pokemonunbound.miraheze.org/wiki/Fallshore_City/Fallshore_City_Gym",
+        "townRaw": "https://pokemonunbound.miraheze.org/wiki/Fallshore_City?action=raw",
+        "gymRaw": "https://pokemonunbound.miraheze.org/wiki/Fallshore_City/Fallshore_City_Gym?action=raw"
+      },
+      "difficulties": [
+        {
+          "battleType": "single",
+          "difficulty": "Difficult",
+          "trainerName": "Mel",
+          "trainerClass": "Gym Leader",
+          "location": "Fallshore City",
+          "prize": "5600",
+          "pokemonCount": 4,
+          "team": [
+            {
+              "nationalDex": 760,
+              "pokemon": "Bewear",
+              "form": null,
+              "level": 36,
+              "gender": "male",
+              "types": [
+                "Normal",
+                "Fighting"
+              ],
+              "ability": "Fluffy",
+              "abilityMega": null,
+              "nature": "Hardy",
+              "heldItem": null,
+              "evSpread": null,
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Facade",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Low Sweep",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Payback",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Brutal Swing",
+                  "type": "Dark",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 695,
+              "pokemon": "Heliolisk",
+              "form": null,
+              "level": 37,
+              "gender": "male",
+              "types": [
+                "Normal",
+                "Electric"
+              ],
+              "ability": "Dry Skin",
+              "abilityMega": null,
+              "nature": "Hardy",
+              "heldItem": null,
+              "evSpread": null,
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Swift",
+                  "type": "Normal",
+                  "category": "Special"
+                },
+                {
+                  "name": "Parabolic Charge",
+                  "type": "Electric",
+                  "category": "Special"
+                },
+                {
+                  "name": "Bulldoze",
+                  "type": "Ground",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Thunder Wave",
+                  "type": "Electric",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 241,
+              "pokemon": "Miltank",
+              "form": null,
+              "level": 36,
+              "gender": "female",
+              "types": [
+                "Normal"
+              ],
+              "ability": "Scrappy",
+              "abilityMega": null,
+              "nature": "Impish",
+              "heldItem": "Sitrus Berry",
+              "evSpread": "HP 252, Def 252, Spe 6",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Facade",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Fire Punch",
+                  "type": "Fire",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Zen Headbutt",
+                  "type": "Psychic",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Milk Drink",
+                  "type": "Normal",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 428,
+              "pokemon": "Lopunny",
+              "form": null,
+              "level": 37,
+              "gender": "male",
+              "types": [
+                "Normal"
+              ],
+              "ability": "Cute Charm",
+              "abilityMega": null,
+              "nature": "Jolly",
+              "heldItem": null,
+              "evSpread": "HP 252, Atk 6, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Facade",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Double Kick",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Low Kick",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Fake Out",
+                  "type": "Normal",
+                  "category": "Physical"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "battleType": "single",
+          "difficulty": "Expert",
+          "trainerName": "Mel",
+          "trainerClass": "Gym Leader",
+          "location": "Fallshore City",
+          "prize": "5600",
+          "pokemonCount": 5,
+          "team": [
+            {
+              "nationalDex": 760,
+              "pokemon": "Bewear",
+              "form": null,
+              "level": 36,
+              "gender": "male",
+              "types": [
+                "Normal",
+                "Fighting"
+              ],
+              "ability": "Fluffy",
+              "abilityMega": null,
+              "nature": "Adamant",
+              "heldItem": "Normal Gem",
+              "evSpread": "HP 252, Atk 252, Spe 6",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Facade",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Hammer Arm",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Payback",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Ice Punch",
+                  "type": "Ice",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 474,
+              "pokemon": "Porygon-Z",
+              "form": null,
+              "level": 37,
+              "gender": null,
+              "types": [
+                "Normal"
+              ],
+              "ability": "Adaptability",
+              "abilityMega": null,
+              "nature": "Timid",
+              "heldItem": null,
+              "evSpread": "HP 6, Sp. Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Round",
+                  "type": "Normal",
+                  "category": "Special"
+                },
+                {
+                  "name": "Signal Beam",
+                  "type": "Bug",
+                  "category": "Special"
+                },
+                {
+                  "name": "Psybeam",
+                  "type": "Psychic",
+                  "category": "Special"
+                },
+                {
+                  "name": "Recover",
+                  "type": "Normal",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 241,
+              "pokemon": "Miltank",
+              "form": null,
+              "level": 36,
+              "gender": "female",
+              "types": [
+                "Normal"
+              ],
+              "ability": "Scrappy",
+              "abilityMega": null,
+              "nature": "Adamant",
+              "heldItem": "Sitrus Berry",
+              "evSpread": "HP 252, Atk 252, Spe 6",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Body Slam",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Ice Punch",
+                  "type": "Ice",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Power-Up Punch",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Milk Drink",
+                  "type": "Normal",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 428,
+              "pokemon": "Lopunny",
+              "form": "-Mega",
+              "level": 37,
+              "gender": "male",
+              "types": [
+                "Normal",
+                "Fighting"
+              ],
+              "ability": "Limber",
+              "abilityMega": "Scrappy",
+              "nature": "Jolly",
+              "heldItem": "Lopunnite",
+              "evSpread": "HP 6, Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Facade",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Brick Break",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Power-Up Punch",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Fake Out",
+                  "type": "Normal",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 695,
+              "pokemon": "Heliolisk",
+              "form": null,
+              "level": 35,
+              "gender": "male",
+              "types": [
+                "Normal",
+                "Electric"
+              ],
+              "ability": "Sand Veil",
+              "abilityMega": null,
+              "nature": "Modest",
+              "heldItem": null,
+              "evSpread": "HP 6, Sp. Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Swift",
+                  "type": "Normal",
+                  "category": "Special"
+                },
+                {
+                  "name": "Parabolic Charge",
+                  "type": "Electric",
+                  "category": "Special"
+                },
+                {
+                  "name": "Grass Knot",
+                  "type": "Grass",
+                  "category": "Special"
+                },
+                {
+                  "name": "Thunder Wave",
+                  "type": "Electric",
+                  "category": "Status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "battleType": "single",
+          "difficulty": "Insane",
+          "trainerName": "Mel",
+          "trainerClass": "Gym Leader",
+          "location": "Fallshore City",
+          "prize": "5600",
+          "pokemonCount": 5,
+          "team": [
+            {
+              "nationalDex": 474,
+              "pokemon": "Porygon-Z",
+              "form": null,
+              "level": 36,
+              "gender": null,
+              "types": [
+                "Normal"
+              ],
+              "ability": "Adaptability",
+              "abilityMega": null,
+              "nature": "Timid",
+              "heldItem": "Choice Specs",
+              "evSpread": "HP 6, Sp. Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Uproar",
+                  "type": "Normal",
+                  "category": "Special"
+                },
+                {
+                  "name": "Uproar",
+                  "type": "Normal",
+                  "category": "Special"
+                },
+                {
+                  "name": "Tri-Attack",
+                  "type": "Normal",
+                  "category": "Special"
+                },
+                {
+                  "name": "Tri-Attack",
+                  "type": "Normal",
+                  "category": "Special"
+                }
+              ]
+            },
+            {
+              "nationalDex": 143,
+              "pokemon": "Snorlax",
+              "form": null,
+              "level": 37,
+              "gender": "male",
+              "types": [
+                "Normal"
+              ],
+              "ability": "Thick Fat",
+              "abilityMega": null,
+              "nature": "Impish",
+              "heldItem": "Leftovers",
+              "evSpread": "HP 252, Def 252, Sp. Def 6",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Body Slam",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Power-Up Punch",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Seed Bomb",
+                  "type": "Grass",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Whirlwind",
+                  "type": "Normal",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 277,
+              "pokemon": "Swellow",
+              "form": null,
+              "level": 37,
+              "gender": "male",
+              "types": [
+                "Normal",
+                "Flying"
+              ],
+              "ability": "Guts",
+              "abilityMega": null,
+              "nature": "Jolly",
+              "heldItem": "Silk Scarf",
+              "evSpread": "HP 6, Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Facade",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Boomburst",
+                  "type": "Normal",
+                  "category": "Special"
+                },
+                {
+                  "name": "Quick Attack",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "U-Turn",
+                  "type": "Bug",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 115,
+              "pokemon": "Kangaskhan",
+              "form": "-Mega",
+              "level": 37,
+              "gender": "female",
+              "types": [
+                "Normal"
+              ],
+              "ability": "Inner Focus",
+              "abilityMega": "Parental Bond",
+              "nature": "Jolly",
+              "heldItem": "Kangaskhanite",
+              "evSpread": "HP 6, Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Facade",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Power-Up Punch",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Thunder Punch",
+                  "type": "Electric",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Fake Out",
+                  "type": "Normal",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 772,
+              "pokemon": "Type Null",
+              "form": null,
+              "level": 36,
+              "gender": null,
+              "types": [
+                "Normal"
+              ],
+              "ability": "Battle Armor",
+              "abilityMega": null,
+              "nature": "Careful",
+              "heldItem": "Eviolite",
+              "evSpread": "HP 252, Def 6, Sp. Def 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Return",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Sleep Talk",
+                  "type": "Normal",
+                  "category": "Status"
+                },
+                {
+                  "name": "Rest",
+                  "type": "Psychic",
+                  "category": "Status"
+                },
+                {
+                  "name": "Swords Dance",
+                  "type": "Normal",
+                  "category": "Status"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "gymNumber": 5,
+      "location": "Dehara City",
+      "leader": "Galavan",
+      "badge": "Battery Badge",
+      "gymType": "Electric",
+      "sources": {
+        "townPage": "https://pokemonunbound.miraheze.org/wiki/Dehara_City",
+        "gymPage": "https://pokemonunbound.miraheze.org/wiki/Dehara_City/Dehara_City_Gym",
+        "townRaw": "https://pokemonunbound.miraheze.org/wiki/Dehara_City?action=raw",
+        "gymRaw": "https://pokemonunbound.miraheze.org/wiki/Dehara_City/Dehara_City_Gym?action=raw"
+      },
+      "difficulties": [
+        {
+          "battleType": "single",
+          "difficulty": "Difficult",
+          "trainerName": "Galavan",
+          "trainerClass": "Gym Leader",
+          "location": "Dehara City",
+          "prize": "14720",
+          "pokemonCount": 5,
+          "team": [
+            {
+              "nationalDex": 76,
+              "pokemon": "Golem",
+              "form": "-Alola",
+              "level": 46,
+              "gender": "male",
+              "types": [
+                "Rock",
+                "Electric"
+              ],
+              "ability": "Sturdy",
+              "abilityMega": null,
+              "nature": "Hardy",
+              "heldItem": null,
+              "evSpread": null,
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Rock Slide",
+                  "type": "Rock",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Thunder Punch",
+                  "type": "Electric",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Bulldoze",
+                  "type": "Ground",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Steamroller",
+                  "type": "Bug",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 82,
+              "pokemon": "Magneton",
+              "form": null,
+              "level": 44,
+              "gender": null,
+              "types": [
+                "Electric",
+                "Steel"
+              ],
+              "ability": "Sturdy",
+              "abilityMega": null,
+              "nature": "Hardy",
+              "heldItem": "Eviolite",
+              "evSpread": "HP 252, Def 252, Sp. Def 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Discharge",
+                  "type": "Electric",
+                  "category": "Special"
+                },
+                {
+                  "name": "Flash Cannon",
+                  "type": "Steel",
+                  "category": "Special"
+                },
+                {
+                  "name": "Tri Attack",
+                  "type": "Normal",
+                  "category": "Special"
+                },
+                {
+                  "name": "Volt Switch",
+                  "type": "Electric",
+                  "category": "Special"
+                }
+              ]
+            },
+            {
+              "nationalDex": 604,
+              "pokemon": "Eelektross",
+              "form": null,
+              "level": 45,
+              "gender": "male",
+              "types": [
+                "Electric"
+              ],
+              "ability": "Levitate",
+              "abilityMega": null,
+              "nature": "Hardy",
+              "heldItem": "Electric Gem",
+              "evSpread": null,
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Thunderbolt",
+                  "type": "Electric",
+                  "category": "Special"
+                },
+                {
+                  "name": "Crunch",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Giga Drain",
+                  "type": "Grass",
+                  "category": "Special"
+                },
+                {
+                  "name": "Dragon Claw",
+                  "type": "Dragon",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 310,
+              "pokemon": "Manectric",
+              "form": "-Mega",
+              "level": 46,
+              "gender": "male",
+              "types": [
+                "Electric"
+              ],
+              "ability": "Lightning Rod",
+              "abilityMega": "Intimidate",
+              "nature": "Hardy",
+              "heldItem": "Manectite",
+              "evSpread": null,
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Discharge",
+                  "type": "Electric",
+                  "category": "Special"
+                },
+                {
+                  "name": "Flamethrower",
+                  "type": "Fire",
+                  "category": "Special"
+                },
+                {
+                  "name": "Ice Fang",
+                  "type": "Ice",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Volt Switch",
+                  "type": "Electric",
+                  "category": "Special"
+                }
+              ]
+            },
+            {
+              "nationalDex": 171,
+              "pokemon": "Lanturn",
+              "form": null,
+              "level": 45,
+              "gender": "male",
+              "types": [
+                "Water",
+                "Electric"
+              ],
+              "ability": "Volt Absorb",
+              "abilityMega": null,
+              "nature": "Bold",
+              "heldItem": "Sitrus Berry",
+              "evSpread": "HP 252, Def 252, Sp. Def 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Thunderbolt",
+                  "type": "Electric",
+                  "category": "Special"
+                },
+                {
+                  "name": "Scald",
+                  "type": "Water",
+                  "category": "Special"
+                },
+                {
+                  "name": "Signal Beam",
+                  "type": "Bug",
+                  "category": "Special"
+                },
+                {
+                  "name": "Thunder Wave",
+                  "type": "Electric",
+                  "category": "Status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "battleType": "single",
+          "difficulty": "Expert",
+          "trainerName": "Galavan",
+          "trainerClass": "Gym Leader",
+          "location": "Dehara City",
+          "prize": "14720",
+          "pokemonCount": 5,
+          "team": [
+            {
+              "nationalDex": 437,
+              "pokemon": "Bronzong",
+              "form": null,
+              "level": 44,
+              "gender": null,
+              "types": [
+                "Steel",
+                "Psychic"
+              ],
+              "ability": "Heatproof",
+              "abilityMega": null,
+              "nature": "Impish",
+              "heldItem": "Mental Herb",
+              "evSpread": "HP 252, Def 252, Sp. Def 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Heavy Slam",
+                  "type": "Steel",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Body Press",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Trick Room",
+                  "type": "Psychic",
+                  "category": "Status"
+                },
+                {
+                  "name": "Protect",
+                  "type": "Normal",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 76,
+              "pokemon": "Golem",
+              "form": "-Alola",
+              "level": 45,
+              "gender": "male",
+              "types": [
+                "Rock",
+                "Electric"
+              ],
+              "ability": "Galvanize",
+              "abilityMega": null,
+              "nature": "Adamant",
+              "heldItem": null,
+              "evSpread": "HP 4, ATK 252, Sp. Def 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Return",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Rock Slide",
+                  "type": "Rock",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Fire Punch",
+                  "type": "Fire",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Protect",
+                  "type": "Normal",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 171,
+              "pokemon": "Lanturn",
+              "form": null,
+              "level": 45,
+              "gender": "male",
+              "types": [
+                "Water",
+                "Electric"
+              ],
+              "ability": "Water Absorb",
+              "abilityMega": null,
+              "nature": "Bold",
+              "heldItem": "Sitrus Berry",
+              "evSpread": "HP 252, Def 252, Sp. Def 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Thunderbolt",
+                  "type": "Electric",
+                  "category": "Special"
+                },
+                {
+                  "name": "Scald",
+                  "type": "Water",
+                  "category": "Special"
+                },
+                {
+                  "name": "Ice Beam",
+                  "type": "Ice",
+                  "category": "Special"
+                },
+                {
+                  "name": "Thunder Wave",
+                  "type": "Electric",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 181,
+              "pokemon": "Ampharos",
+              "form": "-Mega",
+              "level": 46,
+              "gender": "male",
+              "types": [
+                "Electric",
+                "Dragon"
+              ],
+              "ability": "Static",
+              "abilityMega": "Mold Breaker",
+              "nature": "Modest",
+              "heldItem": "Ampharosite",
+              "evSpread": "HP 252, Sp. Atk 252, Spe 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Thunderbolt",
+                  "type": "Electric",
+                  "category": "Special"
+                },
+                {
+                  "name": "Dragon Pulse",
+                  "type": "Dragon",
+                  "category": "Special"
+                },
+                {
+                  "name": "Hidden Power",
+                  "type": "Grass",
+                  "category": "Special"
+                },
+                {
+                  "name": "Volt Switch",
+                  "type": "Electric",
+                  "category": "Special"
+                }
+              ]
+            },
+            {
+              "nationalDex": 589,
+              "pokemon": "Escavalier",
+              "form": null,
+              "level": 45,
+              "gender": "male",
+              "types": [
+                "Bug",
+                "Steel"
+              ],
+              "ability": "Overcoat",
+              "abilityMega": null,
+              "nature": "Adamant",
+              "heldItem": "Assault Vest",
+              "evSpread": "HP 252, Atk 252, Spe 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "X-Scissor",
+                  "type": "Bug",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Iron Head",
+                  "type": "Steel",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Drill Run",
+                  "type": "Ground",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Night Slash",
+                  "type": "Dark",
+                  "category": "Physical"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "battleType": "single",
+          "difficulty": "Insane",
+          "trainerName": "Galavan",
+          "trainerClass": "Gym Leader",
+          "location": "Dehara City",
+          "prize": "14720",
+          "pokemonCount": 6,
+          "team": [
+            {
+              "nationalDex": 601,
+              "pokemon": "Klinklang",
+              "form": null,
+              "level": 45,
+              "gender": null,
+              "types": [
+                "Steel"
+              ],
+              "ability": "Motor Drive",
+              "abilityMega": null,
+              "nature": "Adamant",
+              "heldItem": "Steel Gem",
+              "evSpread": "HP 4, Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Iron Head",
+                  "type": "Steel",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Gear Grind",
+                  "type": "Steel",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Wild Charge",
+                  "type": "Electric",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Shift Gear",
+                  "type": "Steel",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 26,
+              "pokemon": "Raichu",
+              "form": "-Alola",
+              "level": 45,
+              "gender": "male",
+              "types": [
+                "Electric",
+                "Psychic"
+              ],
+              "ability": "Surge Surfer",
+              "abilityMega": null,
+              "nature": "Modest",
+              "heldItem": "Focus Sash",
+              "evSpread": "HP 4, Def 252, Sp. Atk 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Rising Voltage",
+                  "type": "Electric",
+                  "category": "Special"
+                },
+                {
+                  "name": "Psyshock",
+                  "type": "Psychic",
+                  "category": "Special"
+                },
+                {
+                  "name": "Grass Knot",
+                  "type": "Grass",
+                  "category": "Special"
+                },
+                {
+                  "name": "Hidden Power",
+                  "type": "Fire",
+                  "category": "Special"
+                }
+              ]
+            },
+            {
+              "nationalDex": 181,
+              "pokemon": "Ampharos",
+              "form": "-Mega",
+              "level": 46,
+              "gender": "male",
+              "types": [
+                "Electric",
+                "Dragon"
+              ],
+              "ability": "Tangling Wool",
+              "abilityMega": "Mold Breaker",
+              "nature": "Modest",
+              "heldItem": "Ampharosite",
+              "evSpread": "HP 244, Sp. Atk 252, Spe 12",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Rising Voltage",
+                  "type": "Electric",
+                  "category": "Special"
+                },
+                {
+                  "name": "Dragon Pulse",
+                  "type": "Dragon",
+                  "category": "Special"
+                },
+                {
+                  "name": "Hidden Power",
+                  "type": "Grass",
+                  "category": "Special"
+                },
+                {
+                  "name": "Protect",
+                  "type": "Normal",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 376,
+              "pokemon": "Metagross",
+              "form": null,
+              "level": 44,
+              "gender": null,
+              "types": [
+                "Steel",
+                "Psychic"
+              ],
+              "ability": "Clear Body",
+              "abilityMega": null,
+              "nature": "Brave",
+              "heldItem": "Lum Berry",
+              "evSpread": "HP 252, Atk 252, Sp. Def 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Steel Roller",
+                  "type": "Steel",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Thunder Punch",
+                  "type": "Electric",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Brick Break",
+                  "type": "Fighting",
+                  "category": "Status"
+                },
+                {
+                  "name": "Grass Knot",
+                  "type": "Grass",
+                  "category": "Special"
+                }
+              ]
+            },
+            {
+              "nationalDex": 310,
+              "pokemon": "Manectric",
+              "form": null,
+              "level": 46,
+              "gender": "male",
+              "types": [
+                "Electric"
+              ],
+              "ability": "Flare Boost",
+              "abilityMega": null,
+              "nature": "Hardy",
+              "heldItem": "Life Orb",
+              "evSpread": "HP 4, Sp. Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Rising Voltage",
+                  "type": "Electric",
+                  "category": "Special"
+                },
+                {
+                  "name": "Flamethrower",
+                  "type": "Fire",
+                  "category": "Special"
+                },
+                {
+                  "name": "Hidden Power",
+                  "type": "Grass",
+                  "category": "Special"
+                },
+                {
+                  "name": "Snarl",
+                  "type": "Dark",
+                  "category": "Special"
+                }
+              ]
+            },
+            {
+              "nationalDex": 485,
+              "pokemon": "Heatran",
+              "form": null,
+              "level": 45,
+              "gender": "male",
+              "types": [
+                "Fire",
+                "Steel"
+              ],
+              "ability": "Flash Fire",
+              "abilityMega": null,
+              "nature": "Calm",
+              "heldItem": "Aguav Berry",
+              "evSpread": "HP 252, Def 4, Sp. Def 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Heat Wave",
+                  "type": "Fire",
+                  "category": "Special"
+                },
+                {
+                  "name": "Nature Power",
+                  "type": "Normal",
+                  "category": "Status"
+                },
+                {
+                  "name": "Hidden Power",
+                  "type": "Grass",
+                  "category": "Special"
+                },
+                {
+                  "name": "Protect",
+                  "type": "Normal",
+                  "category": "Status"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "gymNumber": 6,
+      "location": "Antisis City",
+      "leader": "Big Mo",
+      "badge": "Ring Badge",
+      "gymType": "Fighting",
+      "sources": {
+        "townPage": "https://pokemonunbound.miraheze.org/wiki/Antisis_City",
+        "gymPage": "https://pokemonunbound.miraheze.org/wiki/Antisis_City/Antisis_City_Gym",
+        "townRaw": "https://pokemonunbound.miraheze.org/wiki/Antisis_City?action=raw",
+        "gymRaw": "https://pokemonunbound.miraheze.org/wiki/Antisis_City/Antisis_City_Gym?action=raw"
+      },
+      "difficulties": [
+        {
+          "battleType": "single",
+          "difficulty": "Difficult",
+          "trainerName": "Big Mo",
+          "trainerClass": "Gym Leader",
+          "location": "Antisis City",
+          "prize": "8480",
+          "pokemonCount": 5,
+          "team": [
+            {
+              "nationalDex": 534,
+              "pokemon": "Conkeldurr",
+              "form": null,
+              "level": 52,
+              "gender": "male",
+              "types": [
+                "Fighting"
+              ],
+              "ability": "Guts",
+              "abilityMega": null,
+              "nature": "Hardy",
+              "heldItem": "Protective Pads",
+              "evSpread": null,
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Drain Punch",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Stone Edge",
+                  "type": "Rock",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Chip Away",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Bulk Up",
+                  "type": "Fighting",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 675,
+              "pokemon": "Pangoro",
+              "form": null,
+              "level": 52,
+              "gender": "male",
+              "types": [
+                "Fighting",
+                "Dark"
+              ],
+              "ability": "Iron Fist",
+              "abilityMega": null,
+              "nature": "Impish",
+              "heldItem": "Fighting Gem",
+              "evSpread": "HP 252, Def 252, Sp. Def 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Crunch",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Drain Punch",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Rock Slide",
+                  "type": "Rock",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Bullet Punch",
+                  "type": "Steel",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 620,
+              "pokemon": "Mienshao",
+              "form": null,
+              "level": 53,
+              "gender": "male",
+              "types": [
+                "Fighting"
+              ],
+              "ability": "Regenerator",
+              "abilityMega": null,
+              "nature": "Hardy",
+              "heldItem": null,
+              "evSpread": null,
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Drain Punch",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Aura Sphere",
+                  "type": "Fighting",
+                  "category": "Special"
+                },
+                {
+                  "name": "Knock Off",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Acrobatics",
+                  "type": "Flying",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 297,
+              "pokemon": "Hariyama",
+              "form": null,
+              "level": 52,
+              "gender": "male",
+              "types": [
+                "Fighting"
+              ],
+              "ability": "Guts",
+              "abilityMega": null,
+              "nature": "Impish",
+              "heldItem": null,
+              "evSpread": "HP 252, Def 252, Sp. Def 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Revenge",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Knock Off",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Heavy Slam",
+                  "type": "Steel",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Fake Out",
+                  "type": "Normal",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 448,
+              "pokemon": "Lucario",
+              "form": "-Mega",
+              "level": 53,
+              "gender": "male",
+              "types": [
+                "Fighting",
+                "Steel"
+              ],
+              "ability": "Steadfast",
+              "abilityMega": "Adaptability",
+              "nature": "Hardy",
+              "heldItem": "Lucarionite",
+              "evSpread": null,
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Aura Sphere",
+                  "type": "Fighting",
+                  "category": "Special"
+                },
+                {
+                  "name": "Metal Claw",
+                  "type": "Steel",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Dragon Pulse",
+                  "type": "Dragon",
+                  "category": "Special"
+                },
+                {
+                  "name": "Blaze Kick",
+                  "type": "Fire",
+                  "category": "Physical"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "battleType": "single",
+          "difficulty": "Expert",
+          "trainerName": "Big Mo",
+          "trainerClass": "Gym Leader",
+          "location": "Antisis City",
+          "prize": "8480",
+          "pokemonCount": 5,
+          "team": [
+            {
+              "nationalDex": 750,
+              "pokemon": "Mudsdale",
+              "form": null,
+              "level": 52,
+              "gender": "male",
+              "types": [
+                "Ground"
+              ],
+              "ability": "Stamina",
+              "abilityMega": null,
+              "nature": "Adamant",
+              "heldItem": "Heavy Duty Boots",
+              "evSpread": "HP 252, Atk 252, Spe 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Earthquake",
+                  "type": "Ground",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Smack Down",
+                  "type": "Rock",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Heavy Slam",
+                  "type": "Steel",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Stealth Rock",
+                  "type": "Rock",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 675,
+              "pokemon": "Pangoro",
+              "form": null,
+              "level": 52,
+              "gender": "male",
+              "types": [
+                "Fighting",
+                "Dark"
+              ],
+              "ability": "Iron Fist",
+              "abilityMega": null,
+              "nature": "Adamant",
+              "heldItem": "Fighting Gem",
+              "evSpread": "HP 252, Atk 252, Spe 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Wicked Blow",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Drain Punch",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Rock Slide",
+                  "type": "Rock",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Bullet Punch",
+                  "type": "Steel",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 143,
+              "pokemon": "Snorlax",
+              "form": null,
+              "level": 53,
+              "gender": "male",
+              "types": [
+                "Normal"
+              ],
+              "ability": "Thick Fat",
+              "abilityMega": null,
+              "nature": "Adamant",
+              "heldItem": "Rawst Berry",
+              "evSpread": "HP 4, Atk 252, Def 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Body Slam",
+                  "type": "Normal",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Crunch",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "High Horsepower",
+                  "type": "Ground",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Heavy Slam",
+                  "type": "Steel",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 297,
+              "pokemon": "Hariyama",
+              "form": null,
+              "level": 52,
+              "gender": "male",
+              "types": [
+                "Fighting"
+              ],
+              "ability": "Guts",
+              "abilityMega": null,
+              "nature": "Adamant",
+              "heldItem": "Flame Orb",
+              "evSpread": "HP 252, Atk 252, Spe 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Storm Throw",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Knock Off",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Heavy Slam",
+                  "type": "Steel",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Fake Out",
+                  "type": "Normal",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 321,
+              "pokemon": "Wailord",
+              "form": null,
+              "level": 53,
+              "gender": "male",
+              "types": [
+                "Water"
+              ],
+              "ability": "Regenerator",
+              "abilityMega": null,
+              "nature": "Modest",
+              "heldItem": "Heavy Duty Boots",
+              "evSpread": "HP 252, Sp. Atk 252, Spe 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Water Spout",
+                  "type": "Water",
+                  "category": "Special"
+                },
+                {
+                  "name": "Ice Beam",
+                  "type": "Ice",
+                  "category": "Special"
+                },
+                {
+                  "name": "Surf",
+                  "type": "Water",
+                  "category": "Special"
+                },
+                {
+                  "name": "Clear Smog",
+                  "type": "Poison",
+                  "category": "Special"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "battleType": "single",
+          "difficulty": "Insane",
+          "trainerName": "Big Mo",
+          "trainerClass": "Gym Leader",
+          "location": "Antisis City",
+          "prize": "8480",
+          "pokemonCount": 6,
+          "team": [
+            {
+              "nationalDex": 750,
+              "pokemon": "Mudsdale",
+              "form": null,
+              "level": 52,
+              "gender": "male",
+              "types": [
+                "Ground"
+              ],
+              "ability": "Stamina",
+              "abilityMega": null,
+              "nature": "Impish",
+              "heldItem": "Rocky Helmet",
+              "evSpread": "HP 252, Def 252, Sp. Def 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Earthquake",
+                  "type": "Ground",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Smack Down",
+                  "type": "Rock",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Body Press",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Roar",
+                  "type": "Normal",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 797,
+              "pokemon": "Celesteela",
+              "form": null,
+              "level": 52,
+              "gender": null,
+              "types": [
+                "Steel",
+                "Flying"
+              ],
+              "ability": "Beast Boost",
+              "abilityMega": null,
+              "nature": "Calm",
+              "heldItem": "Leftovers",
+              "evSpread": "HP 252, Def 4, Sp. Def 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Air Slash",
+                  "type": "Flying",
+                  "category": "Special"
+                },
+                {
+                  "name": "Flamethrower",
+                  "type": "Fire",
+                  "category": "Special"
+                },
+                {
+                  "name": "Leech Seed",
+                  "type": "Grass",
+                  "category": "Status"
+                },
+                {
+                  "name": "Substitute",
+                  "type": "Normal",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 799,
+              "pokemon": "Guzzlord",
+              "form": null,
+              "level": 53,
+              "gender": null,
+              "types": [
+                "Dark",
+                "Dragon"
+              ],
+              "ability": "Beast Boost",
+              "abilityMega": null,
+              "nature": "Modest",
+              "heldItem": "Assault Vest",
+              "evSpread": "HP 252, Sp. Atk 252, Spe 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Dark Pulse",
+                  "type": "Dark",
+                  "category": "Special"
+                },
+                {
+                  "name": "Core Enforcer",
+                  "type": "Dragon",
+                  "category": "Special"
+                },
+                {
+                  "name": "Flamethrower",
+                  "type": "Fire",
+                  "category": "Special"
+                },
+                {
+                  "name": "Sludge Wave",
+                  "type": "Poison",
+                  "category": "Special"
+                }
+              ]
+            },
+            {
+              "nationalDex": 794,
+              "pokemon": "Buzzwole",
+              "form": null,
+              "level": 53,
+              "gender": null,
+              "types": [
+                "Bug",
+                "Fighting"
+              ],
+              "ability": "Beast Boost",
+              "abilityMega": null,
+              "nature": "Adamant",
+              "heldItem": "Assault Vest",
+              "evSpread": "HP 252, Atk 252, Spe 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Leech Fang",
+                  "type": "Bug",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Drain Punch",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Darkest Lariat",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Ice Punch",
+                  "type": "Ice",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 321,
+              "pokemon": "Wailord",
+              "form": null,
+              "level": 53,
+              "gender": "male",
+              "types": [
+                "Water"
+              ],
+              "ability": "Regenerator",
+              "abilityMega": null,
+              "nature": "Modest",
+              "heldItem": "Heavy Duty Boots",
+              "evSpread": "HP 252, Sp. Atk 252, Spe 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Water Spout",
+                  "type": "Water",
+                  "category": "Special"
+                },
+                {
+                  "name": "Ice Beam",
+                  "type": "Ice",
+                  "category": "Special"
+                },
+                {
+                  "name": "Surf",
+                  "type": "Water",
+                  "category": "Special"
+                },
+                {
+                  "name": "Clear Smog",
+                  "type": "Poison",
+                  "category": "Special"
+                }
+              ]
+            },
+            {
+              "nationalDex": 639,
+              "pokemon": "Terrakion",
+              "form": null,
+              "level": 52,
+              "gender": "male",
+              "types": [
+                "Rock",
+                "Fighting"
+              ],
+              "ability": "Justified",
+              "abilityMega": null,
+              "nature": "Adamant",
+              "heldItem": "Heavy Duty Boots",
+              "evSpread": "HP 252, Atk 252, Spe 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Rock Slide",
+                  "type": "Rock",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Close Combat",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Sacred Sword",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Swords Dance",
+                  "type": "Normal",
+                  "category": "Status"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "gymNumber": 7,
+      "location": "Polder Town",
+      "leader": "Tessy",
+      "badge": "Swamp Badge",
+      "gymType": "Water",
+      "sources": {
+        "townPage": "https://pokemonunbound.miraheze.org/wiki/Polder_Town",
+        "gymPage": "https://pokemonunbound.miraheze.org/wiki/Polder_Town/Polder_Town_Gym",
+        "townRaw": "https://pokemonunbound.miraheze.org/wiki/Polder_Town?action=raw",
+        "gymRaw": "https://pokemonunbound.miraheze.org/wiki/Polder_Town/Polder_Town_Gym?action=raw"
+      },
+      "difficulties": [
+        {
+          "battleType": "single",
+          "difficulty": "Difficult",
+          "trainerName": "Tessy",
+          "trainerClass": "Gym Leader",
+          "location": "Polder Town",
+          "prize": "9120",
+          "pokemonCount": 5,
+          "team": [
+            {
+              "nationalDex": 748,
+              "pokemon": "Toxapex",
+              "form": null,
+              "level": 56,
+              "gender": "female",
+              "types": [
+                "Poison",
+                "Water"
+              ],
+              "ability": "Merciless",
+              "abilityMega": null,
+              "nature": "Bold",
+              "heldItem": null,
+              "evSpread": "HP 252, Def 252, Sp. Def 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Toxic Spikes",
+                  "type": "Poison",
+                  "category": "Status"
+                },
+                {
+                  "name": "Knock Off",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Haze",
+                  "type": "Ice",
+                  "category": "Status"
+                },
+                {
+                  "name": "Venoshock",
+                  "type": "Poison",
+                  "category": "Special"
+                }
+              ]
+            },
+            {
+              "nationalDex": 348,
+              "pokemon": "Armaldo",
+              "form": null,
+              "level": 57,
+              "gender": "male",
+              "types": [
+                "Rock",
+                "Bug"
+              ],
+              "ability": "Swift Swim",
+              "abilityMega": null,
+              "nature": "Impish",
+              "heldItem": null,
+              "evSpread": "HP 252, Def 252, Sp. Def 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Aqua Tail",
+                  "type": "Water",
+                  "category": "Physical"
+                },
+                {
+                  "name": "X-Scissor",
+                  "type": "Bug",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Bulldoze",
+                  "type": "Ground",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Accelerock",
+                  "type": "Rock",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 230,
+              "pokemon": "Kingdra",
+              "form": null,
+              "level": 58,
+              "gender": "female",
+              "types": [
+                "Water",
+                "Dragon"
+              ],
+              "ability": "Swift Swim",
+              "abilityMega": null,
+              "nature": "Hardy",
+              "heldItem": "Scope Lens",
+              "evSpread": null,
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Snipe Shot",
+                  "type": "Water",
+                  "category": "Special"
+                },
+                {
+                  "name": "Dragon Pulse",
+                  "type": "Dragon",
+                  "category": "Special"
+                },
+                {
+                  "name": "Focus Energy",
+                  "type": "Normal",
+                  "category": "Status"
+                },
+                {
+                  "name": "Agility",
+                  "type": "Psychic",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 537,
+              "pokemon": "Seismitoad",
+              "form": null,
+              "level": 57,
+              "gender": "female",
+              "types": [
+                "Water",
+                "Ground"
+              ],
+              "ability": "Swift Swim",
+              "abilityMega": null,
+              "nature": "Hardy",
+              "heldItem": "Water Gem",
+              "evSpread": null,
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Muddy Water",
+                  "type": "Water",
+                  "category": "Special"
+                },
+                {
+                  "name": "Earthquake",
+                  "type": "Ground",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Drain Punch",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Stealth Rock",
+                  "type": "Rock",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 130,
+              "pokemon": "Gyarados",
+              "form": "-Mega",
+              "level": 58,
+              "gender": "female",
+              "types": [
+                "Water",
+                "Flying"
+              ],
+              "ability": "Intimidate",
+              "abilityMega": "Mold Breaker",
+              "nature": "Hardy",
+              "heldItem": "Gyaradosite",
+              "evSpread": "HP 4, Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Waterfall",
+                  "type": "Water",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Dragon Dance",
+                  "type": "Dragon",
+                  "category": "Status"
+                },
+                {
+                  "name": "Bulldoze",
+                  "type": "Ground",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Ice Fang",
+                  "type": "Ice",
+                  "category": "Physical"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "battleType": "single",
+          "difficulty": "Expert",
+          "trainerName": "Tessy",
+          "trainerClass": "Gym Leader",
+          "location": "Polder Town",
+          "prize": "9120",
+          "pokemonCount": 6,
+          "team": [
+            {
+              "nationalDex": 748,
+              "pokemon": "Toxapex",
+              "form": null,
+              "level": 56,
+              "gender": "female",
+              "types": [
+                "Poison",
+                "Water"
+              ],
+              "ability": "Regenerator",
+              "abilityMega": null,
+              "nature": "Bold",
+              "heldItem": "Leftovers",
+              "evSpread": "HP 252, Def 252, Sp. Def 4",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Toxic Spikes",
+                  "type": "Poison",
+                  "category": "Status"
+                },
+                {
+                  "name": "Knock Off",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Haze",
+                  "type": "Ice",
+                  "category": "Status"
+                },
+                {
+                  "name": "Recover",
+                  "type": "Normal",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 348,
+              "pokemon": "Armaldo",
+              "form": null,
+              "level": 57,
+              "gender": "male",
+              "types": [
+                "Rock",
+                "Bug"
+              ],
+              "ability": "Swift Swim",
+              "abilityMega": null,
+              "nature": "Adamant",
+              "heldItem": null,
+              "evSpread": "HP 4, Atk 252, Sp. Def 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Aqua Tail",
+                  "type": "Water",
+                  "category": "Physical"
+                },
+                {
+                  "name": "X-Scissor",
+                  "type": "Bug",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Stomping Tantrum",
+                  "type": "Ground",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Accelerock",
+                  "type": "Rock",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 230,
+              "pokemon": "Kingdra",
+              "form": null,
+              "level": 58,
+              "gender": "female",
+              "types": [
+                "Water",
+                "Dragon"
+              ],
+              "ability": "Swift Swim",
+              "abilityMega": null,
+              "nature": "Modest",
+              "heldItem": "Scope Lens",
+              "evSpread": "HP 4, Sp. Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Snipe Shot",
+                  "type": "Water",
+                  "category": "Special"
+                },
+                {
+                  "name": "Dragon Pulse",
+                  "type": "Dragon",
+                  "category": "Special"
+                },
+                {
+                  "name": "Ice Beam",
+                  "type": "Ice",
+                  "category": "Special"
+                },
+                {
+                  "name": "Flash Cannon",
+                  "type": "Steel",
+                  "category": "Special"
+                }
+              ]
+            },
+            {
+              "nationalDex": 537,
+              "pokemon": "Seismitoad",
+              "form": null,
+              "level": 57,
+              "gender": "female",
+              "types": [
+                "Water",
+                "Ground"
+              ],
+              "ability": "Swift Swim",
+              "abilityMega": null,
+              "nature": "Adamant",
+              "heldItem": "Life Orb",
+              "evSpread": "HP 4, Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Liquidation",
+                  "type": "Water",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Earthquake",
+                  "type": "Ground",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Drain Punch",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Ice Punch",
+                  "type": "Ice",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 130,
+              "pokemon": "Gyarados",
+              "form": "-Mega",
+              "level": 58,
+              "gender": "female",
+              "types": [
+                "Water",
+                "Flying"
+              ],
+              "ability": "Intimidate",
+              "abilityMega": "Mold Breaker",
+              "nature": "Jolly",
+              "heldItem": "Gyaradosite",
+              "evSpread": "HP 4, Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Waterfall",
+                  "type": "Water",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Dragon Dance",
+                  "type": "Dragon",
+                  "category": "Status"
+                },
+                {
+                  "name": "Earthquake",
+                  "type": "Ground",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Ice Fang",
+                  "type": "Ice",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 119,
+              "pokemon": "Seaking",
+              "form": null,
+              "level": 57,
+              "gender": "female",
+              "types": [
+                "Water"
+              ],
+              "ability": "Swift Swim",
+              "abilityMega": null,
+              "nature": "Adamant",
+              "heldItem": "Expert Belt",
+              "evSpread": "HP 4, Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Waterfall",
+                  "type": "Water",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Smart Strike",
+                  "type": "Steel",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Poison Jab",
+                  "type": "Poison",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Drill Run",
+                  "type": "Ground",
+                  "category": "Physical"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "battleType": "single",
+          "difficulty": "Insane",
+          "trainerName": "Tessy",
+          "trainerClass": "Gym Leader",
+          "location": "Polder Town",
+          "prize": "9120",
+          "pokemonCount": 6,
+          "team": [
+            {
+              "nationalDex": 284,
+              "pokemon": "Masquerain",
+              "form": null,
+              "level": 57,
+              "gender": "female",
+              "types": [
+                "Bug",
+                "Flying"
+              ],
+              "ability": "Intimidate",
+              "abilityMega": null,
+              "nature": "Timid",
+              "heldItem": "Focus Sash",
+              "evSpread": "HP 4, Sp. Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Scald",
+                  "type": "Water",
+                  "category": "Special"
+                },
+                {
+                  "name": "Energy Ball",
+                  "type": "Grass",
+                  "category": "Special"
+                },
+                {
+                  "name": "Haze",
+                  "type": "Ice",
+                  "category": "Status"
+                },
+                {
+                  "name": "Sticky Web",
+                  "type": "Bug",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 635,
+              "pokemon": "Hydreigon",
+              "form": null,
+              "level": 58,
+              "gender": "female",
+              "types": [
+                "Dark",
+                "Dragon"
+              ],
+              "ability": "Levitate",
+              "abilityMega": null,
+              "nature": "Timid",
+              "heldItem": "Life Orb",
+              "evSpread": "HP 4, Sp. Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Dark Pulse",
+                  "type": "Dark",
+                  "category": "Special"
+                },
+                {
+                  "name": "Flash Cannon",
+                  "type": "Steel",
+                  "category": "Special"
+                },
+                {
+                  "name": "Surf",
+                  "type": "Water",
+                  "category": "Special"
+                },
+                {
+                  "name": "Earth Power",
+                  "type": "Ground",
+                  "category": "Special"
+                }
+              ]
+            },
+            {
+              "nationalDex": 807,
+              "pokemon": "Zeraora",
+              "form": null,
+              "level": 58,
+              "gender": null,
+              "types": [
+                "Electric"
+              ],
+              "ability": "Volt Absorb",
+              "abilityMega": null,
+              "nature": "Jolly",
+              "heldItem": "Flying Gem",
+              "evSpread": "HP 4, Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Plasma Fists",
+                  "type": "Electric",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Acrobatics",
+                  "type": "Flying",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Close Combat",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Roar",
+                  "type": "Normal",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 641,
+              "pokemon": "Tornadus",
+              "form": "-Therian",
+              "level": 58,
+              "gender": "male",
+              "types": [
+                "Flying"
+              ],
+              "ability": "Regenerator",
+              "abilityMega": null,
+              "nature": "Timid",
+              "heldItem": "Rocky Helmet",
+              "evSpread": "HP 4, Sp. Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Hurricane",
+                  "type": "Flying",
+                  "category": "Special"
+                },
+                {
+                  "name": "Dark Pulse",
+                  "type": "Dark",
+                  "category": "Special"
+                },
+                {
+                  "name": "Weather Ball",
+                  "type": "Normal",
+                  "category": "Special"
+                },
+                {
+                  "name": "Roar",
+                  "type": "Normal",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 380,
+              "pokemon": "Latias",
+              "form": "-Mega",
+              "level": 58,
+              "gender": "female",
+              "types": [
+                "Dragon",
+                "Psychic"
+              ],
+              "ability": "Levitate",
+              "abilityMega": null,
+              "nature": "Timid",
+              "heldItem": "Latiasite",
+              "evSpread": "HP 4, Sp. Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Surf",
+                  "type": "Water",
+                  "category": "Special"
+                },
+                {
+                  "name": "Thunder",
+                  "type": "Electric",
+                  "category": "Special"
+                },
+                {
+                  "name": "Ice Beam",
+                  "type": "Ice",
+                  "category": "Special"
+                },
+                {
+                  "name": "Calm Mind",
+                  "type": "Psychic",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 119,
+              "pokemon": "Seaking",
+              "form": null,
+              "level": 57,
+              "gender": "female",
+              "types": [
+                "Water"
+              ],
+              "ability": "Swift Swim",
+              "abilityMega": null,
+              "nature": "Adamant",
+              "heldItem": "Mystic Water",
+              "evSpread": "HP 4, Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Fishious Rend",
+                  "type": "Water",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Smart Strike",
+                  "type": "Steel",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Drill Run",
+                  "type": "Ground",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Aqua Jet",
+                  "type": "Water",
+                  "category": "Physical"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "gymNumber": 8,
+      "location": "Redwood Village",
+      "leader": "Benjamin",
+      "badge": "Time Badge",
+      "gymType": "Bug",
+      "sources": {
+        "townPage": "https://pokemonunbound.miraheze.org/wiki/Redwood_Village",
+        "gymPage": "https://pokemonunbound.miraheze.org/wiki/Redwood_Village/Redwood_Village_Gym",
+        "townRaw": "https://pokemonunbound.miraheze.org/wiki/Redwood_Village?action=raw",
+        "gymRaw": "https://pokemonunbound.miraheze.org/wiki/Redwood_Village/Redwood_Village_Gym?action=raw"
+      },
+      "difficulties": [
+        {
+          "battleType": "single",
+          "difficulty": "Difficult",
+          "trainerName": "Benjamin",
+          "trainerClass": "Gym Leader",
+          "location": "Redwood Village",
+          "prize": "9920",
+          "pokemonCount": 5,
+          "team": [
+            {
+              "nationalDex": 752,
+              "pokemon": "Araquanid",
+              "form": null,
+              "level": 61,
+              "gender": "male",
+              "types": [
+                "Water",
+                "Bug"
+              ],
+              "ability": "Water Bubble",
+              "abilityMega": null,
+              "nature": "Impish",
+              "heldItem": null,
+              "evSpread": "HP 252, Def 252, Sp. Def 6",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Liquidation",
+                  "type": "Water",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Leech Fang",
+                  "type": "Bug",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Mirror Coat",
+                  "type": "Psychic",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Sticky Web",
+                  "type": "Bug",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 205,
+              "pokemon": "Forretress",
+              "form": null,
+              "level": 62,
+              "gender": "male",
+              "types": [
+                "Bug",
+                "Steel"
+              ],
+              "ability": "Sturdy",
+              "abilityMega": null,
+              "nature": "Hardy",
+              "heldItem": "Eviolite",
+              "evSpread": null,
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Gyro Ball",
+                  "type": "Steel",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Counter",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Toxic Spikes",
+                  "type": "Poison",
+                  "category": "Status"
+                },
+                {
+                  "name": "Stealth Rock",
+                  "type": "Rock",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 452,
+              "pokemon": "Drapion",
+              "form": null,
+              "level": 61,
+              "gender": "male",
+              "types": [
+                "Poison",
+                "Dark"
+              ],
+              "ability": "Sniper",
+              "abilityMega": null,
+              "nature": "Impish",
+              "heldItem": "Bug Gem",
+              "evSpread": "HP 252, Def 252, Sp. Def 6",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Cross Poison",
+                  "type": "Poison",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Night Slash",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Pin Missile",
+                  "type": "Bug",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Agility",
+                  "type": "Psychic",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 12,
+              "pokemon": "Butterfree",
+              "form": null,
+              "level": 62,
+              "gender": "male",
+              "types": [
+                "Bug",
+                "Flying"
+              ],
+              "ability": "Compound Eyes",
+              "abilityMega": null,
+              "nature": "Timid",
+              "heldItem": null,
+              "evSpread": "HP 6, Def 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Bug Buzz",
+                  "type": "Bug",
+                  "category": "Special"
+                },
+                {
+                  "name": "Hurricane",
+                  "type": "Flying",
+                  "category": "Special"
+                },
+                {
+                  "name": "Sleep Powder",
+                  "type": "Grass",
+                  "category": "Status"
+                },
+                {
+                  "name": "Quiver Dance",
+                  "type": "Bug",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 212,
+              "pokemon": "Scizor",
+              "form": "-Mega",
+              "level": 62,
+              "gender": "male",
+              "types": [
+                "Bug",
+                "Steel"
+              ],
+              "ability": "Technician",
+              "abilityMega": null,
+              "nature": "Hardy",
+              "heldItem": "Scizorite",
+              "evSpread": null,
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "X-Scissor",
+                  "type": "Bug",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Bullet Punch",
+                  "type": "Steel",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Wing Attack",
+                  "type": "Flying",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Agility",
+                  "type": "Psychic",
+                  "category": "Status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "battleType": "single",
+          "difficulty": "Expert",
+          "trainerName": "Benjamin",
+          "trainerClass": "Gym Leader",
+          "location": "Redwood Village",
+          "prize": "9920",
+          "pokemonCount": 6,
+          "team": [
+            {
+              "nationalDex": 752,
+              "pokemon": "Araquanid",
+              "form": null,
+              "level": 61,
+              "gender": "male",
+              "types": [
+                "Water",
+                "Bug"
+              ],
+              "ability": "Water Bubble",
+              "abilityMega": null,
+              "nature": "Impish",
+              "heldItem": "Focus Sash",
+              "evSpread": "HP 252, Def 252, Sp. Def 6",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Liquidation",
+                  "type": "Water",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Leech Fang",
+                  "type": "Bug",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Mirror Coat",
+                  "type": "Psychic",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Sticky Web",
+                  "type": "Bug",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 205,
+              "pokemon": "Forretress",
+              "form": null,
+              "level": 61,
+              "gender": "male",
+              "types": [
+                "Bug",
+                "Steel"
+              ],
+              "ability": "Sturdy",
+              "abilityMega": null,
+              "nature": "Careful",
+              "heldItem": "Light Clay",
+              "evSpread": "HP 252, Def 6, Sp. Def 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Gyro Ball",
+                  "type": "Steel",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Counter",
+                  "type": "Fighting",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Reflect",
+                  "type": "Psychic",
+                  "category": "Status"
+                },
+                {
+                  "name": "Light Screen",
+                  "type": "Psychic",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 452,
+              "pokemon": "Drapion",
+              "form": null,
+              "level": 61,
+              "gender": "male",
+              "types": [
+                "Poison",
+                "Dark"
+              ],
+              "ability": "Super Luck",
+              "abilityMega": null,
+              "nature": "Impish",
+              "heldItem": "Eviolite",
+              "evSpread": "HP 252, Def 252, Sp. Def 6",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Cross Poison",
+                  "type": "Poison",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Night Slash",
+                  "type": "Dark",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Pin Missile",
+                  "type": "Bug",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Earthquake",
+                  "type": "Ground",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 637,
+              "pokemon": "Volcarona",
+              "form": null,
+              "level": 62,
+              "gender": "male",
+              "types": [
+                "Bug",
+                "Fire"
+              ],
+              "ability": "Flame Body",
+              "abilityMega": null,
+              "nature": "Modest",
+              "heldItem": "Bug Gem",
+              "evSpread": "HP 252, Sp. Atk 6, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Bug Buzz",
+                  "type": "Bug",
+                  "category": "Special"
+                },
+                {
+                  "name": "Heat Wave",
+                  "type": "Fire",
+                  "category": "Special"
+                },
+                {
+                  "name": "Wild Charge",
+                  "type": "Electric",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Quiver Dance",
+                  "type": "Bug",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 212,
+              "pokemon": "Scizor",
+              "form": "-Mega",
+              "level": 62,
+              "gender": "male",
+              "types": [
+                "Bug",
+                "Steel"
+              ],
+              "ability": "Technician",
+              "abilityMega": null,
+              "nature": "Careful",
+              "heldItem": "Scizorite",
+              "evSpread": "HP 252, Def 4, Sp. Def 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Bug Bite",
+                  "type": "Bug",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Bullet Punch",
+                  "type": "Steel",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Dual Wingbeat",
+                  "type": "Flying",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Swords Dance",
+                  "type": "Normal",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 330,
+              "pokemon": "Flygon",
+              "form": null,
+              "level": 62,
+              "gender": "male",
+              "types": [
+                "Ground",
+                "Dragon"
+              ],
+              "ability": "Levitate",
+              "abilityMega": null,
+              "nature": "Adamant",
+              "heldItem": "Eviolite",
+              "evSpread": "HP 6, Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Earthquake",
+                  "type": "Ground",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Dragon Claw",
+                  "type": "Dragon",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Rock Slide",
+                  "type": "Rock",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Crunch",
+                  "type": "Dark",
+                  "category": "Physical"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "battleType": "single",
+          "difficulty": "Insane",
+          "trainerName": "Benjamin",
+          "trainerClass": "Gym Leader",
+          "location": "Redwood Village",
+          "prize": "9920",
+          "pokemonCount": 6,
+          "team": [
+            {
+              "nationalDex": 752,
+              "pokemon": "Araquanid",
+              "form": null,
+              "level": 61,
+              "gender": "male",
+              "types": [
+                "Water",
+                "Bug"
+              ],
+              "ability": "Water Bubble",
+              "abilityMega": null,
+              "nature": "Impish",
+              "heldItem": "Sitrus Berry",
+              "evSpread": "HP 252, Def 252, Sp. Def 6",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Liquidation",
+                  "type": "Water",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Leech Fang",
+                  "type": "Bug",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Mirror Coat",
+                  "type": "Psychic",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Sticky Web",
+                  "type": "Bug",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 462,
+              "pokemon": "Magnezone",
+              "form": null,
+              "level": 62,
+              "gender": null,
+              "types": [
+                "Electric",
+                "Steel"
+              ],
+              "ability": "Sturdy",
+              "abilityMega": null,
+              "nature": "Modest",
+              "heldItem": "Eviolite",
+              "evSpread": "HP 252, Sp. Atk 252, Spe 6",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Thunderbolt",
+                  "type": "Electric",
+                  "category": "Special"
+                },
+                {
+                  "name": "Flash Cannon",
+                  "type": "Steel",
+                  "category": "Special"
+                },
+                {
+                  "name": "Hidden Power",
+                  "type": "Fire",
+                  "category": "Special"
+                },
+                {
+                  "name": "Mirror Coat",
+                  "type": "Psychic",
+                  "category": "Special"
+                }
+              ]
+            },
+            {
+              "nationalDex": 464,
+              "pokemon": "Rhyperior",
+              "form": null,
+              "level": 62,
+              "gender": "male",
+              "types": [
+                "Ground",
+                "Rock"
+              ],
+              "ability": "Solid Rock",
+              "abilityMega": null,
+              "nature": "Adamant",
+              "heldItem": "Eviolite",
+              "evSpread": "HP 6, Atk 252, Sp. Def 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Earthquake",
+                  "type": "Ground",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Rock Blast",
+                  "type": "Rock",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Thunder Fang",
+                  "type": "Electric",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Counter",
+                  "type": "Fighting",
+                  "category": "Physical"
+                }
+              ]
+            },
+            {
+              "nationalDex": 637,
+              "pokemon": "Volcarona",
+              "form": null,
+              "level": 61,
+              "gender": "male",
+              "types": [
+                "Bug",
+                "Fire"
+              ],
+              "ability": "Swarm",
+              "abilityMega": null,
+              "nature": "Naive",
+              "heldItem": "Eviolite",
+              "evSpread": "Atk 252, Sp. Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Bug Buzz",
+                  "type": "Bug",
+                  "category": "Special"
+                },
+                {
+                  "name": "Overheat",
+                  "type": "Fire",
+                  "category": "Special"
+                },
+                {
+                  "name": "Wild Charge",
+                  "type": "Electric",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Quiver Dance",
+                  "type": "Bug",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 212,
+              "pokemon": "Scizor",
+              "form": "-Mega",
+              "level": 62,
+              "gender": "male",
+              "types": [
+                "Bug",
+                "Steel"
+              ],
+              "ability": "Technician",
+              "abilityMega": null,
+              "nature": "Adamant",
+              "heldItem": "Scizorite",
+              "evSpread": "HP 6, Atk 252, Sp. Def 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Bug Bite",
+                  "type": "Bug",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Bullet Punch",
+                  "type": "Steel",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Dual Wingbeat",
+                  "type": "Flying",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Swords Dance",
+                  "type": "Normal",
+                  "category": "Status"
+                }
+              ]
+            },
+            {
+              "nationalDex": 330,
+              "pokemon": "Flygon",
+              "form": null,
+              "level": 62,
+              "gender": "male",
+              "types": [
+                "Ground",
+                "Dragon"
+              ],
+              "ability": "Sound Waves",
+              "abilityMega": null,
+              "nature": "Naive",
+              "heldItem": "Life Orb",
+              "evSpread": "Atk 252, Sp. Atk 252, Spe 252",
+              "ivs": null,
+              "moves": [
+                {
+                  "name": "Earthquake",
+                  "type": "Ground",
+                  "category": "Physical"
+                },
+                {
+                  "name": "Clanging Scales",
+                  "type": "Dragon",
+                  "category": "Special"
+                },
+                {
+                  "name": "Heat Wave",
+                  "type": "Fire",
+                  "category": "Special"
+                },
+                {
+                  "name": "Crunch",
+                  "type": "Dark",
+                  "category": "Physical"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

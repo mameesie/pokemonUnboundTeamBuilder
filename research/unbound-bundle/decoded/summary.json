@@ -1,0 +1,70 @@
+{
+  "rom": {
+    "path": "public/Pokemon Unbound (v2.1.1.1).gba",
+    "sizeBytes": 33554432,
+    "versionHint": "Pokemon Unbound v2.1.1.1 (FireRed base header BPRE)"
+  },
+  "generatedFiles": [
+    "/extracted/summary.json",
+    "/extracted/species.json",
+    "/extracted/moves.json",
+    "/extracted/abilities.json",
+    "/extracted/items-partial.json",
+    "/extracted/learnsets-level.json"
+  ],
+  "sections": {
+    "species": {
+      "status": "extracted",
+      "count": 1293,
+      "notes": [
+        "Species names and base stats are extracted directly from the ROM.",
+        "Held item names are resolved where the ROM-backed held-item block has been decoded."
+      ]
+    },
+    "moves": {
+      "status": "extracted",
+      "count": 923,
+      "notes": [
+        "Move names and battle metadata are extracted directly from the ROM.",
+        "A few bytes remain unlabeled and are exported as raw extras."
+      ]
+    },
+    "abilities": {
+      "status": "extracted",
+      "count": 292,
+      "notes": [
+        "Ability names are extracted directly from the ROM."
+      ]
+    },
+    "items": {
+      "status": "partially-extracted",
+      "count": 34,
+      "notes": [
+        "A confirmed held-item name block was decoded from the ROM.",
+        "Only that resolved range is exported so far."
+      ]
+    },
+    "evolutions": {
+      "status": "pending-decoder",
+      "count": 0,
+      "notes": [
+        "Evolution method tables have not been decoded yet."
+      ]
+    },
+    "learnsets": {
+      "status": "level-up-extracted",
+      "count": 1293,
+      "notes": [
+        "Level-up learnsets are extracted directly from the ROM.",
+        "Egg moves and TM compatibility are not decoded yet."
+      ]
+    },
+    "trainers": {
+      "status": "pending-decoder",
+      "count": 0,
+      "notes": [
+        "Trainer party tables and difficulty-mode variants have not been decoded yet."
+      ]
+    }
+  }
+}

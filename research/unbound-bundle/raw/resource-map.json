@@ -1,0 +1,222 @@
+[
+  {
+    "tableOffset": "0x128",
+    "rawValue": "0x9a1d5b4",
+    "romOffset": "0x1a1d5b4"
+  },
+  {
+    "tableOffset": "0x12c",
+    "rawValue": "0x99de42c",
+    "romOffset": "0x19de42c"
+  },
+  {
+    "tableOffset": "0x130",
+    "rawValue": "0x9a32bdc",
+    "romOffset": "0x1a32bdc"
+  },
+  {
+    "tableOffset": "0x134",
+    "rawValue": "0x9a3f77c",
+    "romOffset": "0x1a3f77c"
+  },
+  {
+    "tableOffset": "0x138",
+    "rawValue": "0x9a217fc",
+    "romOffset": "0x1a217fc"
+  },
+  {
+    "tableOffset": "0x13c",
+    "rawValue": "0x9a212ec",
+    "romOffset": "0x1a212ec"
+  },
+  {
+    "tableOffset": "0x140",
+    "rawValue": "0x83d4038",
+    "romOffset": "0x3d4038"
+  },
+  {
+    "tableOffset": "0x144",
+    "rawValue": "0x966a98c",
+    "romOffset": "0x166a98c"
+  },
+  {
+    "tableOffset": "0x148",
+    "rawValue": "0x8a40a10",
+    "romOffset": "0xa40a10"
+  },
+  {
+    "tableOffset": "0x14c",
+    "rawValue": "0x84556f8",
+    "romOffset": "0x4556f8"
+  },
+  {
+    "tableOffset": "0x150",
+    "rawValue": "0xee0",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x154",
+    "rawValue": "0x1000",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x158",
+    "rawValue": "0x18",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x15c",
+    "rawValue": "0x5f8",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x160",
+    "rawValue": "0x3a18",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x164",
+    "rawValue": "0x3c",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x168",
+    "rawValue": "0x838",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x16c",
+    "rawValue": "0x839",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x170",
+    "rawValue": "0x182",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x174",
+    "rawValue": "0xa0a0a07",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x178",
+    "rawValue": "0xc060c0c",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x17c",
+    "rawValue": "0xc121006",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x180",
+    "rawValue": "0x8010b0f",
+    "romOffset": "0x10b0f"
+  },
+  {
+    "tableOffset": "0x184",
+    "rawValue": "0xc",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x188",
+    "rawValue": "0xf24",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x18c",
+    "rawValue": "0x3d68",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x190",
+    "rawValue": "0x34",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x194",
+    "rawValue": "0x38",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x198",
+    "rawValue": "0x9",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x19c",
+    "rawValue": "0xa",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x1a0",
+    "rawValue": "0x0",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x1a4",
+    "rawValue": "0x8",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x1a8",
+    "rawValue": "0xad",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x1ac",
+    "rawValue": "0xad",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x1b0",
+    "rawValue": "0x30bb",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x1b4",
+    "rawValue": "0x30a7",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x1b8",
+    "rawValue": "0x0",
+    "romOffset": null
+  },
+  {
+    "tableOffset": "0x1bc",
+    "rawValue": "0x99e0c9c",
+    "romOffset": "0x19e0c9c"
+  },
+  {
+    "tableOffset": "0x1c0",
+    "rawValue": "0x8a36398",
+    "romOffset": "0xa36398"
+  },
+  {
+    "tableOffset": "0x1c4",
+    "rawValue": "0x896de04",
+    "romOffset": "0x96de04"
+  },
+  {
+    "tableOffset": "0x1c8",
+    "rawValue": "0x8876200",
+    "romOffset": "0x876200"
+  },
+  {
+    "tableOffset": "0x1cc",
+    "rawValue": "0x8a769af",
+    "romOffset": "0xa769af"
+  },
+  {
+    "tableOffset": "0x1d0",
+    "rawValue": "0x8a6eee0",
+    "romOffset": "0xa6eee0"
+  },
+  {
+    "tableOffset": "0x1d4",
+    "rawValue": "0x8a6ee00",
+    "romOffset": "0xa6ee00"
+  }
+]

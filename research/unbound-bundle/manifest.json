@@ -1,0 +1,30 @@
+{
+  "bundleVersion": 1,
+  "romPath": "public/Pokemon Unbound (v2.1.1.1).gba",
+  "bundleDir": "research/unbound-bundle",
+  "decodedFiles": [
+    "research/unbound-bundle/decoded/abilities.json",
+    "research/unbound-bundle/decoded/items-partial.json",
+    "research/unbound-bundle/decoded/learnsets-level.json",
+    "research/unbound-bundle/decoded/moves.json",
+    "research/unbound-bundle/decoded/species.json",
+    "research/unbound-bundle/decoded/summary.json"
+  ],
+  "rawFiles": [
+    "research/unbound-bundle/raw/species-name-table.bin",
+    "research/unbound-bundle/raw/base-stats-table.bin",
+    "research/unbound-bundle/raw/move-name-table.bin",
+    "research/unbound-bundle/raw/move-data-table.bin",
+    "research/unbound-bundle/raw/ability-name-table.bin",
+    "research/unbound-bundle/raw/levelup-pointer-table.bin",
+    "research/unbound-bundle/raw/learnset-sparse-pair-table.bin",
+    "research/unbound-bundle/raw/resource-map.json",
+    "research/unbound-bundle/raw/levelup-pointer-table.json",
+    "research/unbound-bundle/raw/learnset-sparse-pair-table.json"
+  ],
+  "notes": [
+    "This bundle contains all currently decoded JSON plus raw candidate tables for unresolved ROM structures.",
+    "Level-up learnsets and move battle metadata are already decoded.",
+    "Evolutions, egg moves, TM compatibility, and trainer parties are not decoded yet."
+  ]
+}

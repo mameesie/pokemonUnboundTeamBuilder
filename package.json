@@ -4,9 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build --webpack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "extract:source": "python3 scripts/extract_unbound_data.py",
+    "extract:rom": "python3 scripts/extract_unbound_data.py",
+    "scrape:gym-leaders": "python3 scripts/scrape_unbound_gym_leaders.py",
+    "extract:bundle": "python3 scripts/export_unbound_bundle.py"
   },
   "dependencies": {
     "next": "16.2.6",

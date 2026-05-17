@@ -1,0 +1,742 @@
+[
+  {
+    "itemId": 13,
+    "name": "Potion"
+  },
+  {
+    "itemId": 24,
+    "name": "Revive"
+  },
+  {
+    "itemId": 25,
+    "name": "Max Revive"
+  },
+  {
+    "itemId": 29,
+    "name": "Moomoo Milk"
+  },
+  {
+    "itemId": 44,
+    "name": "Berry Juice"
+  },
+  {
+    "itemId": 45,
+    "name": "Sacred Ash"
+  },
+  {
+    "itemId": 55,
+    "name": "Life Orb"
+  },
+  {
+    "itemId": 57,
+    "name": "Flame Orb"
+  },
+  {
+    "itemId": 58,
+    "name": "Black Sludge"
+  },
+  {
+    "itemId": 72,
+    "name": "Honey"
+  },
+  {
+    "itemId": 90,
+    "name": "Light Clay"
+  },
+  {
+    "itemId": 91,
+    "name": "Link Stone"
+  },
+  {
+    "itemId": 93,
+    "name": "Sun Stone"
+  },
+  {
+    "itemId": 94,
+    "name": "Moon Stone"
+  },
+  {
+    "itemId": 95,
+    "name": "Fire Stone"
+  },
+  {
+    "itemId": 96,
+    "name": "Thunder Stone"
+  },
+  {
+    "itemId": 97,
+    "name": "Water Stone"
+  },
+  {
+    "itemId": 98,
+    "name": "Leaf Stone"
+  },
+  {
+    "itemId": 99,
+    "name": "Dusk Stone"
+  },
+  {
+    "itemId": 100,
+    "name": "Dawn Stone"
+  },
+  {
+    "itemId": 101,
+    "name": "Shiny Stone"
+  },
+  {
+    "itemId": 102,
+    "name": "Oval Stone"
+  },
+  {
+    "itemId": 103,
+    "name": "Tiny Mushroom"
+  },
+  {
+    "itemId": 104,
+    "name": "Big Mushroom"
+  },
+  {
+    "itemId": 105,
+    "name": "Ice Stone"
+  },
+  {
+    "itemId": 106,
+    "name": "Pearl"
+  },
+  {
+    "itemId": 107,
+    "name": "Big Pearl"
+  },
+  {
+    "itemId": 108,
+    "name": "Stardust"
+  },
+  {
+    "itemId": 109,
+    "name": "Star Piece"
+  },
+  {
+    "itemId": 110,
+    "name": "Nugget"
+  },
+  {
+    "itemId": 111,
+    "name": "Heart Scale"
+  },
+  {
+    "itemId": 112,
+    "name": "Protector"
+  },
+  {
+    "itemId": 113,
+    "name": "Magmarizer"
+  },
+  {
+    "itemId": 115,
+    "name": "Prism Scale"
+  },
+  {
+    "itemId": 116,
+    "name": "Sachet"
+  },
+  {
+    "itemId": 117,
+    "name": "Whipped Dream"
+  },
+  {
+    "itemId": 133,
+    "name": "Cheri Berry"
+  },
+  {
+    "itemId": 134,
+    "name": "Chesto Berry"
+  },
+  {
+    "itemId": 135,
+    "name": "Pecha Berry"
+  },
+  {
+    "itemId": 136,
+    "name": "Rawst Berry"
+  },
+  {
+    "itemId": 137,
+    "name": "Aspear Berry"
+  },
+  {
+    "itemId": 138,
+    "name": "Leppa Berry"
+  },
+  {
+    "itemId": 139,
+    "name": "Oran Berry"
+  },
+  {
+    "itemId": 140,
+    "name": "Persim Berry"
+  },
+  {
+    "itemId": 141,
+    "name": "Lum Berry"
+  },
+  {
+    "itemId": 142,
+    "name": "Sitrus Berry"
+  },
+  {
+    "itemId": 179,
+    "name": "Bright Powder"
+  },
+  {
+    "itemId": 183,
+    "name": "Quick Claw"
+  },
+  {
+    "itemId": 185,
+    "name": "Mental Herb"
+  },
+  {
+    "itemId": 187,
+    "name": "Kings Rock"
+  },
+  {
+    "itemId": 188,
+    "name": "Silver Powder"
+  },
+  {
+    "itemId": 190,
+    "name": "Cleanse Tag"
+  },
+  {
+    "itemId": 192,
+    "name": "Deep Sea Tooth"
+  },
+  {
+    "itemId": 193,
+    "name": "Deep Sea Scale"
+  },
+  {
+    "itemId": 194,
+    "name": "Smoke Ball"
+  },
+  {
+    "itemId": 195,
+    "name": "Everstone"
+  },
+  {
+    "itemId": 196,
+    "name": "Focus Band"
+  },
+  {
+    "itemId": 197,
+    "name": "Lucky Egg"
+  },
+  {
+    "itemId": 199,
+    "name": "Metal Coat"
+  },
+  {
+    "itemId": 200,
+    "name": "Leftovers"
+  },
+  {
+    "itemId": 201,
+    "name": "Dragon Scale"
+  },
+  {
+    "itemId": 202,
+    "name": "Light Ball"
+  },
+  {
+    "itemId": 203,
+    "name": "Soft Sand"
+  },
+  {
+    "itemId": 204,
+    "name": "Hard Stone"
+  },
+  {
+    "itemId": 205,
+    "name": "Miracle Seed"
+  },
+  {
+    "itemId": 206,
+    "name": "Black Glasses"
+  },
+  {
+    "itemId": 207,
+    "name": "Black Belt"
+  },
+  {
+    "itemId": 208,
+    "name": "Magnet"
+  },
+  {
+    "itemId": 209,
+    "name": "Mystic Water"
+  },
+  {
+    "itemId": 210,
+    "name": "Sharp Beak"
+  },
+  {
+    "itemId": 211,
+    "name": "Poison Barb"
+  },
+  {
+    "itemId": 212,
+    "name": "Never Melt Ice"
+  },
+  {
+    "itemId": 213,
+    "name": "Spell Tag"
+  },
+  {
+    "itemId": 214,
+    "name": "Twisted Spoon"
+  },
+  {
+    "itemId": 215,
+    "name": "Charcoal"
+  },
+  {
+    "itemId": 216,
+    "name": "Dragon Fang"
+  },
+  {
+    "itemId": 218,
+    "name": "Up Grade"
+  },
+  {
+    "itemId": 222,
+    "name": "Lucky Punch"
+  },
+  {
+    "itemId": 223,
+    "name": "Metal Powder"
+  },
+  {
+    "itemId": 224,
+    "name": "Thick Club"
+  },
+  {
+    "itemId": 225,
+    "name": "Leek"
+  },
+  {
+    "itemId": 230,
+    "name": "Razor Claw"
+  },
+  {
+    "itemId": 231,
+    "name": "Razor Fang"
+  },
+  {
+    "itemId": 232,
+    "name": "Reaper Cloth"
+  },
+  {
+    "itemId": 233,
+    "name": "Dubious Disc"
+  },
+  {
+    "itemId": 234,
+    "name": "Electirizer"
+  },
+  {
+    "itemId": 235,
+    "name": "Expert Belt"
+  },
+  {
+    "itemId": 236,
+    "name": "Power Herb"
+  },
+  {
+    "itemId": 237,
+    "name": "Wide Lens"
+  },
+  {
+    "itemId": 250,
+    "name": "Big Root"
+  },
+  {
+    "itemId": 276,
+    "name": "Red Orb"
+  },
+  {
+    "itemId": 277,
+    "name": "Blue Orb"
+  },
+  {
+    "itemId": 445,
+    "name": "Ultranecrozium Z"
+  },
+  {
+    "itemId": 446,
+    "name": "Venusaurite"
+  },
+  {
+    "itemId": 447,
+    "name": "Charizardite X"
+  },
+  {
+    "itemId": 448,
+    "name": "Charizardite Y"
+  },
+  {
+    "itemId": 449,
+    "name": "Blastoisinite"
+  },
+  {
+    "itemId": 450,
+    "name": "Beedrillite"
+  },
+  {
+    "itemId": 451,
+    "name": "Pidgeotite"
+  },
+  {
+    "itemId": 452,
+    "name": "Alakazite"
+  },
+  {
+    "itemId": 453,
+    "name": "Slowbronite"
+  },
+  {
+    "itemId": 454,
+    "name": "Gengarite"
+  },
+  {
+    "itemId": 455,
+    "name": "Kangaskhanite"
+  },
+  {
+    "itemId": 456,
+    "name": "Pinsirite"
+  },
+  {
+    "itemId": 457,
+    "name": "Gyaradosite"
+  },
+  {
+    "itemId": 458,
+    "name": "Aerodactylite"
+  },
+  {
+    "itemId": 459,
+    "name": "Mewtwonite X"
+  },
+  {
+    "itemId": 460,
+    "name": "Mewtwonite Y"
+  },
+  {
+    "itemId": 461,
+    "name": "Ampharosite"
+  },
+  {
+    "itemId": 462,
+    "name": "Steelixite"
+  },
+  {
+    "itemId": 463,
+    "name": "Scizorite"
+  },
+  {
+    "itemId": 464,
+    "name": "Heracronite"
+  },
+  {
+    "itemId": 465,
+    "name": "Houndoominite"
+  },
+  {
+    "itemId": 466,
+    "name": "Tyranitarite"
+  },
+  {
+    "itemId": 467,
+    "name": "Sceptilite"
+  },
+  {
+    "itemId": 468,
+    "name": "Blazikenite"
+  },
+  {
+    "itemId": 469,
+    "name": "Swampertite"
+  },
+  {
+    "itemId": 470,
+    "name": "Gardevoirite"
+  },
+  {
+    "itemId": 471,
+    "name": "Sablenite"
+  },
+  {
+    "itemId": 472,
+    "name": "Mawilite"
+  },
+  {
+    "itemId": 473,
+    "name": "Aggronite"
+  },
+  {
+    "itemId": 474,
+    "name": "Medichamite"
+  },
+  {
+    "itemId": 475,
+    "name": "Manectite"
+  },
+  {
+    "itemId": 476,
+    "name": "Sharpedonite"
+  },
+  {
+    "itemId": 477,
+    "name": "Cameruptite"
+  },
+  {
+    "itemId": 478,
+    "name": "Altarianite"
+  },
+  {
+    "itemId": 479,
+    "name": "Banettite"
+  },
+  {
+    "itemId": 480,
+    "name": "Absolite"
+  },
+  {
+    "itemId": 481,
+    "name": "Glalitite"
+  },
+  {
+    "itemId": 482,
+    "name": "Salamencite"
+  },
+  {
+    "itemId": 483,
+    "name": "Metagrossite"
+  },
+  {
+    "itemId": 484,
+    "name": "Latiasite"
+  },
+  {
+    "itemId": 485,
+    "name": "Latiosite"
+  },
+  {
+    "itemId": 486,
+    "name": "Lopunnite"
+  },
+  {
+    "itemId": 487,
+    "name": "Garchompite"
+  },
+  {
+    "itemId": 488,
+    "name": "Lucarionite"
+  },
+  {
+    "itemId": 489,
+    "name": "Abomasite"
+  },
+  {
+    "itemId": 490,
+    "name": "Galladite"
+  },
+  {
+    "itemId": 491,
+    "name": "Audinite"
+  },
+  {
+    "itemId": 492,
+    "name": "Diancite"
+  },
+  {
+    "itemId": 539,
+    "name": "Occa Berry"
+  },
+  {
+    "itemId": 540,
+    "name": "Passho Berry"
+  },
+  {
+    "itemId": 541,
+    "name": "Wacan Berry"
+  },
+  {
+    "itemId": 542,
+    "name": "Rindo Berry"
+  },
+  {
+    "itemId": 543,
+    "name": "Yache Berry"
+  },
+  {
+    "itemId": 544,
+    "name": "Chople Berry"
+  },
+  {
+    "itemId": 545,
+    "name": "Kebia Berry"
+  },
+  {
+    "itemId": 546,
+    "name": "Shuca Berry"
+  },
+  {
+    "itemId": 547,
+    "name": "Coba Berry"
+  },
+  {
+    "itemId": 548,
+    "name": "Payapa Berry"
+  },
+  {
+    "itemId": 549,
+    "name": "Tanga Berry"
+  },
+  {
+    "itemId": 550,
+    "name": "Charti Berry"
+  },
+  {
+    "itemId": 552,
+    "name": "Haban Berry"
+  },
+  {
+    "itemId": 554,
+    "name": "Babiri Berry"
+  },
+  {
+    "itemId": 555,
+    "name": "Chilan Berry"
+  },
+  {
+    "itemId": 563,
+    "name": "Absorb Bulb"
+  },
+  {
+    "itemId": 564,
+    "name": "Air Balloon"
+  },
+  {
+    "itemId": 567,
+    "name": "Cell Battery"
+  },
+  {
+    "itemId": 571,
+    "name": "Grip Claw"
+  },
+  {
+    "itemId": 572,
+    "name": "Iron Ball"
+  },
+  {
+    "itemId": 573,
+    "name": "Lagging Tail"
+  },
+  {
+    "itemId": 574,
+    "name": "Luminous Moss"
+  },
+  {
+    "itemId": 575,
+    "name": "Quick Powder"
+  },
+  {
+    "itemId": 576,
+    "name": "Metronome"
+  },
+  {
+    "itemId": 581,
+    "name": "Shed Shell"
+  },
+  {
+    "itemId": 582,
+    "name": "Snowball"
+  },
+  {
+    "itemId": 583,
+    "name": "Sticky Barb"
+  },
+  {
+    "itemId": 586,
+    "name": "Electric Seed"
+  },
+  {
+    "itemId": 587,
+    "name": "Grassy Seed"
+  },
+  {
+    "itemId": 588,
+    "name": "Misty Seed"
+  },
+  {
+    "itemId": 589,
+    "name": "Psychic Seed"
+  },
+  {
+    "itemId": 615,
+    "name": "Pretty Wing"
+  },
+  {
+    "itemId": 712,
+    "name": "Sweet Apple"
+  },
+  {
+    "itemId": 713,
+    "name": "Tart Apple"
+  },
+  {
+    "itemId": 714,
+    "name": "Cracked Pot"
+  },
+  {
+    "itemId": 715,
+    "name": "Chipped Pot"
+  },
+  {
+    "itemId": 716,
+    "name": "Strawberry Sweet"
+  },
+  {
+    "itemId": 717,
+    "name": "Berry Sweet"
+  },
+  {
+    "itemId": 718,
+    "name": "Love Sweet"
+  },
+  {
+    "itemId": 719,
+    "name": "Clover Sweet"
+  },
+  {
+    "itemId": 720,
+    "name": "Flower Sweet"
+  },
+  {
+    "itemId": 721,
+    "name": "Ribbon Sweet"
+  },
+  {
+    "itemId": 722,
+    "name": "Star Sweet"
+  },
+  {
+    "itemId": 723,
+    "name": "Galarica Cuff"
+  },
+  {
+    "itemId": 724,
+    "name": "Galarica Wreath"
+  }
+]

@@ -1,0 +1,1026 @@
+[
+  {
+    "abilityId": 0,
+    "name": "None"
+  },
+  {
+    "abilityId": 1,
+    "name": "Stench"
+  },
+  {
+    "abilityId": 2,
+    "name": "Drizzle"
+  },
+  {
+    "abilityId": 3,
+    "name": "Speed Boost"
+  },
+  {
+    "abilityId": 4,
+    "name": "Battle Armor"
+  },
+  {
+    "abilityId": 5,
+    "name": "Sturdy"
+  },
+  {
+    "abilityId": 6,
+    "name": "Damp"
+  },
+  {
+    "abilityId": 7,
+    "name": "Limber"
+  },
+  {
+    "abilityId": 8,
+    "name": "Sand Veil"
+  },
+  {
+    "abilityId": 9,
+    "name": "Static"
+  },
+  {
+    "abilityId": 10,
+    "name": "Volt Absorb"
+  },
+  {
+    "abilityId": 11,
+    "name": "Water Absorb"
+  },
+  {
+    "abilityId": 12,
+    "name": "Oblivious"
+  },
+  {
+    "abilityId": 13,
+    "name": "Cloud Nine"
+  },
+  {
+    "abilityId": 14,
+    "name": "Compound Eyes"
+  },
+  {
+    "abilityId": 15,
+    "name": "Insomnia"
+  },
+  {
+    "abilityId": 16,
+    "name": "Color Change"
+  },
+  {
+    "abilityId": 17,
+    "name": "Immunity"
+  },
+  {
+    "abilityId": 18,
+    "name": "Flash Fire"
+  },
+  {
+    "abilityId": 19,
+    "name": "Shield Dust"
+  },
+  {
+    "abilityId": 20,
+    "name": "Own Tempo"
+  },
+  {
+    "abilityId": 21,
+    "name": "Suction Cups"
+  },
+  {
+    "abilityId": 22,
+    "name": "Intimidate"
+  },
+  {
+    "abilityId": 23,
+    "name": "Shadow Tag"
+  },
+  {
+    "abilityId": 24,
+    "name": "Rough Skin"
+  },
+  {
+    "abilityId": 25,
+    "name": "Wonder Guard"
+  },
+  {
+    "abilityId": 26,
+    "name": "Levitate"
+  },
+  {
+    "abilityId": 27,
+    "name": "Effect Spore"
+  },
+  {
+    "abilityId": 28,
+    "name": "Synchronize"
+  },
+  {
+    "abilityId": 29,
+    "name": "Clear Body"
+  },
+  {
+    "abilityId": 30,
+    "name": "Natural Cure"
+  },
+  {
+    "abilityId": 31,
+    "name": "Lightning Rod"
+  },
+  {
+    "abilityId": 32,
+    "name": "Serene Grace"
+  },
+  {
+    "abilityId": 33,
+    "name": "Swift Swim"
+  },
+  {
+    "abilityId": 34,
+    "name": "Chlorophyll"
+  },
+  {
+    "abilityId": 35,
+    "name": "Illuminate"
+  },
+  {
+    "abilityId": 36,
+    "name": "Trace"
+  },
+  {
+    "abilityId": 37,
+    "name": "Huge Power"
+  },
+  {
+    "abilityId": 38,
+    "name": "Poison Point"
+  },
+  {
+    "abilityId": 39,
+    "name": "Inner Focus"
+  },
+  {
+    "abilityId": 40,
+    "name": "Magma Armor"
+  },
+  {
+    "abilityId": 41,
+    "name": "Water Veil"
+  },
+  {
+    "abilityId": 42,
+    "name": "Magnet Pull"
+  },
+  {
+    "abilityId": 43,
+    "name": "Soundproof"
+  },
+  {
+    "abilityId": 44,
+    "name": "Rain Dish"
+  },
+  {
+    "abilityId": 45,
+    "name": "Sand Stream"
+  },
+  {
+    "abilityId": 46,
+    "name": "Pressure"
+  },
+  {
+    "abilityId": 47,
+    "name": "Thick Fat"
+  },
+  {
+    "abilityId": 48,
+    "name": "Early Bird"
+  },
+  {
+    "abilityId": 49,
+    "name": "Flame Body"
+  },
+  {
+    "abilityId": 50,
+    "name": "Run Away"
+  },
+  {
+    "abilityId": 51,
+    "name": "Keen Eye"
+  },
+  {
+    "abilityId": 52,
+    "name": "Hyper Cutter"
+  },
+  {
+    "abilityId": 53,
+    "name": "Pickup"
+  },
+  {
+    "abilityId": 54,
+    "name": "Truant"
+  },
+  {
+    "abilityId": 55,
+    "name": "Hustle"
+  },
+  {
+    "abilityId": 56,
+    "name": "Cute Charm"
+  },
+  {
+    "abilityId": 57,
+    "name": "Plus"
+  },
+  {
+    "abilityId": 58,
+    "name": "Minus"
+  },
+  {
+    "abilityId": 59,
+    "name": "Forecast"
+  },
+  {
+    "abilityId": 60,
+    "name": "Sticky Hold"
+  },
+  {
+    "abilityId": 61,
+    "name": "Shed Skin"
+  },
+  {
+    "abilityId": 62,
+    "name": "Guts"
+  },
+  {
+    "abilityId": 63,
+    "name": "Marvel Scale"
+  },
+  {
+    "abilityId": 64,
+    "name": "Liquid Ooze"
+  },
+  {
+    "abilityId": 65,
+    "name": "Overgrow"
+  },
+  {
+    "abilityId": 66,
+    "name": "Blaze"
+  },
+  {
+    "abilityId": 67,
+    "name": "Torrent"
+  },
+  {
+    "abilityId": 68,
+    "name": "Swarm"
+  },
+  {
+    "abilityId": 69,
+    "name": "Rock Head"
+  },
+  {
+    "abilityId": 70,
+    "name": "Drought"
+  },
+  {
+    "abilityId": 71,
+    "name": "Arena Trap"
+  },
+  {
+    "abilityId": 72,
+    "name": "Transistor"
+  },
+  {
+    "abilityId": 73,
+    "name": "Dragon's Maw"
+  },
+  {
+    "abilityId": 74,
+    "name": "Neutralize Gas"
+  },
+  {
+    "abilityId": 75,
+    "name": "Shell Armor"
+  },
+  {
+    "abilityId": 76,
+    "name": "Hunger Switch"
+  },
+  {
+    "abilityId": 77,
+    "name": "Unused"
+  },
+  {
+    "abilityId": 78,
+    "name": "Sweet Veil"
+  },
+  {
+    "abilityId": 79,
+    "name": "Skill Link"
+  },
+  {
+    "abilityId": 80,
+    "name": "Motor Drive"
+  },
+  {
+    "abilityId": 81,
+    "name": "Multiscale"
+  },
+  {
+    "abilityId": 82,
+    "name": "Technician"
+  },
+  {
+    "abilityId": 83,
+    "name": "Scrappy"
+  },
+  {
+    "abilityId": 84,
+    "name": "Super Luck"
+  },
+  {
+    "abilityId": 85,
+    "name": "Sniper"
+  },
+  {
+    "abilityId": 86,
+    "name": "Regenerator"
+  },
+  {
+    "abilityId": 87,
+    "name": "Prankster"
+  },
+  {
+    "abilityId": 88,
+    "name": "Adaptability"
+  },
+  {
+    "abilityId": 89,
+    "name": "Big Pecks"
+  },
+  {
+    "abilityId": 90,
+    "name": "Magic Bounce"
+  },
+  {
+    "abilityId": 91,
+    "name": "Reckless"
+  },
+  {
+    "abilityId": 92,
+    "name": "Sheer Force"
+  },
+  {
+    "abilityId": 93,
+    "name": "Iron Fist"
+  },
+  {
+    "abilityId": 94,
+    "name": "Rivalry"
+  },
+  {
+    "abilityId": 95,
+    "name": "Sand Force"
+  },
+  {
+    "abilityId": 96,
+    "name": "Solar Power"
+  },
+  {
+    "abilityId": 97,
+    "name": "Heatproof"
+  },
+  {
+    "abilityId": 98,
+    "name": "Dry Skin"
+  },
+  {
+    "abilityId": 99,
+    "name": "Tinted Lens"
+  },
+  {
+    "abilityId": 100,
+    "name": "Unseen Fist"
+  },
+  {
+    "abilityId": 101,
+    "name": "Filter"
+  },
+  {
+    "abilityId": 102,
+    "name": "Infiltrator"
+  },
+  {
+    "abilityId": 103,
+    "name": "Download"
+  },
+  {
+    "abilityId": 104,
+    "name": "Poison Heal"
+  },
+  {
+    "abilityId": 105,
+    "name": "Ice Body"
+  },
+  {
+    "abilityId": 106,
+    "name": "Moody"
+  },
+  {
+    "abilityId": 107,
+    "name": "Hydration"
+  },
+  {
+    "abilityId": 108,
+    "name": "Healer"
+  },
+  {
+    "abilityId": 109,
+    "name": "Snow Cloak"
+  },
+  {
+    "abilityId": 110,
+    "name": "Tangled Feet"
+  },
+  {
+    "abilityId": 111,
+    "name": "Snow Warning"
+  },
+  {
+    "abilityId": 112,
+    "name": "Quick Feet"
+  },
+  {
+    "abilityId": 113,
+    "name": "Sap Sipper"
+  },
+  {
+    "abilityId": 114,
+    "name": "Overcoat"
+  },
+  {
+    "abilityId": 115,
+    "name": "Magic Guard"
+  },
+  {
+    "abilityId": 116,
+    "name": "Bulletproof"
+  },
+  {
+    "abilityId": 117,
+    "name": "Gale Wings"
+  },
+  {
+    "abilityId": 118,
+    "name": "Moxie"
+  },
+  {
+    "abilityId": 119,
+    "name": "Aftermath"
+  },
+  {
+    "abilityId": 120,
+    "name": "Cursed Body"
+  },
+  {
+    "abilityId": 121,
+    "name": "Gooey"
+  },
+  {
+    "abilityId": 122,
+    "name": "Mummy"
+  },
+  {
+    "abilityId": 123,
+    "name": "Grim Neigh"
+  },
+  {
+    "abilityId": 124,
+    "name": "Sand Rush"
+  },
+  {
+    "abilityId": 125,
+    "name": "Analytic"
+  },
+  {
+    "abilityId": 126,
+    "name": "No Guard"
+  },
+  {
+    "abilityId": 127,
+    "name": "Mega Launcher"
+  },
+  {
+    "abilityId": 128,
+    "name": "Tough Claws"
+  },
+  {
+    "abilityId": 129,
+    "name": "Strong Jaw"
+  },
+  {
+    "abilityId": 130,
+    "name": "Victory Star"
+  },
+  {
+    "abilityId": 131,
+    "name": "Storm Drain"
+  },
+  {
+    "abilityId": 132,
+    "name": "Dark Aura"
+  },
+  {
+    "abilityId": 133,
+    "name": "Fairy Aura"
+  },
+  {
+    "abilityId": 134,
+    "name": "Aura Break"
+  },
+  {
+    "abilityId": 135,
+    "name": "Refrigerate"
+  },
+  {
+    "abilityId": 136,
+    "name": "Pixilate"
+  },
+  {
+    "abilityId": 137,
+    "name": "Aerilate"
+  },
+  {
+    "abilityId": 138,
+    "name": "Normalize"
+  },
+  {
+    "abilityId": 139,
+    "name": "Unburden"
+  },
+  {
+    "abilityId": 140,
+    "name": "Simple"
+  },
+  {
+    "abilityId": 141,
+    "name": "Unaware"
+  },
+  {
+    "abilityId": 142,
+    "name": "Defiant"
+  },
+  {
+    "abilityId": 143,
+    "name": "Competitive"
+  },
+  {
+    "abilityId": 144,
+    "name": "Defeatist"
+  },
+  {
+    "abilityId": 145,
+    "name": "Slow Start"
+  },
+  {
+    "abilityId": 146,
+    "name": "Toxic Boost"
+  },
+  {
+    "abilityId": 147,
+    "name": "Flare Boost"
+  },
+  {
+    "abilityId": 148,
+    "name": "Fur Coat"
+  },
+  {
+    "abilityId": 149,
+    "name": "Wonder Skin"
+  },
+  {
+    "abilityId": 150,
+    "name": "Protean"
+  },
+  {
+    "abilityId": 151,
+    "name": "Parental Bond"
+  },
+  {
+    "abilityId": 152,
+    "name": "Mold Breaker"
+  },
+  {
+    "abilityId": 153,
+    "name": "As One"
+  },
+  {
+    "abilityId": 154,
+    "name": "As One"
+  },
+  {
+    "abilityId": 155,
+    "name": "Zen Mode"
+  },
+  {
+    "abilityId": 156,
+    "name": "Battle Bond"
+  },
+  {
+    "abilityId": 157,
+    "name": "Beast Boost"
+  },
+  {
+    "abilityId": 158,
+    "name": "Corrosion"
+  },
+  {
+    "abilityId": 159,
+    "name": "Disguise"
+  },
+  {
+    "abilityId": 160,
+    "name": "Emergency Exit"
+  },
+  {
+    "abilityId": 161,
+    "name": "Fluffy"
+  },
+  {
+    "abilityId": 162,
+    "name": "Steely Spirit"
+  },
+  {
+    "abilityId": 163,
+    "name": "Perish Body"
+  },
+  {
+    "abilityId": 164,
+    "name": "Wandering Soul"
+  },
+  {
+    "abilityId": 165,
+    "name": "Power Construct"
+  },
+  {
+    "abilityId": 166,
+    "name": "Prism Armor"
+  },
+  {
+    "abilityId": 167,
+    "name": "RKS System"
+  },
+  {
+    "abilityId": 168,
+    "name": "Schooling"
+  },
+  {
+    "abilityId": 169,
+    "name": "Shadow Shield"
+  },
+  {
+    "abilityId": 170,
+    "name": "Shields Down"
+  },
+  {
+    "abilityId": 171,
+    "name": "Slush Rush"
+  },
+  {
+    "abilityId": 172,
+    "name": "Soul-Heart"
+  },
+  {
+    "abilityId": 173,
+    "name": "Stamina"
+  },
+  {
+    "abilityId": 174,
+    "name": "Steelworker"
+  },
+  {
+    "abilityId": 175,
+    "name": "Full Metal Body"
+  },
+  {
+    "abilityId": 176,
+    "name": "Triage"
+  },
+  {
+    "abilityId": 177,
+    "name": "Water Bubble"
+  },
+  {
+    "abilityId": 178,
+    "name": "Water Compact"
+  },
+  {
+    "abilityId": 179,
+    "name": "Stall"
+  },
+  {
+    "abilityId": 180,
+    "name": "Multitype"
+  },
+  {
+    "abilityId": 181,
+    "name": "Electric Surge"
+  },
+  {
+    "abilityId": 182,
+    "name": "Grassy Surge"
+  },
+  {
+    "abilityId": 183,
+    "name": "Misty Surge"
+  },
+  {
+    "abilityId": 184,
+    "name": "Psychic Surge"
+  },
+  {
+    "abilityId": 185,
+    "name": "Surge Surfer"
+  },
+  {
+    "abilityId": 186,
+    "name": "Grass Pelt"
+  },
+  {
+    "abilityId": 187,
+    "name": "Anger Point"
+  },
+  {
+    "abilityId": 188,
+    "name": "Anticipation"
+  },
+  {
+    "abilityId": 189,
+    "name": "Forewarn"
+  },
+  {
+    "abilityId": 190,
+    "name": "Frisk"
+  },
+  {
+    "abilityId": 191,
+    "name": "Contrary"
+  },
+  {
+    "abilityId": 192,
+    "name": "Unnerve"
+  },
+  {
+    "abilityId": 193,
+    "name": "Weak Armor"
+  },
+  {
+    "abilityId": 194,
+    "name": "Heavy Metal"
+  },
+  {
+    "abilityId": 195,
+    "name": "Light Metal"
+  },
+  {
+    "abilityId": 196,
+    "name": "Steadfast"
+  },
+  {
+    "abilityId": 197,
+    "name": "Imposter"
+  },
+  {
+    "abilityId": 198,
+    "name": "Justified"
+  },
+  {
+    "abilityId": 199,
+    "name": "Rattled"
+  },
+  {
+    "abilityId": 200,
+    "name": "Merciless"
+  },
+  {
+    "abilityId": 201,
+    "name": "Aroma Veil"
+  },
+  {
+    "abilityId": 202,
+    "name": "Flower Veil"
+  },
+  {
+    "abilityId": 203,
+    "name": "Leaf Guard"
+  },
+  {
+    "abilityId": 204,
+    "name": "Klutz"
+  },
+  {
+    "abilityId": 205,
+    "name": "Flower Gift"
+  },
+  {
+    "abilityId": 206,
+    "name": "Bad Dreams"
+  },
+  {
+    "abilityId": 207,
+    "name": "Pickpocket"
+  },
+  {
+    "abilityId": 208,
+    "name": "Portal Power"
+  },
+  {
+    "abilityId": 209,
+    "name": "Poison Touch"
+  },
+  {
+    "abilityId": 210,
+    "name": "Magician"
+  },
+  {
+    "abilityId": 211,
+    "name": "Stance Change"
+  },
+  {
+    "abilityId": 212,
+    "name": "Primordial Sea"
+  },
+  {
+    "abilityId": 213,
+    "name": "Desolate Land"
+  },
+  {
+    "abilityId": 214,
+    "name": "Delta Stream"
+  },
+  {
+    "abilityId": 215,
+    "name": "Gorilla Tactics"
+  },
+  {
+    "abilityId": 216,
+    "name": "Berserk"
+  },
+  {
+    "abilityId": 217,
+    "name": "Long Reach"
+  },
+  {
+    "abilityId": 218,
+    "name": "Liquid Voice"
+  },
+  {
+    "abilityId": 219,
+    "name": "Quick Draw"
+  },
+  {
+    "abilityId": 220,
+    "name": "Innards Out"
+  },
+  {
+    "abilityId": 221,
+    "name": "Dazzling"
+  },
+  {
+    "abilityId": 222,
+    "name": "Gluttony"
+  },
+  {
+    "abilityId": 223,
+    "name": "Honey Gather"
+  },
+  {
+    "abilityId": 224,
+    "name": "Friend Guard"
+  },
+  {
+    "abilityId": 225,
+    "name": "Harvest"
+  },
+  {
+    "abilityId": 226,
+    "name": "Telepathy"
+  },
+  {
+    "abilityId": 227,
+    "name": "Illusion"
+  },
+  {
+    "abilityId": 228,
+    "name": "Cheek Pouch"
+  },
+  {
+    "abilityId": 229,
+    "name": "Symbiosis"
+  },
+  {
+    "abilityId": 230,
+    "name": "Stakeout"
+  },
+  {
+    "abilityId": 231,
+    "name": "Comatose"
+  },
+  {
+    "abilityId": 232,
+    "name": "Dancer"
+  },
+  {
+    "abilityId": 233,
+    "name": "Battery"
+  },
+  {
+    "abilityId": 234,
+    "name": "Receiver"
+  },
+  {
+    "abilityId": 235,
+    "name": "Odd Medicine"
+  },
+  {
+    "abilityId": 236,
+    "name": "Neuroforce"
+  },
+  {
+    "abilityId": 237,
+    "name": "Galvanize"
+  },
+  {
+    "abilityId": 238,
+    "name": "Intrepid Sword"
+  },
+  {
+    "abilityId": 239,
+    "name": "Valiant Shield"
+  },
+  {
+    "abilityId": 240,
+    "name": "Ball Fetch"
+  },
+  {
+    "abilityId": 241,
+    "name": "Cotton Down"
+  },
+  {
+    "abilityId": 242,
+    "name": "Mirror Armor"
+  },
+  {
+    "abilityId": 243,
+    "name": "Gulp Missile"
+  },
+  {
+    "abilityId": 244,
+    "name": "Stalwart"
+  },
+  {
+    "abilityId": 245,
+    "name": "Steam Engine"
+  },
+  {
+    "abilityId": 246,
+    "name": "Punk Rock"
+  },
+  {
+    "abilityId": 247,
+    "name": "Sand Spit"
+  },
+  {
+    "abilityId": 248,
+    "name": "Ice Scales"
+  },
+  {
+    "abilityId": 249,
+    "name": "Ripen"
+  },
+  {
+    "abilityId": 250,
+    "name": "Ice Face"
+  },
+  {
+    "abilityId": 251,
+    "name": "Power Spot"
+  },
+  {
+    "abilityId": 252,
+    "name": "Mimicry"
+  },
+  {
+    "abilityId": 253,
+    "name": "Screen Cleaner"
+  },
+  {
+    "abilityId": 254,
+    "name": "Pastel Veil"
+  },
+  {
+    "abilityId": 255,
+    "name": "-"
+  }
+]
