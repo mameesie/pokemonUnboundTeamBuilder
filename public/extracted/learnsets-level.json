@@ -9072,17 +9072,11 @@
   },
   {
     "speciesId": 83,
-    "speciesName": "Farfetch'd",
+    "speciesName": "Galarian Farfetch\u2019d",
     "moves": [
       {
         "moveId": 28,
         "moveName": "Sand Attack",
-        "source": "level-up",
-        "level": 1
-      },
-      {
-        "moveId": 43,
-        "moveName": "Leer",
         "source": "level-up",
         "level": 1
       },
@@ -9093,46 +9087,34 @@
         "level": 1
       },
       {
+        "moveId": 43,
+        "moveName": "Leer",
+        "source": "level-up",
+        "level": 5
+      },
+      {
         "moveId": 210,
         "moveName": "Fury Cutter",
-        "source": "level-up",
-        "level": 1
-      },
-      {
-        "moveId": 424,
-        "moveName": "Poison Jab",
-        "source": "level-up",
-        "level": 1
-      },
-      {
-        "moveId": 31,
-        "moveName": "Fury Attack",
         "source": "level-up",
         "level": 10
       },
       {
-        "moveId": 314,
-        "moveName": "Air Cutter",
+        "moveId": 249,
+        "moveName": "Rock Smash",
         "source": "level-up",
-        "level": 14
+        "level": 15
       },
       {
-        "moveId": 488,
-        "moveName": "Feint",
+        "moveId": 582,
+        "moveName": "Brutal Swing",
         "source": "level-up",
-        "level": 18
+        "level": 20
       },
       {
-        "moveId": 332,
-        "moveName": "Aerial Ace",
+        "moveId": 197,
+        "moveName": "Detect",
         "source": "level-up",
-        "level": 22
-      },
-      {
-        "moveId": 206,
-        "moveName": "False Swipe",
-        "source": "level-up",
-        "level": 26
+        "level": 25
       },
       {
         "moveId": 282,
@@ -9141,52 +9123,46 @@
         "level": 30
       },
       {
-        "moveId": 163,
-        "moveName": "Slash",
+        "moveId": 516,
+        "moveName": "Defog",
         "source": "level-up",
-        "level": 34
+        "level": 35
+      },
+      {
+        "moveId": 280,
+        "moveName": "Brick Break",
+        "source": "level-up",
+        "level": 40
       },
       {
         "moveId": 14,
         "moveName": "Swords Dance",
         "source": "level-up",
-        "level": 38
+        "level": 45
       },
       {
-        "moveId": 387,
-        "moveName": "Night Slash",
+        "moveId": 21,
+        "moveName": "Slam",
         "source": "level-up",
-        "level": 42
-      },
-      {
-        "moveId": 440,
-        "moveName": "Acrobatics",
-        "source": "level-up",
-        "level": 46
+        "level": 50
       },
       {
         "moveId": 348,
         "moveName": "Leaf Blade",
         "source": "level-up",
-        "level": 50
+        "level": 55
       },
       {
-        "moveId": 97,
-        "moveName": "Agility",
+        "moveId": 495,
+        "moveName": "Final Gambit",
         "source": "level-up",
-        "level": 54
+        "level": 60
       },
       {
         "moveId": 361,
         "moveName": "Brave Bird",
         "source": "level-up",
-        "level": 58
-      },
-      {
-        "moveId": 710,
-        "moveName": "Meteor Rush",
-        "source": "level-up",
-        "level": 62
+        "level": 65
       }
     ],
     "source": {
@@ -12186,113 +12162,6 @@
         "moveName": "Belly Drum",
         "source": "level-up",
         "level": 55
-      }
-    ],
-    "source": {
-      "kind": "wiki-page",
-      "base": "https://unboundwiki.com/pokemon/",
-      "learnsetType": "level-up"
-    }
-  },
-  {
-    "speciesId": 109,
-    "speciesName": "Koffing",
-    "moves": [
-      {
-        "moveId": 33,
-        "moveName": "Tackle",
-        "source": "level-up",
-        "level": 1
-      },
-      {
-        "moveId": 139,
-        "moveName": "Poison Gas",
-        "source": "level-up",
-        "level": 1
-      },
-      {
-        "moveId": 123,
-        "moveName": "Smog",
-        "source": "level-up",
-        "level": 4
-      },
-      {
-        "moveId": 108,
-        "moveName": "Smokescreen",
-        "source": "level-up",
-        "level": 8
-      },
-      {
-        "moveId": 427,
-        "moveName": "Clear Smog",
-        "source": "level-up",
-        "level": 12
-      },
-      {
-        "moveId": 485,
-        "moveName": "Assurance",
-        "source": "level-up",
-        "level": 16
-      },
-      {
-        "moveId": 124,
-        "moveName": "Sludge",
-        "source": "level-up",
-        "level": 20
-      },
-      {
-        "moveId": 114,
-        "moveName": "Haze",
-        "source": "level-up",
-        "level": 23
-      },
-      {
-        "moveId": 510,
-        "moveName": "Gyro Ball",
-        "source": "level-up",
-        "level": 26
-      },
-      {
-        "moveId": 120,
-        "moveName": "Selfdestruct",
-        "source": "level-up",
-        "level": 28
-      },
-      {
-        "moveId": 188,
-        "moveName": "Sludge Bomb",
-        "source": "level-up",
-        "level": 32
-      },
-      {
-        "moveId": 92,
-        "moveName": "Toxic",
-        "source": "level-up",
-        "level": 36
-      },
-      {
-        "moveId": 641,
-        "moveName": "Belch",
-        "source": "level-up",
-        "level": 40
-      },
-      {
-        "moveId": 153,
-        "moveName": "Explosion",
-        "source": "level-up",
-        "level": 44
-      },
-      {
-        "moveId": 262,
-        "moveName": "Memento",
-        "source": "level-up",
-        "level": 48
-      },
-      {
-        "moveId": 194,
-        "moveName": "Destiny Bond",
-        "source": "level-up",
-        "level": 52
       }
     ],
     "source": {
@@ -16373,7 +16242,7 @@
   },
   {
     "speciesId": 144,
-    "speciesName": "Articuno",
+    "speciesName": "Galarian Articuno",
     "moves": [
       {
         "moveId": 16,
@@ -16382,20 +16251,14 @@
         "level": 1
       },
       {
-        "moveId": 54,
-        "moveName": "Mist",
+        "moveId": 525,
+        "moveName": "Psycho Shift",
         "source": "level-up",
         "level": 1
       },
       {
-        "moveId": 114,
-        "moveName": "Haze",
-        "source": "level-up",
-        "level": 1
-      },
-      {
-        "moveId": 181,
-        "moveName": "Powder Snow",
+        "moveId": 93,
+        "moveName": "Confusion",
         "source": "level-up",
         "level": 5
       },
@@ -16406,14 +16269,14 @@
         "level": 10
       },
       {
-        "moveId": 97,
-        "moveName": "Agility",
+        "moveId": 95,
+        "moveName": "Hypnosis",
         "source": "level-up",
         "level": 15
       },
       {
-        "moveId": 381,
-        "moveName": "Ice Shard",
+        "moveId": 97,
+        "moveName": "Agility",
         "source": "level-up",
         "level": 20
       },
@@ -16430,26 +16293,26 @@
         "level": 30
       },
       {
-        "moveId": 501,
-        "moveName": "Freeze-Dry",
+        "moveId": 391,
+        "moveName": "Psycho Cut",
         "source": "level-up",
         "level": 35
       },
       {
-        "moveId": 395,
-        "moveName": "Roost",
+        "moveId": 105,
+        "moveName": "Recover",
         "source": "level-up",
         "level": 40
       },
       {
-        "moveId": 58,
-        "moveName": "Ice Beam",
+        "moveId": 735,
+        "moveName": "Freeze Glare",
         "source": "level-up",
         "level": 45
       },
       {
-        "moveId": 258,
-        "moveName": "Hail",
+        "moveId": 138,
+        "moveName": "Dream Eater",
         "source": "level-up",
         "level": 50
       },
@@ -16466,22 +16329,16 @@
         "level": 60
       },
       {
-        "moveId": 59,
-        "moveName": "Blizzard",
+        "moveId": 248,
+        "moveName": "Future Sight",
         "source": "level-up",
         "level": 65
       },
       {
-        "moveId": 549,
-        "moveName": "Glaciate",
+        "moveId": 632,
+        "moveName": "Trick Room",
         "source": "level-up",
         "level": 70
-      },
-      {
-        "moveId": 329,
-        "moveName": "Sheer Cold",
-        "source": "level-up",
-        "level": 75
       }
     ],
     "source": {
@@ -25505,7 +25362,7 @@
   },
   {
     "speciesId": 222,
-    "speciesName": "Corsola",
+    "speciesName": "Galarian Corsola",
     "moves": [
       {
         "moveId": 33,
@@ -25520,34 +25377,22 @@
         "level": 1
       },
       {
-        "moveId": 55,
-        "moveName": "Water Gun",
+        "moveId": 310,
+        "moveName": "Astonish",
         "source": "level-up",
         "level": 5
       },
       {
-        "moveId": 639,
-        "moveName": "Aqua Ring",
+        "moveId": 50,
+        "moveName": "Disable",
         "source": "level-up",
         "level": 10
       },
       {
-        "moveId": 287,
-        "moveName": "Refresh",
-        "source": "level-up",
-        "level": 13
-      },
-      {
-        "moveId": 131,
-        "moveName": "Spike Cannon",
+        "moveId": 180,
+        "moveName": "Spite",
         "source": "level-up",
         "level": 15
-      },
-      {
-        "moveId": 203,
-        "moveName": "Endure",
-        "source": "level-up",
-        "level": 17
       },
       {
         "moveId": 246,
@@ -25556,44 +25401,20 @@
         "level": 20
       },
       {
-        "moveId": 649,
-        "moveName": "Lucky Chant",
-        "source": "level-up",
-        "level": 23
-      },
-      {
-        "moveId": 61,
-        "moveName": "Bubble Beam",
+        "moveId": 436,
+        "moveName": "Hex",
         "source": "level-up",
         "level": 25
       },
       {
-        "moveId": 350,
-        "moveName": "Rock Blast",
-        "source": "level-up",
-        "level": 27
-      },
-      {
-        "moveId": 334,
-        "moveName": "Iron Defense",
-        "source": "level-up",
-        "level": 29
-      },
-      {
-        "moveId": 175,
-        "moveName": "Flail",
+        "moveId": 174,
+        "moveName": "Curse",
         "source": "level-up",
         "level": 30
       },
       {
-        "moveId": 460,
-        "moveName": "Brine",
-        "source": "level-up",
-        "level": 32
-      },
-      {
-        "moveId": 707,
-        "moveName": "Life Dew",
+        "moveId": 618,
+        "moveName": "Strength Sap",
         "source": "level-up",
         "level": 35
       },
@@ -25604,14 +25425,14 @@
         "level": 40
       },
       {
-        "moveId": 372,
-        "moveName": "Earth Power",
+        "moveId": 101,
+        "moveName": "Night Shade",
         "source": "level-up",
         "level": 45
       },
       {
-        "moveId": 105,
-        "moveName": "Recover",
+        "moveId": 288,
+        "moveName": "Grudge",
         "source": "level-up",
         "level": 50
       },
@@ -62984,7 +62805,7 @@
   },
   {
     "speciesId": 603,
-    "speciesName": "Basculin",
+    "speciesName": "Hisuian Basculin",
     "moves": [
       {
         "moveId": 39,
@@ -63065,8 +62886,8 @@
         "level": 40
       },
       {
-        "moveId": 358,
-        "moveName": "Aqua Tail",
+        "moveId": 749,
+        "moveName": "Wave Crash",
         "source": "level-up",
         "level": 44
       },
@@ -63087,6 +62908,12 @@
         "moveName": "Head Smash",
         "source": "level-up",
         "level": 56
+      },
+      {
+        "moveId": 358,
+        "moveName": "Aqua Tail",
+        "source": "level-up",
+        "level": 60
       }
     ],
     "source": {
@@ -63460,7 +63287,7 @@
   },
   {
     "speciesId": 607,
-    "speciesName": "Darumaka",
+    "speciesName": "Galarian Darumaka",
     "moves": [
       {
         "moveId": 33,
@@ -63469,32 +63296,26 @@
         "level": 1
       },
       {
-        "moveId": 52,
-        "moveName": "Ember",
+        "moveId": 181,
+        "moveName": "Powder Snow",
         "source": "level-up",
         "level": 1
-      },
-      {
-        "moveId": 205,
-        "moveName": "Rollout",
-        "source": "level-up",
-        "level": 3
       },
       {
         "moveId": 269,
         "moveName": "Taunt",
         "source": "level-up",
-        "level": 6
+        "level": 4
       },
       {
-        "moveId": 44,
-        "moveName": "Bite",
+        "moveId": 253,
+        "moveName": "Uproar",
         "source": "level-up",
         "level": 8
       },
       {
-        "moveId": 474,
-        "moveName": "Incinerate",
+        "moveId": 59,
+        "moveName": "Blizzard",
         "source": "level-up",
         "level": 12
       },
@@ -63502,35 +63323,29 @@
         "moveId": 414,
         "moveName": "Work Up",
         "source": "level-up",
-        "level": 16
+        "level": 17
       },
       {
-        "moveId": 431,
-        "moveName": "Fire Fang",
+        "moveId": 44,
+        "moveName": "Bite",
         "source": "level-up",
-        "level": 20
+        "level": 21
+      },
+      {
+        "moveId": 360,
+        "moveName": "Avalanche",
+        "source": "level-up",
+        "level": 26
       },
       {
         "moveId": 29,
         "moveName": "Headbutt",
         "source": "level-up",
-        "level": 24
+        "level": 31
       },
       {
-        "moveId": 263,
-        "moveName": "Facade",
-        "source": "level-up",
-        "level": 28
-      },
-      {
-        "moveId": 7,
-        "moveName": "Fire Punch",
-        "source": "level-up",
-        "level": 32
-      },
-      {
-        "moveId": 253,
-        "moveName": "Uproar",
+        "moveId": 432,
+        "moveName": "Ice Fang",
         "source": "level-up",
         "level": 36
       },
@@ -63538,25 +63353,25 @@
         "moveId": 187,
         "moveName": "Belly Drum",
         "source": "level-up",
-        "level": 40
+        "level": 41
       },
       {
-        "moveId": 434,
-        "moveName": "Flare Blitz",
+        "moveId": 8,
+        "moveName": "Ice Punch",
         "source": "level-up",
-        "level": 44
+        "level": 45
       },
       {
         "moveId": 37,
         "moveName": "Thrash",
         "source": "level-up",
-        "level": 48
+        "level": 50
       },
       {
         "moveId": 276,
         "moveName": "Superpower",
         "source": "level-up",
-        "level": 52
+        "level": 55
       }
     ],
     "source": {
@@ -63567,14 +63382,8 @@
   },
   {
     "speciesId": 608,
-    "speciesName": "Darmanitan",
+    "speciesName": "Galarian Darmanitan",
     "moves": [
-      {
-        "moveId": 379,
-        "moveName": "Hammer Arm",
-        "source": "level-up",
-        "level": 0
-      },
       {
         "moveId": 33,
         "moveName": "Tackle",
@@ -63582,14 +63391,14 @@
         "level": 1
       },
       {
-        "moveId": 44,
-        "moveName": "Bite",
+        "moveId": 181,
+        "moveName": "Powder Snow",
         "source": "level-up",
         "level": 1
       },
       {
-        "moveId": 52,
-        "moveName": "Ember",
+        "moveId": 413,
+        "moveName": "Icicle Crash",
         "source": "level-up",
         "level": 1
       },
@@ -63597,11 +63406,17 @@
         "moveId": 269,
         "moveName": "Taunt",
         "source": "level-up",
-        "level": 1
+        "level": 4
       },
       {
-        "moveId": 474,
-        "moveName": "Incinerate",
+        "moveId": 253,
+        "moveName": "Uproar",
+        "source": "level-up",
+        "level": 8
+      },
+      {
+        "moveId": 59,
+        "moveName": "Blizzard",
         "source": "level-up",
         "level": 12
       },
@@ -63609,55 +63424,43 @@
         "moveId": 414,
         "moveName": "Work Up",
         "source": "level-up",
-        "level": 16
+        "level": 17
       },
       {
-        "moveId": 431,
-        "moveName": "Fire Fang",
+        "moveId": 44,
+        "moveName": "Bite",
         "source": "level-up",
-        "level": 20
+        "level": 21
+      },
+      {
+        "moveId": 360,
+        "moveName": "Avalanche",
+        "source": "level-up",
+        "level": 26
       },
       {
         "moveId": 29,
         "moveName": "Headbutt",
         "source": "level-up",
-        "level": 24
+        "level": 31
       },
       {
-        "moveId": 263,
-        "moveName": "Facade",
+        "moveId": 432,
+        "moveName": "Ice Fang",
         "source": "level-up",
-        "level": 28
-      },
-      {
-        "moveId": 7,
-        "moveName": "Fire Punch",
-        "source": "level-up",
-        "level": 32
-      },
-      {
-        "moveId": 379,
-        "moveName": "Hammer Arm",
-        "source": "level-up",
-        "level": 34
-      },
-      {
-        "moveId": 253,
-        "moveName": "Uproar",
-        "source": "level-up",
-        "level": 38
+        "level": 36
       },
       {
         "moveId": 187,
         "moveName": "Belly Drum",
         "source": "level-up",
-        "level": 44
+        "level": 43
       },
       {
-        "moveId": 434,
-        "moveName": "Flare Blitz",
+        "moveId": 8,
+        "moveName": "Ice Punch",
         "source": "level-up",
-        "level": 50
+        "level": 49
       },
       {
         "moveId": 37,
@@ -63669,7 +63472,7 @@
         "moveId": 276,
         "moveName": "Superpower",
         "source": "level-up",
-        "level": 62
+        "level": 63
       }
     ],
     "source": {
@@ -76558,7 +76361,7 @@
   },
   {
     "speciesId": 777,
-    "speciesName": "Flab\\eb\\e",
+    "speciesName": "Flabebe",
     "moves": [
       {
         "moveId": 22,
@@ -90574,6 +90377,2220 @@
     }
   },
   {
+    "speciesId": 1020,
+    "speciesName": "Alolan Rattata",
+    "moves": [
+      {
+        "moveId": 33,
+        "moveName": "Tackle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 39,
+        "moveName": "Tail Whip",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 98,
+        "moveName": "Quick Attack",
+        "source": "level-up",
+        "level": 4
+      },
+      {
+        "moveId": 116,
+        "moveName": "Focus Energy",
+        "source": "level-up",
+        "level": 7
+      },
+      {
+        "moveId": 228,
+        "moveName": "Pursuit",
+        "source": "level-up",
+        "level": 10
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "level-up",
+        "level": 13
+      },
+      {
+        "moveId": 44,
+        "moveName": "Bite",
+        "source": "level-up",
+        "level": 16
+      },
+      {
+        "moveId": 485,
+        "moveName": "Assurance",
+        "source": "level-up",
+        "level": 19
+      },
+      {
+        "moveId": 158,
+        "moveName": "Hyper Fang",
+        "source": "level-up",
+        "level": 22
+      },
+      {
+        "moveId": 458,
+        "moveName": "Sucker Punch",
+        "source": "level-up",
+        "level": 25
+      },
+      {
+        "moveId": 242,
+        "moveName": "Crunch",
+        "source": "level-up",
+        "level": 28
+      },
+      {
+        "moveId": 162,
+        "moveName": "Super Fang",
+        "source": "level-up",
+        "level": 31
+      },
+      {
+        "moveId": 38,
+        "moveName": "Double-Edge",
+        "source": "level-up",
+        "level": 34
+      },
+      {
+        "moveId": 283,
+        "moveName": "Endeavor",
+        "source": "level-up",
+        "level": 37
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1021,
+    "speciesName": "Alolan Raticate",
+    "moves": [
+      {
+        "moveId": 184,
+        "moveName": "Scary Face",
+        "source": "level-up",
+        "level": 0
+      },
+      {
+        "moveId": 14,
+        "moveName": "Swords Dance",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 33,
+        "moveName": "Tackle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 39,
+        "moveName": "Tail Whip",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 98,
+        "moveName": "Quick Attack",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 116,
+        "moveName": "Focus Energy",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 228,
+        "moveName": "Pursuit",
+        "source": "level-up",
+        "level": 10
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "level-up",
+        "level": 13
+      },
+      {
+        "moveId": 44,
+        "moveName": "Bite",
+        "source": "level-up",
+        "level": 16
+      },
+      {
+        "moveId": 184,
+        "moveName": "Scary Face",
+        "source": "level-up",
+        "level": 19
+      },
+      {
+        "moveId": 485,
+        "moveName": "Assurance",
+        "source": "level-up",
+        "level": 19
+      },
+      {
+        "moveId": 158,
+        "moveName": "Hyper Fang",
+        "source": "level-up",
+        "level": 24
+      },
+      {
+        "moveId": 458,
+        "moveName": "Sucker Punch",
+        "source": "level-up",
+        "level": 29
+      },
+      {
+        "moveId": 242,
+        "moveName": "Crunch",
+        "source": "level-up",
+        "level": 34
+      },
+      {
+        "moveId": 162,
+        "moveName": "Super Fang",
+        "source": "level-up",
+        "level": 39
+      },
+      {
+        "moveId": 38,
+        "moveName": "Double-Edge",
+        "source": "level-up",
+        "level": 44
+      },
+      {
+        "moveId": 283,
+        "moveName": "Endeavor",
+        "source": "level-up",
+        "level": 49
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1022,
+    "speciesName": "Alolan Raichu",
+    "moves": [
+      {
+        "moveId": 94,
+        "moveName": "Psychic",
+        "source": "level-up",
+        "level": 0
+      },
+      {
+        "moveId": 21,
+        "moveName": "Slam",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 39,
+        "moveName": "Tail Whip",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 45,
+        "moveName": "Growl",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 84,
+        "moveName": "ThunderShock",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 85,
+        "moveName": "Thunderbolt",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 86,
+        "moveName": "Thunder Wave",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 94,
+        "moveName": "Psychic",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 98,
+        "moveName": "Quick Attack",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 104,
+        "moveName": "Double Team",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 113,
+        "moveName": "Light Screen",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 186,
+        "moveName": "Sweet Kiss",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 204,
+        "moveName": "Charm",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 209,
+        "moveName": "Spark",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 368,
+        "moveName": "Discharge",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 386,
+        "moveName": "Nasty Plot",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 423,
+        "moveName": "Wild Charge",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 488,
+        "moveName": "Feint",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 491,
+        "moveName": "Play Nice",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 497,
+        "moveName": "Nuzzle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 534,
+        "moveName": "Electro Ball",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 614,
+        "moveName": "Speed Swap",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 87,
+        "moveName": "Thunder",
+        "source": "level-up",
+        "level": 48
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1023,
+    "speciesName": "Alolan Sandshrew",
+    "moves": [
+      {
+        "moveId": 10,
+        "moveName": "Scratch",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 111,
+        "moveName": "Defense Curl",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 117,
+        "moveName": "Bide",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 54,
+        "moveName": "Mist",
+        "source": "level-up",
+        "level": 3
+      },
+      {
+        "moveId": 181,
+        "moveName": "Powder Snow",
+        "source": "level-up",
+        "level": 6
+      },
+      {
+        "moveId": 205,
+        "moveName": "Rollout",
+        "source": "level-up",
+        "level": 9
+      },
+      {
+        "moveId": 232,
+        "moveName": "Metal Claw",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 229,
+        "moveName": "Rapid Spin",
+        "source": "level-up",
+        "level": 15
+      },
+      {
+        "moveId": 301,
+        "moveName": "Ice Ball",
+        "source": "level-up",
+        "level": 18
+      },
+      {
+        "moveId": 154,
+        "moveName": "Fury Swipes",
+        "source": "level-up",
+        "level": 21
+      },
+      {
+        "moveId": 210,
+        "moveName": "Fury Cutter",
+        "source": "level-up",
+        "level": 24
+      },
+      {
+        "moveId": 129,
+        "moveName": "Swift",
+        "source": "level-up",
+        "level": 27
+      },
+      {
+        "moveId": 334,
+        "moveName": "Iron Defense",
+        "source": "level-up",
+        "level": 30
+      },
+      {
+        "moveId": 163,
+        "moveName": "Slash",
+        "source": "level-up",
+        "level": 33
+      },
+      {
+        "moveId": 382,
+        "moveName": "Iron Head",
+        "source": "level-up",
+        "level": 36
+      },
+      {
+        "moveId": 14,
+        "moveName": "Swords Dance",
+        "source": "level-up",
+        "level": 39
+      },
+      {
+        "moveId": 510,
+        "moveName": "Gyro Ball",
+        "source": "level-up",
+        "level": 42
+      },
+      {
+        "moveId": 258,
+        "moveName": "Hail",
+        "source": "level-up",
+        "level": 45
+      },
+      {
+        "moveId": 59,
+        "moveName": "Blizzard",
+        "source": "level-up",
+        "level": 48
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1024,
+    "speciesName": "Alolan Sandslash",
+    "moves": [
+      {
+        "moveId": 333,
+        "moveName": "Icicle Spear",
+        "source": "level-up",
+        "level": 0
+      },
+      {
+        "moveId": 10,
+        "moveName": "Scratch",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 54,
+        "moveName": "Mist",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 59,
+        "moveName": "Blizzard",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 111,
+        "moveName": "Defense Curl",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 117,
+        "moveName": "Bide",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 129,
+        "moveName": "Swift",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 154,
+        "moveName": "Fury Swipes",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 163,
+        "moveName": "Slash",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 181,
+        "moveName": "Powder Snow",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 205,
+        "moveName": "Rollout",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 210,
+        "moveName": "Fury Cutter",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 229,
+        "moveName": "Rapid Spin",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 232,
+        "moveName": "Metal Claw",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 301,
+        "moveName": "Ice Ball",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 333,
+        "moveName": "Icicle Spear",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 334,
+        "moveName": "Iron Defense",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 382,
+        "moveName": "Iron Head",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 521,
+        "moveName": "Metal Burst",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 14,
+        "moveName": "Swords Dance",
+        "source": "level-up",
+        "level": 39
+      },
+      {
+        "moveId": 510,
+        "moveName": "Gyro Ball",
+        "source": "level-up",
+        "level": 42
+      },
+      {
+        "moveId": 258,
+        "moveName": "Hail",
+        "source": "level-up",
+        "level": 45
+      },
+      {
+        "moveId": 413,
+        "moveName": "Icicle Crash",
+        "source": "level-up",
+        "level": 48
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1025,
+    "speciesName": "Alolan Vulpix",
+    "moves": [
+      {
+        "moveId": 39,
+        "moveName": "Tail Whip",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 181,
+        "moveName": "Powder Snow",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 50,
+        "moveName": "Disable",
+        "source": "level-up",
+        "level": 4
+      },
+      {
+        "moveId": 381,
+        "moveName": "Ice Shard",
+        "source": "level-up",
+        "level": 8
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "level-up",
+        "level": 11
+      },
+      {
+        "moveId": 196,
+        "moveName": "Icy Wind",
+        "source": "level-up",
+        "level": 14
+      },
+      {
+        "moveId": 109,
+        "moveName": "Confuse Ray",
+        "source": "level-up",
+        "level": 17
+      },
+      {
+        "moveId": 436,
+        "moveName": "Hex",
+        "source": "level-up",
+        "level": 20
+      },
+      {
+        "moveId": 54,
+        "moveName": "Mist",
+        "source": "level-up",
+        "level": 23
+      },
+      {
+        "moveId": 62,
+        "moveName": "Aurora Beam",
+        "source": "level-up",
+        "level": 26
+      },
+      {
+        "moveId": 326,
+        "moveName": "Extrasensory",
+        "source": "level-up",
+        "level": 30
+      },
+      {
+        "moveId": 286,
+        "moveName": "Imprison",
+        "source": "level-up",
+        "level": 34
+      },
+      {
+        "moveId": 58,
+        "moveName": "Ice Beam",
+        "source": "level-up",
+        "level": 38
+      },
+      {
+        "moveId": 219,
+        "moveName": "Safeguard",
+        "source": "level-up",
+        "level": 42
+      },
+      {
+        "moveId": 579,
+        "moveName": "Aurora Veil",
+        "source": "level-up",
+        "level": 46
+      },
+      {
+        "moveId": 59,
+        "moveName": "Blizzard",
+        "source": "level-up",
+        "level": 50
+      },
+      {
+        "moveId": 288,
+        "moveName": "Grudge",
+        "source": "level-up",
+        "level": 54
+      },
+      {
+        "moveId": 329,
+        "moveName": "Sheer Cold",
+        "source": "level-up",
+        "level": 58
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1026,
+    "speciesName": "Alolan Ninetales",
+    "moves": [
+      {
+        "moveId": 39,
+        "moveName": "Tail Whip",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 50,
+        "moveName": "Disable",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 54,
+        "moveName": "Mist",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 58,
+        "moveName": "Ice Beam",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 62,
+        "moveName": "Aurora Beam",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 109,
+        "moveName": "Confuse Ray",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 181,
+        "moveName": "Powder Snow",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 196,
+        "moveName": "Icy Wind",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 219,
+        "moveName": "Safeguard",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 286,
+        "moveName": "Imprison",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 288,
+        "moveName": "Grudge",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 326,
+        "moveName": "Extrasensory",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 381,
+        "moveName": "Ice Shard",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 386,
+        "moveName": "Nasty Plot",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 436,
+        "moveName": "Hex",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 579,
+        "moveName": "Aurora Veil",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 59,
+        "moveName": "Blizzard",
+        "source": "level-up",
+        "level": 50
+      },
+      {
+        "moveId": 329,
+        "moveName": "Sheer Cold",
+        "source": "level-up",
+        "level": 58
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1027,
+    "speciesName": "Alolan Diglett",
+    "moves": [
+      {
+        "moveId": 28,
+        "moveName": "Sand Attack",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 189,
+        "moveName": "Mud-Slap",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 232,
+        "moveName": "Metal Claw",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 45,
+        "moveName": "Growl",
+        "source": "level-up",
+        "level": 5
+      },
+      {
+        "moveId": 310,
+        "moveName": "Astonish",
+        "source": "level-up",
+        "level": 8
+      },
+      {
+        "moveId": 385,
+        "moveName": "Mud Bomb",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 458,
+        "moveName": "Sucker Punch",
+        "source": "level-up",
+        "level": 15
+      },
+      {
+        "moveId": 222,
+        "moveName": "Magnitude",
+        "source": "level-up",
+        "level": 18
+      },
+      {
+        "moveId": 201,
+        "moveName": "Sandstorm",
+        "source": "level-up",
+        "level": 21
+      },
+      {
+        "moveId": 372,
+        "moveName": "Earth Power",
+        "source": "level-up",
+        "level": 24
+      },
+      {
+        "moveId": 404,
+        "moveName": "Bulldoze",
+        "source": "level-up",
+        "level": 28
+      },
+      {
+        "moveId": 91,
+        "moveName": "Dig",
+        "source": "level-up",
+        "level": 32
+      },
+      {
+        "moveId": 382,
+        "moveName": "Iron Head",
+        "source": "level-up",
+        "level": 36
+      },
+      {
+        "moveId": 89,
+        "moveName": "Earthquake",
+        "source": "level-up",
+        "level": 40
+      },
+      {
+        "moveId": 90,
+        "moveName": "Fissure",
+        "source": "level-up",
+        "level": 44
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1028,
+    "speciesName": "Alolan Dugtrio",
+    "moves": [
+      {
+        "moveId": 328,
+        "moveName": "Sand Tomb",
+        "source": "level-up",
+        "level": 0
+      },
+      {
+        "moveId": 28,
+        "moveName": "Sand Attack",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 45,
+        "moveName": "Growl",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 161,
+        "moveName": "Tri Attack",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 189,
+        "moveName": "Mud-Slap",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 232,
+        "moveName": "Metal Claw",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 310,
+        "moveName": "Astonish",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 387,
+        "moveName": "Night Slash",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 479,
+        "moveName": "Rototiller",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 385,
+        "moveName": "Mud Bomb",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 458,
+        "moveName": "Sucker Punch",
+        "source": "level-up",
+        "level": 15
+      },
+      {
+        "moveId": 222,
+        "moveName": "Magnitude",
+        "source": "level-up",
+        "level": 18
+      },
+      {
+        "moveId": 201,
+        "moveName": "Sandstorm",
+        "source": "level-up",
+        "level": 21
+      },
+      {
+        "moveId": 372,
+        "moveName": "Earth Power",
+        "source": "level-up",
+        "level": 24
+      },
+      {
+        "moveId": 328,
+        "moveName": "Sand Tomb",
+        "source": "level-up",
+        "level": 25
+      },
+      {
+        "moveId": 404,
+        "moveName": "Bulldoze",
+        "source": "level-up",
+        "level": 30
+      },
+      {
+        "moveId": 91,
+        "moveName": "Dig",
+        "source": "level-up",
+        "level": 36
+      },
+      {
+        "moveId": 382,
+        "moveName": "Iron Head",
+        "source": "level-up",
+        "level": 42
+      },
+      {
+        "moveId": 89,
+        "moveName": "Earthquake",
+        "source": "level-up",
+        "level": 48
+      },
+      {
+        "moveId": 90,
+        "moveName": "Fissure",
+        "source": "level-up",
+        "level": 54
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1029,
+    "speciesName": "Alolan Meowth",
+    "moves": [
+      {
+        "moveId": 45,
+        "moveName": "Growl",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 252,
+        "moveName": "Fake Out",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 488,
+        "moveName": "Feint",
+        "source": "level-up",
+        "level": 4
+      },
+      {
+        "moveId": 10,
+        "moveName": "Scratch",
+        "source": "level-up",
+        "level": 8
+      },
+      {
+        "moveId": 6,
+        "moveName": "Pay Day",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 44,
+        "moveName": "Bite",
+        "source": "level-up",
+        "level": 16
+      },
+      {
+        "moveId": 154,
+        "moveName": "Fury Swipes",
+        "source": "level-up",
+        "level": 20
+      },
+      {
+        "moveId": 269,
+        "moveName": "Taunt",
+        "source": "level-up",
+        "level": 24
+      },
+      {
+        "moveId": 185,
+        "moveName": "Feint Attack",
+        "source": "level-up",
+        "level": 29
+      },
+      {
+        "moveId": 163,
+        "moveName": "Slash",
+        "source": "level-up",
+        "level": 32
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "level-up",
+        "level": 36
+      },
+      {
+        "moveId": 387,
+        "moveName": "Night Slash",
+        "source": "level-up",
+        "level": 40
+      },
+      {
+        "moveId": 386,
+        "moveName": "Nasty Plot",
+        "source": "level-up",
+        "level": 44
+      },
+      {
+        "moveId": 463,
+        "moveName": "Play Rough",
+        "source": "level-up",
+        "level": 48
+      },
+      {
+        "moveId": 367,
+        "moveName": "Dark Pulse",
+        "source": "level-up",
+        "level": 52
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1030,
+    "speciesName": "Alolan Persian",
+    "moves": [
+      {
+        "moveId": 389,
+        "moveName": "Power Gem",
+        "source": "level-up",
+        "level": 0
+      },
+      {
+        "moveId": 10,
+        "moveName": "Scratch",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 45,
+        "moveName": "Growl",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 252,
+        "moveName": "Fake Out",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 402,
+        "moveName": "Switcheroo",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 488,
+        "moveName": "Feint",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 671,
+        "moveName": "Quash",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 6,
+        "moveName": "Pay Day",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 44,
+        "moveName": "Bite",
+        "source": "level-up",
+        "level": 16
+      },
+      {
+        "moveId": 154,
+        "moveName": "Fury Swipes",
+        "source": "level-up",
+        "level": 20
+      },
+      {
+        "moveId": 269,
+        "moveName": "Taunt",
+        "source": "level-up",
+        "level": 24
+      },
+      {
+        "moveId": 389,
+        "moveName": "Power Gem",
+        "source": "level-up",
+        "level": 27
+      },
+      {
+        "moveId": 185,
+        "moveName": "Feint Attack",
+        "source": "level-up",
+        "level": 30
+      },
+      {
+        "moveId": 163,
+        "moveName": "Slash",
+        "source": "level-up",
+        "level": 36
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "level-up",
+        "level": 42
+      },
+      {
+        "moveId": 387,
+        "moveName": "Night Slash",
+        "source": "level-up",
+        "level": 47
+      },
+      {
+        "moveId": 129,
+        "moveName": "Swift",
+        "source": "level-up",
+        "level": 52
+      },
+      {
+        "moveId": 386,
+        "moveName": "Nasty Plot",
+        "source": "level-up",
+        "level": 58
+      },
+      {
+        "moveId": 463,
+        "moveName": "Play Rough",
+        "source": "level-up",
+        "level": 64
+      },
+      {
+        "moveId": 367,
+        "moveName": "Dark Pulse",
+        "source": "level-up",
+        "level": 70
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1031,
+    "speciesName": "Alolan Geodude",
+    "moves": [
+      {
+        "moveId": 33,
+        "moveName": "Tackle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 111,
+        "moveName": "Defense Curl",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 268,
+        "moveName": "Charge",
+        "source": "level-up",
+        "level": 4
+      },
+      {
+        "moveId": 205,
+        "moveName": "Rollout",
+        "source": "level-up",
+        "level": 6
+      },
+      {
+        "moveId": 88,
+        "moveName": "Rock Throw",
+        "source": "level-up",
+        "level": 9
+      },
+      {
+        "moveId": 209,
+        "moveName": "Spark",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 508,
+        "moveName": "Smack Down",
+        "source": "level-up",
+        "level": 16
+      },
+      {
+        "moveId": 9,
+        "moveName": "ThunderPunch",
+        "source": "level-up",
+        "level": 20
+      },
+      {
+        "moveId": 120,
+        "moveName": "Selfdestruct",
+        "source": "level-up",
+        "level": 24
+      },
+      {
+        "moveId": 393,
+        "moveName": "Rock Polish",
+        "source": "level-up",
+        "level": 28
+      },
+      {
+        "moveId": 350,
+        "moveName": "Rock Blast",
+        "source": "level-up",
+        "level": 32
+      },
+      {
+        "moveId": 468,
+        "moveName": "Stealth Rock",
+        "source": "level-up",
+        "level": 36
+      },
+      {
+        "moveId": 157,
+        "moveName": "Rock Slide",
+        "source": "level-up",
+        "level": 40
+      },
+      {
+        "moveId": 368,
+        "moveName": "Discharge",
+        "source": "level-up",
+        "level": 44
+      },
+      {
+        "moveId": 38,
+        "moveName": "Double-Edge",
+        "source": "level-up",
+        "level": 48
+      },
+      {
+        "moveId": 429,
+        "moveName": "Stone Edge",
+        "source": "level-up",
+        "level": 52
+      },
+      {
+        "moveId": 153,
+        "moveName": "Explosion",
+        "source": "level-up",
+        "level": 56
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1032,
+    "speciesName": "Alolan Graveler",
+    "moves": [
+      {
+        "moveId": 33,
+        "moveName": "Tackle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 88,
+        "moveName": "Rock Throw",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 111,
+        "moveName": "Defense Curl",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 205,
+        "moveName": "Rollout",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 268,
+        "moveName": "Charge",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 209,
+        "moveName": "Spark",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 508,
+        "moveName": "Smack Down",
+        "source": "level-up",
+        "level": 16
+      },
+      {
+        "moveId": 9,
+        "moveName": "ThunderPunch",
+        "source": "level-up",
+        "level": 20
+      },
+      {
+        "moveId": 120,
+        "moveName": "Selfdestruct",
+        "source": "level-up",
+        "level": 24
+      },
+      {
+        "moveId": 393,
+        "moveName": "Rock Polish",
+        "source": "level-up",
+        "level": 30
+      },
+      {
+        "moveId": 350,
+        "moveName": "Rock Blast",
+        "source": "level-up",
+        "level": 34
+      },
+      {
+        "moveId": 468,
+        "moveName": "Stealth Rock",
+        "source": "level-up",
+        "level": 39
+      },
+      {
+        "moveId": 157,
+        "moveName": "Rock Slide",
+        "source": "level-up",
+        "level": 44
+      },
+      {
+        "moveId": 368,
+        "moveName": "Discharge",
+        "source": "level-up",
+        "level": 48
+      },
+      {
+        "moveId": 38,
+        "moveName": "Double-Edge",
+        "source": "level-up",
+        "level": 53
+      },
+      {
+        "moveId": 429,
+        "moveName": "Stone Edge",
+        "source": "level-up",
+        "level": 58
+      },
+      {
+        "moveId": 153,
+        "moveName": "Explosion",
+        "source": "level-up",
+        "level": 63
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1033,
+    "speciesName": "Alolan Golem",
+    "moves": [
+      {
+        "moveId": 420,
+        "moveName": "Steamroller",
+        "source": "level-up",
+        "level": 0
+      },
+      {
+        "moveId": 33,
+        "moveName": "Tackle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 88,
+        "moveName": "Rock Throw",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 111,
+        "moveName": "Defense Curl",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 205,
+        "moveName": "Rollout",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 268,
+        "moveName": "Charge",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 209,
+        "moveName": "Spark",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 508,
+        "moveName": "Smack Down",
+        "source": "level-up",
+        "level": 16
+      },
+      {
+        "moveId": 9,
+        "moveName": "ThunderPunch",
+        "source": "level-up",
+        "level": 20
+      },
+      {
+        "moveId": 120,
+        "moveName": "Selfdestruct",
+        "source": "level-up",
+        "level": 24
+      },
+      {
+        "moveId": 393,
+        "moveName": "Rock Polish",
+        "source": "level-up",
+        "level": 30
+      },
+      {
+        "moveId": 350,
+        "moveName": "Rock Blast",
+        "source": "level-up",
+        "level": 34
+      },
+      {
+        "moveId": 468,
+        "moveName": "Stealth Rock",
+        "source": "level-up",
+        "level": 39
+      },
+      {
+        "moveId": 157,
+        "moveName": "Rock Slide",
+        "source": "level-up",
+        "level": 44
+      },
+      {
+        "moveId": 368,
+        "moveName": "Discharge",
+        "source": "level-up",
+        "level": 48
+      },
+      {
+        "moveId": 38,
+        "moveName": "Double-Edge",
+        "source": "level-up",
+        "level": 53
+      },
+      {
+        "moveId": 429,
+        "moveName": "Stone Edge",
+        "source": "level-up",
+        "level": 58
+      },
+      {
+        "moveId": 153,
+        "moveName": "Explosion",
+        "source": "level-up",
+        "level": 63
+      },
+      {
+        "moveId": 532,
+        "moveName": "Heavy Slam",
+        "source": "level-up",
+        "level": 68
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1034,
+    "speciesName": "Alolan Grimer",
+    "moves": [
+      {
+        "moveId": 1,
+        "moveName": "Pound",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 139,
+        "moveName": "Poison Gas",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 106,
+        "moveName": "Harden",
+        "source": "level-up",
+        "level": 4
+      },
+      {
+        "moveId": 44,
+        "moveName": "Bite",
+        "source": "level-up",
+        "level": 7
+      },
+      {
+        "moveId": 50,
+        "moveName": "Disable",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 425,
+        "moveName": "Acid Spray",
+        "source": "level-up",
+        "level": 15
+      },
+      {
+        "moveId": 107,
+        "moveName": "Minimize",
+        "source": "level-up",
+        "level": 18
+      },
+      {
+        "moveId": 305,
+        "moveName": "Poison Fang",
+        "source": "level-up",
+        "level": 21
+      },
+      {
+        "moveId": 282,
+        "moveName": "Knock Off",
+        "source": "level-up",
+        "level": 26
+      },
+      {
+        "moveId": 643,
+        "moveName": "Fling",
+        "source": "level-up",
+        "level": 29
+      },
+      {
+        "moveId": 242,
+        "moveName": "Crunch",
+        "source": "level-up",
+        "level": 32
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "level-up",
+        "level": 37
+      },
+      {
+        "moveId": 378,
+        "moveName": "Gunk Shot",
+        "source": "level-up",
+        "level": 40
+      },
+      {
+        "moveId": 151,
+        "moveName": "Acid Armor",
+        "source": "level-up",
+        "level": 43
+      },
+      {
+        "moveId": 641,
+        "moveName": "Belch",
+        "source": "level-up",
+        "level": 46
+      },
+      {
+        "moveId": 262,
+        "moveName": "Memento",
+        "source": "level-up",
+        "level": 48
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1035,
+    "speciesName": "Alolan Muk",
+    "moves": [
+      {
+        "moveId": 659,
+        "moveName": "Venom Drench",
+        "source": "level-up",
+        "level": 0
+      },
+      {
+        "moveId": 1,
+        "moveName": "Pound",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 44,
+        "moveName": "Bite",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 106,
+        "moveName": "Harden",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 139,
+        "moveName": "Poison Gas",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 464,
+        "moveName": "Moonblast",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 50,
+        "moveName": "Disable",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 425,
+        "moveName": "Acid Spray",
+        "source": "level-up",
+        "level": 15
+      },
+      {
+        "moveId": 107,
+        "moveName": "Minimize",
+        "source": "level-up",
+        "level": 18
+      },
+      {
+        "moveId": 305,
+        "moveName": "Poison Fang",
+        "source": "level-up",
+        "level": 21
+      },
+      {
+        "moveId": 282,
+        "moveName": "Knock Off",
+        "source": "level-up",
+        "level": 26
+      },
+      {
+        "moveId": 643,
+        "moveName": "Fling",
+        "source": "level-up",
+        "level": 29
+      },
+      {
+        "moveId": 242,
+        "moveName": "Crunch",
+        "source": "level-up",
+        "level": 32
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "level-up",
+        "level": 37
+      },
+      {
+        "moveId": 659,
+        "moveName": "Venom Drench",
+        "source": "level-up",
+        "level": 37
+      },
+      {
+        "moveId": 378,
+        "moveName": "Gunk Shot",
+        "source": "level-up",
+        "level": 40
+      },
+      {
+        "moveId": 151,
+        "moveName": "Acid Armor",
+        "source": "level-up",
+        "level": 46
+      },
+      {
+        "moveId": 641,
+        "moveName": "Belch",
+        "source": "level-up",
+        "level": 52
+      },
+      {
+        "moveId": 262,
+        "moveName": "Memento",
+        "source": "level-up",
+        "level": 57
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1037,
+    "speciesName": "Alolan Exeggutor",
+    "moves": [
+      {
+        "moveId": 71,
+        "moveName": "Absorb",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 72,
+        "moveName": "Mega Drain",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 73,
+        "moveName": "Leech Seed",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 76,
+        "moveName": "Solar Beam",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 93,
+        "moveName": "Confusion",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 95,
+        "moveName": "Hypnosis",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 115,
+        "moveName": "Reflect",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 121,
+        "moveName": "Egg Bomb",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 140,
+        "moveName": "Barrage",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 202,
+        "moveName": "Giga Drain",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 235,
+        "moveName": "Synthesis",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 253,
+        "moveName": "Uproar",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 326,
+        "moveName": "Extrasensory",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 331,
+        "moveName": "Bullet Seed",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 390,
+        "moveName": "Power Whip",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 396,
+        "moveName": "Seed Bomb",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 428,
+        "moveName": "Leaf Storm",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 475,
+        "moveName": "Worry Seed",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 502,
+        "moveName": "Psyshock",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 447,
+        "moveName": "Wood Hammer",
+        "source": "level-up",
+        "level": 54
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1039,
+    "speciesName": "Alolan Marowak",
+    "moves": [
+      {
+        "moveId": 607,
+        "moveName": "Shadow Bone",
+        "source": "level-up",
+        "level": 0
+      },
+      {
+        "moveId": 29,
+        "moveName": "Headbutt",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 38,
+        "moveName": "Double-Edge",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 39,
+        "moveName": "Tail Whip",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 45,
+        "moveName": "Growl",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 83,
+        "moveName": "Fire Spin",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 99,
+        "moveName": "Rage",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 116,
+        "moveName": "Focus Energy",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 125,
+        "moveName": "Bone Club",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 189,
+        "moveName": "Mud-Slap",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 206,
+        "moveName": "False Swipe",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 498,
+        "moveName": "Retaliate",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 43,
+        "moveName": "Leer",
+        "source": "level-up",
+        "level": 10
+      },
+      {
+        "moveId": 172,
+        "moveName": "Flame Wheel",
+        "source": "level-up",
+        "level": 13
+      },
+      {
+        "moveId": 436,
+        "moveName": "Hex",
+        "source": "level-up",
+        "level": 16
+      },
+      {
+        "moveId": 643,
+        "moveName": "Fling",
+        "source": "level-up",
+        "level": 19
+      },
+      {
+        "moveId": 261,
+        "moveName": "Will-O-Wisp",
+        "source": "level-up",
+        "level": 22
+      },
+      {
+        "moveId": 607,
+        "moveName": "Shadow Bone",
+        "source": "level-up",
+        "level": 27
+      },
+      {
+        "moveId": 7,
+        "moveName": "Fire Punch",
+        "source": "level-up",
+        "level": 31
+      },
+      {
+        "moveId": 198,
+        "moveName": "Bone Rush",
+        "source": "level-up",
+        "level": 36
+      },
+      {
+        "moveId": 283,
+        "moveName": "Endeavor",
+        "source": "level-up",
+        "level": 42
+      },
+      {
+        "moveId": 155,
+        "moveName": "Bonemerang",
+        "source": "level-up",
+        "level": 48
+      },
+      {
+        "moveId": 37,
+        "moveName": "Thrash",
+        "source": "level-up",
+        "level": 54
+      },
+      {
+        "moveId": 434,
+        "moveName": "Flare Blitz",
+        "source": "level-up",
+        "level": 60
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
     "speciesId": 1074,
     "speciesName": "Poipole",
     "moves": [
@@ -95547,7 +97564,7 @@
   },
   {
     "speciesId": 1157,
-    "speciesName": "Sirfetch'd",
+    "speciesName": "Sirfetch\u2019d",
     "moves": [
       {
         "moveId": 334,
@@ -98619,6 +100636,3899 @@
         "moveName": "Future Sight",
         "source": "level-up",
         "level": 88
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1212,
+    "speciesName": "Galarian Meowth",
+    "moves": [
+      {
+        "moveId": 45,
+        "moveName": "Growl",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 252,
+        "moveName": "Fake Out",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 409,
+        "moveName": "Hone Claws",
+        "source": "level-up",
+        "level": 4
+      },
+      {
+        "moveId": 10,
+        "moveName": "Scratch",
+        "source": "level-up",
+        "level": 8
+      },
+      {
+        "moveId": 6,
+        "moveName": "Pay Day",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 232,
+        "moveName": "Metal Claw",
+        "source": "level-up",
+        "level": 16
+      },
+      {
+        "moveId": 154,
+        "moveName": "Fury Swipes",
+        "source": "level-up",
+        "level": 20
+      },
+      {
+        "moveId": 185,
+        "moveName": "Feint Attack",
+        "source": "level-up",
+        "level": 24
+      },
+      {
+        "moveId": 269,
+        "moveName": "Taunt",
+        "source": "level-up",
+        "level": 29
+      },
+      {
+        "moveId": 163,
+        "moveName": "Slash",
+        "source": "level-up",
+        "level": 32
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "level-up",
+        "level": 36
+      },
+      {
+        "moveId": 207,
+        "moveName": "Swagger",
+        "source": "level-up",
+        "level": 40
+      },
+      {
+        "moveId": 319,
+        "moveName": "Metal Sound",
+        "source": "level-up",
+        "level": 44
+      },
+      {
+        "moveId": 37,
+        "moveName": "Thrash",
+        "source": "level-up",
+        "level": 48
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1213,
+    "speciesName": "Galarian Ponyta",
+    "moves": [
+      {
+        "moveId": 33,
+        "moveName": "Tackle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 45,
+        "moveName": "Growl",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 39,
+        "moveName": "Tail Whip",
+        "source": "level-up",
+        "level": 5
+      },
+      {
+        "moveId": 93,
+        "moveName": "Confusion",
+        "source": "level-up",
+        "level": 8
+      },
+      {
+        "moveId": 98,
+        "moveName": "Quick Attack",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 461,
+        "moveName": "Fairy Wind",
+        "source": "level-up",
+        "level": 16
+      },
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "level-up",
+        "level": 20
+      },
+      {
+        "moveId": 60,
+        "moveName": "Psybeam",
+        "source": "level-up",
+        "level": 24
+      },
+      {
+        "moveId": 23,
+        "moveName": "Stomp",
+        "source": "level-up",
+        "level": 28
+      },
+      {
+        "moveId": 448,
+        "moveName": "Heal Pulse",
+        "source": "level-up",
+        "level": 32
+      },
+      {
+        "moveId": 36,
+        "moveName": "Take Down",
+        "source": "level-up",
+        "level": 37
+      },
+      {
+        "moveId": 463,
+        "moveName": "Play Rough",
+        "source": "level-up",
+        "level": 42
+      },
+      {
+        "moveId": 401,
+        "moveName": "Zen Headbutt",
+        "source": "level-up",
+        "level": 47
+      },
+      {
+        "moveId": 340,
+        "moveName": "Bounce",
+        "source": "level-up",
+        "level": 52
+      },
+      {
+        "moveId": 592,
+        "moveName": "HiHorsepower",
+        "source": "level-up",
+        "level": 57
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1214,
+    "speciesName": "Galarian Rapidash",
+    "moves": [
+      {
+        "moveId": 391,
+        "moveName": "Psycho Cut",
+        "source": "level-up",
+        "level": 0
+      },
+      {
+        "moveId": 33,
+        "moveName": "Tackle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 39,
+        "moveName": "Tail Whip",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 45,
+        "moveName": "Growl",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 93,
+        "moveName": "Confusion",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 98,
+        "moveName": "Quick Attack",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 224,
+        "moveName": "Megahorn",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 744,
+        "moveName": "PsyshieldRam",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 461,
+        "moveName": "Fairy Wind",
+        "source": "level-up",
+        "level": 16
+      },
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "level-up",
+        "level": 20
+      },
+      {
+        "moveId": 60,
+        "moveName": "Psybeam",
+        "source": "level-up",
+        "level": 24
+      },
+      {
+        "moveId": 23,
+        "moveName": "Stomp",
+        "source": "level-up",
+        "level": 28
+      },
+      {
+        "moveId": 448,
+        "moveName": "Heal Pulse",
+        "source": "level-up",
+        "level": 32
+      },
+      {
+        "moveId": 36,
+        "moveName": "Take Down",
+        "source": "level-up",
+        "level": 37
+      },
+      {
+        "moveId": 391,
+        "moveName": "Psycho Cut",
+        "source": "level-up",
+        "level": 39
+      },
+      {
+        "moveId": 610,
+        "moveName": "Smart Strike",
+        "source": "level-up",
+        "level": 39
+      },
+      {
+        "moveId": 463,
+        "moveName": "Play Rough",
+        "source": "level-up",
+        "level": 47
+      },
+      {
+        "moveId": 401,
+        "moveName": "Zen Headbutt",
+        "source": "level-up",
+        "level": 53
+      },
+      {
+        "moveId": 340,
+        "moveName": "Bounce",
+        "source": "level-up",
+        "level": 59
+      },
+      {
+        "moveId": 592,
+        "moveName": "HiHorsepower",
+        "source": "level-up",
+        "level": 65
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1215,
+    "speciesName": "Galarian Slowpoke",
+    "moves": [
+      {
+        "moveId": 33,
+        "moveName": "Tackle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 174,
+        "moveName": "Curse",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 45,
+        "moveName": "Growl",
+        "source": "level-up",
+        "level": 3
+      },
+      {
+        "moveId": 51,
+        "moveName": "Acid",
+        "source": "level-up",
+        "level": 6
+      },
+      {
+        "moveId": 281,
+        "moveName": "Yawn",
+        "source": "level-up",
+        "level": 9
+      },
+      {
+        "moveId": 93,
+        "moveName": "Confusion",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 50,
+        "moveName": "Disable",
+        "source": "level-up",
+        "level": 15
+      },
+      {
+        "moveId": 352,
+        "moveName": "Water Pulse",
+        "source": "level-up",
+        "level": 18
+      },
+      {
+        "moveId": 29,
+        "moveName": "Headbutt",
+        "source": "level-up",
+        "level": 21
+      },
+      {
+        "moveId": 401,
+        "moveName": "Zen Headbutt",
+        "source": "level-up",
+        "level": 24
+      },
+      {
+        "moveId": 133,
+        "moveName": "Amnesia",
+        "source": "level-up",
+        "level": 27
+      },
+      {
+        "moveId": 57,
+        "moveName": "Surf",
+        "source": "level-up",
+        "level": 30
+      },
+      {
+        "moveId": 303,
+        "moveName": "Slack Off",
+        "source": "level-up",
+        "level": 33
+      },
+      {
+        "moveId": 94,
+        "moveName": "Psychic",
+        "source": "level-up",
+        "level": 36
+      },
+      {
+        "moveId": 244,
+        "moveName": "Psych Up",
+        "source": "level-up",
+        "level": 39
+      },
+      {
+        "moveId": 240,
+        "moveName": "Rain Dance",
+        "source": "level-up",
+        "level": 42
+      },
+      {
+        "moveId": 448,
+        "moveName": "Heal Pulse",
+        "source": "level-up",
+        "level": 45
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1216,
+    "speciesName": "Galarian Slowbro",
+    "moves": [
+      {
+        "moveId": 717,
+        "moveName": "ShellSideArm",
+        "source": "level-up",
+        "level": 0
+      },
+      {
+        "moveId": 33,
+        "moveName": "Tackle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 110,
+        "moveName": "Withdraw",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 174,
+        "moveName": "Curse",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 45,
+        "moveName": "Growl",
+        "source": "level-up",
+        "level": 3
+      },
+      {
+        "moveId": 51,
+        "moveName": "Acid",
+        "source": "level-up",
+        "level": 6
+      },
+      {
+        "moveId": 281,
+        "moveName": "Yawn",
+        "source": "level-up",
+        "level": 9
+      },
+      {
+        "moveId": 93,
+        "moveName": "Confusion",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 50,
+        "moveName": "Disable",
+        "source": "level-up",
+        "level": 15
+      },
+      {
+        "moveId": 352,
+        "moveName": "Water Pulse",
+        "source": "level-up",
+        "level": 18
+      },
+      {
+        "moveId": 29,
+        "moveName": "Headbutt",
+        "source": "level-up",
+        "level": 21
+      },
+      {
+        "moveId": 401,
+        "moveName": "Zen Headbutt",
+        "source": "level-up",
+        "level": 24
+      },
+      {
+        "moveId": 133,
+        "moveName": "Amnesia",
+        "source": "level-up",
+        "level": 27
+      },
+      {
+        "moveId": 57,
+        "moveName": "Surf",
+        "source": "level-up",
+        "level": 30
+      },
+      {
+        "moveId": 303,
+        "moveName": "Slack Off",
+        "source": "level-up",
+        "level": 33
+      },
+      {
+        "moveId": 94,
+        "moveName": "Psychic",
+        "source": "level-up",
+        "level": 36
+      },
+      {
+        "moveId": 244,
+        "moveName": "Psych Up",
+        "source": "level-up",
+        "level": 39
+      },
+      {
+        "moveId": 240,
+        "moveName": "Rain Dance",
+        "source": "level-up",
+        "level": 42
+      },
+      {
+        "moveId": 448,
+        "moveName": "Heal Pulse",
+        "source": "level-up",
+        "level": 45
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1218,
+    "speciesName": "Koffing",
+    "moves": [
+      {
+        "moveId": 33,
+        "moveName": "Tackle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 139,
+        "moveName": "Poison Gas",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 123,
+        "moveName": "Smog",
+        "source": "level-up",
+        "level": 4
+      },
+      {
+        "moveId": 108,
+        "moveName": "Smokescreen",
+        "source": "level-up",
+        "level": 8
+      },
+      {
+        "moveId": 427,
+        "moveName": "Clear Smog",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 485,
+        "moveName": "Assurance",
+        "source": "level-up",
+        "level": 16
+      },
+      {
+        "moveId": 124,
+        "moveName": "Sludge",
+        "source": "level-up",
+        "level": 20
+      },
+      {
+        "moveId": 114,
+        "moveName": "Haze",
+        "source": "level-up",
+        "level": 23
+      },
+      {
+        "moveId": 510,
+        "moveName": "Gyro Ball",
+        "source": "level-up",
+        "level": 26
+      },
+      {
+        "moveId": 120,
+        "moveName": "Selfdestruct",
+        "source": "level-up",
+        "level": 28
+      },
+      {
+        "moveId": 188,
+        "moveName": "Sludge Bomb",
+        "source": "level-up",
+        "level": 32
+      },
+      {
+        "moveId": 92,
+        "moveName": "Toxic",
+        "source": "level-up",
+        "level": 36
+      },
+      {
+        "moveId": 641,
+        "moveName": "Belch",
+        "source": "level-up",
+        "level": 40
+      },
+      {
+        "moveId": 153,
+        "moveName": "Explosion",
+        "source": "level-up",
+        "level": 44
+      },
+      {
+        "moveId": 262,
+        "moveName": "Memento",
+        "source": "level-up",
+        "level": 48
+      },
+      {
+        "moveId": 194,
+        "moveName": "Destiny Bond",
+        "source": "level-up",
+        "level": 52
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1219,
+    "speciesName": "Galarian Weezing",
+    "moves": [
+      {
+        "moveId": 438,
+        "moveName": "Double Hit",
+        "source": "level-up",
+        "level": 0
+      },
+      {
+        "moveId": 706,
+        "moveName": "Weird Steam",
+        "source": "level-up",
+        "level": 0
+      },
+      {
+        "moveId": 33,
+        "moveName": "Tackle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 114,
+        "moveName": "Haze",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 139,
+        "moveName": "Poison Gas",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 257,
+        "moveName": "Heat Wave",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 461,
+        "moveName": "Fairy Wind",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 516,
+        "moveName": "Defog",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 123,
+        "moveName": "Smog",
+        "source": "level-up",
+        "level": 4
+      },
+      {
+        "moveId": 108,
+        "moveName": "Smokescreen",
+        "source": "level-up",
+        "level": 8
+      },
+      {
+        "moveId": 427,
+        "moveName": "Clear Smog",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 485,
+        "moveName": "Assurance",
+        "source": "level-up",
+        "level": 16
+      },
+      {
+        "moveId": 124,
+        "moveName": "Sludge",
+        "source": "level-up",
+        "level": 20
+      },
+      {
+        "moveId": 312,
+        "moveName": "Aromatherapy",
+        "source": "level-up",
+        "level": 24
+      },
+      {
+        "moveId": 120,
+        "moveName": "Selfdestruct",
+        "source": "level-up",
+        "level": 28
+      },
+      {
+        "moveId": 188,
+        "moveName": "Sludge Bomb",
+        "source": "level-up",
+        "level": 32
+      },
+      {
+        "moveId": 438,
+        "moveName": "Double Hit",
+        "source": "level-up",
+        "level": 34
+      },
+      {
+        "moveId": 706,
+        "moveName": "Weird Steam",
+        "source": "level-up",
+        "level": 34
+      },
+      {
+        "moveId": 92,
+        "moveName": "Toxic",
+        "source": "level-up",
+        "level": 38
+      },
+      {
+        "moveId": 641,
+        "moveName": "Belch",
+        "source": "level-up",
+        "level": 44
+      },
+      {
+        "moveId": 153,
+        "moveName": "Explosion",
+        "source": "level-up",
+        "level": 50
+      },
+      {
+        "moveId": 262,
+        "moveName": "Memento",
+        "source": "level-up",
+        "level": 56
+      },
+      {
+        "moveId": 194,
+        "moveName": "Destiny Bond",
+        "source": "level-up",
+        "level": 62
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1220,
+    "speciesName": "Galarian Mr. Mime",
+    "moves": [
+      {
+        "moveId": 112,
+        "moveName": "Barrier",
+        "source": "level-up",
+        "level": 0
+      },
+      {
+        "moveId": 1,
+        "moveName": "Pound",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 3,
+        "moveName": "Double Slap",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 93,
+        "moveName": "Confusion",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 149,
+        "moveName": "Psywave",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 164,
+        "moveName": "Substitute",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 226,
+        "moveName": "Baton Pass",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 229,
+        "moveName": "Rapid Spin",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 278,
+        "moveName": "Recycle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 321,
+        "moveName": "Tickle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 381,
+        "moveName": "Ice Shard",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 456,
+        "moveName": "Copycat",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 24,
+        "moveName": "Double Kick",
+        "source": "level-up",
+        "level": 11
+      },
+      {
+        "moveId": 96,
+        "moveName": "Meditate",
+        "source": "level-up",
+        "level": 14
+      },
+      {
+        "moveId": 196,
+        "moveName": "Icy Wind",
+        "source": "level-up",
+        "level": 17
+      },
+      {
+        "moveId": 227,
+        "moveName": "Encore",
+        "source": "level-up",
+        "level": 20
+      },
+      {
+        "moveId": 60,
+        "moveName": "Psybeam",
+        "source": "level-up",
+        "level": 23
+      },
+      {
+        "moveId": 272,
+        "moveName": "Role Play",
+        "source": "level-up",
+        "level": 26
+      },
+      {
+        "moveId": 182,
+        "moveName": "Protect",
+        "source": "level-up",
+        "level": 29
+      },
+      {
+        "moveId": 102,
+        "moveName": "Mimic",
+        "source": "level-up",
+        "level": 32
+      },
+      {
+        "moveId": 501,
+        "moveName": "Freeze-Dry",
+        "source": "level-up",
+        "level": 35
+      },
+      {
+        "moveId": 95,
+        "moveName": "Hypnosis",
+        "source": "level-up",
+        "level": 38
+      },
+      {
+        "moveId": 94,
+        "moveName": "Psychic",
+        "source": "level-up",
+        "level": 41
+      },
+      {
+        "moveId": 271,
+        "moveName": "Trick",
+        "source": "level-up",
+        "level": 44
+      },
+      {
+        "moveId": 243,
+        "moveName": "Mirror Coat",
+        "source": "level-up",
+        "level": 47
+      },
+      {
+        "moveId": 113,
+        "moveName": "Light Screen",
+        "source": "level-up",
+        "level": 50
+      },
+      {
+        "moveId": 115,
+        "moveName": "Reflect",
+        "source": "level-up",
+        "level": 50
+      },
+      {
+        "moveId": 219,
+        "moveName": "Safeguard",
+        "source": "level-up",
+        "level": 50
+      },
+      {
+        "moveId": 458,
+        "moveName": "Sucker Punch",
+        "source": "level-up",
+        "level": 53
+      },
+      {
+        "moveId": 298,
+        "moveName": "Teeter Dance",
+        "source": "level-up",
+        "level": 55
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1222,
+    "speciesName": "Galarian Zapdos",
+    "moves": [
+      {
+        "moveId": 64,
+        "moveName": "Peck",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 116,
+        "moveName": "Focus Energy",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 249,
+        "moveName": "Rock Smash",
+        "source": "level-up",
+        "level": 5
+      },
+      {
+        "moveId": 113,
+        "moveName": "Light Screen",
+        "source": "level-up",
+        "level": 10
+      },
+      {
+        "moveId": 451,
+        "moveName": "Pluck",
+        "source": "level-up",
+        "level": 15
+      },
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "level-up",
+        "level": 20
+      },
+      {
+        "moveId": 246,
+        "moveName": "AncientPower",
+        "source": "level-up",
+        "level": 25
+      },
+      {
+        "moveId": 280,
+        "moveName": "Brick Break",
+        "source": "level-up",
+        "level": 30
+      },
+      {
+        "moveId": 65,
+        "moveName": "Drill Peck",
+        "source": "level-up",
+        "level": 35
+      },
+      {
+        "moveId": 637,
+        "moveName": "Quick Guard",
+        "source": "level-up",
+        "level": 40
+      },
+      {
+        "moveId": 736,
+        "moveName": "Thunder Kick",
+        "source": "level-up",
+        "level": 45
+      },
+      {
+        "moveId": 339,
+        "moveName": "Bulk Up",
+        "source": "level-up",
+        "level": 50
+      },
+      {
+        "moveId": 68,
+        "moveName": "Counter",
+        "source": "level-up",
+        "level": 55
+      },
+      {
+        "moveId": 197,
+        "moveName": "Detect",
+        "source": "level-up",
+        "level": 60
+      },
+      {
+        "moveId": 365,
+        "moveName": "Close Combat",
+        "source": "level-up",
+        "level": 65
+      },
+      {
+        "moveId": 179,
+        "moveName": "Reversal",
+        "source": "level-up",
+        "level": 70
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1223,
+    "speciesName": "Galarian Moltres",
+    "moves": [
+      {
+        "moveId": 16,
+        "moveName": "Gust",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 43,
+        "moveName": "Leer",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 430,
+        "moveName": "Payback",
+        "source": "level-up",
+        "level": 5
+      },
+      {
+        "moveId": 219,
+        "moveName": "Safeguard",
+        "source": "level-up",
+        "level": 10
+      },
+      {
+        "moveId": 17,
+        "moveName": "Wing Attack",
+        "source": "level-up",
+        "level": 15
+      },
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "level-up",
+        "level": 20
+      },
+      {
+        "moveId": 246,
+        "moveName": "AncientPower",
+        "source": "level-up",
+        "level": 25
+      },
+      {
+        "moveId": 458,
+        "moveName": "Sucker Punch",
+        "source": "level-up",
+        "level": 30
+      },
+      {
+        "moveId": 356,
+        "moveName": "Air Slash",
+        "source": "level-up",
+        "level": 35
+      },
+      {
+        "moveId": 669,
+        "moveName": "After You",
+        "source": "level-up",
+        "level": 40
+      },
+      {
+        "moveId": 737,
+        "moveName": "Fiery Wrath",
+        "source": "level-up",
+        "level": 45
+      },
+      {
+        "moveId": 386,
+        "moveName": "Nasty Plot",
+        "source": "level-up",
+        "level": 50
+      },
+      {
+        "moveId": 412,
+        "moveName": "Hurricane",
+        "source": "level-up",
+        "level": 55
+      },
+      {
+        "moveId": 203,
+        "moveName": "Endure",
+        "source": "level-up",
+        "level": 60
+      },
+      {
+        "moveId": 262,
+        "moveName": "Memento",
+        "source": "level-up",
+        "level": 65
+      },
+      {
+        "moveId": 143,
+        "moveName": "Sky Attack",
+        "source": "level-up",
+        "level": 70
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1224,
+    "speciesName": "Galarian Slowking",
+    "moves": [
+      {
+        "moveId": 738,
+        "moveName": "Eerie Spell",
+        "source": "level-up",
+        "level": 0
+      },
+      {
+        "moveId": 33,
+        "moveName": "Tackle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 45,
+        "moveName": "Growl",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 51,
+        "moveName": "Acid",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 174,
+        "moveName": "Curse",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 207,
+        "moveName": "Swagger",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 386,
+        "moveName": "Nasty Plot",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 389,
+        "moveName": "Power Gem",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 281,
+        "moveName": "Yawn",
+        "source": "level-up",
+        "level": 9
+      },
+      {
+        "moveId": 93,
+        "moveName": "Confusion",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 50,
+        "moveName": "Disable",
+        "source": "level-up",
+        "level": 15
+      },
+      {
+        "moveId": 352,
+        "moveName": "Water Pulse",
+        "source": "level-up",
+        "level": 18
+      },
+      {
+        "moveId": 29,
+        "moveName": "Headbutt",
+        "source": "level-up",
+        "level": 21
+      },
+      {
+        "moveId": 401,
+        "moveName": "Zen Headbutt",
+        "source": "level-up",
+        "level": 24
+      },
+      {
+        "moveId": 133,
+        "moveName": "Amnesia",
+        "source": "level-up",
+        "level": 27
+      },
+      {
+        "moveId": 57,
+        "moveName": "Surf",
+        "source": "level-up",
+        "level": 30
+      },
+      {
+        "moveId": 303,
+        "moveName": "Slack Off",
+        "source": "level-up",
+        "level": 33
+      },
+      {
+        "moveId": 94,
+        "moveName": "Psychic",
+        "source": "level-up",
+        "level": 36
+      },
+      {
+        "moveId": 244,
+        "moveName": "Psych Up",
+        "source": "level-up",
+        "level": 39
+      },
+      {
+        "moveId": 240,
+        "moveName": "Rain Dance",
+        "source": "level-up",
+        "level": 42
+      },
+      {
+        "moveId": 448,
+        "moveName": "Heal Pulse",
+        "source": "level-up",
+        "level": 45
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1226,
+    "speciesName": "Galarian Zigzagoon",
+    "moves": [
+      {
+        "moveId": 33,
+        "moveName": "Tackle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 43,
+        "moveName": "Leer",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 28,
+        "moveName": "Sand Attack",
+        "source": "level-up",
+        "level": 3
+      },
+      {
+        "moveId": 122,
+        "moveName": "Lick",
+        "source": "level-up",
+        "level": 6
+      },
+      {
+        "moveId": 418,
+        "moveName": "Snarl",
+        "source": "level-up",
+        "level": 9
+      },
+      {
+        "moveId": 316,
+        "moveName": "Odor Sleuth",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 300,
+        "moveName": "Mud Sport",
+        "source": "level-up",
+        "level": 15
+      },
+      {
+        "moveId": 29,
+        "moveName": "Headbutt",
+        "source": "level-up",
+        "level": 18
+      },
+      {
+        "moveId": 42,
+        "moveName": "Pin Missile",
+        "source": "level-up",
+        "level": 24
+      },
+      {
+        "moveId": 156,
+        "moveName": "Rest",
+        "source": "level-up",
+        "level": 27
+      },
+      {
+        "moveId": 36,
+        "moveName": "Take Down",
+        "source": "level-up",
+        "level": 30
+      },
+      {
+        "moveId": 184,
+        "moveName": "Scary Face",
+        "source": "level-up",
+        "level": 33
+      },
+      {
+        "moveId": 68,
+        "moveName": "Counter",
+        "source": "level-up",
+        "level": 36
+      },
+      {
+        "moveId": 269,
+        "moveName": "Taunt",
+        "source": "level-up",
+        "level": 39
+      },
+      {
+        "moveId": 38,
+        "moveName": "Double-Edge",
+        "source": "level-up",
+        "level": 45
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1227,
+    "speciesName": "Galarian Linoone",
+    "moves": [
+      {
+        "moveId": 387,
+        "moveName": "Night Slash",
+        "source": "level-up",
+        "level": 0
+      },
+      {
+        "moveId": 28,
+        "moveName": "Sand Attack",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 33,
+        "moveName": "Tackle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 42,
+        "moveName": "Pin Missile",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 43,
+        "moveName": "Leer",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 122,
+        "moveName": "Lick",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 402,
+        "moveName": "Switcheroo",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 418,
+        "moveName": "Snarl",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 316,
+        "moveName": "Odor Sleuth",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 300,
+        "moveName": "Mud Sport",
+        "source": "level-up",
+        "level": 15
+      },
+      {
+        "moveId": 29,
+        "moveName": "Headbutt",
+        "source": "level-up",
+        "level": 18
+      },
+      {
+        "moveId": 387,
+        "moveName": "Night Slash",
+        "source": "level-up",
+        "level": 19
+      },
+      {
+        "moveId": 409,
+        "moveName": "Hone Claws",
+        "source": "level-up",
+        "level": 23
+      },
+      {
+        "moveId": 154,
+        "moveName": "Fury Swipes",
+        "source": "level-up",
+        "level": 27
+      },
+      {
+        "moveId": 156,
+        "moveName": "Rest",
+        "source": "level-up",
+        "level": 32
+      },
+      {
+        "moveId": 36,
+        "moveName": "Take Down",
+        "source": "level-up",
+        "level": 36
+      },
+      {
+        "moveId": 184,
+        "moveName": "Scary Face",
+        "source": "level-up",
+        "level": 41
+      },
+      {
+        "moveId": 68,
+        "moveName": "Counter",
+        "source": "level-up",
+        "level": 46
+      },
+      {
+        "moveId": 269,
+        "moveName": "Taunt",
+        "source": "level-up",
+        "level": 51
+      },
+      {
+        "moveId": 38,
+        "moveName": "Double-Edge",
+        "source": "level-up",
+        "level": 55
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1232,
+    "speciesName": "Galarian Yamask",
+    "moves": [
+      {
+        "moveId": 182,
+        "moveName": "Protect",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 310,
+        "moveName": "Astonish",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 114,
+        "moveName": "Haze",
+        "source": "level-up",
+        "level": 4
+      },
+      {
+        "moveId": 101,
+        "moveName": "Night Shade",
+        "source": "level-up",
+        "level": 8
+      },
+      {
+        "moveId": 50,
+        "moveName": "Disable",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 582,
+        "moveName": "Brutal Swing",
+        "source": "level-up",
+        "level": 16
+      },
+      {
+        "moveId": 436,
+        "moveName": "Hex",
+        "source": "level-up",
+        "level": 24
+      },
+      {
+        "moveId": 212,
+        "moveName": "Mean Look",
+        "source": "level-up",
+        "level": 28
+      },
+      {
+        "moveId": 21,
+        "moveName": "Slam",
+        "source": "level-up",
+        "level": 32
+      },
+      {
+        "moveId": 174,
+        "moveName": "Curse",
+        "source": "level-up",
+        "level": 36
+      },
+      {
+        "moveId": 247,
+        "moveName": "Shadow Ball",
+        "source": "level-up",
+        "level": 40
+      },
+      {
+        "moveId": 89,
+        "moveName": "Earthquake",
+        "source": "level-up",
+        "level": 44
+      },
+      {
+        "moveId": 646,
+        "moveName": "Guard Split",
+        "source": "level-up",
+        "level": 48
+      },
+      {
+        "moveId": 653,
+        "moveName": "Power Split",
+        "source": "level-up",
+        "level": 48
+      },
+      {
+        "moveId": 194,
+        "moveName": "Destiny Bond",
+        "source": "level-up",
+        "level": 52
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1233,
+    "speciesName": "Galarian Stunfisk",
+    "moves": [
+      {
+        "moveId": 33,
+        "moveName": "Tackle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 55,
+        "moveName": "Water Gun",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 189,
+        "moveName": "Mud-Slap",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 232,
+        "moveName": "Metal Claw",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 203,
+        "moveName": "Endure",
+        "source": "level-up",
+        "level": 5
+      },
+      {
+        "moveId": 341,
+        "moveName": "Mud Shot",
+        "source": "level-up",
+        "level": 10
+      },
+      {
+        "moveId": 279,
+        "moveName": "Revenge",
+        "source": "level-up",
+        "level": 15
+      },
+      {
+        "moveId": 319,
+        "moveName": "Metal Sound",
+        "source": "level-up",
+        "level": 20
+      },
+      {
+        "moveId": 458,
+        "moveName": "Sucker Punch",
+        "source": "level-up",
+        "level": 25
+      },
+      {
+        "moveId": 334,
+        "moveName": "Iron Defense",
+        "source": "level-up",
+        "level": 30
+      },
+      {
+        "moveId": 340,
+        "moveName": "Bounce",
+        "source": "level-up",
+        "level": 35
+      },
+      {
+        "moveId": 330,
+        "moveName": "Muddy Water",
+        "source": "level-up",
+        "level": 40
+      },
+      {
+        "moveId": 695,
+        "moveName": "Snap Trap",
+        "source": "level-up",
+        "level": 45
+      },
+      {
+        "moveId": 175,
+        "moveName": "Flail",
+        "source": "level-up",
+        "level": 50
+      },
+      {
+        "moveId": 90,
+        "moveName": "Fissure",
+        "source": "level-up",
+        "level": 55
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1268,
+    "speciesName": "Hisuian Arcanine",
+    "moves": [
+      {
+        "moveId": 245,
+        "moveName": "ExtremeSpeed",
+        "source": "level-up",
+        "level": 0
+      },
+      {
+        "moveId": 36,
+        "moveName": "Take Down",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 43,
+        "moveName": "Leer",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 44,
+        "moveName": "Bite",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 46,
+        "moveName": "Roar",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 52,
+        "moveName": "Ember",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 53,
+        "moveName": "Flamethrower",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 157,
+        "moveName": "Rock Slide",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 172,
+        "moveName": "Flame Wheel",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 179,
+        "moveName": "Reversal",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 242,
+        "moveName": "Crunch",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 245,
+        "moveName": "ExtremeSpeed",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 270,
+        "moveName": "Helping Hand",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 316,
+        "moveName": "Odor Sleuth",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 317,
+        "moveName": "Rock Tomb",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 336,
+        "moveName": "Howl",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 431,
+        "moveName": "Fire Fang",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 433,
+        "moveName": "Thunder Fang",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 463,
+        "moveName": "Play Rough",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 498,
+        "moveName": "Retaliate",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 583,
+        "moveName": "Burn Up",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 748,
+        "moveName": "Raging Fury",
+        "source": "level-up",
+        "level": 50
+      },
+      {
+        "moveId": 200,
+        "moveName": "Outrage",
+        "source": "level-up",
+        "level": 57
+      },
+      {
+        "moveId": 434,
+        "moveName": "Flare Blitz",
+        "source": "level-up",
+        "level": 60
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1269,
+    "speciesName": "Hisuian Avalugg",
+    "moves": [
+      {
+        "moveId": 157,
+        "moveName": "Rock Slide",
+        "source": "level-up",
+        "level": 0
+      },
+      {
+        "moveId": 33,
+        "moveName": "Tackle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 106,
+        "moveName": "Harden",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 130,
+        "moveName": "Skull Bash",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 159,
+        "moveName": "Sharpen",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 181,
+        "moveName": "Powder Snow",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 229,
+        "moveName": "Rapid Spin",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 638,
+        "moveName": "Wide Guard",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 196,
+        "moveName": "Icy Wind",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 182,
+        "moveName": "Protect",
+        "source": "level-up",
+        "level": 16
+      },
+      {
+        "moveId": 432,
+        "moveName": "Ice Fang",
+        "source": "level-up",
+        "level": 19
+      },
+      {
+        "moveId": 44,
+        "moveName": "Bite",
+        "source": "level-up",
+        "level": 23
+      },
+      {
+        "moveId": 301,
+        "moveName": "Ice Ball",
+        "source": "level-up",
+        "level": 27
+      },
+      {
+        "moveId": 36,
+        "moveName": "Take Down",
+        "source": "level-up",
+        "level": 31
+      },
+      {
+        "moveId": 59,
+        "moveName": "Blizzard",
+        "source": "level-up",
+        "level": 35
+      },
+      {
+        "moveId": 157,
+        "moveName": "Rock Slide",
+        "source": "level-up",
+        "level": 36
+      },
+      {
+        "moveId": 242,
+        "moveName": "Crunch",
+        "source": "level-up",
+        "level": 41
+      },
+      {
+        "moveId": 38,
+        "moveName": "Double-Edge",
+        "source": "level-up",
+        "level": 46
+      },
+      {
+        "moveId": 360,
+        "moveName": "Avalanche",
+        "source": "level-up",
+        "level": 51
+      },
+      {
+        "moveId": 174,
+        "moveName": "Curse",
+        "source": "level-up",
+        "level": 56
+      },
+      {
+        "moveId": 334,
+        "moveName": "Iron Defense",
+        "source": "level-up",
+        "level": 60
+      },
+      {
+        "moveId": 105,
+        "moveName": "Recover",
+        "source": "level-up",
+        "level": 64
+      },
+      {
+        "moveId": 751,
+        "moveName": "MountainGale",
+        "source": "level-up",
+        "level": 68
+      },
+      {
+        "moveId": 429,
+        "moveName": "Stone Edge",
+        "source": "level-up",
+        "level": 72
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1270,
+    "speciesName": "Hisuian Braviary",
+    "moves": [
+      {
+        "moveId": 755,
+        "moveName": "Esper Wing",
+        "source": "level-up",
+        "level": 0
+      },
+      {
+        "moveId": 37,
+        "moveName": "Thrash",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 43,
+        "moveName": "Leer",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 64,
+        "moveName": "Peck",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 143,
+        "moveName": "Sky Attack",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 239,
+        "moveName": "Twister",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 361,
+        "moveName": "Brave Bird",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 409,
+        "moveName": "Hone Claws",
+        "source": "level-up",
+        "level": 6
+      },
+      {
+        "moveId": 17,
+        "moveName": "Wing Attack",
+        "source": "level-up",
+        "level": 10
+      },
+      {
+        "moveId": 31,
+        "moveName": "Fury Attack",
+        "source": "level-up",
+        "level": 15
+      },
+      {
+        "moveId": 472,
+        "moveName": "Tailwind",
+        "source": "level-up",
+        "level": 20
+      },
+      {
+        "moveId": 356,
+        "moveName": "Air Slash",
+        "source": "level-up",
+        "level": 24
+      },
+      {
+        "moveId": 184,
+        "moveName": "Scary Face",
+        "source": "level-up",
+        "level": 29
+      },
+      {
+        "moveId": 675,
+        "moveName": "Sky Drop",
+        "source": "level-up",
+        "level": 33
+      },
+      {
+        "moveId": 163,
+        "moveName": "Slash",
+        "source": "level-up",
+        "level": 38
+      },
+      {
+        "moveId": 18,
+        "moveName": "Whirlwind",
+        "source": "level-up",
+        "level": 43
+      },
+      {
+        "moveId": 730,
+        "moveName": "DualWingbeat",
+        "source": "level-up",
+        "level": 47
+      },
+      {
+        "moveId": 755,
+        "moveName": "Esper Wing",
+        "source": "level-up",
+        "level": 49
+      },
+      {
+        "moveId": 306,
+        "moveName": "Crush Claw",
+        "source": "level-up",
+        "level": 54
+      },
+      {
+        "moveId": 516,
+        "moveName": "Defog",
+        "source": "level-up",
+        "level": 59
+      },
+      {
+        "moveId": 38,
+        "moveName": "Double-Edge",
+        "source": "level-up",
+        "level": 64
+      },
+      {
+        "moveId": 412,
+        "moveName": "Hurricane",
+        "source": "level-up",
+        "level": 70
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1271,
+    "speciesName": "Hisuian Decidueye",
+    "moves": [
+      {
+        "moveId": 758,
+        "moveName": "TripleArrows",
+        "source": "level-up",
+        "level": 0
+      },
+      {
+        "moveId": 33,
+        "moveName": "Tackle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 45,
+        "moveName": "Growl",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 310,
+        "moveName": "Astonish",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 428,
+        "moveName": "Leaf Storm",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 442,
+        "moveName": "U-turn",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 595,
+        "moveName": "Leafage",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 64,
+        "moveName": "Peck",
+        "source": "level-up",
+        "level": 9
+      },
+      {
+        "moveId": 249,
+        "moveName": "Rock Smash",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 75,
+        "moveName": "Razor Leaf",
+        "source": "level-up",
+        "level": 15
+      },
+      {
+        "moveId": 359,
+        "moveName": "Aura Sphere",
+        "source": "level-up",
+        "level": 16
+      },
+      {
+        "moveId": 235,
+        "moveName": "Synthesis",
+        "source": "level-up",
+        "level": 20
+      },
+      {
+        "moveId": 193,
+        "moveName": "Foresight",
+        "source": "level-up",
+        "level": 22
+      },
+      {
+        "moveId": 451,
+        "moveName": "Pluck",
+        "source": "level-up",
+        "level": 25
+      },
+      {
+        "moveId": 386,
+        "moveName": "Nasty Plot",
+        "source": "level-up",
+        "level": 30
+      },
+      {
+        "moveId": 758,
+        "moveName": "TripleArrows",
+        "source": "level-up",
+        "level": 33
+      },
+      {
+        "moveId": 31,
+        "moveName": "Fury Attack",
+        "source": "level-up",
+        "level": 35
+      },
+      {
+        "moveId": 458,
+        "moveName": "Sucker Punch",
+        "source": "level-up",
+        "level": 37
+      },
+      {
+        "moveId": 348,
+        "moveName": "Leaf Blade",
+        "source": "level-up",
+        "level": 43
+      },
+      {
+        "moveId": 297,
+        "moveName": "FeatherDance",
+        "source": "level-up",
+        "level": 51
+      },
+      {
+        "moveId": 361,
+        "moveName": "Brave Bird",
+        "source": "level-up",
+        "level": 58
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1272,
+    "speciesName": "Hisuian Electrode",
+    "moves": [
+      {
+        "moveId": 33,
+        "moveName": "Tackle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 49,
+        "moveName": "Sonic Boom",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 113,
+        "moveName": "Light Screen",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 120,
+        "moveName": "Selfdestruct",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 129,
+        "moveName": "Swift",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 153,
+        "moveName": "Explosion",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 209,
+        "moveName": "Spark",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 243,
+        "moveName": "Mirror Coat",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 268,
+        "moveName": "Charge",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 345,
+        "moveName": "Magical Leaf",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 364,
+        "moveName": "Charge Beam",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 368,
+        "moveName": "Discharge",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 373,
+        "moveName": "Energy Ball",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 510,
+        "moveName": "Gyro Ball",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 534,
+        "moveName": "Electro Ball",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 568,
+        "moveName": "EerieImpulse",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 750,
+        "moveName": "Chloroblast",
+        "source": "level-up",
+        "level": 50
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1273,
+    "speciesName": "Hisuian Goodra",
+    "moves": [
+      {
+        "moveId": 358,
+        "moveName": "Aqua Tail",
+        "source": "level-up",
+        "level": 0
+      },
+      {
+        "moveId": 33,
+        "moveName": "Tackle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 71,
+        "moveName": "Absorb",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 117,
+        "moveName": "Bide",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 145,
+        "moveName": "Bubble",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 342,
+        "moveName": "Poison Tail",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 488,
+        "moveName": "Feint",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 425,
+        "moveName": "Acid Spray",
+        "source": "level-up",
+        "level": 10
+      },
+      {
+        "moveId": 182,
+        "moveName": "Protect",
+        "source": "level-up",
+        "level": 15
+      },
+      {
+        "moveId": 225,
+        "moveName": "DragonBreath",
+        "source": "level-up",
+        "level": 19
+      },
+      {
+        "moveId": 352,
+        "moveName": "Water Pulse",
+        "source": "level-up",
+        "level": 24
+      },
+      {
+        "moveId": 240,
+        "moveName": "Rain Dance",
+        "source": "level-up",
+        "level": 29
+      },
+      {
+        "moveId": 382,
+        "moveName": "Iron Head",
+        "source": "level-up",
+        "level": 33
+      },
+      {
+        "moveId": 370,
+        "moveName": "Dragon Pulse",
+        "source": "level-up",
+        "level": 38
+      },
+      {
+        "moveId": 330,
+        "moveName": "Muddy Water",
+        "source": "level-up",
+        "level": 45
+      },
+      {
+        "moveId": 358,
+        "moveName": "Aqua Tail",
+        "source": "level-up",
+        "level": 49
+      },
+      {
+        "moveId": 757,
+        "moveName": "Shelter",
+        "source": "level-up",
+        "level": 49
+      },
+      {
+        "moveId": 200,
+        "moveName": "Outrage",
+        "source": "level-up",
+        "level": 54
+      },
+      {
+        "moveId": 231,
+        "moveName": "Iron Tail",
+        "source": "level-up",
+        "level": 61
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1274,
+    "speciesName": "Hisuian Growlithe",
+    "moves": [
+      {
+        "moveId": 43,
+        "moveName": "Leer",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 52,
+        "moveName": "Ember",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 336,
+        "moveName": "Howl",
+        "source": "level-up",
+        "level": 4
+      },
+      {
+        "moveId": 44,
+        "moveName": "Bite",
+        "source": "level-up",
+        "level": 7
+      },
+      {
+        "moveId": 316,
+        "moveName": "Odor Sleuth",
+        "source": "level-up",
+        "level": 10
+      },
+      {
+        "moveId": 172,
+        "moveName": "Flame Wheel",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 270,
+        "moveName": "Helping Hand",
+        "source": "level-up",
+        "level": 16
+      },
+      {
+        "moveId": 317,
+        "moveName": "Rock Tomb",
+        "source": "level-up",
+        "level": 20
+      },
+      {
+        "moveId": 431,
+        "moveName": "Fire Fang",
+        "source": "level-up",
+        "level": 24
+      },
+      {
+        "moveId": 498,
+        "moveName": "Retaliate",
+        "source": "level-up",
+        "level": 28
+      },
+      {
+        "moveId": 242,
+        "moveName": "Crunch",
+        "source": "level-up",
+        "level": 32
+      },
+      {
+        "moveId": 36,
+        "moveName": "Take Down",
+        "source": "level-up",
+        "level": 36
+      },
+      {
+        "moveId": 53,
+        "moveName": "Flamethrower",
+        "source": "level-up",
+        "level": 40
+      },
+      {
+        "moveId": 46,
+        "moveName": "Roar",
+        "source": "level-up",
+        "level": 44
+      },
+      {
+        "moveId": 463,
+        "moveName": "Play Rough",
+        "source": "level-up",
+        "level": 48
+      },
+      {
+        "moveId": 157,
+        "moveName": "Rock Slide",
+        "source": "level-up",
+        "level": 51
+      },
+      {
+        "moveId": 179,
+        "moveName": "Reversal",
+        "source": "level-up",
+        "level": 54
+      },
+      {
+        "moveId": 200,
+        "moveName": "Outrage",
+        "source": "level-up",
+        "level": 57
+      },
+      {
+        "moveId": 434,
+        "moveName": "Flare Blitz",
+        "source": "level-up",
+        "level": 60
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1275,
+    "speciesName": "Hisuian Lilligant",
+    "moves": [
+      {
+        "moveId": 249,
+        "moveName": "Rock Smash",
+        "source": "level-up",
+        "level": 0
+      },
+      {
+        "moveId": 71,
+        "moveName": "Absorb",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 72,
+        "moveName": "Mega Drain",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 73,
+        "moveName": "Leech Seed",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 74,
+        "moveName": "Growth",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 78,
+        "moveName": "Stun Spore",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 79,
+        "moveName": "Sleep Powder",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 80,
+        "moveName": "Petal Dance",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 202,
+        "moveName": "Giga Drain",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 235,
+        "moveName": "Synthesis",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 241,
+        "moveName": "Sunny Day",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 270,
+        "moveName": "Helping Hand",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 298,
+        "moveName": "Teeter Dance",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 312,
+        "moveName": "Aromatherapy",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 345,
+        "moveName": "Magical Leaf",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 348,
+        "moveName": "Leaf Blade",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 371,
+        "moveName": "Drain Punch",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 373,
+        "moveName": "Energy Ball",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 428,
+        "moveName": "Leaf Storm",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 536,
+        "moveName": "Entrainment",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 669,
+        "moveName": "After You",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 752,
+        "moveName": "VictoryDance",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 365,
+        "moveName": "Close Combat",
+        "source": "level-up",
+        "level": 60
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1276,
+    "speciesName": "Hisuian Qwilfish",
+    "moves": [
+      {
+        "moveId": 33,
+        "moveName": "Tackle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 40,
+        "moveName": "Poison Sting",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 145,
+        "moveName": "Bubble",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 106,
+        "moveName": "Harden",
+        "source": "level-up",
+        "level": 4
+      },
+      {
+        "moveId": 55,
+        "moveName": "Water Gun",
+        "source": "level-up",
+        "level": 7
+      },
+      {
+        "moveId": 557,
+        "moveName": "Fell Stinger",
+        "source": "level-up",
+        "level": 11
+      },
+      {
+        "moveId": 107,
+        "moveName": "Minimize",
+        "source": "level-up",
+        "level": 15
+      },
+      {
+        "moveId": 191,
+        "moveName": "Spikes",
+        "source": "level-up",
+        "level": 18
+      },
+      {
+        "moveId": 352,
+        "moveName": "Water Pulse",
+        "source": "level-up",
+        "level": 21
+      },
+      {
+        "moveId": 367,
+        "moveName": "Dark Pulse",
+        "source": "level-up",
+        "level": 25
+      },
+      {
+        "moveId": 42,
+        "moveName": "Pin Missile",
+        "source": "level-up",
+        "level": 29
+      },
+      {
+        "moveId": 469,
+        "moveName": "Toxic Spikes",
+        "source": "level-up",
+        "level": 33
+      },
+      {
+        "moveId": 754,
+        "moveName": "Barb Barrage",
+        "source": "level-up",
+        "level": 37
+      },
+      {
+        "moveId": 36,
+        "moveName": "Take Down",
+        "source": "level-up",
+        "level": 40
+      },
+      {
+        "moveId": 254,
+        "moveName": "Stockpile",
+        "source": "level-up",
+        "level": 44
+      },
+      {
+        "moveId": 255,
+        "moveName": "Spit Up",
+        "source": "level-up",
+        "level": 44
+      },
+      {
+        "moveId": 424,
+        "moveName": "Poison Jab",
+        "source": "level-up",
+        "level": 47
+      },
+      {
+        "moveId": 358,
+        "moveName": "Aqua Tail",
+        "source": "level-up",
+        "level": 51
+      },
+      {
+        "moveId": 92,
+        "moveName": "Toxic",
+        "source": "level-up",
+        "level": 55
+      },
+      {
+        "moveId": 483,
+        "moveName": "Acupressure",
+        "source": "level-up",
+        "level": 58
+      },
+      {
+        "moveId": 194,
+        "moveName": "Destiny Bond",
+        "source": "level-up",
+        "level": 61
+      },
+      {
+        "moveId": 120,
+        "moveName": "Selfdestruct",
+        "source": "level-up",
+        "level": 64
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1277,
+    "speciesName": "Hisuian Samurott",
+    "moves": [
+      {
+        "moveId": 387,
+        "moveName": "Night Slash",
+        "source": "level-up",
+        "level": 0
+      },
+      {
+        "moveId": 33,
+        "moveName": "Tackle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 39,
+        "moveName": "Tail Whip",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 55,
+        "moveName": "Water Gun",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 163,
+        "moveName": "Slash",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 224,
+        "moveName": "Megahorn",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 346,
+        "moveName": "Water Sport",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 116,
+        "moveName": "Focus Energy",
+        "source": "level-up",
+        "level": 13
+      },
+      {
+        "moveId": 455,
+        "moveName": "Razor Shell",
+        "source": "level-up",
+        "level": 18
+      },
+      {
+        "moveId": 210,
+        "moveName": "Fury Cutter",
+        "source": "level-up",
+        "level": 21
+      },
+      {
+        "moveId": 352,
+        "moveName": "Water Pulse",
+        "source": "level-up",
+        "level": 25
+      },
+      {
+        "moveId": 279,
+        "moveName": "Revenge",
+        "source": "level-up",
+        "level": 29
+      },
+      {
+        "moveId": 357,
+        "moveName": "Aqua Jet",
+        "source": "level-up",
+        "level": 34
+      },
+      {
+        "moveId": 387,
+        "moveName": "Night Slash",
+        "source": "level-up",
+        "level": 35
+      },
+      {
+        "moveId": 227,
+        "moveName": "Encore",
+        "source": "level-up",
+        "level": 39
+      },
+      {
+        "moveId": 358,
+        "moveName": "Aqua Tail",
+        "source": "level-up",
+        "level": 46
+      },
+      {
+        "moveId": 760,
+        "moveName": "Endless Edge",
+        "source": "level-up",
+        "level": 51
+      },
+      {
+        "moveId": 14,
+        "moveName": "Swords Dance",
+        "source": "level-up",
+        "level": 58
+      },
+      {
+        "moveId": 56,
+        "moveName": "Hydro Pump",
+        "source": "level-up",
+        "level": 63
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1278,
+    "speciesName": "Hisuian Sliggoo",
+    "moves": [
+      {
+        "moveId": 33,
+        "moveName": "Tackle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 71,
+        "moveName": "Absorb",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 117,
+        "moveName": "Bide",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 145,
+        "moveName": "Bubble",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 425,
+        "moveName": "Acid Spray",
+        "source": "level-up",
+        "level": 10
+      },
+      {
+        "moveId": 182,
+        "moveName": "Protect",
+        "source": "level-up",
+        "level": 15
+      },
+      {
+        "moveId": 225,
+        "moveName": "DragonBreath",
+        "source": "level-up",
+        "level": 19
+      },
+      {
+        "moveId": 352,
+        "moveName": "Water Pulse",
+        "source": "level-up",
+        "level": 24
+      },
+      {
+        "moveId": 240,
+        "moveName": "Rain Dance",
+        "source": "level-up",
+        "level": 29
+      },
+      {
+        "moveId": 382,
+        "moveName": "Iron Head",
+        "source": "level-up",
+        "level": 33
+      },
+      {
+        "moveId": 370,
+        "moveName": "Dragon Pulse",
+        "source": "level-up",
+        "level": 38
+      },
+      {
+        "moveId": 330,
+        "moveName": "Muddy Water",
+        "source": "level-up",
+        "level": 43
+      },
+      {
+        "moveId": 757,
+        "moveName": "Shelter",
+        "source": "level-up",
+        "level": 49
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1279,
+    "speciesName": "Hisuian Sneasel",
+    "moves": [
+      {
+        "moveId": 10,
+        "moveName": "Scratch",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 43,
+        "moveName": "Leer",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 269,
+        "moveName": "Taunt",
+        "source": "level-up",
+        "level": 6
+      },
+      {
+        "moveId": 98,
+        "moveName": "Quick Attack",
+        "source": "level-up",
+        "level": 10
+      },
+      {
+        "moveId": 232,
+        "moveName": "Metal Claw",
+        "source": "level-up",
+        "level": 14
+      },
+      {
+        "moveId": 249,
+        "moveName": "Rock Smash",
+        "source": "level-up",
+        "level": 18
+      },
+      {
+        "moveId": 154,
+        "moveName": "Fury Swipes",
+        "source": "level-up",
+        "level": 22
+      },
+      {
+        "moveId": 743,
+        "moveName": "Dire Claw",
+        "source": "level-up",
+        "level": 26
+      },
+      {
+        "moveId": 185,
+        "moveName": "Feint Attack",
+        "source": "level-up",
+        "level": 30
+      },
+      {
+        "moveId": 417,
+        "moveName": "Low Sweep",
+        "source": "level-up",
+        "level": 34
+      },
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "level-up",
+        "level": 38
+      },
+      {
+        "moveId": 163,
+        "moveName": "Slash",
+        "source": "level-up",
+        "level": 42
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "level-up",
+        "level": 48
+      },
+      {
+        "moveId": 92,
+        "moveName": "Toxic",
+        "source": "level-up",
+        "level": 52
+      },
+      {
+        "moveId": 424,
+        "moveName": "Poison Jab",
+        "source": "level-up",
+        "level": 56
+      },
+      {
+        "moveId": 207,
+        "moveName": "Swagger",
+        "source": "level-up",
+        "level": 60
+      },
+      {
+        "moveId": 14,
+        "moveName": "Swords Dance",
+        "source": "level-up",
+        "level": 64
+      },
+      {
+        "moveId": 365,
+        "moveName": "Close Combat",
+        "source": "level-up",
+        "level": 68
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1280,
+    "speciesName": "Hisuian Typhlosion",
+    "moves": [
+      {
+        "moveId": 436,
+        "moveName": "Hex",
+        "source": "level-up",
+        "level": 0
+      },
+      {
+        "moveId": 33,
+        "moveName": "Tackle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 38,
+        "moveName": "Double-Edge",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 43,
+        "moveName": "Leer",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 52,
+        "moveName": "Ember",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 108,
+        "moveName": "Smokescreen",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 383,
+        "moveName": "Lava Plume",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 510,
+        "moveName": "Gyro Ball",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 98,
+        "moveName": "Quick Attack",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 111,
+        "moveName": "Defense Curl",
+        "source": "level-up",
+        "level": 15
+      },
+      {
+        "moveId": 406,
+        "moveName": "Flame Charge",
+        "source": "level-up",
+        "level": 19
+      },
+      {
+        "moveId": 205,
+        "moveName": "Rollout",
+        "source": "level-up",
+        "level": 23
+      },
+      {
+        "moveId": 172,
+        "moveName": "Flame Wheel",
+        "source": "level-up",
+        "level": 27
+      },
+      {
+        "moveId": 129,
+        "moveName": "Swift",
+        "source": "level-up",
+        "level": 32
+      },
+      {
+        "moveId": 436,
+        "moveName": "Hex",
+        "source": "level-up",
+        "level": 35
+      },
+      {
+        "moveId": 53,
+        "moveName": "Flamethrower",
+        "source": "level-up",
+        "level": 40
+      },
+      {
+        "moveId": 759,
+        "moveName": "InfernalRage",
+        "source": "level-up",
+        "level": 47
+      },
+      {
+        "moveId": 247,
+        "moveName": "Shadow Ball",
+        "source": "level-up",
+        "level": 54
+      },
+      {
+        "moveId": 435,
+        "moveName": "Inferno",
+        "source": "level-up",
+        "level": 62
+      },
+      {
+        "moveId": 583,
+        "moveName": "Burn Up",
+        "source": "level-up",
+        "level": 70
+      },
+      {
+        "moveId": 284,
+        "moveName": "Eruption",
+        "source": "level-up",
+        "level": 78
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1281,
+    "speciesName": "Hisuian Voltorb",
+    "moves": [
+      {
+        "moveId": 33,
+        "moveName": "Tackle",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 268,
+        "moveName": "Charge",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 568,
+        "moveName": "EerieImpulse",
+        "source": "level-up",
+        "level": 4
+      },
+      {
+        "moveId": 510,
+        "moveName": "Gyro Ball",
+        "source": "level-up",
+        "level": 6
+      },
+      {
+        "moveId": 209,
+        "moveName": "Spark",
+        "source": "level-up",
+        "level": 9
+      },
+      {
+        "moveId": 345,
+        "moveName": "Magical Leaf",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "level-up",
+        "level": 15
+      },
+      {
+        "moveId": 49,
+        "moveName": "Sonic Boom",
+        "source": "level-up",
+        "level": 18
+      },
+      {
+        "moveId": 364,
+        "moveName": "Charge Beam",
+        "source": "level-up",
+        "level": 21
+      },
+      {
+        "moveId": 129,
+        "moveName": "Swift",
+        "source": "level-up",
+        "level": 25
+      },
+      {
+        "moveId": 120,
+        "moveName": "Selfdestruct",
+        "source": "level-up",
+        "level": 28
+      },
+      {
+        "moveId": 113,
+        "moveName": "Light Screen",
+        "source": "level-up",
+        "level": 32
+      },
+      {
+        "moveId": 368,
+        "moveName": "Discharge",
+        "source": "level-up",
+        "level": 35
+      },
+      {
+        "moveId": 373,
+        "moveName": "Energy Ball",
+        "source": "level-up",
+        "level": 39
+      },
+      {
+        "moveId": 153,
+        "moveName": "Explosion",
+        "source": "level-up",
+        "level": 42
+      },
+      {
+        "moveId": 534,
+        "moveName": "Electro Ball",
+        "source": "level-up",
+        "level": 46
+      },
+      {
+        "moveId": 243,
+        "moveName": "Mirror Coat",
+        "source": "level-up",
+        "level": 50
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1282,
+    "speciesName": "Hisuian Zoroark",
+    "moves": [
+      {
+        "moveId": 163,
+        "moveName": "Slash",
+        "source": "level-up",
+        "level": 0
+      },
+      {
+        "moveId": 10,
+        "moveName": "Scratch",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 43,
+        "moveName": "Leer",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 259,
+        "moveName": "Torment",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 286,
+        "moveName": "Imprison",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 388,
+        "moveName": "Ominous Wind",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 409,
+        "moveName": "Hone Claws",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 418,
+        "moveName": "Snarl",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 442,
+        "moveName": "U-turn",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 154,
+        "moveName": "Fury Swipes",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 129,
+        "moveName": "Swift",
+        "source": "level-up",
+        "level": 15
+      },
+      {
+        "moveId": 184,
+        "moveName": "Scary Face",
+        "source": "level-up",
+        "level": 18
+      },
+      {
+        "moveId": 269,
+        "moveName": "Taunt",
+        "source": "level-up",
+        "level": 20
+      },
+      {
+        "moveId": 756,
+        "moveName": "BitterMalice",
+        "source": "level-up",
+        "level": 24
+      },
+      {
+        "moveId": 313,
+        "moveName": "Fake Tears",
+        "source": "level-up",
+        "level": 28
+      },
+      {
+        "moveId": 163,
+        "moveName": "Slash",
+        "source": "level-up",
+        "level": 29
+      },
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "level-up",
+        "level": 34
+      },
+      {
+        "moveId": 326,
+        "moveName": "Extrasensory",
+        "source": "level-up",
+        "level": 40
+      },
+      {
+        "moveId": 397,
+        "moveName": "Shadow Claw",
+        "source": "level-up",
+        "level": 46
+      },
+      {
+        "moveId": 386,
+        "moveName": "Nasty Plot",
+        "source": "level-up",
+        "level": 52
+      },
+      {
+        "moveId": 247,
+        "moveName": "Shadow Ball",
+        "source": "level-up",
+        "level": 58
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "level-up"
+    }
+  },
+  {
+    "speciesId": 1283,
+    "speciesName": "Hisuian Zorua",
+    "moves": [
+      {
+        "moveId": 10,
+        "moveName": "Scratch",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 43,
+        "moveName": "Leer",
+        "source": "level-up",
+        "level": 1
+      },
+      {
+        "moveId": 259,
+        "moveName": "Torment",
+        "source": "level-up",
+        "level": 3
+      },
+      {
+        "moveId": 418,
+        "moveName": "Snarl",
+        "source": "level-up",
+        "level": 6
+      },
+      {
+        "moveId": 409,
+        "moveName": "Hone Claws",
+        "source": "level-up",
+        "level": 9
+      },
+      {
+        "moveId": 154,
+        "moveName": "Fury Swipes",
+        "source": "level-up",
+        "level": 12
+      },
+      {
+        "moveId": 129,
+        "moveName": "Swift",
+        "source": "level-up",
+        "level": 15
+      },
+      {
+        "moveId": 184,
+        "moveName": "Scary Face",
+        "source": "level-up",
+        "level": 18
+      },
+      {
+        "moveId": 269,
+        "moveName": "Taunt",
+        "source": "level-up",
+        "level": 20
+      },
+      {
+        "moveId": 756,
+        "moveName": "BitterMalice",
+        "source": "level-up",
+        "level": 24
+      },
+      {
+        "moveId": 313,
+        "moveName": "Fake Tears",
+        "source": "level-up",
+        "level": 28
+      },
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "level-up",
+        "level": 32
+      },
+      {
+        "moveId": 286,
+        "moveName": "Imprison",
+        "source": "level-up",
+        "level": 36
+      },
+      {
+        "moveId": 397,
+        "moveName": "Shadow Claw",
+        "source": "level-up",
+        "level": 40
+      },
+      {
+        "moveId": 386,
+        "moveName": "Nasty Plot",
+        "source": "level-up",
+        "level": 44
+      },
+      {
+        "moveId": 247,
+        "moveName": "Shadow Ball",
+        "source": "level-up",
+        "level": 48
       }
     ],
     "source": {

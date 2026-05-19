@@ -11,6 +11,7 @@
     "extract:rom": "python3 scripts/extract_unbound_data.py",
     "scrape:gym-leaders": "python3 scripts/scrape_unbound_gym_leaders.py",
     "scrape:unboundwiki": "python3 scripts/scrape_unboundwiki_pokedex.py",
+    "validate:evolutions": "python3 scripts/validate_evolutions.py",
     "extract:bundle": "python3 scripts/export_unbound_bundle.py"
   },
   "dependencies": {

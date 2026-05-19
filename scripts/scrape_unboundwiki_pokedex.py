@@ -24,6 +24,8 @@ USER_AGENT = (
 )
 REQUEST_DELAY_SECONDS = 0.15
 MAX_WORKERS = 6
+RESEARCH_SPECIES_PATH = BASE_DIR / "research" / "unbound-bundle" / "decoded" / "species.json"
+REGIONAL_PREFIXES = ("Alolan ", "Galarian ", "Hisuian ", "Paldean ")
 
 POKEMON_TYPES = {
     "Normal",
@@ -159,6 +161,148 @@ class ScrapedPokemonPage:
     tutor_moves: list[ScrapedMoveEntry]
     egg_moves: list[ScrapedMoveEntry]
     evolutions: list[ScrapedEvolutionEntry]
+
+
+def split_variant_name(name: str) -> tuple[str | None, str]:
+    normalized = collapse_spaces(name)
+    for prefix in REGIONAL_PREFIXES:
+        if normalized.startswith(prefix):
+            return prefix.strip(), normalized[len(prefix) :].strip()
+    return None, normalized
+
+
+def get_species_label(row: dict[str, Any]) -> str:
+    display_name = row.get("displayName")
+    if isinstance(display_name, str) and display_name:
+        return display_name
+    return row["name"]
+
+
+def get_species_variant_prefix(row: dict[str, Any]) -> str | None:
+    variant_prefix, _ = split_variant_name(get_species_label(row))
+    return variant_prefix
+
+
+def normalize_species_types(types: list[str]) -> tuple[str, ...]:
+    filtered = [pokemon_type for pokemon_type in types if pokemon_type]
+    if len(filtered) >= 2:
+        return tuple(filtered[:2])
+    if len(filtered) == 1:
+        return (filtered[0], filtered[0])
+    return tuple()
+
+
+def normalize_ability_names(
+    abilities: list[dict[str, str | None]] | list[str | None],
+) -> set[str]:
+    names: list[str] = []
+    for ability in abilities:
+        if isinstance(ability, dict):
+            name = ability.get("name")
+        else:
+            name = ability
+        if name:
+            names.append(normalize_name(name))
+    return set(names)
+
+
+def choose_best_species_row(
+    candidates: list[dict[str, Any]],
+    *,
+    requested_name: str | None = None,
+    national_dex: int | None,
+    page_types: list[str] | None = None,
+    page_abilities: list[dict[str, str | None]] | None = None,
+) -> dict[str, Any] | None:
+    if not candidates:
+        return None
+    if len(candidates) == 1:
+        return candidates[0]
+
+    requested_types = normalize_species_types(page_types or [])
+    requested_abilities = normalize_ability_names(page_abilities or [])
+    requested_variant_prefix = None
+    requested_normalized_name = None
+    if requested_name:
+        requested_variant_prefix, _ = split_variant_name(requested_name)
+        requested_normalized_name = normalize_name(requested_name)
+
+    scored_candidates: list[tuple[int, int, dict[str, Any]]] = []
+    for row in candidates:
+        score = 0
+        row_label = get_species_label(row)
+        row_variant_prefix = get_species_variant_prefix(row)
+        if requested_normalized_name is not None:
+            if normalize_name(row_label) == requested_normalized_name:
+                score += 200
+            elif normalize_name(row["name"]) == requested_normalized_name:
+                score += 120
+
+        if requested_variant_prefix is None:
+            if row_variant_prefix is not None:
+                score -= 150
+        elif row_variant_prefix == requested_variant_prefix:
+            score += 120
+        elif row_variant_prefix is not None:
+            score -= 150
+
+        if national_dex is not None and row.get("sourceNationalDex") == national_dex:
+            score += 100
+        elif row.get("sourceNationalDex") is not None:
+            score += 5
+        if requested_types:
+            row_types = normalize_species_types(row.get("types", []))
+            if row_types == requested_types:
+                score += 30
+            elif set(row_types) == set(requested_types):
+                score += 20
+        if requested_abilities:
+            row_abilities = normalize_ability_names(
+                [
+                    row.get("ability1Name"),
+                    row.get("ability2Name"),
+                    row.get("hiddenAbilityName"),
+                ]
+            )
+            score += len(row_abilities & requested_abilities) * 10
+        if row.get("wikiPage"):
+            score += 2
+        scored_candidates.append((score, row["speciesId"], row))
+
+    scored_candidates.sort(key=lambda entry: (entry[0], -entry[1]), reverse=True)
+    best_score, _, best_row = scored_candidates[0]
+    if best_score > 0:
+        return best_row
+    return candidates[0]
+
+
+def should_export_evolution_edge(
+    source_species_id: int,
+    target_species_id: int,
+    method: str,
+) -> bool:
+    normalized_method = normalize_name(method)
+    if source_species_id == target_species_id:
+        return False
+    if normalized_method in {"base", "babyform", "baseformbaby", "breed"}:
+        return False
+    return True
+
+
+def canonicalize_evolution_text(value: str | None) -> str | None:
+    if value is None:
+        return None
+    cleaned = collapse_spaces(value)
+    cleaned = cleaned.replace("withi high friendship", "with high friendship")
+    cleaned = cleaned.replace("withihighfriendship", "withhighfriendship")
+    return cleaned
+
+
+def load_research_species() -> list[dict[str, Any]]:
+    if not RESEARCH_SPECIES_PATH.exists():
+        return []
+    with RESEARCH_SPECIES_PATH.open(encoding="utf-8") as handle:
+        return json.load(handle)
 
 
 def fetch_text(url: str, *, cache_key: str) -> str:
@@ -414,7 +558,7 @@ def parse_evolution_section(
 
     evolutions: list[ScrapedEvolutionEntry] = []
     rows = section_lines[:]
-    while rows and rows[0] in {"Pokémon", "Acquire At"}:
+    while rows and rows[0] in {"Sprite", "Pokemon", "Pokémon", "Acquire At"}:
         rows.pop(0)
 
     last_species: str | None = None
@@ -446,15 +590,31 @@ def parse_evolution_section(
             break
 
         acquire = rows[index + 1]
-        if acquire == "Base form":
-            last_species = name.replace("From ", "").replace("→", "").strip()
-            index += 2
-            continue
-        if name.startswith("Baby "):
-            index += 1
-            continue
-        source_name = last_species or page_name
         target_name = name.replace("From ", "").replace("→", "").strip()
+        step = 2
+
+        if acquire == "Baby form":
+          last_species = target_name
+          index += step
+          if index < len(rows) and not rows[index].startswith("From "):
+              index += 1
+          continue
+
+        if acquire == "Base form":
+            if last_species is None:
+                last_species = target_name
+                index += step
+                continue
+
+            if index + 2 >= len(rows):
+                last_species = target_name
+                index += step
+                continue
+
+            acquire = rows[index + 2]
+            step = 3
+
+        source_name = last_species or page_name
         method, param, param_label = parse_acquire_method(acquire)
         if method != "base":
             evolutions.append(
@@ -468,7 +628,7 @@ def parse_evolution_section(
                 )
             )
         last_species = target_name
-        index += 2
+        index += step
 
     return evolutions
 
@@ -541,6 +701,9 @@ def build_name_maps(
     species_by_national_dex: dict[int, list[dict[str, Any]]] = {}
     for row in species:
         species_by_normalized_name.setdefault(normalize_name(row["name"]), []).append(row)
+        display_name = row.get("displayName")
+        if isinstance(display_name, str) and display_name:
+            species_by_normalized_name.setdefault(normalize_name(display_name), []).append(row)
         national_dex = row.get("sourceNationalDex")
         if isinstance(national_dex, int):
             species_by_national_dex.setdefault(national_dex, []).append(row)
@@ -575,25 +738,41 @@ def match_species_row(
     name: str,
     national_dex: int | None,
     name_maps: dict[str, Any],
+    *,
+    page_types: list[str] | None = None,
+    page_abilities: list[dict[str, str | None]] | None = None,
 ) -> dict[str, Any] | None:
-    by_name = name_maps["speciesByName"].get(normalize_name(name), [])
-    if len(by_name) == 1:
-        return by_name[0]
+    direct_candidates = name_maps["speciesByName"].get(normalize_name(name), [])
+    if direct_candidates:
+        return choose_best_species_row(
+            direct_candidates,
+            requested_name=name,
+            national_dex=national_dex,
+            page_types=page_types,
+            page_abilities=page_abilities,
+        )
 
-    if len(by_name) > 1 and national_dex is not None:
-        exact_dex_matches = [
-            row for row in by_name if row.get("sourceNationalDex") == national_dex
-        ]
-        if len(exact_dex_matches) == 1:
-            return exact_dex_matches[0]
-
-    if len(by_name) > 1:
-        return by_name[0]
+    _, base_name = split_variant_name(name)
+    base_candidates = name_maps["speciesByName"].get(normalize_name(base_name), [])
+    if base_candidates:
+        return choose_best_species_row(
+            base_candidates,
+            requested_name=name,
+            national_dex=national_dex,
+            page_types=page_types,
+            page_abilities=page_abilities,
+        )
 
     if national_dex is not None:
         candidates = name_maps["speciesByDex"].get(national_dex, [])
-        if len(candidates) == 1:
-            return candidates[0]
+        if candidates:
+            return choose_best_species_row(
+                candidates,
+                requested_name=name,
+                national_dex=national_dex,
+                page_types=page_types,
+                page_abilities=page_abilities,
+            )
     return None
 
 
@@ -618,63 +797,158 @@ def merge_species_data(
     tm_map: dict[int, list[dict[str, Any]]] = {}
     tutor_map: dict[int, list[dict[str, Any]]] = {}
     egg_map: dict[int, list[dict[str, Any]]] = {}
+    research_species = load_research_species()
+    page_species_rows: dict[str, dict[str, Any]] = {}
+    next_synthetic_species_id = max(row["speciesId"] for row in species) + 1
 
-    for page in scraped_pages:
-        species_row = match_species_row(page.page_name, page.national_dex, name_maps)
-        if species_row:
-            if page.national_dex is not None:
-                species_row["sourceNationalDex"] = page.national_dex
-            if page.types:
-                if len(page.types) == 1:
-                    species_row["types"] = [page.types[0], page.types[0]]
-                else:
-                    species_row["types"] = page.types[:2]
-            if page.locations:
-                species_row["locations"] = page.locations
-                species_row["locationSummary"] = " / ".join(page.locations)
-            species_row["wikiPage"] = page.page_url
-            species_row["source"] = {
-                "kind": "merged-source",
+    def create_supplemental_species_row(page: ScrapedPokemonPage) -> dict[str, Any] | None:
+        nonlocal next_synthetic_species_id
+
+        variant_prefix, base_name = split_variant_name(page.page_name)
+        if variant_prefix is None:
+            return None
+
+        research_candidates = [
+            row
+            for row in research_species
+            if normalize_name(row.get("name", "")) == normalize_name(base_name)
+        ]
+        research_row = choose_best_species_row(
+            research_candidates,
+            national_dex=page.national_dex,
+            page_types=page.types,
+            page_abilities=page.abilities,
+        )
+        if not research_row:
+            return None
+
+        species_row = {
+            "speciesId": next_synthetic_species_id,
+            "name": page.page_name,
+            "baseStats": research_row.get("baseStats", {}),
+            "types": page.types[:2] if page.types else research_row.get("types", []),
+            "catchRate": research_row.get("catchRate", 0),
+            "expYield": research_row.get("expYield", 0),
+            "evYield": research_row.get("evYield", {}),
+            "heldItem1Id": research_row.get("heldItem1Id", 0),
+            "heldItem1Name": research_row.get("heldItem1Name"),
+            "heldItem2Id": research_row.get("heldItem2Id", 0),
+            "heldItem2Name": research_row.get("heldItem2Name"),
+            "genderRatio": research_row.get("genderRatio", 0),
+            "eggCycles": research_row.get("eggCycles", 0),
+            "friendship": research_row.get("friendship", 0),
+            "growthRateToken": research_row.get("growthRateToken"),
+            "eggGroup1Token": research_row.get("eggGroup1Token"),
+            "eggGroup2Token": research_row.get("eggGroup2Token"),
+            "ability1Id": research_row.get("ability1Id", 0),
+            "ability1Name": research_row.get("ability1Name"),
+            "ability2Id": research_row.get("ability2Id", 0),
+            "ability2Name": research_row.get("ability2Name"),
+            "hiddenAbilityId": research_row.get("hiddenAbilityId", 0),
+            "hiddenAbilityName": research_row.get("hiddenAbilityName"),
+            "safariFleeRate": research_row.get("safariFleeRate", 0),
+            "noFlip": research_row.get("noFlip", False),
+            "sourceNationalDex": page.national_dex,
+            "source": {
+                "kind": "research-supplement",
                 "primary": "unboundwiki.com",
-                "fallback": "Skeli789 source repositories",
+                "fallback": "research/unbound-bundle/decoded/species.json",
                 "wikiPage": page.page_url,
-            }
+            },
+        }
+        next_synthetic_species_id += 1
+        species.append(species_row)
+        return species_row
 
-            scraped_abilities = page.abilities[:3]
-            available_slots = [("ability1Id", "ability1Name")]
-            if species_row.get("ability2Id"):
-                available_slots.append(("ability2Id", "ability2Name"))
-            if species_row.get("hiddenAbilityId"):
-                available_slots.append(("hiddenAbilityId", "hiddenAbilityName"))
-            if len(scraped_abilities) > len(available_slots):
-                available_slots = [
-                    ("ability1Id", "ability1Name"),
-                    ("ability2Id", "ability2Name"),
-                    ("hiddenAbilityId", "hiddenAbilityName"),
-                ]
+    for page in sorted(scraped_pages, key=lambda entry: entry.page_url):
+        variant_prefix, base_name = split_variant_name(page.page_name)
+        exact_variant_candidates = name_maps["speciesByName"].get(
+            normalize_name(page.page_name),
+            [],
+        )
+        base_candidates = name_maps["speciesByName"].get(
+            normalize_name(base_name),
+            [],
+        )
 
-            touched_slots: set[str] = set()
-            for scraped_ability, (id_key, name_key) in zip(scraped_abilities, available_slots):
-                touched_slots.add(id_key)
-                ability_row = name_maps["abilityByName"].get(normalize_name(scraped_ability["name"] or ""))
-                if ability_row:
-                    species_row[id_key] = ability_row["abilityId"]
-                    species_row[name_key] = ability_row["name"]
-                    effect = scraped_ability.get("effect")
-                    if effect:
-                        ability_effects[ability_row["abilityId"]] = effect
-                else:
-                    species_row[name_key] = scraped_ability["name"]
+        if variant_prefix and not exact_variant_candidates and len(base_candidates) <= 1:
+            species_row = None
+        else:
+            species_row = match_species_row(
+                page.page_name,
+                page.national_dex,
+                name_maps,
+                page_types=page.types,
+                page_abilities=page.abilities,
+            )
+        if not species_row:
+            species_row = create_supplemental_species_row(page)
+            if species_row:
+                name_maps = build_name_maps(species, abilities, moves)
+        if not species_row:
+            continue
 
-            for id_key, name_key in (
+        if page.page_name != species_row["name"]:
+            species_row["displayName"] = page.page_name
+        if page.national_dex is not None:
+            species_row["sourceNationalDex"] = page.national_dex
+        if page.types:
+            if len(page.types) == 1:
+                species_row["types"] = [page.types[0], page.types[0]]
+            else:
+                species_row["types"] = page.types[:2]
+        if page.locations:
+            species_row["locations"] = page.locations
+            species_row["locationSummary"] = " / ".join(page.locations)
+        species_row["wikiPage"] = page.page_url
+        species_row["source"] = {
+            "kind": "merged-source",
+            "primary": "unboundwiki.com",
+            "fallback": "Skeli789 source repositories",
+            "wikiPage": page.page_url,
+        }
+        page_species_rows[page.page_url] = species_row
+
+        scraped_abilities = page.abilities[:3]
+        available_slots = [("ability1Id", "ability1Name")]
+        if species_row.get("ability2Id"):
+            available_slots.append(("ability2Id", "ability2Name"))
+        if species_row.get("hiddenAbilityId"):
+            available_slots.append(("hiddenAbilityId", "hiddenAbilityName"))
+        if len(scraped_abilities) > len(available_slots):
+            available_slots = [
+                ("ability1Id", "ability1Name"),
                 ("ability2Id", "ability2Name"),
                 ("hiddenAbilityId", "hiddenAbilityName"),
-            ):
-                if id_key in touched_slots:
-                    continue
-                if (id_key, name_key) not in available_slots:
-                    species_row[id_key] = 0
-                    species_row[name_key] = None
+            ]
+
+        touched_slots: set[str] = set()
+        for scraped_ability, (id_key, name_key) in zip(scraped_abilities, available_slots):
+            touched_slots.add(id_key)
+            ability_row = name_maps["abilityByName"].get(normalize_name(scraped_ability["name"] or ""))
+            if ability_row:
+                species_row[id_key] = ability_row["abilityId"]
+                species_row[name_key] = ability_row["name"]
+                effect = scraped_ability.get("effect")
+                if effect:
+                    ability_effects[ability_row["abilityId"]] = effect
+            else:
+                species_row[name_key] = scraped_ability["name"]
+
+        for id_key, name_key in (
+            ("ability2Id", "ability2Name"),
+            ("hiddenAbilityId", "hiddenAbilityName"),
+        ):
+            if id_key in touched_slots:
+                continue
+            if (id_key, name_key) not in available_slots:
+                species_row[id_key] = 0
+                species_row[name_key] = None
+
+    name_maps = build_name_maps(species, abilities, moves)
+
+    for page in sorted(scraped_pages, key=lambda entry: entry.page_url):
+        species_row = page_species_rows.get(page.page_url)
 
         for move_list, target_map in (
             (page.level_up_moves, level_up_map),
@@ -704,6 +978,12 @@ def merge_species_data(
             target_row = match_species_row(evolution.target_name, None, name_maps)
             if not source_row or not target_row:
                 continue
+            if not should_export_evolution_edge(
+                source_row["speciesId"],
+                target_row["speciesId"],
+                evolution.method,
+            ):
+                continue
             evolution_map.setdefault(source_row["speciesId"], [])
             evolution_map[source_row["speciesId"]].append(
                 {
@@ -711,7 +991,7 @@ def merge_species_data(
                     "param": evolution.param,
                     "paramLabel": evolution.param_label,
                     "targetSpeciesId": target_row["speciesId"],
-                    "targetSpeciesName": target_row["name"],
+                    "targetSpeciesName": target_row.get("displayName", target_row["name"]),
                     "source": {
                         "kind": "wiki-page",
                         "page": page.page_url,
@@ -752,7 +1032,7 @@ def merge_species_data(
             rows.append(
                 {
                     "speciesId": species_id,
-                    "speciesName": species_row["name"],
+                    "speciesName": get_species_label(species_row),
                     "moves": deduped,
                     "source": {
                         "kind": "wiki-page",
@@ -771,11 +1051,13 @@ def merge_species_data(
         deduped_evolutions: list[dict[str, Any]] = []
         seen_edges: set[tuple[Any, ...]] = set()
         for evolution in evolution_map[species_id]:
+            canonical_label = canonicalize_evolution_text(evolution["paramLabel"])
+            canonical_method = canonicalize_evolution_text(evolution["method"])
             key = (
-                evolution["method"],
-                evolution["param"],
-                evolution["paramLabel"],
                 evolution["targetSpeciesId"],
+                evolution["param"],
+                canonical_label or canonical_method,
+                "item" if canonical_method == "item" else None,
             )
             if key in seen_edges:
                 continue
@@ -784,7 +1066,7 @@ def merge_species_data(
         merged_evolutions.append(
             {
                 "speciesId": species_id,
-                "speciesName": species_row["name"],
+                "speciesName": get_species_label(species_row),
                 "evolutions": deduped_evolutions,
                 "source": {
                     "kind": "wiki-pages",

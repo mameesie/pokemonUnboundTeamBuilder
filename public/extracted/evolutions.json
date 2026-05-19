@@ -1,5 +1,159 @@
 [
   {
+    "speciesId": 2,
+    "speciesName": "Ivysaur",
+    "evolutions": [
+      {
+        "method": "level",
+        "param": 32,
+        "paramLabel": null,
+        "targetSpeciesId": 3,
+        "targetSpeciesName": "Venusaur",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/bulbasaur/",
+          "rawAcquire": "Level 32"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 4,
+    "speciesName": "Charmander",
+    "evolutions": [
+      {
+        "method": "level",
+        "param": 16,
+        "paramLabel": null,
+        "targetSpeciesId": 5,
+        "targetSpeciesName": "Charmeleon",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/charizard/",
+          "rawAcquire": "Level 16"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 5,
+    "speciesName": "Charmeleon",
+    "evolutions": [
+      {
+        "method": "level",
+        "param": 36,
+        "paramLabel": null,
+        "targetSpeciesId": 6,
+        "targetSpeciesName": "Charizard",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/charizard/",
+          "rawAcquire": "Level 36"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 7,
+    "speciesName": "Squirtle",
+    "evolutions": [
+      {
+        "method": "level",
+        "param": 16,
+        "paramLabel": null,
+        "targetSpeciesId": 8,
+        "targetSpeciesName": "Wartortle",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/blastoise/",
+          "rawAcquire": "Level 16"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 8,
+    "speciesName": "Wartortle",
+    "evolutions": [
+      {
+        "method": "level",
+        "param": 36,
+        "paramLabel": null,
+        "targetSpeciesId": 9,
+        "targetSpeciesName": "Blastoise",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/blastoise/",
+          "rawAcquire": "Level 36"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 10,
+    "speciesName": "Caterpie",
+    "evolutions": [
+      {
+        "method": "level",
+        "param": 7,
+        "paramLabel": null,
+        "targetSpeciesId": 11,
+        "targetSpeciesName": "Metapod",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/butterfree/",
+          "rawAcquire": "Level 7"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 11,
+    "speciesName": "Metapod",
+    "evolutions": [
+      {
+        "method": "level",
+        "param": 10,
+        "paramLabel": null,
+        "targetSpeciesId": 12,
+        "targetSpeciesName": "Butterfree",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/butterfree/",
+          "rawAcquire": "Level 10"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
     "speciesId": 13,
     "speciesName": "Weedle",
     "evolutions": [
@@ -158,37 +312,27 @@
     "speciesName": "Pikachu",
     "evolutions": [
       {
-        "method": "breed",
+        "method": "item",
         "param": null,
-        "paramLabel": "Baby form (breeding)",
-        "targetSpeciesId": 172,
-        "targetSpeciesName": "Pichu",
+        "paramLabel": "Thunder Stone",
+        "targetSpeciesId": 26,
+        "targetSpeciesName": "Raichu",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/pikachu/",
-          "rawAcquire": "Baby form (breeding)"
+          "page": "https://unboundwiki.com/pokemon/alolan-raichu/",
+          "rawAcquire": "Thunder Stone"
         }
-      }
-    ],
-    "source": {
-      "kind": "wiki-pages",
-      "base": "https://unboundwiki.com/pokemon/"
-    }
-  },
-  {
-    "speciesId": 26,
-    "speciesName": "Raichu",
-    "evolutions": [
+      },
       {
-        "method": "breed",
+        "method": "item",
         "param": null,
-        "paramLabel": "Baby form (breeding)",
-        "targetSpeciesId": 172,
-        "targetSpeciesName": "Pichu",
+        "paramLabel": "Thunder Stone on a beach",
+        "targetSpeciesId": 1022,
+        "targetSpeciesName": "Alolan Raichu",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/raichu/",
-          "rawAcquire": "Baby form (breeding)"
+          "page": "https://unboundwiki.com/pokemon/alolan-raichu/",
+          "rawAcquire": "Thunder Stone on a beach"
         }
       }
     ],
@@ -268,37 +412,15 @@
     "speciesName": "Clefairy",
     "evolutions": [
       {
-        "method": "breed",
+        "method": "item",
         "param": null,
-        "paramLabel": "Breeding",
-        "targetSpeciesId": 173,
-        "targetSpeciesName": "Cleffa",
-        "source": {
-          "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/clefairy/",
-          "rawAcquire": "Breeding"
-        }
-      }
-    ],
-    "source": {
-      "kind": "wiki-pages",
-      "base": "https://unboundwiki.com/pokemon/"
-    }
-  },
-  {
-    "speciesId": 36,
-    "speciesName": "Clefable",
-    "evolutions": [
-      {
-        "method": "breed",
-        "param": null,
-        "paramLabel": "Breeding",
-        "targetSpeciesId": 173,
-        "targetSpeciesName": "Cleffa",
+        "paramLabel": "Moon Stone",
+        "targetSpeciesId": 36,
+        "targetSpeciesName": "Clefable",
         "source": {
           "kind": "wiki-page",
           "page": "https://unboundwiki.com/pokemon/clefable/",
-          "rawAcquire": "Breeding"
+          "rawAcquire": "Moon Stone"
         }
       }
     ],
@@ -334,37 +456,15 @@
     "speciesName": "Jigglypuff",
     "evolutions": [
       {
-        "method": "breed",
+        "method": "item",
         "param": null,
-        "paramLabel": "Breeding",
-        "targetSpeciesId": 174,
-        "targetSpeciesName": "Igglybuff",
+        "paramLabel": "Moon Stone",
+        "targetSpeciesId": 40,
+        "targetSpeciesName": "Wigglytuff",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/jigglypuff/",
-          "rawAcquire": "Breeding"
-        }
-      }
-    ],
-    "source": {
-      "kind": "wiki-pages",
-      "base": "https://unboundwiki.com/pokemon/"
-    }
-  },
-  {
-    "speciesId": 40,
-    "speciesName": "Wigglytuff",
-    "evolutions": [
-      {
-        "method": "breed",
-        "param": null,
-        "paramLabel": "Breeding",
-        "targetSpeciesId": 174,
-        "targetSpeciesName": "Igglybuff",
-        "source": {
-          "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/wigglytuff/",
-          "rawAcquire": "Breeding"
+          "page": "https://unboundwiki.com/pokemon/igglybuff/",
+          "rawAcquire": "Moon Stone"
         }
       }
     ],
@@ -485,7 +585,7 @@
         "targetSpeciesName": "Parasect",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/parasect/",
+          "page": "https://unboundwiki.com/pokemon/paras/",
           "rawAcquire": "Level 24"
         }
       }
@@ -507,7 +607,7 @@
         "targetSpeciesName": "Venomoth",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/venonat/",
+          "page": "https://unboundwiki.com/pokemon/venomoth/",
           "rawAcquire": "Level 31"
         }
       }
@@ -639,7 +739,7 @@
         "targetSpeciesName": "Poliwhirl",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/poliwag/",
+          "page": "https://unboundwiki.com/pokemon/politoed/",
           "rawAcquire": "Level 25"
         }
       }
@@ -661,7 +761,7 @@
         "targetSpeciesName": "Poliwrath",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/poliwag/",
+          "page": "https://unboundwiki.com/pokemon/politoed/",
           "rawAcquire": "Water Stone"
         }
       },
@@ -673,7 +773,7 @@
         "targetSpeciesName": "Politoed",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/poliwag/",
+          "page": "https://unboundwiki.com/pokemon/politoed/",
           "rawAcquire": "King\u2019s Rock"
         }
       }
@@ -827,7 +927,7 @@
         "targetSpeciesName": "Tentacruel",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/tentacruel/",
+          "page": "https://unboundwiki.com/pokemon/tentacool/",
           "rawAcquire": "Level 30"
         }
       }
@@ -949,7 +1049,7 @@
         "targetSpeciesName": "Magneton",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/magneton/",
+          "page": "https://unboundwiki.com/pokemon/magnemite/",
           "rawAcquire": "Level 30"
         }
       }
@@ -971,8 +1071,30 @@
         "targetSpeciesName": "Magnezone",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/magneton/",
+          "page": "https://unboundwiki.com/pokemon/magnemite/",
           "rawAcquire": "Thunder Stone or Level up inside Thundercap Mountain"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 83,
+    "speciesName": "Galarian Farfetch\u2019d",
+    "evolutions": [
+      {
+        "method": "makegalarianfarfetchdland3criticalhitsinasinglebattle",
+        "param": null,
+        "paramLabel": "Make Galarian Farfetch\u2019d land 3 critical hits in a single battle",
+        "targetSpeciesId": 1157,
+        "targetSpeciesName": "Sirfetch\u2019d",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/galarian-farfetchd/",
+          "rawAcquire": "Make Galarian Farfetch\u2019d land 3 critical hits in a single battle"
         }
       }
     ],
@@ -1238,6 +1360,18 @@
           "page": "https://unboundwiki.com/pokemon/alolan-marowak/",
           "rawAcquire": "Level 28 (Daytime)"
         }
+      },
+      {
+        "method": "level-nighttime",
+        "param": 28,
+        "paramLabel": "Nighttime",
+        "targetSpeciesId": 1039,
+        "targetSpeciesName": "Alolan Marowak",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/alolan-marowak/",
+          "rawAcquire": "Level 28 (Nighttime)"
+        }
       }
     ],
     "source": {
@@ -1259,28 +1393,6 @@
           "kind": "wiki-page",
           "page": "https://unboundwiki.com/pokemon/lickilicky/",
           "rawAcquire": "Level up while knowing the move Rollout"
-        }
-      }
-    ],
-    "source": {
-      "kind": "wiki-pages",
-      "base": "https://unboundwiki.com/pokemon/"
-    }
-  },
-  {
-    "speciesId": 109,
-    "speciesName": "Koffing",
-    "evolutions": [
-      {
-        "method": "level",
-        "param": 35,
-        "paramLabel": null,
-        "targetSpeciesId": 110,
-        "targetSpeciesName": "Weezing",
-        "source": {
-          "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/koffing/",
-          "rawAcquire": "Level 35"
         }
       }
     ],
@@ -1338,15 +1450,15 @@
     "speciesName": "Chansey",
     "evolutions": [
       {
-        "method": "breed",
+        "method": "evolvewithhighfriendship",
         "param": null,
-        "paramLabel": "Baby form (breed Chansey holding Luck Incense)",
-        "targetSpeciesId": 493,
-        "targetSpeciesName": "Happiny",
+        "paramLabel": "Evolve with high Friendship",
+        "targetSpeciesId": 242,
+        "targetSpeciesName": "Blissey",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/chansey/",
-          "rawAcquire": "Baby form (breed Chansey holding Luck Incense)"
+          "page": "https://unboundwiki.com/pokemon/blissey/",
+          "rawAcquire": "Evolve with high Friendship"
         }
       }
     ],
@@ -1367,7 +1479,7 @@
         "targetSpeciesName": "Tangrowth",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/tangrowth/",
+          "page": "https://unboundwiki.com/pokemon/tangela/",
           "rawAcquire": "Level Up while knowing Ancientpower"
         }
       }
@@ -1455,30 +1567,8 @@
         "targetSpeciesName": "Starmie",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/staryu/",
+          "page": "https://unboundwiki.com/pokemon/starmie/",
           "rawAcquire": "Water Stone"
-        }
-      }
-    ],
-    "source": {
-      "kind": "wiki-pages",
-      "base": "https://unboundwiki.com/pokemon/"
-    }
-  },
-  {
-    "speciesId": 122,
-    "speciesName": "Mr. Mime",
-    "evolutions": [
-      {
-        "method": "babyform",
-        "param": null,
-        "paramLabel": "Baby form",
-        "targetSpeciesId": 492,
-        "targetSpeciesName": "Mime Jr.",
-        "source": {
-          "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/mr-mime/",
-          "rawAcquire": "Baby form"
         }
       }
     ],
@@ -1510,43 +1600,9 @@
     }
   },
   {
-    "speciesId": 124,
-    "speciesName": "Jynx",
-    "evolutions": [
-      {
-        "method": "baseformbaby",
-        "param": null,
-        "paramLabel": "Base form/baby",
-        "targetSpeciesId": 238,
-        "targetSpeciesName": "Smoochum",
-        "source": {
-          "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/jynx/",
-          "rawAcquire": "Base form/baby"
-        }
-      }
-    ],
-    "source": {
-      "kind": "wiki-pages",
-      "base": "https://unboundwiki.com/pokemon/"
-    }
-  },
-  {
     "speciesId": 125,
     "speciesName": "Electabuzz",
     "evolutions": [
-      {
-        "method": "baseformbaby",
-        "param": null,
-        "paramLabel": "Base form/baby",
-        "targetSpeciesId": 239,
-        "targetSpeciesName": "Elekid",
-        "source": {
-          "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/electabuzz/",
-          "rawAcquire": "Base form/baby"
-        }
-      },
       {
         "method": "electirizer",
         "param": null,
@@ -1727,7 +1783,7 @@
         "targetSpeciesName": "Porygon2",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/porygon/",
+          "page": "https://unboundwiki.com/pokemon/porygon-z/",
           "rawAcquire": "Up Grade"
         }
       }
@@ -1749,7 +1805,7 @@
         "targetSpeciesName": "Omastar",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/omastar/",
+          "page": "https://unboundwiki.com/pokemon/omanyte/",
           "rawAcquire": "Level 40"
         }
       }
@@ -1773,28 +1829,6 @@
           "kind": "wiki-page",
           "page": "https://unboundwiki.com/pokemon/kabuto/",
           "rawAcquire": "Level 40"
-        }
-      }
-    ],
-    "source": {
-      "kind": "wiki-pages",
-      "base": "https://unboundwiki.com/pokemon/"
-    }
-  },
-  {
-    "speciesId": 143,
-    "speciesName": "Snorlax",
-    "evolutions": [
-      {
-        "method": "babyform",
-        "param": null,
-        "paramLabel": "Baby form",
-        "targetSpeciesId": 499,
-        "targetSpeciesName": "Munchlax",
-        "source": {
-          "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/snorlax/",
-          "rawAcquire": "Baby form"
         }
       }
     ],
@@ -1927,6 +1961,18 @@
           "kind": "wiki-page",
           "page": "https://unboundwiki.com/pokemon/cyndaquil/",
           "rawAcquire": "Level 36"
+        }
+      },
+      {
+        "method": "level-whileholdingahisuirock",
+        "param": 36,
+        "paramLabel": "while holding a Hisui Rock",
+        "targetSpeciesId": 1280,
+        "targetSpeciesName": "Hisuian Typhlosion",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/cyndaquil/",
+          "rawAcquire": "Level 36 while holding a Hisui Rock"
         }
       }
     ],
@@ -2094,15 +2140,15 @@
     "speciesName": "Pichu",
     "evolutions": [
       {
-        "method": "breed",
+        "method": "evolveathighfriendship",
         "param": null,
-        "paramLabel": "Baby form (breeding)",
-        "targetSpeciesId": 172,
-        "targetSpeciesName": "Pichu",
+        "paramLabel": "Evolve at High Friendship",
+        "targetSpeciesId": 25,
+        "targetSpeciesName": "Pikachu",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/pichu/",
-          "rawAcquire": "Baby form (breeding)"
+          "page": "https://unboundwiki.com/pokemon/alolan-raichu/",
+          "rawAcquire": "Evolve at High Friendship"
         }
       }
     ],
@@ -2116,15 +2162,15 @@
     "speciesName": "Cleffa",
     "evolutions": [
       {
-        "method": "breed",
+        "method": "evolvewithhighfriendship",
         "param": null,
-        "paramLabel": "Breeding",
-        "targetSpeciesId": 173,
-        "targetSpeciesName": "Cleffa",
+        "paramLabel": "Evolve with high friendship",
+        "targetSpeciesId": 35,
+        "targetSpeciesName": "Clefairy",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/cleffa/",
-          "rawAcquire": "Breeding"
+          "page": "https://unboundwiki.com/pokemon/clefable/",
+          "rawAcquire": "Evolve with high friendship"
         }
       }
     ],
@@ -2138,15 +2184,15 @@
     "speciesName": "Igglybuff",
     "evolutions": [
       {
-        "method": "breed",
+        "method": "evolvewithhighfriendship",
         "param": null,
-        "paramLabel": "Breeding",
-        "targetSpeciesId": 174,
-        "targetSpeciesName": "Igglybuff",
+        "paramLabel": "Evolve with high friendship",
+        "targetSpeciesId": 39,
+        "targetSpeciesName": "Jigglypuff",
         "source": {
           "kind": "wiki-page",
           "page": "https://unboundwiki.com/pokemon/igglybuff/",
-          "rawAcquire": "Breeding"
+          "rawAcquire": "Evolve with high friendship"
         }
       }
     ],
@@ -2270,59 +2316,15 @@
     "speciesName": "Marill",
     "evolutions": [
       {
-        "method": "breed",
-        "param": null,
-        "paramLabel": "Baby form (breed Marill with Sea Incense)",
-        "targetSpeciesId": 350,
-        "targetSpeciesName": "Azurill",
-        "source": {
-          "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/marill/",
-          "rawAcquire": "Baby form (breed Marill with Sea Incense)"
-        }
-      }
-    ],
-    "source": {
-      "kind": "wiki-pages",
-      "base": "https://unboundwiki.com/pokemon/"
-    }
-  },
-  {
-    "speciesId": 184,
-    "speciesName": "Azumarill",
-    "evolutions": [
-      {
-        "method": "breed",
-        "param": null,
-        "paramLabel": "Baby form (breed Marill with Sea Incense)",
-        "targetSpeciesId": 350,
-        "targetSpeciesName": "Azurill",
+        "method": "level",
+        "param": 18,
+        "paramLabel": null,
+        "targetSpeciesId": 184,
+        "targetSpeciesName": "Azumarill",
         "source": {
           "kind": "wiki-page",
           "page": "https://unboundwiki.com/pokemon/azumarill/",
-          "rawAcquire": "Baby form (breed Marill with Sea Incense)"
-        }
-      }
-    ],
-    "source": {
-      "kind": "wiki-pages",
-      "base": "https://unboundwiki.com/pokemon/"
-    }
-  },
-  {
-    "speciesId": 185,
-    "speciesName": "Sudowoodo",
-    "evolutions": [
-      {
-        "method": "breed",
-        "param": null,
-        "paramLabel": "Baby form (breeding with Rock Incense)",
-        "targetSpeciesId": 491,
-        "targetSpeciesName": "Bonsly",
-        "source": {
-          "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/sudowoodo/",
-          "rawAcquire": "Baby form (breeding with Rock Incense)"
+          "rawAcquire": "Level 18"
         }
       }
     ],
@@ -2497,7 +2499,7 @@
         "targetSpeciesName": "Mismagius",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/mismagius/",
+          "page": "https://unboundwiki.com/pokemon/misdreavus/",
           "rawAcquire": "Dusk Stone"
         }
       }
@@ -2684,6 +2686,28 @@
     }
   },
   {
+    "speciesId": 222,
+    "speciesName": "Galarian Corsola",
+    "evolutions": [
+      {
+        "method": "level",
+        "param": 38,
+        "paramLabel": null,
+        "targetSpeciesId": 1156,
+        "targetSpeciesName": "Cursola",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/cursola/",
+          "rawAcquire": "Level 38"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
     "speciesId": 223,
     "speciesName": "Remoraid",
     "evolutions": [
@@ -2773,7 +2797,7 @@
         "targetSpeciesName": "Porygon-Z",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/porygon/",
+          "page": "https://unboundwiki.com/pokemon/porygon-z/",
           "rawAcquire": "Dubious Disc"
         }
       }
@@ -2795,7 +2819,7 @@
         "targetSpeciesName": "Hitmonlee",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/hitmonlee/",
+          "page": "https://unboundwiki.com/pokemon/hitmonchan/",
           "rawAcquire": "Level 20 with Atk higher than Def"
         }
       },
@@ -2807,7 +2831,7 @@
         "targetSpeciesName": "Hitmonchan",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/hitmonlee/",
+          "page": "https://unboundwiki.com/pokemon/hitmonchan/",
           "rawAcquire": "Level 20 with Atk lower than Def"
         }
       },
@@ -2819,7 +2843,7 @@
         "targetSpeciesName": "Hitmontop",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/hitmonlee/",
+          "page": "https://unboundwiki.com/pokemon/hitmonchan/",
           "rawAcquire": "Level 20 with Atk = Def"
         }
       }
@@ -2844,18 +2868,6 @@
           "page": "https://unboundwiki.com/pokemon/jynx/",
           "rawAcquire": "Level 30"
         }
-      },
-      {
-        "method": "baseformbaby",
-        "param": null,
-        "paramLabel": "Base form/baby",
-        "targetSpeciesId": 238,
-        "targetSpeciesName": "Smoochum",
-        "source": {
-          "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/smoochum/",
-          "rawAcquire": "Base form/baby"
-        }
       }
     ],
     "source": {
@@ -2878,18 +2890,6 @@
           "page": "https://unboundwiki.com/pokemon/electabuzz/",
           "rawAcquire": "Level 30"
         }
-      },
-      {
-        "method": "baseformbaby",
-        "param": null,
-        "paramLabel": "Base form/baby",
-        "targetSpeciesId": 239,
-        "targetSpeciesName": "Elekid",
-        "source": {
-          "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/elekid/",
-          "rawAcquire": "Base form/baby"
-        }
       }
     ],
     "source": {
@@ -2911,28 +2911,6 @@
           "kind": "wiki-page",
           "page": "https://unboundwiki.com/pokemon/magby/",
           "rawAcquire": "Level 30"
-        }
-      }
-    ],
-    "source": {
-      "kind": "wiki-pages",
-      "base": "https://unboundwiki.com/pokemon/"
-    }
-  },
-  {
-    "speciesId": 242,
-    "speciesName": "Blissey",
-    "evolutions": [
-      {
-        "method": "breed",
-        "param": null,
-        "paramLabel": "Baby form (breed Chansey holding Luck Incense)",
-        "targetSpeciesId": 493,
-        "targetSpeciesName": "Happiny",
-        "source": {
-          "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/blissey/",
-          "rawAcquire": "Baby form (breed Chansey holding Luck Incense)"
         }
       }
     ],
@@ -3251,7 +3229,7 @@
         "targetSpeciesName": "Lombre",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/lotad/",
+          "page": "https://unboundwiki.com/pokemon/lombre/",
           "rawAcquire": "Level 14"
         }
       }
@@ -3273,7 +3251,7 @@
         "targetSpeciesName": "Ludicolo",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/lotad/",
+          "page": "https://unboundwiki.com/pokemon/lombre/",
           "rawAcquire": "Water Stone"
         }
       }
@@ -3828,15 +3806,15 @@
     "speciesName": "Azurill",
     "evolutions": [
       {
-        "method": "breed",
+        "method": "levelupwithhighfriendship",
         "param": null,
-        "paramLabel": "Baby form (breed Marill with Sea Incense)",
-        "targetSpeciesId": 350,
-        "targetSpeciesName": "Azurill",
+        "paramLabel": "Level up with high friendship",
+        "targetSpeciesId": 183,
+        "targetSpeciesName": "Marill",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/azurill/",
-          "rawAcquire": "Baby form (breed Marill with Sea Incense)"
+          "page": "https://unboundwiki.com/pokemon/azumarill/",
+          "rawAcquire": "Level up with high friendship"
         }
       }
     ],
@@ -3912,28 +3890,6 @@
     }
   },
   {
-    "speciesId": 360,
-    "speciesName": "Wynaut",
-    "evolutions": [
-      {
-        "method": "level",
-        "param": 15,
-        "paramLabel": null,
-        "targetSpeciesId": 202,
-        "targetSpeciesName": "Wobbuffet",
-        "source": {
-          "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/wobbuffet/",
-          "rawAcquire": "Level 15"
-        }
-      }
-    ],
-    "source": {
-      "kind": "wiki-pages",
-      "base": "https://unboundwiki.com/pokemon/"
-    }
-  },
-  {
     "speciesId": 361,
     "speciesName": "Duskull",
     "evolutions": [
@@ -3945,7 +3901,7 @@
         "targetSpeciesName": "Dusclops",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/dusknoir/",
+          "page": "https://unboundwiki.com/pokemon/dusclops/",
           "rawAcquire": "Level 37"
         }
       }
@@ -3967,7 +3923,7 @@
         "targetSpeciesName": "Dusknoir",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/dusknoir/",
+          "page": "https://unboundwiki.com/pokemon/dusclops/",
           "rawAcquire": "Reaper Cloth"
         }
       }
@@ -3982,15 +3938,15 @@
     "speciesName": "Roselia",
     "evolutions": [
       {
-        "method": "babyform",
+        "method": "item",
         "param": null,
-        "paramLabel": "Baby form",
-        "targetSpeciesId": 459,
-        "targetSpeciesName": "Budew",
+        "paramLabel": "Shiny Stone",
+        "targetSpeciesId": 460,
+        "targetSpeciesName": "Roserade",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/roselia/",
-          "rawAcquire": "Baby form"
+          "page": "https://unboundwiki.com/pokemon/budew/",
+          "rawAcquire": "Shiny Stone"
         }
       }
     ],
@@ -4011,7 +3967,7 @@
         "targetSpeciesName": "Vigoroth",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/slakoth/",
+          "page": "https://unboundwiki.com/pokemon/slaking/",
           "rawAcquire": "Level 18"
         }
       }
@@ -4033,7 +3989,7 @@
         "targetSpeciesName": "Slaking",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/slakoth/",
+          "page": "https://unboundwiki.com/pokemon/slaking/",
           "rawAcquire": "Level 36"
         }
       }
@@ -4386,28 +4342,6 @@
     }
   },
   {
-    "speciesId": 411,
-    "speciesName": "Chimecho",
-    "evolutions": [
-      {
-        "method": "babyform",
-        "param": null,
-        "paramLabel": "Baby form",
-        "targetSpeciesId": 486,
-        "targetSpeciesName": "Chingling",
-        "source": {
-          "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/chimecho/",
-          "rawAcquire": "Baby form"
-        }
-      }
-    ],
-    "source": {
-      "kind": "wiki-pages",
-      "base": "https://unboundwiki.com/pokemon/"
-    }
-  },
-  {
     "speciesId": 440,
     "speciesName": "Turtwig",
     "evolutions": [
@@ -4551,7 +4485,7 @@
         "targetSpeciesName": "Staravia",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/staravia/",
+          "page": "https://unboundwiki.com/pokemon/staraptor/",
           "rawAcquire": "Level 14"
         }
       }
@@ -4573,7 +4507,7 @@
         "targetSpeciesName": "Staraptor",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/staravia/",
+          "page": "https://unboundwiki.com/pokemon/staraptor/",
           "rawAcquire": "Level 34"
         }
       }
@@ -4676,37 +4610,15 @@
     "speciesName": "Budew",
     "evolutions": [
       {
-        "method": "babyform",
+        "method": "levelupbudewwithhighfriendshipduringtheday",
         "param": null,
-        "paramLabel": "Baby form",
-        "targetSpeciesId": 459,
-        "targetSpeciesName": "Budew",
+        "paramLabel": "Level up Budew with high friendship during the day",
+        "targetSpeciesId": 363,
+        "targetSpeciesName": "Roselia",
         "source": {
           "kind": "wiki-page",
           "page": "https://unboundwiki.com/pokemon/budew/",
-          "rawAcquire": "Baby form"
-        }
-      }
-    ],
-    "source": {
-      "kind": "wiki-pages",
-      "base": "https://unboundwiki.com/pokemon/"
-    }
-  },
-  {
-    "speciesId": 460,
-    "speciesName": "Roserade",
-    "evolutions": [
-      {
-        "method": "babyform",
-        "param": null,
-        "paramLabel": "Baby form",
-        "targetSpeciesId": 459,
-        "targetSpeciesName": "Budew",
-        "source": {
-          "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/roserade/",
-          "rawAcquire": "Baby form"
+          "rawAcquire": "Level up Budew with high friendship during the day"
         }
       }
     ],
@@ -4815,7 +4727,7 @@
         "targetSpeciesName": "Cherrim",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/cherubi/",
+          "page": "https://unboundwiki.com/pokemon/cherrim/",
           "rawAcquire": "Level 25"
         }
       }
@@ -4918,15 +4830,15 @@
     "speciesName": "Chingling",
     "evolutions": [
       {
-        "method": "babyform",
+        "method": "levelupwithhighfriendshipatnight",
         "param": null,
-        "paramLabel": "Baby form",
-        "targetSpeciesId": 486,
-        "targetSpeciesName": "Chingling",
+        "paramLabel": "Level Up with High Friendship at Night",
+        "targetSpeciesId": 411,
+        "targetSpeciesName": "Chimecho",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/chingling/",
-          "rawAcquire": "Baby form"
+          "page": "https://unboundwiki.com/pokemon/chimecho/",
+          "rawAcquire": "Level Up with High Friendship at Night"
         }
       }
     ],
@@ -4984,15 +4896,15 @@
     "speciesName": "Bonsly",
     "evolutions": [
       {
-        "method": "breed",
+        "method": "levelbonslywhileitknowsmimic",
         "param": null,
-        "paramLabel": "Baby form (breeding with Rock Incense)",
-        "targetSpeciesId": 491,
-        "targetSpeciesName": "Bonsly",
+        "paramLabel": "Level Bonsly while it knows Mimic",
+        "targetSpeciesId": 185,
+        "targetSpeciesName": "Sudowoodo",
         "source": {
           "kind": "wiki-page",
           "page": "https://unboundwiki.com/pokemon/bonsly/",
-          "rawAcquire": "Baby form (breeding with Rock Incense)"
+          "rawAcquire": "Level Bonsly while it knows Mimic"
         }
       }
     ],
@@ -5006,15 +4918,15 @@
     "speciesName": "Mime Jr.",
     "evolutions": [
       {
-        "method": "babyform",
+        "method": "levelupmimejrwhileitknowsmimic",
         "param": null,
-        "paramLabel": "Baby form",
-        "targetSpeciesId": 492,
-        "targetSpeciesName": "Mime Jr.",
+        "paramLabel": "Level up Mime Jr. while it knows Mimic",
+        "targetSpeciesId": 122,
+        "targetSpeciesName": "Mr. Mime",
         "source": {
           "kind": "wiki-page",
           "page": "https://unboundwiki.com/pokemon/mime-jr/",
-          "rawAcquire": "Baby form"
+          "rawAcquire": "Level up Mime Jr. while it knows Mimic"
         }
       }
     ],
@@ -5028,15 +4940,15 @@
     "speciesName": "Happiny",
     "evolutions": [
       {
-        "method": "breed",
+        "method": "item",
         "param": null,
-        "paramLabel": "Baby form (breed Chansey holding Luck Incense)",
-        "targetSpeciesId": 493,
-        "targetSpeciesName": "Happiny",
+        "paramLabel": "Oval Stone during daytime",
+        "targetSpeciesId": 113,
+        "targetSpeciesName": "Chansey",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/happiny/",
-          "rawAcquire": "Baby form (breed Chansey holding Luck Incense)"
+          "page": "https://unboundwiki.com/pokemon/blissey/",
+          "rawAcquire": "Oval Stone during daytime"
         }
       }
     ],
@@ -5094,15 +5006,15 @@
     "speciesName": "Munchlax",
     "evolutions": [
       {
-        "method": "babyform",
+        "method": "evolvesmunchlaxvialevelupwithhighhappiness",
         "param": null,
-        "paramLabel": "Baby form",
-        "targetSpeciesId": 499,
-        "targetSpeciesName": "Munchlax",
+        "paramLabel": "Evolves Munchlax via Level-up with high Happiness",
+        "targetSpeciesId": 143,
+        "targetSpeciesName": "Snorlax",
         "source": {
           "kind": "wiki-page",
           "page": "https://unboundwiki.com/pokemon/munchlax/",
-          "rawAcquire": "Baby form"
+          "rawAcquire": "Evolves Munchlax via Level-up with high Happiness"
         }
       }
     ],
@@ -5266,28 +5178,6 @@
     }
   },
   {
-    "speciesId": 519,
-    "speciesName": "Electivire",
-    "evolutions": [
-      {
-        "method": "baseformbaby",
-        "param": null,
-        "paramLabel": "Base form/baby",
-        "targetSpeciesId": 239,
-        "targetSpeciesName": "Elekid",
-        "source": {
-          "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/electivire/",
-          "rawAcquire": "Base form/baby"
-        }
-      }
-    ],
-    "source": {
-      "kind": "wiki-pages",
-      "base": "https://unboundwiki.com/pokemon/"
-    }
-  },
-  {
     "speciesId": 548,
     "speciesName": "Snivy",
     "evolutions": [
@@ -5411,6 +5301,18 @@
           "kind": "wiki-page",
           "page": "https://unboundwiki.com/pokemon/dewott/",
           "rawAcquire": "Level 36"
+        }
+      },
+      {
+        "method": "level-whiledewottholdsahisuirock",
+        "param": 36,
+        "paramLabel": "while Dewott holds a Hisui Rock",
+        "targetSpeciesId": 1277,
+        "targetSpeciesName": "Hisuian Samurott",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/dewott/",
+          "rawAcquire": "Level 36 (while Dewott holds a Hisui Rock)"
         }
       }
     ],
@@ -5962,6 +5864,18 @@
           "page": "https://unboundwiki.com/pokemon/hisuian-lilligant/",
           "rawAcquire": "Sun Stone"
         }
+      },
+      {
+        "method": "item",
+        "param": null,
+        "paramLabel": "Sun Stone while Petilil holds a Hisui Rock",
+        "targetSpeciesId": 1275,
+        "targetSpeciesName": "Hisuian Lilligant",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/hisuian-lilligant/",
+          "rawAcquire": "Sun Stone while Petilil holds a Hisui Rock"
+        }
       }
     ],
     "source": {
@@ -6015,18 +5929,18 @@
   },
   {
     "speciesId": 607,
-    "speciesName": "Darumaka",
+    "speciesName": "Galarian Darumaka",
     "evolutions": [
       {
-        "method": "level",
-        "param": 35,
-        "paramLabel": null,
+        "method": "item",
+        "param": null,
+        "paramLabel": "Ice Stone",
         "targetSpeciesId": 608,
-        "targetSpeciesName": "Darmanitan",
+        "targetSpeciesName": "Galarian Darmanitan",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/darmanitan/",
-          "rawAcquire": "Level 35"
+          "page": "https://unboundwiki.com/pokemon/galarian-darmanitan/",
+          "rawAcquire": "Ice Stone"
         }
       }
     ],
@@ -6179,7 +6093,7 @@
         "targetSpeciesName": "Zoroark",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/zorua/",
+          "page": "https://unboundwiki.com/pokemon/zoroark/",
           "rawAcquire": "Level 30"
         }
       }
@@ -6223,7 +6137,7 @@
         "targetSpeciesName": "Gothorita",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/gothitelle/",
+          "page": "https://unboundwiki.com/pokemon/gothita/",
           "rawAcquire": "Level 32"
         }
       }
@@ -6245,7 +6159,7 @@
         "targetSpeciesName": "Gothitelle",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/gothitelle/",
+          "page": "https://unboundwiki.com/pokemon/gothita/",
           "rawAcquire": "Level 41"
         }
       }
@@ -6565,7 +6479,7 @@
         "targetSpeciesName": "Eelektrik",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/eelektross/",
+          "page": "https://unboundwiki.com/pokemon/eelektrik/",
           "rawAcquire": "Level 39"
         }
       }
@@ -6587,7 +6501,7 @@
         "targetSpeciesName": "Eelektross",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/eelektross/",
+          "page": "https://unboundwiki.com/pokemon/eelektrik/",
           "rawAcquire": "Thunder Stone"
         }
       }
@@ -6843,6 +6757,18 @@
           "kind": "wiki-page",
           "page": "https://unboundwiki.com/pokemon/braviary/",
           "rawAcquire": "Level 50"
+        }
+      },
+      {
+        "method": "level-whileholdinghisuirock",
+        "param": 50,
+        "paramLabel": "while holding Hisui Rock",
+        "targetSpeciesId": 1270,
+        "targetSpeciesName": "Hisuian Braviary",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/braviary/",
+          "rawAcquire": "Level 50 (while holding Hisui Rock)"
         }
       }
     ],
@@ -7161,7 +7087,7 @@
   },
   {
     "speciesId": 777,
-    "speciesName": "Flab\\eb\\e",
+    "speciesName": "Flabebe",
     "evolutions": [
       {
         "method": "level",
@@ -7526,6 +7452,18 @@
           "page": "https://unboundwiki.com/pokemon/goodra/",
           "rawAcquire": "Level 40"
         }
+      },
+      {
+        "method": "level-whileholdinghisuirock",
+        "param": 40,
+        "paramLabel": "while holding Hisui Rock",
+        "targetSpeciesId": 1278,
+        "targetSpeciesName": "Hisuian Sliggoo",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/goodra/",
+          "rawAcquire": "Level 40 while holding Hisui Rock"
+        }
       }
     ],
     "source": {
@@ -7614,6 +7552,18 @@
           "page": "https://unboundwiki.com/pokemon/avalugg/",
           "rawAcquire": "Level 37"
         }
+      },
+      {
+        "method": "level-whileholdinghisuirock",
+        "param": 37,
+        "paramLabel": "while holding Hisui Rock",
+        "targetSpeciesId": 1269,
+        "targetSpeciesName": "Hisuian Avalugg",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/avalugg/",
+          "rawAcquire": "Level 37 (while holding Hisui Rock)"
+        }
       }
     ],
     "source": {
@@ -7679,6 +7629,18 @@
           "kind": "wiki-page",
           "page": "https://unboundwiki.com/pokemon/dartrix/",
           "rawAcquire": "Level 34"
+        }
+      },
+      {
+        "method": "level-whiledartrixholdsahisuirock",
+        "param": 34,
+        "paramLabel": "while Dartrix holds a Hisui Rock",
+        "targetSpeciesId": 1271,
+        "targetSpeciesName": "Hisuian Decidueye",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/dartrix/",
+          "rawAcquire": "Level 34 (while Dartrix holds a Hisui Rock)"
         }
       }
     ],
@@ -7941,7 +7903,7 @@
         "targetSpeciesName": "Mudsdale",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/mudsdale/",
+          "page": "https://unboundwiki.com/pokemon/mudbray/",
           "rawAcquire": "Level 30"
         }
       }
@@ -8029,7 +7991,7 @@
         "targetSpeciesName": "Salazzle",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/salazzle/",
+          "page": "https://unboundwiki.com/pokemon/salandit/",
           "rawAcquire": "(Female Salandit) Level 33"
         }
       }
@@ -8263,6 +8225,182 @@
           "kind": "wiki-page",
           "page": "https://unboundwiki.com/pokemon/cosmoem/",
           "rawAcquire": "Level 53 during night"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 1020,
+    "speciesName": "Alolan Rattata",
+    "evolutions": [
+      {
+        "method": "level-nighttime",
+        "param": 20,
+        "paramLabel": "Nighttime",
+        "targetSpeciesId": 1021,
+        "targetSpeciesName": "Alolan Raticate",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/alolan-raticate/",
+          "rawAcquire": "Level 20 (Nighttime)"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 1023,
+    "speciesName": "Alolan Sandshrew",
+    "evolutions": [
+      {
+        "method": "item",
+        "param": null,
+        "paramLabel": "Ice Stone",
+        "targetSpeciesId": 1024,
+        "targetSpeciesName": "Alolan Sandslash",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/alolan-sandshrew/",
+          "rawAcquire": "Ice Stone"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 1025,
+    "speciesName": "Alolan Vulpix",
+    "evolutions": [
+      {
+        "method": "item",
+        "param": null,
+        "paramLabel": "Ice Stone",
+        "targetSpeciesId": 1026,
+        "targetSpeciesName": "Alolan Ninetales",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/alolan-ninetales/",
+          "rawAcquire": "Ice Stone"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 1027,
+    "speciesName": "Alolan Diglett",
+    "evolutions": [
+      {
+        "method": "level",
+        "param": 26,
+        "paramLabel": null,
+        "targetSpeciesId": 1028,
+        "targetSpeciesName": "Alolan Dugtrio",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/alolan-diglett/",
+          "rawAcquire": "Level 26"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 1029,
+    "speciesName": "Alolan Meowth",
+    "evolutions": [
+      {
+        "method": "levelupwithhighfriendship",
+        "param": null,
+        "paramLabel": "Level up with high friendship",
+        "targetSpeciesId": 1030,
+        "targetSpeciesName": "Alolan Persian",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/alolan-meowth/",
+          "rawAcquire": "Level up with high friendship"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 1031,
+    "speciesName": "Alolan Geodude",
+    "evolutions": [
+      {
+        "method": "level",
+        "param": 25,
+        "paramLabel": null,
+        "targetSpeciesId": 1032,
+        "targetSpeciesName": "Alolan Graveler",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/alolan-geodude/",
+          "rawAcquire": "Level 25"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 1032,
+    "speciesName": "Alolan Graveler",
+    "evolutions": [
+      {
+        "method": "item",
+        "param": null,
+        "paramLabel": "Link Stone",
+        "targetSpeciesId": 1033,
+        "targetSpeciesName": "Alolan Golem",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/alolan-geodude/",
+          "rawAcquire": "Link Stone"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 1034,
+    "speciesName": "Alolan Grimer",
+    "evolutions": [
+      {
+        "method": "level",
+        "param": 38,
+        "paramLabel": null,
+        "targetSpeciesId": 1035,
+        "targetSpeciesName": "Alolan Muk",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/alolan-grimer/",
+          "rawAcquire": "Level 38"
         }
       }
     ],
@@ -8923,7 +9061,7 @@
         "targetSpeciesName": "Drakloak",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/drakloak/",
+          "page": "https://unboundwiki.com/pokemon/dragapult/",
           "rawAcquire": "Level 50"
         }
       }
@@ -8945,8 +9083,306 @@
         "targetSpeciesName": "Dragapult",
         "source": {
           "kind": "wiki-page",
-          "page": "https://unboundwiki.com/pokemon/drakloak/",
+          "page": "https://unboundwiki.com/pokemon/dragapult/",
           "rawAcquire": "Level 60"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 1212,
+    "speciesName": "Galarian Meowth",
+    "evolutions": [
+      {
+        "method": "level",
+        "param": 28,
+        "paramLabel": null,
+        "targetSpeciesId": 1155,
+        "targetSpeciesName": "Perrserker",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/galarian-meowth/",
+          "rawAcquire": "Level 28"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 1213,
+    "speciesName": "Galarian Ponyta",
+    "evolutions": [
+      {
+        "method": "level",
+        "param": 40,
+        "paramLabel": null,
+        "targetSpeciesId": 1214,
+        "targetSpeciesName": "Galarian Rapidash",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/galarian-ponyta/",
+          "rawAcquire": "Level 40"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 1215,
+    "speciesName": "Galarian Slowpoke",
+    "evolutions": [
+      {
+        "method": "galaricacuff",
+        "param": null,
+        "paramLabel": "Galarica Cuff",
+        "targetSpeciesId": 1216,
+        "targetSpeciesName": "Galarian Slowbro",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/galarian-slowbro/",
+          "rawAcquire": "Galarica Cuff"
+        }
+      },
+      {
+        "method": "galaricawreath",
+        "param": null,
+        "paramLabel": "Galarica Wreath",
+        "targetSpeciesId": 1224,
+        "targetSpeciesName": "Galarian Slowking",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/galarian-slowbro/",
+          "rawAcquire": "Galarica Wreath"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 1218,
+    "speciesName": "Koffing",
+    "evolutions": [
+      {
+        "method": "level",
+        "param": 35,
+        "paramLabel": null,
+        "targetSpeciesId": 110,
+        "targetSpeciesName": "Weezing",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/koffing/",
+          "rawAcquire": "Level 35"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 1220,
+    "speciesName": "Galarian Mr. Mime",
+    "evolutions": [
+      {
+        "method": "level",
+        "param": 42,
+        "paramLabel": null,
+        "targetSpeciesId": 1158,
+        "targetSpeciesName": "Mr. Rime",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/galarian-mr-mime/",
+          "rawAcquire": "Level 42"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 1226,
+    "speciesName": "Galarian Zigzagoon",
+    "evolutions": [
+      {
+        "method": "level",
+        "param": 20,
+        "paramLabel": null,
+        "targetSpeciesId": 1227,
+        "targetSpeciesName": "Galarian Linoone",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/galarian-linoone/",
+          "rawAcquire": "Level 20"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 1227,
+    "speciesName": "Galarian Linoone",
+    "evolutions": [
+      {
+        "method": "level-nighttime",
+        "param": 35,
+        "paramLabel": "Nighttime",
+        "targetSpeciesId": 1154,
+        "targetSpeciesName": "Obstagoon",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/galarian-linoone/",
+          "rawAcquire": "Level 35 (Nighttime)"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 1229,
+    "speciesName": "Darumaka",
+    "evolutions": [
+      {
+        "method": "level",
+        "param": 35,
+        "paramLabel": null,
+        "targetSpeciesId": 737,
+        "targetSpeciesName": "Darmanitan",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/darmanitan/",
+          "rawAcquire": "Level 35"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 1232,
+    "speciesName": "Galarian Yamask",
+    "evolutions": [
+      {
+        "method": "level",
+        "param": 35,
+        "paramLabel": null,
+        "targetSpeciesId": 1159,
+        "targetSpeciesName": "Runerigus",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/galarian-yamask/",
+          "rawAcquire": "Level 35"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 1274,
+    "speciesName": "Hisuian Growlithe",
+    "evolutions": [
+      {
+        "method": "item",
+        "param": null,
+        "paramLabel": "Fire Stone",
+        "targetSpeciesId": 1268,
+        "targetSpeciesName": "Hisuian Arcanine",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/hisuian-arcanine/",
+          "rawAcquire": "Fire Stone"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 1278,
+    "speciesName": "Hisuian Sliggoo",
+    "evolutions": [
+      {
+        "method": "level-inrainorfogweather",
+        "param": 50,
+        "paramLabel": "in Rain or Fog Weather",
+        "targetSpeciesId": 1273,
+        "targetSpeciesName": "Hisuian Goodra",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/goodra/",
+          "rawAcquire": "Level 50 in Rain or Fog Weather"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 1281,
+    "speciesName": "Hisuian Voltorb",
+    "evolutions": [
+      {
+        "method": "item",
+        "param": null,
+        "paramLabel": "Leaf Stone",
+        "targetSpeciesId": 1272,
+        "targetSpeciesName": "Hisuian Electrode",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/hisuian-electrode/",
+          "rawAcquire": "Leaf Stone"
+        }
+      }
+    ],
+    "source": {
+      "kind": "wiki-pages",
+      "base": "https://unboundwiki.com/pokemon/"
+    }
+  },
+  {
+    "speciesId": 1283,
+    "speciesName": "Hisuian Zorua",
+    "evolutions": [
+      {
+        "method": "level",
+        "param": 30,
+        "paramLabel": null,
+        "targetSpeciesId": 1282,
+        "targetSpeciesName": "Hisuian Zoroark",
+        "source": {
+          "kind": "wiki-page",
+          "page": "https://unboundwiki.com/pokemon/hisuian-zoroark/",
+          "rawAcquire": "Level 30"
         }
       }
     ],

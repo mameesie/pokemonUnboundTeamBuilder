@@ -5649,16 +5649,11 @@
   },
   {
     "speciesId": 83,
-    "speciesName": "Farfetch'd",
+    "speciesName": "Galarian Farfetch\u2019d",
     "moves": [
       {
         "moveId": 34,
         "moveName": "Body Slam",
-        "source": "tutor"
-      },
-      {
-        "moveId": 97,
-        "moveName": "Agility",
         "source": "tutor"
       },
       {
@@ -5677,28 +5672,18 @@
         "source": "tutor"
       },
       {
-        "moveId": 226,
-        "moveName": "Baton Pass",
-        "source": "tutor"
-      },
-      {
         "moveId": 244,
         "moveName": "Psych Up",
         "source": "tutor"
       },
       {
-        "moveId": 253,
-        "moveName": "Uproar",
-        "source": "tutor"
-      },
-      {
-        "moveId": 257,
-        "moveName": "Heat Wave",
-        "source": "tutor"
-      },
-      {
         "moveId": 270,
         "moveName": "Helping Hand",
+        "source": "tutor"
+      },
+      {
+        "moveId": 276,
+        "moveName": "Superpower",
         "source": "tutor"
       },
       {
@@ -5714,11 +5699,6 @@
       {
         "moveId": 348,
         "moveName": "Leaf Blade",
-        "source": "tutor"
-      },
-      {
-        "moveId": 356,
-        "moveName": "Air Slash",
         "source": "tutor"
       },
       {
@@ -7636,62 +7616,6 @@
       {
         "moveId": 692,
         "moveName": "Body Press",
-        "source": "tutor"
-      }
-    ],
-    "source": {
-      "kind": "wiki-page",
-      "base": "https://unboundwiki.com/pokemon/",
-      "learnsetType": "tutor"
-    }
-  },
-  {
-    "speciesId": 109,
-    "speciesName": "Koffing",
-    "moves": [
-      {
-        "moveId": 103,
-        "moveName": "Screech",
-        "source": "tutor"
-      },
-      {
-        "moveId": 173,
-        "moveName": "Snore",
-        "source": "tutor"
-      },
-      {
-        "moveId": 180,
-        "moveName": "Spite",
-        "source": "tutor"
-      },
-      {
-        "moveId": 220,
-        "moveName": "Pain Split",
-        "source": "tutor"
-      },
-      {
-        "moveId": 253,
-        "moveName": "Uproar",
-        "source": "tutor"
-      },
-      {
-        "moveId": 469,
-        "moveName": "Toxic Spikes",
-        "source": "tutor"
-      },
-      {
-        "moveId": 564,
-        "moveName": "Confide",
-        "source": "tutor"
-      },
-      {
-        "moveId": 659,
-        "moveName": "Venom Drench",
-        "source": "tutor"
-      },
-      {
-        "moveId": 726,
-        "moveName": "Corrode Gas",
         "source": "tutor"
       }
     ],
@@ -10657,7 +10581,7 @@
   },
   {
     "speciesId": 144,
-    "speciesName": "Articuno",
+    "speciesName": "Galarian Articuno",
     "moves": [
       {
         "moveId": 97,
@@ -10675,8 +10599,8 @@
         "source": "tutor"
       },
       {
-        "moveId": 196,
-        "moveName": "Icy Wind",
+        "moveId": 184,
+        "moveName": "Scary Face",
         "source": "tutor"
       },
       {
@@ -10685,18 +10609,13 @@
         "source": "tutor"
       },
       {
-        "moveId": 311,
-        "moveName": "Weather Ball",
+        "moveId": 304,
+        "moveName": "Hyper Voice",
         "source": "tutor"
       },
       {
         "moveId": 324,
         "moveName": "Signal Beam",
-        "source": "tutor"
-      },
-      {
-        "moveId": 333,
-        "moveName": "Icicle Spear",
         "source": "tutor"
       },
       {
@@ -10710,6 +10629,11 @@
         "source": "tutor"
       },
       {
+        "moveId": 391,
+        "moveName": "Psycho Cut",
+        "source": "tutor"
+      },
+      {
         "moveId": 412,
         "moveName": "Hurricane",
         "source": "tutor"
@@ -10717,6 +10641,11 @@
       {
         "moveId": 472,
         "moveName": "Tailwind",
+        "source": "tutor"
+      },
+      {
+        "moveId": 482,
+        "moveName": "Stored Power",
         "source": "tutor"
       },
       {
@@ -10730,8 +10659,13 @@
         "source": "tutor"
       },
       {
-        "moveId": 729,
-        "moveName": "Triple Axel",
+        "moveId": 657,
+        "moveName": "Telekinesis",
+        "source": "tutor"
+      },
+      {
+        "moveId": 713,
+        "moveName": "Expand Force",
         "source": "tutor"
       },
       {
@@ -17713,7 +17647,7 @@
   },
   {
     "speciesId": 222,
-    "speciesName": "Corsola",
+    "speciesName": "Galarian Corsola",
     "moves": [
       {
         "moveId": 34,
@@ -17741,6 +17675,11 @@
         "source": "tutor"
       },
       {
+        "moveId": 220,
+        "moveName": "Pain Split",
+        "source": "tutor"
+      },
+      {
         "moveId": 250,
         "moveName": "Whirlpool",
         "source": "tutor"
@@ -17748,11 +17687,6 @@
       {
         "moveId": 277,
         "moveName": "Magic Coat",
-        "source": "tutor"
-      },
-      {
-        "moveId": 283,
-        "moveName": "Endeavor",
         "source": "tutor"
       },
       {
@@ -17778,6 +17712,11 @@
       {
         "moveId": 389,
         "moveName": "Power Gem",
+        "source": "tutor"
+      },
+      {
+        "moveId": 436,
+        "moveName": "Hex",
         "source": "tutor"
       },
       {
@@ -46523,8 +46462,18 @@
   },
   {
     "speciesId": 603,
-    "speciesName": "Basculin",
+    "speciesName": "Hisuian Basculin",
     "moves": [
+      {
+        "moveId": 56,
+        "moveName": "Hydro Pump",
+        "source": "tutor"
+      },
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "tutor"
+      },
       {
         "moveId": 173,
         "moveName": "Snore",
@@ -46571,6 +46520,11 @@
         "source": "tutor"
       },
       {
+        "moveId": 330,
+        "moveName": "Muddy Water",
+        "source": "tutor"
+      },
+      {
         "moveId": 340,
         "moveName": "Bounce",
         "source": "tutor"
@@ -46591,8 +46545,23 @@
         "source": "tutor"
       },
       {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
         "moveId": 596,
         "moveName": "Liquidation",
+        "source": "tutor"
+      },
+      {
+        "moveId": 715,
+        "moveName": "Scale Shot",
+        "source": "tutor"
+      },
+      {
+        "moveId": 728,
+        "moveName": "Flip Turn",
         "source": "tutor"
       }
     ],
@@ -46922,11 +46891,16 @@
   },
   {
     "speciesId": 607,
-    "speciesName": "Darumaka",
+    "speciesName": "Galarian Darumaka",
     "moves": [
       {
         "moveId": 7,
         "moveName": "Fire Punch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 8,
+        "moveName": "Ice Punch",
         "source": "tutor"
       },
       {
@@ -46985,6 +46959,11 @@
         "source": "tutor"
       },
       {
+        "moveId": 432,
+        "moveName": "Ice Fang",
+        "source": "tutor"
+      },
+      {
         "moveId": 434,
         "moveName": "Flare Blitz",
         "source": "tutor"
@@ -47003,7 +46982,7 @@
   },
   {
     "speciesId": 608,
-    "speciesName": "Darmanitan",
+    "speciesName": "Galarian Darmanitan",
     "moves": [
       {
         "moveId": 7,
@@ -47011,8 +46990,8 @@
         "source": "tutor"
       },
       {
-        "moveId": 34,
-        "moveName": "Body Slam",
+        "moveId": 8,
+        "moveName": "Ice Punch",
         "source": "tutor"
       },
       {
@@ -47021,18 +47000,8 @@
         "source": "tutor"
       },
       {
-        "moveId": 116,
-        "moveName": "Focus Energy",
-        "source": "tutor"
-      },
-      {
         "moveId": 173,
         "moveName": "Snore",
-        "source": "tutor"
-      },
-      {
-        "moveId": 179,
-        "moveName": "Reversal",
         "source": "tutor"
       },
       {
@@ -47048,11 +47017,6 @@
       {
         "moveId": 257,
         "moveName": "Heat Wave",
-        "source": "tutor"
-      },
-      {
-        "moveId": 271,
-        "moveName": "Trick",
         "source": "tutor"
       },
       {
@@ -47091,11 +47055,6 @@
         "source": "tutor"
       },
       {
-        "moveId": 564,
-        "moveName": "Confide",
-        "source": "tutor"
-      },
-      {
         "moveId": 594,
         "moveName": "Laser Focus",
         "source": "tutor"
@@ -47103,21 +47062,6 @@
       {
         "moveId": 692,
         "moveName": "Body Press",
-        "source": "tutor"
-      },
-      {
-        "moveId": 713,
-        "moveName": "Expand Force",
-        "source": "tutor"
-      },
-      {
-        "moveId": 723,
-        "moveName": "Jealous Burn",
-        "source": "tutor"
-      },
-      {
-        "moveId": 724,
-        "moveName": "Lash Out",
         "source": "tutor"
       }
     ],
@@ -57191,7 +57135,7 @@
   },
   {
     "speciesId": 777,
-    "speciesName": "Flab\\eb\\e",
+    "speciesName": "Flabebe",
     "moves": [
       {
         "moveId": 173,
@@ -68789,6 +68733,1719 @@
     }
   },
   {
+    "speciesId": 1020,
+    "speciesName": "Alolan Rattata",
+    "moves": [
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "tutor"
+      },
+      {
+        "moveId": 116,
+        "moveName": "Focus Energy",
+        "source": "tutor"
+      },
+      {
+        "moveId": 162,
+        "moveName": "Super Fang",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 179,
+        "moveName": "Reversal",
+        "source": "tutor"
+      },
+      {
+        "moveId": 196,
+        "moveName": "Icy Wind",
+        "source": "tutor"
+      },
+      {
+        "moveId": 242,
+        "moveName": "Crunch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 253,
+        "moveName": "Uproar",
+        "source": "tutor"
+      },
+      {
+        "moveId": 283,
+        "moveName": "Endeavor",
+        "source": "tutor"
+      },
+      {
+        "moveId": 289,
+        "moveName": "Snatch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "tutor"
+      },
+      {
+        "moveId": 401,
+        "moveName": "Zen Headbutt",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 594,
+        "moveName": "Laser Focus",
+        "source": "tutor"
+      },
+      {
+        "moveId": 674,
+        "moveName": "Last Resort",
+        "source": "tutor"
+      },
+      {
+        "moveId": 724,
+        "moveName": "Lash Out",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1021,
+    "speciesName": "Alolan Raticate",
+    "moves": [
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "tutor"
+      },
+      {
+        "moveId": 162,
+        "moveName": "Super Fang",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 179,
+        "moveName": "Reversal",
+        "source": "tutor"
+      },
+      {
+        "moveId": 184,
+        "moveName": "Scary Face",
+        "source": "tutor"
+      },
+      {
+        "moveId": 196,
+        "moveName": "Icy Wind",
+        "source": "tutor"
+      },
+      {
+        "moveId": 253,
+        "moveName": "Uproar",
+        "source": "tutor"
+      },
+      {
+        "moveId": 282,
+        "moveName": "Knock Off",
+        "source": "tutor"
+      },
+      {
+        "moveId": 283,
+        "moveName": "Endeavor",
+        "source": "tutor"
+      },
+      {
+        "moveId": 289,
+        "moveName": "Snatch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "tutor"
+      },
+      {
+        "moveId": 365,
+        "moveName": "Close Combat",
+        "source": "tutor"
+      },
+      {
+        "moveId": 401,
+        "moveName": "Zen Headbutt",
+        "source": "tutor"
+      },
+      {
+        "moveId": 594,
+        "moveName": "Laser Focus",
+        "source": "tutor"
+      },
+      {
+        "moveId": 621,
+        "moveName": "Throat Chop",
+        "source": "tutor"
+      },
+      {
+        "moveId": 674,
+        "moveName": "Last Resort",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1022,
+    "speciesName": "Alolan Raichu",
+    "moves": [
+      {
+        "moveId": 9,
+        "moveName": "ThunderPunch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 179,
+        "moveName": "Reversal",
+        "source": "tutor"
+      },
+      {
+        "moveId": 227,
+        "moveName": "Encore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 253,
+        "moveName": "Uproar",
+        "source": "tutor"
+      },
+      {
+        "moveId": 270,
+        "moveName": "Helping Hand",
+        "source": "tutor"
+      },
+      {
+        "moveId": 277,
+        "moveName": "Magic Coat",
+        "source": "tutor"
+      },
+      {
+        "moveId": 282,
+        "moveName": "Knock Off",
+        "source": "tutor"
+      },
+      {
+        "moveId": 324,
+        "moveName": "Signal Beam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "tutor"
+      },
+      {
+        "moveId": 386,
+        "moveName": "Nasty Plot",
+        "source": "tutor"
+      },
+      {
+        "moveId": 405,
+        "moveName": "Electroweb",
+        "source": "tutor"
+      },
+      {
+        "moveId": 482,
+        "moveName": "Stored Power",
+        "source": "tutor"
+      },
+      {
+        "moveId": 534,
+        "moveName": "Electro Ball",
+        "source": "tutor"
+      },
+      {
+        "moveId": 594,
+        "moveName": "Laser Focus",
+        "source": "tutor"
+      },
+      {
+        "moveId": 650,
+        "moveName": "Magnet Rise",
+        "source": "tutor"
+      },
+      {
+        "moveId": 657,
+        "moveName": "Telekinesis",
+        "source": "tutor"
+      },
+      {
+        "moveId": 720,
+        "moveName": "Rising Volt",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1023,
+    "speciesName": "Alolan Sandshrew",
+    "moves": [
+      {
+        "moveId": 8,
+        "moveName": "Ice Punch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 162,
+        "moveName": "Super Fang",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 282,
+        "moveName": "Knock Off",
+        "source": "tutor"
+      },
+      {
+        "moveId": 334,
+        "moveName": "Iron Defense",
+        "source": "tutor"
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "tutor"
+      },
+      {
+        "moveId": 358,
+        "moveName": "Aqua Tail",
+        "source": "tutor"
+      },
+      {
+        "moveId": 382,
+        "moveName": "Iron Head",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 621,
+        "moveName": "Throat Chop",
+        "source": "tutor"
+      },
+      {
+        "moveId": 714,
+        "moveName": "Steel Roller",
+        "source": "tutor"
+      },
+      {
+        "moveId": 729,
+        "moveName": "Triple Axel",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1024,
+    "speciesName": "Alolan Sandslash",
+    "moves": [
+      {
+        "moveId": 8,
+        "moveName": "Ice Punch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 42,
+        "moveName": "Pin Missile",
+        "source": "tutor"
+      },
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "tutor"
+      },
+      {
+        "moveId": 162,
+        "moveName": "Super Fang",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 191,
+        "moveName": "Spikes",
+        "source": "tutor"
+      },
+      {
+        "moveId": 333,
+        "moveName": "Icicle Spear",
+        "source": "tutor"
+      },
+      {
+        "moveId": 334,
+        "moveName": "Iron Defense",
+        "source": "tutor"
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "tutor"
+      },
+      {
+        "moveId": 358,
+        "moveName": "Aqua Tail",
+        "source": "tutor"
+      },
+      {
+        "moveId": 382,
+        "moveName": "Iron Head",
+        "source": "tutor"
+      },
+      {
+        "moveId": 403,
+        "moveName": "Drill Run",
+        "source": "tutor"
+      },
+      {
+        "moveId": 621,
+        "moveName": "Throat Chop",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1025,
+    "speciesName": "Alolan Vulpix",
+    "moves": [
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "tutor"
+      },
+      {
+        "moveId": 196,
+        "moveName": "Icy Wind",
+        "source": "tutor"
+      },
+      {
+        "moveId": 215,
+        "moveName": "Heal Bell",
+        "source": "tutor"
+      },
+      {
+        "moveId": 220,
+        "moveName": "Pain Split",
+        "source": "tutor"
+      },
+      {
+        "moveId": 227,
+        "moveName": "Encore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 244,
+        "moveName": "Psych Up",
+        "source": "tutor"
+      },
+      {
+        "moveId": 272,
+        "moveName": "Role Play",
+        "source": "tutor"
+      },
+      {
+        "moveId": 311,
+        "moveName": "Weather Ball",
+        "source": "tutor"
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "tutor"
+      },
+      {
+        "moveId": 358,
+        "moveName": "Aqua Tail",
+        "source": "tutor"
+      },
+      {
+        "moveId": 386,
+        "moveName": "Nasty Plot",
+        "source": "tutor"
+      },
+      {
+        "moveId": 401,
+        "moveName": "Zen Headbutt",
+        "source": "tutor"
+      },
+      {
+        "moveId": 436,
+        "moveName": "Hex",
+        "source": "tutor"
+      },
+      {
+        "moveId": 504,
+        "moveName": "Tail Slap",
+        "source": "tutor"
+      },
+      {
+        "moveId": 535,
+        "moveName": "Foul Play",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1026,
+    "speciesName": "Alolan Ninetales",
+    "moves": [
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "tutor"
+      },
+      {
+        "moveId": 196,
+        "moveName": "Icy Wind",
+        "source": "tutor"
+      },
+      {
+        "moveId": 215,
+        "moveName": "Heal Bell",
+        "source": "tutor"
+      },
+      {
+        "moveId": 220,
+        "moveName": "Pain Split",
+        "source": "tutor"
+      },
+      {
+        "moveId": 227,
+        "moveName": "Encore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 244,
+        "moveName": "Psych Up",
+        "source": "tutor"
+      },
+      {
+        "moveId": 272,
+        "moveName": "Role Play",
+        "source": "tutor"
+      },
+      {
+        "moveId": 311,
+        "moveName": "Weather Ball",
+        "source": "tutor"
+      },
+      {
+        "moveId": 313,
+        "moveName": "Fake Tears",
+        "source": "tutor"
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "tutor"
+      },
+      {
+        "moveId": 358,
+        "moveName": "Aqua Tail",
+        "source": "tutor"
+      },
+      {
+        "moveId": 386,
+        "moveName": "Nasty Plot",
+        "source": "tutor"
+      },
+      {
+        "moveId": 401,
+        "moveName": "Zen Headbutt",
+        "source": "tutor"
+      },
+      {
+        "moveId": 535,
+        "moveName": "Foul Play",
+        "source": "tutor"
+      },
+      {
+        "moveId": 594,
+        "moveName": "Laser Focus",
+        "source": "tutor"
+      },
+      {
+        "moveId": 634,
+        "moveName": "Wonder Room",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1027,
+    "speciesName": "Alolan Diglett",
+    "moves": [
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "tutor"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 179,
+        "moveName": "Reversal",
+        "source": "tutor"
+      },
+      {
+        "moveId": 253,
+        "moveName": "Uproar",
+        "source": "tutor"
+      },
+      {
+        "moveId": 334,
+        "moveName": "Iron Defense",
+        "source": "tutor"
+      },
+      {
+        "moveId": 372,
+        "moveName": "Earth Power",
+        "source": "tutor"
+      },
+      {
+        "moveId": 382,
+        "moveName": "Iron Head",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 731,
+        "moveName": "Scorch Sands",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1028,
+    "speciesName": "Alolan Dugtrio",
+    "moves": [
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "tutor"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 179,
+        "moveName": "Reversal",
+        "source": "tutor"
+      },
+      {
+        "moveId": 253,
+        "moveName": "Uproar",
+        "source": "tutor"
+      },
+      {
+        "moveId": 328,
+        "moveName": "Sand Tomb",
+        "source": "tutor"
+      },
+      {
+        "moveId": 334,
+        "moveName": "Iron Defense",
+        "source": "tutor"
+      },
+      {
+        "moveId": 372,
+        "moveName": "Earth Power",
+        "source": "tutor"
+      },
+      {
+        "moveId": 382,
+        "moveName": "Iron Head",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 592,
+        "moveName": "HiHorsepower",
+        "source": "tutor"
+      },
+      {
+        "moveId": 731,
+        "moveName": "Scorch Sands",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1029,
+    "speciesName": "Alolan Meowth",
+    "moves": [
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "tutor"
+      },
+      {
+        "moveId": 196,
+        "moveName": "Icy Wind",
+        "source": "tutor"
+      },
+      {
+        "moveId": 244,
+        "moveName": "Psych Up",
+        "source": "tutor"
+      },
+      {
+        "moveId": 253,
+        "moveName": "Uproar",
+        "source": "tutor"
+      },
+      {
+        "moveId": 282,
+        "moveName": "Knock Off",
+        "source": "tutor"
+      },
+      {
+        "moveId": 289,
+        "moveName": "Snatch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 304,
+        "moveName": "Hyper Voice",
+        "source": "tutor"
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "tutor"
+      },
+      {
+        "moveId": 378,
+        "moveName": "Gunk Shot",
+        "source": "tutor"
+      },
+      {
+        "moveId": 386,
+        "moveName": "Nasty Plot",
+        "source": "tutor"
+      },
+      {
+        "moveId": 396,
+        "moveName": "Seed Bomb",
+        "source": "tutor"
+      },
+      {
+        "moveId": 463,
+        "moveName": "Play Rough",
+        "source": "tutor"
+      },
+      {
+        "moveId": 535,
+        "moveName": "Foul Play",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 621,
+        "moveName": "Throat Chop",
+        "source": "tutor"
+      },
+      {
+        "moveId": 674,
+        "moveName": "Last Resort",
+        "source": "tutor"
+      },
+      {
+        "moveId": 724,
+        "moveName": "Lash Out",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1030,
+    "speciesName": "Alolan Persian",
+    "moves": [
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "tutor"
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "tutor"
+      },
+      {
+        "moveId": 196,
+        "moveName": "Icy Wind",
+        "source": "tutor"
+      },
+      {
+        "moveId": 244,
+        "moveName": "Psych Up",
+        "source": "tutor"
+      },
+      {
+        "moveId": 253,
+        "moveName": "Uproar",
+        "source": "tutor"
+      },
+      {
+        "moveId": 304,
+        "moveName": "Hyper Voice",
+        "source": "tutor"
+      },
+      {
+        "moveId": 386,
+        "moveName": "Nasty Plot",
+        "source": "tutor"
+      },
+      {
+        "moveId": 396,
+        "moveName": "Seed Bomb",
+        "source": "tutor"
+      },
+      {
+        "moveId": 535,
+        "moveName": "Foul Play",
+        "source": "tutor"
+      },
+      {
+        "moveId": 621,
+        "moveName": "Throat Chop",
+        "source": "tutor"
+      },
+      {
+        "moveId": 722,
+        "moveName": "SkitterSmack",
+        "source": "tutor"
+      },
+      {
+        "moveId": 723,
+        "moveName": "Jealous Burn",
+        "source": "tutor"
+      },
+      {
+        "moveId": 724,
+        "moveName": "Lash Out",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1031,
+    "speciesName": "Alolan Geodude",
+    "moves": [
+      {
+        "moveId": 7,
+        "moveName": "Fire Punch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 8,
+        "moveName": "Ice Punch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 9,
+        "moveName": "ThunderPunch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 276,
+        "moveName": "Superpower",
+        "source": "tutor"
+      },
+      {
+        "moveId": 334,
+        "moveName": "Iron Defense",
+        "source": "tutor"
+      },
+      {
+        "moveId": 335,
+        "moveName": "Block",
+        "source": "tutor"
+      },
+      {
+        "moveId": 350,
+        "moveName": "Rock Blast",
+        "source": "tutor"
+      },
+      {
+        "moveId": 372,
+        "moveName": "Earth Power",
+        "source": "tutor"
+      },
+      {
+        "moveId": 405,
+        "moveName": "Electroweb",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 650,
+        "moveName": "Magnet Rise",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1032,
+    "speciesName": "Alolan Graveler",
+    "moves": [
+      {
+        "moveId": 7,
+        "moveName": "Fire Punch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 8,
+        "moveName": "Ice Punch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 9,
+        "moveName": "ThunderPunch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 276,
+        "moveName": "Superpower",
+        "source": "tutor"
+      },
+      {
+        "moveId": 334,
+        "moveName": "Iron Defense",
+        "source": "tutor"
+      },
+      {
+        "moveId": 335,
+        "moveName": "Block",
+        "source": "tutor"
+      },
+      {
+        "moveId": 350,
+        "moveName": "Rock Blast",
+        "source": "tutor"
+      },
+      {
+        "moveId": 372,
+        "moveName": "Earth Power",
+        "source": "tutor"
+      },
+      {
+        "moveId": 405,
+        "moveName": "Electroweb",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 650,
+        "moveName": "Magnet Rise",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1033,
+    "speciesName": "Alolan Golem",
+    "moves": [
+      {
+        "moveId": 7,
+        "moveName": "Fire Punch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 8,
+        "moveName": "Ice Punch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 9,
+        "moveName": "ThunderPunch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 276,
+        "moveName": "Superpower",
+        "source": "tutor"
+      },
+      {
+        "moveId": 334,
+        "moveName": "Iron Defense",
+        "source": "tutor"
+      },
+      {
+        "moveId": 335,
+        "moveName": "Block",
+        "source": "tutor"
+      },
+      {
+        "moveId": 350,
+        "moveName": "Rock Blast",
+        "source": "tutor"
+      },
+      {
+        "moveId": 372,
+        "moveName": "Earth Power",
+        "source": "tutor"
+      },
+      {
+        "moveId": 382,
+        "moveName": "Iron Head",
+        "source": "tutor"
+      },
+      {
+        "moveId": 405,
+        "moveName": "Electroweb",
+        "source": "tutor"
+      },
+      {
+        "moveId": 532,
+        "moveName": "Heavy Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 650,
+        "moveName": "Magnet Rise",
+        "source": "tutor"
+      },
+      {
+        "moveId": 716,
+        "moveName": "Meteor Beam",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1034,
+    "speciesName": "Alolan Grimer",
+    "moves": [
+      {
+        "moveId": 7,
+        "moveName": "Fire Punch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 8,
+        "moveName": "Ice Punch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 9,
+        "moveName": "ThunderPunch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "tutor"
+      },
+      {
+        "moveId": 184,
+        "moveName": "Scary Face",
+        "source": "tutor"
+      },
+      {
+        "moveId": 220,
+        "moveName": "Pain Split",
+        "source": "tutor"
+      },
+      {
+        "moveId": 242,
+        "moveName": "Crunch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 270,
+        "moveName": "Helping Hand",
+        "source": "tutor"
+      },
+      {
+        "moveId": 282,
+        "moveName": "Knock Off",
+        "source": "tutor"
+      },
+      {
+        "moveId": 378,
+        "moveName": "Gunk Shot",
+        "source": "tutor"
+      },
+      {
+        "moveId": 476,
+        "moveName": "Gastro Acid",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 722,
+        "moveName": "SkitterSmack",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1035,
+    "speciesName": "Alolan Muk",
+    "moves": [
+      {
+        "moveId": 7,
+        "moveName": "Fire Punch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 8,
+        "moveName": "Ice Punch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 9,
+        "moveName": "ThunderPunch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "tutor"
+      },
+      {
+        "moveId": 184,
+        "moveName": "Scary Face",
+        "source": "tutor"
+      },
+      {
+        "moveId": 220,
+        "moveName": "Pain Split",
+        "source": "tutor"
+      },
+      {
+        "moveId": 242,
+        "moveName": "Crunch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 270,
+        "moveName": "Helping Hand",
+        "source": "tutor"
+      },
+      {
+        "moveId": 282,
+        "moveName": "Knock Off",
+        "source": "tutor"
+      },
+      {
+        "moveId": 335,
+        "moveName": "Block",
+        "source": "tutor"
+      },
+      {
+        "moveId": 378,
+        "moveName": "Gunk Shot",
+        "source": "tutor"
+      },
+      {
+        "moveId": 476,
+        "moveName": "Gastro Acid",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 659,
+        "moveName": "Venom Drench",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1037,
+    "speciesName": "Alolan Exeggutor",
+    "moves": [
+      {
+        "moveId": 67,
+        "moveName": "Low Kick",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 200,
+        "moveName": "Outrage",
+        "source": "tutor"
+      },
+      {
+        "moveId": 235,
+        "moveName": "Synthesis",
+        "source": "tutor"
+      },
+      {
+        "moveId": 244,
+        "moveName": "Psych Up",
+        "source": "tutor"
+      },
+      {
+        "moveId": 253,
+        "moveName": "Uproar",
+        "source": "tutor"
+      },
+      {
+        "moveId": 276,
+        "moveName": "Superpower",
+        "source": "tutor"
+      },
+      {
+        "moveId": 282,
+        "moveName": "Knock Off",
+        "source": "tutor"
+      },
+      {
+        "moveId": 335,
+        "moveName": "Block",
+        "source": "tutor"
+      },
+      {
+        "moveId": 369,
+        "moveName": "Draco Meteor",
+        "source": "tutor"
+      },
+      {
+        "moveId": 382,
+        "moveName": "Iron Head",
+        "source": "tutor"
+      },
+      {
+        "moveId": 390,
+        "moveName": "Power Whip",
+        "source": "tutor"
+      },
+      {
+        "moveId": 396,
+        "moveName": "Seed Bomb",
+        "source": "tutor"
+      },
+      {
+        "moveId": 401,
+        "moveName": "Zen Headbutt",
+        "source": "tutor"
+      },
+      {
+        "moveId": 428,
+        "moveName": "Leaf Storm",
+        "source": "tutor"
+      },
+      {
+        "moveId": 475,
+        "moveName": "Worry Seed",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 645,
+        "moveName": "Gravity",
+        "source": "tutor"
+      },
+      {
+        "moveId": 657,
+        "moveName": "Telekinesis",
+        "source": "tutor"
+      },
+      {
+        "moveId": 700,
+        "moveName": "Break Swipe",
+        "source": "tutor"
+      },
+      {
+        "moveId": 719,
+        "moveName": "Grassy Glide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 721,
+        "moveName": "TerrainPulse",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1039,
+    "speciesName": "Alolan Marowak",
+    "moves": [
+      {
+        "moveId": 7,
+        "moveName": "Fire Punch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 9,
+        "moveName": "ThunderPunch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 67,
+        "moveName": "Low Kick",
+        "source": "tutor"
+      },
+      {
+        "moveId": 83,
+        "moveName": "Fire Spin",
+        "source": "tutor"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "tutor"
+      },
+      {
+        "moveId": 116,
+        "moveName": "Focus Energy",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "tutor"
+      },
+      {
+        "moveId": 196,
+        "moveName": "Icy Wind",
+        "source": "tutor"
+      },
+      {
+        "moveId": 200,
+        "moveName": "Outrage",
+        "source": "tutor"
+      },
+      {
+        "moveId": 220,
+        "moveName": "Pain Split",
+        "source": "tutor"
+      },
+      {
+        "moveId": 253,
+        "moveName": "Uproar",
+        "source": "tutor"
+      },
+      {
+        "moveId": 257,
+        "moveName": "Heat Wave",
+        "source": "tutor"
+      },
+      {
+        "moveId": 282,
+        "moveName": "Knock Off",
+        "source": "tutor"
+      },
+      {
+        "moveId": 283,
+        "moveName": "Endeavor",
+        "source": "tutor"
+      },
+      {
+        "moveId": 334,
+        "moveName": "Iron Defense",
+        "source": "tutor"
+      },
+      {
+        "moveId": 372,
+        "moveName": "Earth Power",
+        "source": "tutor"
+      },
+      {
+        "moveId": 382,
+        "moveName": "Iron Head",
+        "source": "tutor"
+      },
+      {
+        "moveId": 434,
+        "moveName": "Flare Blitz",
+        "source": "tutor"
+      },
+      {
+        "moveId": 436,
+        "moveName": "Hex",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 594,
+        "moveName": "Laser Focus",
+        "source": "tutor"
+      },
+      {
+        "moveId": 621,
+        "moveName": "Throat Chop",
+        "source": "tutor"
+      },
+      {
+        "moveId": 723,
+        "moveName": "Jealous Burn",
+        "source": "tutor"
+      },
+      {
+        "moveId": 725,
+        "moveName": "Poltergeist",
+        "source": "tutor"
+      },
+      {
+        "moveId": 731,
+        "moveName": "Scorch Sands",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
     "speciesId": 1074,
     "speciesName": "Poipole",
     "moves": [
@@ -73496,7 +75153,7 @@
   },
   {
     "speciesId": 1157,
-    "speciesName": "Sirfetch'd",
+    "speciesName": "Sirfetch\u2019d",
     "moves": [
       {
         "moveId": 34,
@@ -76312,6 +77969,3252 @@
       {
         "moveId": 713,
         "moveName": "Expand Force",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1212,
+    "speciesName": "Galarian Meowth",
+    "moves": [
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "tutor"
+      },
+      {
+        "moveId": 242,
+        "moveName": "Crunch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 244,
+        "moveName": "Psych Up",
+        "source": "tutor"
+      },
+      {
+        "moveId": 253,
+        "moveName": "Uproar",
+        "source": "tutor"
+      },
+      {
+        "moveId": 282,
+        "moveName": "Knock Off",
+        "source": "tutor"
+      },
+      {
+        "moveId": 289,
+        "moveName": "Snatch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 304,
+        "moveName": "Hyper Voice",
+        "source": "tutor"
+      },
+      {
+        "moveId": 334,
+        "moveName": "Iron Defense",
+        "source": "tutor"
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "tutor"
+      },
+      {
+        "moveId": 378,
+        "moveName": "Gunk Shot",
+        "source": "tutor"
+      },
+      {
+        "moveId": 382,
+        "moveName": "Iron Head",
+        "source": "tutor"
+      },
+      {
+        "moveId": 386,
+        "moveName": "Nasty Plot",
+        "source": "tutor"
+      },
+      {
+        "moveId": 396,
+        "moveName": "Seed Bomb",
+        "source": "tutor"
+      },
+      {
+        "moveId": 463,
+        "moveName": "Play Rough",
+        "source": "tutor"
+      },
+      {
+        "moveId": 535,
+        "moveName": "Foul Play",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 621,
+        "moveName": "Throat Chop",
+        "source": "tutor"
+      },
+      {
+        "moveId": 674,
+        "moveName": "Last Resort",
+        "source": "tutor"
+      },
+      {
+        "moveId": 724,
+        "moveName": "Lash Out",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1213,
+    "speciesName": "Galarian Ponyta",
+    "moves": [
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 67,
+        "moveName": "Low Kick",
+        "source": "tutor"
+      },
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 324,
+        "moveName": "Signal Beam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 340,
+        "moveName": "Bounce",
+        "source": "tutor"
+      },
+      {
+        "moveId": 401,
+        "moveName": "Zen Headbutt",
+        "source": "tutor"
+      },
+      {
+        "moveId": 463,
+        "moveName": "Play Rough",
+        "source": "tutor"
+      },
+      {
+        "moveId": 482,
+        "moveName": "Stored Power",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 592,
+        "moveName": "HiHorsepower",
+        "source": "tutor"
+      },
+      {
+        "moveId": 657,
+        "moveName": "Telekinesis",
+        "source": "tutor"
+      },
+      {
+        "moveId": 713,
+        "moveName": "Expand Force",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1214,
+    "speciesName": "Galarian Rapidash",
+    "moves": [
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 67,
+        "moveName": "Low Kick",
+        "source": "tutor"
+      },
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 226,
+        "moveName": "Baton Pass",
+        "source": "tutor"
+      },
+      {
+        "moveId": 324,
+        "moveName": "Signal Beam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 340,
+        "moveName": "Bounce",
+        "source": "tutor"
+      },
+      {
+        "moveId": 401,
+        "moveName": "Zen Headbutt",
+        "source": "tutor"
+      },
+      {
+        "moveId": 403,
+        "moveName": "Drill Run",
+        "source": "tutor"
+      },
+      {
+        "moveId": 621,
+        "moveName": "Throat Chop",
+        "source": "tutor"
+      },
+      {
+        "moveId": 634,
+        "moveName": "Wonder Room",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1215,
+    "speciesName": "Galarian Slowpoke",
+    "moves": [
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 56,
+        "moveName": "Hydro Pump",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 196,
+        "moveName": "Icy Wind",
+        "source": "tutor"
+      },
+      {
+        "moveId": 244,
+        "moveName": "Psych Up",
+        "source": "tutor"
+      },
+      {
+        "moveId": 250,
+        "moveName": "Whirlpool",
+        "source": "tutor"
+      },
+      {
+        "moveId": 271,
+        "moveName": "Trick",
+        "source": "tutor"
+      },
+      {
+        "moveId": 277,
+        "moveName": "Magic Coat",
+        "source": "tutor"
+      },
+      {
+        "moveId": 311,
+        "moveName": "Weather Ball",
+        "source": "tutor"
+      },
+      {
+        "moveId": 324,
+        "moveName": "Signal Beam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 335,
+        "moveName": "Block",
+        "source": "tutor"
+      },
+      {
+        "moveId": 358,
+        "moveName": "Aqua Tail",
+        "source": "tutor"
+      },
+      {
+        "moveId": 401,
+        "moveName": "Zen Headbutt",
+        "source": "tutor"
+      },
+      {
+        "moveId": 476,
+        "moveName": "Gastro Acid",
+        "source": "tutor"
+      },
+      {
+        "moveId": 482,
+        "moveName": "Stored Power",
+        "source": "tutor"
+      },
+      {
+        "moveId": 535,
+        "moveName": "Foul Play",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 596,
+        "moveName": "Liquidation",
+        "source": "tutor"
+      },
+      {
+        "moveId": 634,
+        "moveName": "Wonder Room",
+        "source": "tutor"
+      },
+      {
+        "moveId": 657,
+        "moveName": "Telekinesis",
+        "source": "tutor"
+      },
+      {
+        "moveId": 669,
+        "moveName": "After You",
+        "source": "tutor"
+      },
+      {
+        "moveId": 713,
+        "moveName": "Expand Force",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1216,
+    "speciesName": "Galarian Slowbro",
+    "moves": [
+      {
+        "moveId": 8,
+        "moveName": "Ice Punch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 196,
+        "moveName": "Icy Wind",
+        "source": "tutor"
+      },
+      {
+        "moveId": 244,
+        "moveName": "Psych Up",
+        "source": "tutor"
+      },
+      {
+        "moveId": 250,
+        "moveName": "Whirlpool",
+        "source": "tutor"
+      },
+      {
+        "moveId": 271,
+        "moveName": "Trick",
+        "source": "tutor"
+      },
+      {
+        "moveId": 277,
+        "moveName": "Magic Coat",
+        "source": "tutor"
+      },
+      {
+        "moveId": 311,
+        "moveName": "Weather Ball",
+        "source": "tutor"
+      },
+      {
+        "moveId": 324,
+        "moveName": "Signal Beam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 334,
+        "moveName": "Iron Defense",
+        "source": "tutor"
+      },
+      {
+        "moveId": 335,
+        "moveName": "Block",
+        "source": "tutor"
+      },
+      {
+        "moveId": 358,
+        "moveName": "Aqua Tail",
+        "source": "tutor"
+      },
+      {
+        "moveId": 386,
+        "moveName": "Nasty Plot",
+        "source": "tutor"
+      },
+      {
+        "moveId": 401,
+        "moveName": "Zen Headbutt",
+        "source": "tutor"
+      },
+      {
+        "moveId": 455,
+        "moveName": "Razor Shell",
+        "source": "tutor"
+      },
+      {
+        "moveId": 476,
+        "moveName": "Gastro Acid",
+        "source": "tutor"
+      },
+      {
+        "moveId": 482,
+        "moveName": "Stored Power",
+        "source": "tutor"
+      },
+      {
+        "moveId": 535,
+        "moveName": "Foul Play",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 596,
+        "moveName": "Liquidation",
+        "source": "tutor"
+      },
+      {
+        "moveId": 634,
+        "moveName": "Wonder Room",
+        "source": "tutor"
+      },
+      {
+        "moveId": 657,
+        "moveName": "Telekinesis",
+        "source": "tutor"
+      },
+      {
+        "moveId": 669,
+        "moveName": "After You",
+        "source": "tutor"
+      },
+      {
+        "moveId": 713,
+        "moveName": "Expand Force",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1218,
+    "speciesName": "Koffing",
+    "moves": [
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "tutor"
+      },
+      {
+        "moveId": 220,
+        "moveName": "Pain Split",
+        "source": "tutor"
+      },
+      {
+        "moveId": 253,
+        "moveName": "Uproar",
+        "source": "tutor"
+      },
+      {
+        "moveId": 469,
+        "moveName": "Toxic Spikes",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 659,
+        "moveName": "Venom Drench",
+        "source": "tutor"
+      },
+      {
+        "moveId": 726,
+        "moveName": "Corrode Gas",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1219,
+    "speciesName": "Galarian Weezing",
+    "moves": [
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "tutor"
+      },
+      {
+        "moveId": 220,
+        "moveName": "Pain Split",
+        "source": "tutor"
+      },
+      {
+        "moveId": 253,
+        "moveName": "Uproar",
+        "source": "tutor"
+      },
+      {
+        "moveId": 257,
+        "moveName": "Heat Wave",
+        "source": "tutor"
+      },
+      {
+        "moveId": 463,
+        "moveName": "Play Rough",
+        "source": "tutor"
+      },
+      {
+        "moveId": 469,
+        "moveName": "Toxic Spikes",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 634,
+        "moveName": "Wonder Room",
+        "source": "tutor"
+      },
+      {
+        "moveId": 659,
+        "moveName": "Venom Drench",
+        "source": "tutor"
+      },
+      {
+        "moveId": 718,
+        "moveName": "MistyExplode",
+        "source": "tutor"
+      },
+      {
+        "moveId": 726,
+        "moveName": "Corrode Gas",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1220,
+    "speciesName": "Galarian Mr. Mime",
+    "moves": [
+      {
+        "moveId": 8,
+        "moveName": "Ice Punch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 196,
+        "moveName": "Icy Wind",
+        "source": "tutor"
+      },
+      {
+        "moveId": 226,
+        "moveName": "Baton Pass",
+        "source": "tutor"
+      },
+      {
+        "moveId": 227,
+        "moveName": "Encore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 244,
+        "moveName": "Psych Up",
+        "source": "tutor"
+      },
+      {
+        "moveId": 253,
+        "moveName": "Uproar",
+        "source": "tutor"
+      },
+      {
+        "moveId": 270,
+        "moveName": "Helping Hand",
+        "source": "tutor"
+      },
+      {
+        "moveId": 271,
+        "moveName": "Trick",
+        "source": "tutor"
+      },
+      {
+        "moveId": 272,
+        "moveName": "Role Play",
+        "source": "tutor"
+      },
+      {
+        "moveId": 277,
+        "moveName": "Magic Coat",
+        "source": "tutor"
+      },
+      {
+        "moveId": 289,
+        "moveName": "Snatch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 324,
+        "moveName": "Signal Beam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 333,
+        "moveName": "Icicle Spear",
+        "source": "tutor"
+      },
+      {
+        "moveId": 334,
+        "moveName": "Iron Defense",
+        "source": "tutor"
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "tutor"
+      },
+      {
+        "moveId": 386,
+        "moveName": "Nasty Plot",
+        "source": "tutor"
+      },
+      {
+        "moveId": 401,
+        "moveName": "Zen Headbutt",
+        "source": "tutor"
+      },
+      {
+        "moveId": 482,
+        "moveName": "Stored Power",
+        "source": "tutor"
+      },
+      {
+        "moveId": 535,
+        "moveName": "Foul Play",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 633,
+        "moveName": "Magic Room",
+        "source": "tutor"
+      },
+      {
+        "moveId": 634,
+        "moveName": "Wonder Room",
+        "source": "tutor"
+      },
+      {
+        "moveId": 657,
+        "moveName": "Telekinesis",
+        "source": "tutor"
+      },
+      {
+        "moveId": 713,
+        "moveName": "Expand Force",
+        "source": "tutor"
+      },
+      {
+        "moveId": 729,
+        "moveName": "Triple Axel",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1222,
+    "speciesName": "Galarian Zapdos",
+    "moves": [
+      {
+        "moveId": 67,
+        "moveName": "Low Kick",
+        "source": "tutor"
+      },
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "tutor"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "tutor"
+      },
+      {
+        "moveId": 116,
+        "moveName": "Focus Energy",
+        "source": "tutor"
+      },
+      {
+        "moveId": 143,
+        "moveName": "Sky Attack",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 179,
+        "moveName": "Reversal",
+        "source": "tutor"
+      },
+      {
+        "moveId": 184,
+        "moveName": "Scary Face",
+        "source": "tutor"
+      },
+      {
+        "moveId": 276,
+        "moveName": "Superpower",
+        "source": "tutor"
+      },
+      {
+        "moveId": 299,
+        "moveName": "Blaze Kick",
+        "source": "tutor"
+      },
+      {
+        "moveId": 324,
+        "moveName": "Signal Beam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 340,
+        "moveName": "Bounce",
+        "source": "tutor"
+      },
+      {
+        "moveId": 361,
+        "moveName": "Brave Bird",
+        "source": "tutor"
+      },
+      {
+        "moveId": 365,
+        "moveName": "Close Combat",
+        "source": "tutor"
+      },
+      {
+        "moveId": 412,
+        "moveName": "Hurricane",
+        "source": "tutor"
+      },
+      {
+        "moveId": 472,
+        "moveName": "Tailwind",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 594,
+        "moveName": "Laser Focus",
+        "source": "tutor"
+      },
+      {
+        "moveId": 621,
+        "moveName": "Throat Chop",
+        "source": "tutor"
+      },
+      {
+        "moveId": 727,
+        "moveName": "Coaching",
+        "source": "tutor"
+      },
+      {
+        "moveId": 730,
+        "moveName": "DualWingbeat",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1223,
+    "speciesName": "Galarian Moltres",
+    "moves": [
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "tutor"
+      },
+      {
+        "moveId": 143,
+        "moveName": "Sky Attack",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 184,
+        "moveName": "Scary Face",
+        "source": "tutor"
+      },
+      {
+        "moveId": 304,
+        "moveName": "Hyper Voice",
+        "source": "tutor"
+      },
+      {
+        "moveId": 356,
+        "moveName": "Air Slash",
+        "source": "tutor"
+      },
+      {
+        "moveId": 361,
+        "moveName": "Brave Bird",
+        "source": "tutor"
+      },
+      {
+        "moveId": 386,
+        "moveName": "Nasty Plot",
+        "source": "tutor"
+      },
+      {
+        "moveId": 412,
+        "moveName": "Hurricane",
+        "source": "tutor"
+      },
+      {
+        "moveId": 436,
+        "moveName": "Hex",
+        "source": "tutor"
+      },
+      {
+        "moveId": 472,
+        "moveName": "Tailwind",
+        "source": "tutor"
+      },
+      {
+        "moveId": 535,
+        "moveName": "Foul Play",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 594,
+        "moveName": "Laser Focus",
+        "source": "tutor"
+      },
+      {
+        "moveId": 669,
+        "moveName": "After You",
+        "source": "tutor"
+      },
+      {
+        "moveId": 724,
+        "moveName": "Lash Out",
+        "source": "tutor"
+      },
+      {
+        "moveId": 730,
+        "moveName": "DualWingbeat",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1224,
+    "speciesName": "Galarian Slowking",
+    "moves": [
+      {
+        "moveId": 8,
+        "moveName": "Ice Punch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 196,
+        "moveName": "Icy Wind",
+        "source": "tutor"
+      },
+      {
+        "moveId": 244,
+        "moveName": "Psych Up",
+        "source": "tutor"
+      },
+      {
+        "moveId": 250,
+        "moveName": "Whirlpool",
+        "source": "tutor"
+      },
+      {
+        "moveId": 271,
+        "moveName": "Trick",
+        "source": "tutor"
+      },
+      {
+        "moveId": 277,
+        "moveName": "Magic Coat",
+        "source": "tutor"
+      },
+      {
+        "moveId": 311,
+        "moveName": "Weather Ball",
+        "source": "tutor"
+      },
+      {
+        "moveId": 324,
+        "moveName": "Signal Beam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 334,
+        "moveName": "Iron Defense",
+        "source": "tutor"
+      },
+      {
+        "moveId": 335,
+        "moveName": "Block",
+        "source": "tutor"
+      },
+      {
+        "moveId": 358,
+        "moveName": "Aqua Tail",
+        "source": "tutor"
+      },
+      {
+        "moveId": 386,
+        "moveName": "Nasty Plot",
+        "source": "tutor"
+      },
+      {
+        "moveId": 389,
+        "moveName": "Power Gem",
+        "source": "tutor"
+      },
+      {
+        "moveId": 401,
+        "moveName": "Zen Headbutt",
+        "source": "tutor"
+      },
+      {
+        "moveId": 436,
+        "moveName": "Hex",
+        "source": "tutor"
+      },
+      {
+        "moveId": 455,
+        "moveName": "Razor Shell",
+        "source": "tutor"
+      },
+      {
+        "moveId": 476,
+        "moveName": "Gastro Acid",
+        "source": "tutor"
+      },
+      {
+        "moveId": 482,
+        "moveName": "Stored Power",
+        "source": "tutor"
+      },
+      {
+        "moveId": 535,
+        "moveName": "Foul Play",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 594,
+        "moveName": "Laser Focus",
+        "source": "tutor"
+      },
+      {
+        "moveId": 596,
+        "moveName": "Liquidation",
+        "source": "tutor"
+      },
+      {
+        "moveId": 634,
+        "moveName": "Wonder Room",
+        "source": "tutor"
+      },
+      {
+        "moveId": 657,
+        "moveName": "Telekinesis",
+        "source": "tutor"
+      },
+      {
+        "moveId": 659,
+        "moveName": "Venom Drench",
+        "source": "tutor"
+      },
+      {
+        "moveId": 669,
+        "moveName": "After You",
+        "source": "tutor"
+      },
+      {
+        "moveId": 713,
+        "moveName": "Expand Force",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1226,
+    "speciesName": "Galarian Zigzagoon",
+    "moves": [
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 42,
+        "moveName": "Pin Missile",
+        "source": "tutor"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "tutor"
+      },
+      {
+        "moveId": 162,
+        "moveName": "Super Fang",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 184,
+        "moveName": "Scary Face",
+        "source": "tutor"
+      },
+      {
+        "moveId": 196,
+        "moveName": "Icy Wind",
+        "source": "tutor"
+      },
+      {
+        "moveId": 250,
+        "moveName": "Whirlpool",
+        "source": "tutor"
+      },
+      {
+        "moveId": 270,
+        "moveName": "Helping Hand",
+        "source": "tutor"
+      },
+      {
+        "moveId": 271,
+        "moveName": "Trick",
+        "source": "tutor"
+      },
+      {
+        "moveId": 289,
+        "moveName": "Snatch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 304,
+        "moveName": "Hyper Voice",
+        "source": "tutor"
+      },
+      {
+        "moveId": 313,
+        "moveName": "Fake Tears",
+        "source": "tutor"
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "tutor"
+      },
+      {
+        "moveId": 378,
+        "moveName": "Gunk Shot",
+        "source": "tutor"
+      },
+      {
+        "moveId": 396,
+        "moveName": "Seed Bomb",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 674,
+        "moveName": "Last Resort",
+        "source": "tutor"
+      },
+      {
+        "moveId": 724,
+        "moveName": "Lash Out",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1227,
+    "speciesName": "Galarian Linoone",
+    "moves": [
+      {
+        "moveId": 42,
+        "moveName": "Pin Missile",
+        "source": "tutor"
+      },
+      {
+        "moveId": 162,
+        "moveName": "Super Fang",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 184,
+        "moveName": "Scary Face",
+        "source": "tutor"
+      },
+      {
+        "moveId": 250,
+        "moveName": "Whirlpool",
+        "source": "tutor"
+      },
+      {
+        "moveId": 270,
+        "moveName": "Helping Hand",
+        "source": "tutor"
+      },
+      {
+        "moveId": 271,
+        "moveName": "Trick",
+        "source": "tutor"
+      },
+      {
+        "moveId": 289,
+        "moveName": "Snatch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 313,
+        "moveName": "Fake Tears",
+        "source": "tutor"
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "tutor"
+      },
+      {
+        "moveId": 378,
+        "moveName": "Gunk Shot",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 621,
+        "moveName": "Throat Chop",
+        "source": "tutor"
+      },
+      {
+        "moveId": 674,
+        "moveName": "Last Resort",
+        "source": "tutor"
+      },
+      {
+        "moveId": 692,
+        "moveName": "Body Press",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1232,
+    "speciesName": "Galarian Yamask",
+    "moves": [
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "tutor"
+      },
+      {
+        "moveId": 220,
+        "moveName": "Pain Split",
+        "source": "tutor"
+      },
+      {
+        "moveId": 244,
+        "moveName": "Psych Up",
+        "source": "tutor"
+      },
+      {
+        "moveId": 271,
+        "moveName": "Trick",
+        "source": "tutor"
+      },
+      {
+        "moveId": 272,
+        "moveName": "Role Play",
+        "source": "tutor"
+      },
+      {
+        "moveId": 277,
+        "moveName": "Magic Coat",
+        "source": "tutor"
+      },
+      {
+        "moveId": 282,
+        "moveName": "Knock Off",
+        "source": "tutor"
+      },
+      {
+        "moveId": 289,
+        "moveName": "Snatch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 313,
+        "moveName": "Fake Tears",
+        "source": "tutor"
+      },
+      {
+        "moveId": 334,
+        "moveName": "Iron Defense",
+        "source": "tutor"
+      },
+      {
+        "moveId": 335,
+        "moveName": "Block",
+        "source": "tutor"
+      },
+      {
+        "moveId": 372,
+        "moveName": "Earth Power",
+        "source": "tutor"
+      },
+      {
+        "moveId": 386,
+        "moveName": "Nasty Plot",
+        "source": "tutor"
+      },
+      {
+        "moveId": 401,
+        "moveName": "Zen Headbutt",
+        "source": "tutor"
+      },
+      {
+        "moveId": 436,
+        "moveName": "Hex",
+        "source": "tutor"
+      },
+      {
+        "moveId": 469,
+        "moveName": "Toxic Spikes",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 634,
+        "moveName": "Wonder Room",
+        "source": "tutor"
+      },
+      {
+        "moveId": 657,
+        "moveName": "Telekinesis",
+        "source": "tutor"
+      },
+      {
+        "moveId": 669,
+        "moveName": "After You",
+        "source": "tutor"
+      },
+      {
+        "moveId": 725,
+        "moveName": "Poltergeist",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1233,
+    "speciesName": "Galarian Stunfisk",
+    "moves": [
+      {
+        "moveId": 20,
+        "moveName": "Bind",
+        "source": "tutor"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "tutor"
+      },
+      {
+        "moveId": 220,
+        "moveName": "Pain Split",
+        "source": "tutor"
+      },
+      {
+        "moveId": 242,
+        "moveName": "Crunch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 253,
+        "moveName": "Uproar",
+        "source": "tutor"
+      },
+      {
+        "moveId": 283,
+        "moveName": "Endeavor",
+        "source": "tutor"
+      },
+      {
+        "moveId": 334,
+        "moveName": "Iron Defense",
+        "source": "tutor"
+      },
+      {
+        "moveId": 340,
+        "moveName": "Bounce",
+        "source": "tutor"
+      },
+      {
+        "moveId": 358,
+        "moveName": "Aqua Tail",
+        "source": "tutor"
+      },
+      {
+        "moveId": 372,
+        "moveName": "Earth Power",
+        "source": "tutor"
+      },
+      {
+        "moveId": 432,
+        "moveName": "Ice Fang",
+        "source": "tutor"
+      },
+      {
+        "moveId": 535,
+        "moveName": "Foul Play",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 650,
+        "moveName": "Magnet Rise",
+        "source": "tutor"
+      },
+      {
+        "moveId": 721,
+        "moveName": "TerrainPulse",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1268,
+    "speciesName": "Hisuian Arcanine",
+    "moves": [
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 83,
+        "moveName": "Fire Spin",
+        "source": "tutor"
+      },
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 179,
+        "moveName": "Reversal",
+        "source": "tutor"
+      },
+      {
+        "moveId": 184,
+        "moveName": "Scary Face",
+        "source": "tutor"
+      },
+      {
+        "moveId": 200,
+        "moveName": "Outrage",
+        "source": "tutor"
+      },
+      {
+        "moveId": 242,
+        "moveName": "Crunch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 257,
+        "moveName": "Heat Wave",
+        "source": "tutor"
+      },
+      {
+        "moveId": 270,
+        "moveName": "Helping Hand",
+        "source": "tutor"
+      },
+      {
+        "moveId": 304,
+        "moveName": "Hyper Voice",
+        "source": "tutor"
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "tutor"
+      },
+      {
+        "moveId": 350,
+        "moveName": "Rock Blast",
+        "source": "tutor"
+      },
+      {
+        "moveId": 382,
+        "moveName": "Iron Head",
+        "source": "tutor"
+      },
+      {
+        "moveId": 431,
+        "moveName": "Fire Fang",
+        "source": "tutor"
+      },
+      {
+        "moveId": 433,
+        "moveName": "Thunder Fang",
+        "source": "tutor"
+      },
+      {
+        "moveId": 463,
+        "moveName": "Play Rough",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 594,
+        "moveName": "Laser Focus",
+        "source": "tutor"
+      },
+      {
+        "moveId": 731,
+        "moveName": "Scorch Sands",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1269,
+    "speciesName": "Hisuian Avalugg",
+    "moves": [
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 196,
+        "moveName": "Icy Wind",
+        "source": "tutor"
+      },
+      {
+        "moveId": 242,
+        "moveName": "Crunch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 276,
+        "moveName": "Superpower",
+        "source": "tutor"
+      },
+      {
+        "moveId": 334,
+        "moveName": "Iron Defense",
+        "source": "tutor"
+      },
+      {
+        "moveId": 335,
+        "moveName": "Block",
+        "source": "tutor"
+      },
+      {
+        "moveId": 350,
+        "moveName": "Rock Blast",
+        "source": "tutor"
+      },
+      {
+        "moveId": 372,
+        "moveName": "Earth Power",
+        "source": "tutor"
+      },
+      {
+        "moveId": 382,
+        "moveName": "Iron Head",
+        "source": "tutor"
+      },
+      {
+        "moveId": 432,
+        "moveName": "Ice Fang",
+        "source": "tutor"
+      },
+      {
+        "moveId": 532,
+        "moveName": "Heavy Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 669,
+        "moveName": "After You",
+        "source": "tutor"
+      },
+      {
+        "moveId": 692,
+        "moveName": "Body Press",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1270,
+    "speciesName": "Hisuian Braviary",
+    "moves": [
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 184,
+        "moveName": "Scary Face",
+        "source": "tutor"
+      },
+      {
+        "moveId": 257,
+        "moveName": "Heat Wave",
+        "source": "tutor"
+      },
+      {
+        "moveId": 271,
+        "moveName": "Trick",
+        "source": "tutor"
+      },
+      {
+        "moveId": 276,
+        "moveName": "Superpower",
+        "source": "tutor"
+      },
+      {
+        "moveId": 277,
+        "moveName": "Magic Coat",
+        "source": "tutor"
+      },
+      {
+        "moveId": 356,
+        "moveName": "Air Slash",
+        "source": "tutor"
+      },
+      {
+        "moveId": 361,
+        "moveName": "Brave Bird",
+        "source": "tutor"
+      },
+      {
+        "moveId": 365,
+        "moveName": "Close Combat",
+        "source": "tutor"
+      },
+      {
+        "moveId": 382,
+        "moveName": "Iron Head",
+        "source": "tutor"
+      },
+      {
+        "moveId": 391,
+        "moveName": "Psycho Cut",
+        "source": "tutor"
+      },
+      {
+        "moveId": 401,
+        "moveName": "Zen Headbutt",
+        "source": "tutor"
+      },
+      {
+        "moveId": 463,
+        "moveName": "Play Rough",
+        "source": "tutor"
+      },
+      {
+        "moveId": 472,
+        "moveName": "Tailwind",
+        "source": "tutor"
+      },
+      {
+        "moveId": 482,
+        "moveName": "Stored Power",
+        "source": "tutor"
+      },
+      {
+        "moveId": 594,
+        "moveName": "Laser Focus",
+        "source": "tutor"
+      },
+      {
+        "moveId": 657,
+        "moveName": "Telekinesis",
+        "source": "tutor"
+      },
+      {
+        "moveId": 730,
+        "moveName": "DualWingbeat",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1271,
+    "speciesName": "Hisuian Decidueye",
+    "moves": [
+      {
+        "moveId": 143,
+        "moveName": "Sky Attack",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 191,
+        "moveName": "Spikes",
+        "source": "tutor"
+      },
+      {
+        "moveId": 226,
+        "moveName": "Baton Pass",
+        "source": "tutor"
+      },
+      {
+        "moveId": 235,
+        "moveName": "Synthesis",
+        "source": "tutor"
+      },
+      {
+        "moveId": 338,
+        "moveName": "Frenzy Plant",
+        "source": "tutor"
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "tutor"
+      },
+      {
+        "moveId": 348,
+        "moveName": "Leaf Blade",
+        "source": "tutor"
+      },
+      {
+        "moveId": 356,
+        "moveName": "Air Slash",
+        "source": "tutor"
+      },
+      {
+        "moveId": 359,
+        "moveName": "Aura Sphere",
+        "source": "tutor"
+      },
+      {
+        "moveId": 361,
+        "moveName": "Brave Bird",
+        "source": "tutor"
+      },
+      {
+        "moveId": 386,
+        "moveName": "Nasty Plot",
+        "source": "tutor"
+      },
+      {
+        "moveId": 391,
+        "moveName": "Psycho Cut",
+        "source": "tutor"
+      },
+      {
+        "moveId": 396,
+        "moveName": "Seed Bomb",
+        "source": "tutor"
+      },
+      {
+        "moveId": 412,
+        "moveName": "Hurricane",
+        "source": "tutor"
+      },
+      {
+        "moveId": 428,
+        "moveName": "Leaf Storm",
+        "source": "tutor"
+      },
+      {
+        "moveId": 472,
+        "moveName": "Tailwind",
+        "source": "tutor"
+      },
+      {
+        "moveId": 475,
+        "moveName": "Worry Seed",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 594,
+        "moveName": "Laser Focus",
+        "source": "tutor"
+      },
+      {
+        "moveId": 611,
+        "moveName": "Solar Blade",
+        "source": "tutor"
+      },
+      {
+        "moveId": 629,
+        "moveName": "Grass Pledge",
+        "source": "tutor"
+      },
+      {
+        "moveId": 719,
+        "moveName": "Grassy Glide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 722,
+        "moveName": "SkitterSmack",
+        "source": "tutor"
+      },
+      {
+        "moveId": 730,
+        "moveName": "DualWingbeat",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1272,
+    "speciesName": "Hisuian Electrode",
+    "moves": [
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "tutor"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 235,
+        "moveName": "Synthesis",
+        "source": "tutor"
+      },
+      {
+        "moveId": 277,
+        "moveName": "Magic Coat",
+        "source": "tutor"
+      },
+      {
+        "moveId": 324,
+        "moveName": "Signal Beam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 396,
+        "moveName": "Seed Bomb",
+        "source": "tutor"
+      },
+      {
+        "moveId": 428,
+        "moveName": "Leaf Storm",
+        "source": "tutor"
+      },
+      {
+        "moveId": 475,
+        "moveName": "Worry Seed",
+        "source": "tutor"
+      },
+      {
+        "moveId": 534,
+        "moveName": "Electro Ball",
+        "source": "tutor"
+      },
+      {
+        "moveId": 535,
+        "moveName": "Foul Play",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 650,
+        "moveName": "Magnet Rise",
+        "source": "tutor"
+      },
+      {
+        "moveId": 657,
+        "moveName": "Telekinesis",
+        "source": "tutor"
+      },
+      {
+        "moveId": 714,
+        "moveName": "Steel Roller",
+        "source": "tutor"
+      },
+      {
+        "moveId": 719,
+        "moveName": "Grassy Glide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 720,
+        "moveName": "Rising Volt",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1273,
+    "speciesName": "Hisuian Goodra",
+    "moves": [
+      {
+        "moveId": 7,
+        "moveName": "Fire Punch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 9,
+        "moveName": "ThunderPunch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 56,
+        "moveName": "Hydro Pump",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 200,
+        "moveName": "Outrage",
+        "source": "tutor"
+      },
+      {
+        "moveId": 276,
+        "moveName": "Superpower",
+        "source": "tutor"
+      },
+      {
+        "moveId": 311,
+        "moveName": "Weather Ball",
+        "source": "tutor"
+      },
+      {
+        "moveId": 330,
+        "moveName": "Muddy Water",
+        "source": "tutor"
+      },
+      {
+        "moveId": 334,
+        "moveName": "Iron Defense",
+        "source": "tutor"
+      },
+      {
+        "moveId": 358,
+        "moveName": "Aqua Tail",
+        "source": "tutor"
+      },
+      {
+        "moveId": 369,
+        "moveName": "Draco Meteor",
+        "source": "tutor"
+      },
+      {
+        "moveId": 382,
+        "moveName": "Iron Head",
+        "source": "tutor"
+      },
+      {
+        "moveId": 390,
+        "moveName": "Power Whip",
+        "source": "tutor"
+      },
+      {
+        "moveId": 532,
+        "moveName": "Heavy Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 594,
+        "moveName": "Laser Focus",
+        "source": "tutor"
+      },
+      {
+        "moveId": 692,
+        "moveName": "Body Press",
+        "source": "tutor"
+      },
+      {
+        "moveId": 700,
+        "moveName": "Break Swipe",
+        "source": "tutor"
+      },
+      {
+        "moveId": 714,
+        "moveName": "Steel Roller",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1274,
+    "speciesName": "Hisuian Growlithe",
+    "moves": [
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 83,
+        "moveName": "Fire Spin",
+        "source": "tutor"
+      },
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 179,
+        "moveName": "Reversal",
+        "source": "tutor"
+      },
+      {
+        "moveId": 200,
+        "moveName": "Outrage",
+        "source": "tutor"
+      },
+      {
+        "moveId": 242,
+        "moveName": "Crunch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 257,
+        "moveName": "Heat Wave",
+        "source": "tutor"
+      },
+      {
+        "moveId": 270,
+        "moveName": "Helping Hand",
+        "source": "tutor"
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "tutor"
+      },
+      {
+        "moveId": 350,
+        "moveName": "Rock Blast",
+        "source": "tutor"
+      },
+      {
+        "moveId": 365,
+        "moveName": "Close Combat",
+        "source": "tutor"
+      },
+      {
+        "moveId": 431,
+        "moveName": "Fire Fang",
+        "source": "tutor"
+      },
+      {
+        "moveId": 434,
+        "moveName": "Flare Blitz",
+        "source": "tutor"
+      },
+      {
+        "moveId": 463,
+        "moveName": "Play Rough",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1275,
+    "speciesName": "Hisuian Lilligant",
+    "moves": [
+      {
+        "moveId": 67,
+        "moveName": "Low Kick",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 179,
+        "moveName": "Reversal",
+        "source": "tutor"
+      },
+      {
+        "moveId": 215,
+        "moveName": "Heal Bell",
+        "source": "tutor"
+      },
+      {
+        "moveId": 227,
+        "moveName": "Encore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 235,
+        "moveName": "Synthesis",
+        "source": "tutor"
+      },
+      {
+        "moveId": 270,
+        "moveName": "Helping Hand",
+        "source": "tutor"
+      },
+      {
+        "moveId": 272,
+        "moveName": "Role Play",
+        "source": "tutor"
+      },
+      {
+        "moveId": 276,
+        "moveName": "Superpower",
+        "source": "tutor"
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "tutor"
+      },
+      {
+        "moveId": 348,
+        "moveName": "Leaf Blade",
+        "source": "tutor"
+      },
+      {
+        "moveId": 365,
+        "moveName": "Close Combat",
+        "source": "tutor"
+      },
+      {
+        "moveId": 396,
+        "moveName": "Seed Bomb",
+        "source": "tutor"
+      },
+      {
+        "moveId": 399,
+        "moveName": "Vacuum Wave",
+        "source": "tutor"
+      },
+      {
+        "moveId": 428,
+        "moveName": "Leaf Storm",
+        "source": "tutor"
+      },
+      {
+        "moveId": 475,
+        "moveName": "Worry Seed",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 594,
+        "moveName": "Laser Focus",
+        "source": "tutor"
+      },
+      {
+        "moveId": 601,
+        "moveName": "Pollen Puff",
+        "source": "tutor"
+      },
+      {
+        "moveId": 611,
+        "moveName": "Solar Blade",
+        "source": "tutor"
+      },
+      {
+        "moveId": 621,
+        "moveName": "Throat Chop",
+        "source": "tutor"
+      },
+      {
+        "moveId": 669,
+        "moveName": "After You",
+        "source": "tutor"
+      },
+      {
+        "moveId": 719,
+        "moveName": "Grassy Glide",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1276,
+    "speciesName": "Hisuian Qwilfish",
+    "moves": [
+      {
+        "moveId": 42,
+        "moveName": "Pin Missile",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 179,
+        "moveName": "Reversal",
+        "source": "tutor"
+      },
+      {
+        "moveId": 184,
+        "moveName": "Scary Face",
+        "source": "tutor"
+      },
+      {
+        "moveId": 191,
+        "moveName": "Spikes",
+        "source": "tutor"
+      },
+      {
+        "moveId": 196,
+        "moveName": "Icy Wind",
+        "source": "tutor"
+      },
+      {
+        "moveId": 220,
+        "moveName": "Pain Split",
+        "source": "tutor"
+      },
+      {
+        "moveId": 250,
+        "moveName": "Whirlpool",
+        "source": "tutor"
+      },
+      {
+        "moveId": 324,
+        "moveName": "Signal Beam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 340,
+        "moveName": "Bounce",
+        "source": "tutor"
+      },
+      {
+        "moveId": 358,
+        "moveName": "Aqua Tail",
+        "source": "tutor"
+      },
+      {
+        "moveId": 436,
+        "moveName": "Hex",
+        "source": "tutor"
+      },
+      {
+        "moveId": 469,
+        "moveName": "Toxic Spikes",
+        "source": "tutor"
+      },
+      {
+        "moveId": 535,
+        "moveName": "Foul Play",
+        "source": "tutor"
+      },
+      {
+        "moveId": 596,
+        "moveName": "Liquidation",
+        "source": "tutor"
+      },
+      {
+        "moveId": 621,
+        "moveName": "Throat Chop",
+        "source": "tutor"
+      },
+      {
+        "moveId": 659,
+        "moveName": "Venom Drench",
+        "source": "tutor"
+      },
+      {
+        "moveId": 715,
+        "moveName": "Scale Shot",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1277,
+    "speciesName": "Hisuian Samurott",
+    "moves": [
+      {
+        "moveId": 56,
+        "moveName": "Hydro Pump",
+        "source": "tutor"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "tutor"
+      },
+      {
+        "moveId": 116,
+        "moveName": "Focus Energy",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 196,
+        "moveName": "Icy Wind",
+        "source": "tutor"
+      },
+      {
+        "moveId": 224,
+        "moveName": "Megahorn",
+        "source": "tutor"
+      },
+      {
+        "moveId": 227,
+        "moveName": "Encore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 270,
+        "moveName": "Helping Hand",
+        "source": "tutor"
+      },
+      {
+        "moveId": 276,
+        "moveName": "Superpower",
+        "source": "tutor"
+      },
+      {
+        "moveId": 282,
+        "moveName": "Knock Off",
+        "source": "tutor"
+      },
+      {
+        "moveId": 308,
+        "moveName": "Hydro Cannon",
+        "source": "tutor"
+      },
+      {
+        "moveId": 335,
+        "moveName": "Block",
+        "source": "tutor"
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "tutor"
+      },
+      {
+        "moveId": 356,
+        "moveName": "Air Slash",
+        "source": "tutor"
+      },
+      {
+        "moveId": 358,
+        "moveName": "Aqua Tail",
+        "source": "tutor"
+      },
+      {
+        "moveId": 391,
+        "moveName": "Psycho Cut",
+        "source": "tutor"
+      },
+      {
+        "moveId": 455,
+        "moveName": "Razor Shell",
+        "source": "tutor"
+      },
+      {
+        "moveId": 535,
+        "moveName": "Foul Play",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 596,
+        "moveName": "Liquidation",
+        "source": "tutor"
+      },
+      {
+        "moveId": 621,
+        "moveName": "Throat Chop",
+        "source": "tutor"
+      },
+      {
+        "moveId": 631,
+        "moveName": "Water Pledge",
+        "source": "tutor"
+      },
+      {
+        "moveId": 724,
+        "moveName": "Lash Out",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1278,
+    "speciesName": "Hisuian Sliggoo",
+    "moves": [
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 56,
+        "moveName": "Hydro Pump",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 200,
+        "moveName": "Outrage",
+        "source": "tutor"
+      },
+      {
+        "moveId": 330,
+        "moveName": "Muddy Water",
+        "source": "tutor"
+      },
+      {
+        "moveId": 334,
+        "moveName": "Iron Defense",
+        "source": "tutor"
+      },
+      {
+        "moveId": 369,
+        "moveName": "Draco Meteor",
+        "source": "tutor"
+      },
+      {
+        "moveId": 382,
+        "moveName": "Iron Head",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 714,
+        "moveName": "Steel Roller",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1279,
+    "speciesName": "Hisuian Sneasel",
+    "moves": [
+      {
+        "moveId": 67,
+        "moveName": "Low Kick",
+        "source": "tutor"
+      },
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "tutor"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "tutor"
+      },
+      {
+        "moveId": 116,
+        "moveName": "Focus Energy",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 244,
+        "moveName": "Psych Up",
+        "source": "tutor"
+      },
+      {
+        "moveId": 282,
+        "moveName": "Knock Off",
+        "source": "tutor"
+      },
+      {
+        "moveId": 289,
+        "moveName": "Snatch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 313,
+        "moveName": "Fake Tears",
+        "source": "tutor"
+      },
+      {
+        "moveId": 365,
+        "moveName": "Close Combat",
+        "source": "tutor"
+      },
+      {
+        "moveId": 366,
+        "moveName": "Cross Poison",
+        "source": "tutor"
+      },
+      {
+        "moveId": 399,
+        "moveName": "Vacuum Wave",
+        "source": "tutor"
+      },
+      {
+        "moveId": 535,
+        "moveName": "Foul Play",
+        "source": "tutor"
+      },
+      {
+        "moveId": 594,
+        "moveName": "Laser Focus",
+        "source": "tutor"
+      },
+      {
+        "moveId": 621,
+        "moveName": "Throat Chop",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1280,
+    "speciesName": "Hisuian Typhlosion",
+    "moves": [
+      {
+        "moveId": 7,
+        "moveName": "Fire Punch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 9,
+        "moveName": "ThunderPunch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 67,
+        "moveName": "Low Kick",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 179,
+        "moveName": "Reversal",
+        "source": "tutor"
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "tutor"
+      },
+      {
+        "moveId": 257,
+        "moveName": "Heat Wave",
+        "source": "tutor"
+      },
+      {
+        "moveId": 307,
+        "moveName": "Blast Burn",
+        "source": "tutor"
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "tutor"
+      },
+      {
+        "moveId": 434,
+        "moveName": "Flare Blitz",
+        "source": "tutor"
+      },
+      {
+        "moveId": 436,
+        "moveName": "Hex",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 594,
+        "moveName": "Laser Focus",
+        "source": "tutor"
+      },
+      {
+        "moveId": 621,
+        "moveName": "Throat Chop",
+        "source": "tutor"
+      },
+      {
+        "moveId": 630,
+        "moveName": "Fire Pledge",
+        "source": "tutor"
+      },
+      {
+        "moveId": 723,
+        "moveName": "Jealous Burn",
+        "source": "tutor"
+      },
+      {
+        "moveId": 725,
+        "moveName": "Poltergeist",
+        "source": "tutor"
+      },
+      {
+        "moveId": 731,
+        "moveName": "Scorch Sands",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1281,
+    "speciesName": "Hisuian Voltorb",
+    "moves": [
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "tutor"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 235,
+        "moveName": "Synthesis",
+        "source": "tutor"
+      },
+      {
+        "moveId": 277,
+        "moveName": "Magic Coat",
+        "source": "tutor"
+      },
+      {
+        "moveId": 324,
+        "moveName": "Signal Beam",
+        "source": "tutor"
+      },
+      {
+        "moveId": 396,
+        "moveName": "Seed Bomb",
+        "source": "tutor"
+      },
+      {
+        "moveId": 428,
+        "moveName": "Leaf Storm",
+        "source": "tutor"
+      },
+      {
+        "moveId": 475,
+        "moveName": "Worry Seed",
+        "source": "tutor"
+      },
+      {
+        "moveId": 534,
+        "moveName": "Electro Ball",
+        "source": "tutor"
+      },
+      {
+        "moveId": 535,
+        "moveName": "Foul Play",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 650,
+        "moveName": "Magnet Rise",
+        "source": "tutor"
+      },
+      {
+        "moveId": 714,
+        "moveName": "Steel Roller",
+        "source": "tutor"
+      },
+      {
+        "moveId": 719,
+        "moveName": "Grassy Glide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 720,
+        "moveName": "Rising Volt",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1282,
+    "speciesName": "Hisuian Zoroark",
+    "moves": [
+      {
+        "moveId": 67,
+        "moveName": "Low Kick",
+        "source": "tutor"
+      },
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "tutor"
+      },
+      {
+        "moveId": 184,
+        "moveName": "Scary Face",
+        "source": "tutor"
+      },
+      {
+        "moveId": 227,
+        "moveName": "Encore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 244,
+        "moveName": "Psych Up",
+        "source": "tutor"
+      },
+      {
+        "moveId": 253,
+        "moveName": "Uproar",
+        "source": "tutor"
+      },
+      {
+        "moveId": 271,
+        "moveName": "Trick",
+        "source": "tutor"
+      },
+      {
+        "moveId": 282,
+        "moveName": "Knock Off",
+        "source": "tutor"
+      },
+      {
+        "moveId": 289,
+        "moveName": "Snatch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 304,
+        "moveName": "Hyper Voice",
+        "source": "tutor"
+      },
+      {
+        "moveId": 313,
+        "moveName": "Fake Tears",
+        "source": "tutor"
+      },
+      {
+        "moveId": 340,
+        "moveName": "Bounce",
+        "source": "tutor"
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "tutor"
+      },
+      {
+        "moveId": 386,
+        "moveName": "Nasty Plot",
+        "source": "tutor"
+      },
+      {
+        "moveId": 535,
+        "moveName": "Foul Play",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 594,
+        "moveName": "Laser Focus",
+        "source": "tutor"
+      },
+      {
+        "moveId": 621,
+        "moveName": "Throat Chop",
+        "source": "tutor"
+      },
+      {
+        "moveId": 722,
+        "moveName": "SkitterSmack",
+        "source": "tutor"
+      },
+      {
+        "moveId": 723,
+        "moveName": "Jealous Burn",
+        "source": "tutor"
+      },
+      {
+        "moveId": 724,
+        "moveName": "Lash Out",
+        "source": "tutor"
+      },
+      {
+        "moveId": 725,
+        "moveName": "Poltergeist",
+        "source": "tutor"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "tutor"
+    }
+  },
+  {
+    "speciesId": 1283,
+    "speciesName": "Hisuian Zorua",
+    "moves": [
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "tutor"
+      },
+      {
+        "moveId": 173,
+        "moveName": "Snore",
+        "source": "tutor"
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "tutor"
+      },
+      {
+        "moveId": 184,
+        "moveName": "Scary Face",
+        "source": "tutor"
+      },
+      {
+        "moveId": 244,
+        "moveName": "Psych Up",
+        "source": "tutor"
+      },
+      {
+        "moveId": 253,
+        "moveName": "Uproar",
+        "source": "tutor"
+      },
+      {
+        "moveId": 271,
+        "moveName": "Trick",
+        "source": "tutor"
+      },
+      {
+        "moveId": 282,
+        "moveName": "Knock Off",
+        "source": "tutor"
+      },
+      {
+        "moveId": 289,
+        "moveName": "Snatch",
+        "source": "tutor"
+      },
+      {
+        "moveId": 304,
+        "moveName": "Hyper Voice",
+        "source": "tutor"
+      },
+      {
+        "moveId": 313,
+        "moveName": "Fake Tears",
+        "source": "tutor"
+      },
+      {
+        "moveId": 340,
+        "moveName": "Bounce",
+        "source": "tutor"
+      },
+      {
+        "moveId": 386,
+        "moveName": "Nasty Plot",
+        "source": "tutor"
+      },
+      {
+        "moveId": 436,
+        "moveName": "Hex",
+        "source": "tutor"
+      },
+      {
+        "moveId": 535,
+        "moveName": "Foul Play",
+        "source": "tutor"
+      },
+      {
+        "moveId": 564,
+        "moveName": "Confide",
+        "source": "tutor"
+      },
+      {
+        "moveId": 722,
+        "moveName": "SkitterSmack",
+        "source": "tutor"
+      },
+      {
+        "moveId": 723,
+        "moveName": "Jealous Burn",
+        "source": "tutor"
+      },
+      {
+        "moveId": 724,
+        "moveName": "Lash Out",
+        "source": "tutor"
+      },
+      {
+        "moveId": 725,
+        "moveName": "Poltergeist",
         "source": "tutor"
       }
     ],

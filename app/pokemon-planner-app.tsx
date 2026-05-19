@@ -20,8 +20,10 @@ import { parsePokemonUnboundSave, type ParsedSaveFile } from "@/lib/save";
 type ExtractedSpeciesRecord = {
   speciesId: number;
   name: string;
+  displayName?: string;
   baseStats: Stats;
   types: PokemonType[];
+  sourceNationalDex?: number | null;
   ability1Id: number;
   ability1Name: string | null;
   ability2Id: number;
@@ -73,6 +75,11 @@ type ItemRecord = {
   name: string;
 };
 
+type FrontSpriteIndex = {
+  bySpeciesId: Record<string, string>;
+  byLookupKey: Record<string, string>;
+};
+
 type ScrapedGymLeaderSet = {
   source: string;
   gyms: ScrapedGymEntry[];
@@ -115,6 +122,7 @@ type GymTeamMember = {
   ability: string | null;
   baseStats: Stats;
   evSpread: string | null;
+  form: string | null;
   gender: string | null;
   heldItem: string | null;
   id: string;
@@ -123,8 +131,11 @@ type GymTeamMember = {
   name: string;
   nature: string | null;
   nationalDex: number | null;
+  speciesName: string;
   types: PokemonType[];
 };
+
+type TypeFilterMode = "any-selected" | "only-selected" | "exact-selected";
 
 type CandidateMove = LearnableMove & {
   detailLabel: string;
@@ -149,6 +160,7 @@ type RosterCandidate = {
   locationLabel: string;
   methodLabel: string | null;
   nature: string;
+  nationalDex: number | null;
   possibleAbilities: CandidateAbility[];
   speciesId: number;
   speciesName: string;
@@ -162,6 +174,7 @@ type LoadedDatasets = {
   abilities: ExtractedAbilityRecord[];
   combinedLearnsets: ExtractedCombinedLearnset[];
   evolutions: ExtractedEvolutionRecord[];
+  frontSprites: FrontSpriteIndex;
   gymLeaders: ScrapedGymLeaderSet;
   items: ItemRecord[];
   moves: ExtractedMoveRecord[];
@@ -175,6 +188,11 @@ const EMPTY_STATS: Stats = {
   spa: 0,
   spd: 0,
   spe: 0,
+};
+
+const SPECIES_DISPLAY_NAME_OVERRIDES: Record<string, string> = {
+  "Flab\\eb\\e": "Flabebe",
+  Crabminble: "Crabominable",
 };
 
 const TYPE_OPTIONS: PokemonType[] = [
@@ -521,8 +539,9 @@ function buildCandidateLearnset(
       seenMoveIds.add(move.moveId);
     }
 
-    for (const nextAncestorId of preEvolutionIdsBySpeciesId[ancestorSpeciesId] ??
-      []) {
+    for (const nextAncestorId of preEvolutionIdsBySpeciesId[
+      ancestorSpeciesId
+    ] ?? []) {
       if (visited.has(nextAncestorId)) {
         continue;
       }
@@ -555,22 +574,29 @@ function moveMatchesFilter(
 
 function canShowEvolutionUnderCap(
   evolution: ExtractedEvolutionRecord["evolutions"][number],
-  currentLevel: number,
   levelCap: number,
 ) {
+  if (evolution.targetSpeciesId <= 0) {
+    return false;
+  }
+
+  if (evolution.method.includes("baby") || evolution.method.includes("breed")) {
+    return false;
+  }
+
   if (evolution.method.includes("trade")) {
     return false;
   }
 
   if (evolution.method.startsWith("level")) {
-    return typeof evolution.param === "number" && evolution.param <= levelCap;
+    return typeof evolution.param !== "number" || evolution.param <= levelCap;
   }
 
   if (evolution.method === "none") {
     return false;
   }
 
-  return currentLevel <= levelCap;
+  return true;
 }
 
 function formatEvolutionMethod(
@@ -587,8 +613,52 @@ function formatEvolutionMethod(
   return `Evolves via ${evolution.method.replaceAll("-", " ")}`;
 }
 
+function formatSpeciesName(speciesName: string) {
+  return SPECIES_DISPLAY_NAME_OVERRIDES[speciesName] ?? speciesName;
+}
+
+function getSpeciesDisplayName(
+  species: Pick<ExtractedSpeciesRecord, "name" | "displayName">,
+) {
+  return formatSpeciesName(species.displayName ?? species.name);
+}
+
+function pickCanonicalSpeciesRecord(rows: ExtractedSpeciesRecord[]) {
+  const unlabeledRows = rows.filter((row) => !row.displayName);
+  if (unlabeledRows.length === 0) {
+    return rows[0] ?? null;
+  }
+
+  return (
+    unlabeledRows.find((row) => row.sourceNationalDex != null) ??
+    [...unlabeledRows].sort((left, right) => left.speciesId - right.speciesId)[0]
+  );
+}
+
+function resolveCanonicalSpeciesId(
+  speciesId: number,
+  speciesById: Record<number, ExtractedSpeciesRecord>,
+  canonicalSpeciesIdByName: Record<string, number>,
+) {
+  const species = speciesById[speciesId];
+  if (!species) {
+    return speciesId;
+  }
+
+  const canonicalSpeciesId = canonicalSpeciesIdByName[species.name];
+  if (!canonicalSpeciesId) {
+    return speciesId;
+  }
+
+  if (species.displayName || species.sourceNationalDex) {
+    return speciesId;
+  }
+
+  return canonicalSpeciesId;
+}
+
 function getPortraitLabel(speciesName: string) {
-  return speciesName
+  return formatSpeciesName(speciesName)
     .split(/[\s-]+/)
     .slice(0, 2)
     .map((part) => part[0] ?? "")
@@ -674,12 +744,71 @@ function getCategoryColor(category: MoveCategory) {
   return "#676967";
 }
 
-function getSpriteUrl(pokemon: GymTeamMember) {
-  if (!pokemon.nationalDex) {
+function slugifySpeciesName(name: string) {
+  return name
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/♀/g, "-f")
+    .replace(/♂/g, "-m")
+    .replace(/['’:.]/g, "")
+    .replace(/\s+/g, "-");
+}
+
+function buildLocalSpriteLookupKey(name: string, form?: string | null) {
+  const normalizedName = slugifySpeciesName(formatSpeciesName(name)).replaceAll(
+    "-",
+    "",
+  );
+  const normalizedForm = form?.replace(/^-/, "").trim().toLowerCase() ?? "";
+
+  return `${normalizedName}|${normalizedForm}`;
+}
+
+function getFrontSpriteUrlBySpeciesId(
+  frontSprites: FrontSpriteIndex | null | undefined,
+  speciesId: number | null | undefined,
+) {
+  if (!speciesId) {
     return null;
   }
 
-  return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemon.nationalDex}.png`;
+  return frontSprites?.bySpeciesId[String(speciesId)] ?? null;
+}
+
+function getFrontSpriteUrlByNameForm(
+  frontSprites: FrontSpriteIndex | null | undefined,
+  name: string,
+  form?: string | null,
+) {
+  return (
+    frontSprites?.byLookupKey[buildLocalSpriteLookupKey(name, form)] ?? null
+  );
+}
+
+function getSpriteUrl(
+  pokemon: GymTeamMember,
+  frontSprites: FrontSpriteIndex | null | undefined,
+) {
+  return getFrontSpriteUrlByNameForm(
+    frontSprites,
+    pokemon.speciesName,
+    pokemon.form,
+  );
+}
+
+function getCandidateSpriteUrl(
+  candidate: RosterCandidate | null,
+  frontSprites: FrontSpriteIndex | null | undefined,
+) {
+  if (!candidate) {
+    return null;
+  }
+
+  return (
+    getFrontSpriteUrlBySpeciesId(frontSprites, candidate.speciesId) ??
+    getFrontSpriteUrlByNameForm(frontSprites, candidate.speciesName)
+  );
 }
 
 function getStatBarColor(value: number) {
@@ -792,8 +921,8 @@ export function PokemonPlannerApp() {
   const [incomingDamageFilters, setIncomingDamageFilters] = useState<number[]>(
     [],
   );
-  const [onlyIncludeSelectedTypes, setOnlyIncludeSelectedTypes] =
-    useState(false);
+  const [typeFilterMode, setTypeFilterMode] =
+    useState<TypeFilterMode>("any-selected");
   const [showEvolutions, setShowEvolutions] = useState(true);
   const [selectedGymLeader, setSelectedGymLeader] = useState("");
   const [selectedDifficulty, setSelectedDifficulty] = useState("");
@@ -816,6 +945,7 @@ export function PokemonPlannerApp() {
           abilitiesResponse,
           abilityDescriptionTableResponse,
           abilityDescriptionsResponse,
+          frontSpritesResponse,
           speciesResponse,
           movesResponse,
           learnsetsResponse,
@@ -827,7 +957,10 @@ export function PokemonPlannerApp() {
           fetch(
             "/Complete-Fire-Red-Upgrade/assembly/data/ability_description_table.s",
           ),
-          fetch("/Complete-Fire-Red-Upgrade/strings/ability_descriptions.string"),
+          fetch(
+            "/Complete-Fire-Red-Upgrade/strings/ability_descriptions.string",
+          ),
+          fetch("/extracted/frontspr-index.json"),
           fetch("/extracted/species.json"),
           fetch("/extracted/moves.json"),
           fetch("/extracted/learnsets-combined.json"),
@@ -836,7 +969,8 @@ export function PokemonPlannerApp() {
           fetch("/extracted/items-partial.json"),
         ]);
 
-        const abilities = (await abilitiesResponse.json()) as ExtractedAbilityRecord[];
+        const abilities =
+          (await abilitiesResponse.json()) as ExtractedAbilityRecord[];
         const abilityEffectsById = buildAbilityEffectsById(
           abilities,
           await abilityDescriptionTableResponse.text(),
@@ -852,6 +986,7 @@ export function PokemonPlannerApp() {
             (await learnsetsResponse.json()) as ExtractedCombinedLearnset[],
           evolutions:
             (await evolutionsResponse.json()) as ExtractedEvolutionRecord[],
+          frontSprites: (await frontSpritesResponse.json()) as FrontSpriteIndex,
           gymLeaders: (await gymsResponse.json()) as ScrapedGymLeaderSet,
           items: (await itemsResponse.json()) as ItemRecord[],
           moves: (await movesResponse.json()) as ExtractedMoveRecord[],
@@ -903,10 +1038,23 @@ export function PokemonPlannerApp() {
   );
 
   const speciesByName = useMemo(
-    () =>
-      Object.fromEntries(
-        (datasets?.species ?? []).map((species) => [species.name, species]),
-      ) as Record<string, ExtractedSpeciesRecord>,
+    () => {
+      const groupedSpecies = new Map<string, ExtractedSpeciesRecord[]>();
+
+      for (const species of datasets?.species ?? []) {
+        const rows = groupedSpecies.get(species.name) ?? [];
+        rows.push(species);
+        groupedSpecies.set(species.name, rows);
+      }
+
+      return Object.fromEntries(
+        [...groupedSpecies.entries()]
+          .map(([name, rows]) => [name, pickCanonicalSpeciesRecord(rows)])
+          .filter((entry): entry is [string, ExtractedSpeciesRecord] =>
+            Boolean(entry[1]),
+          ),
+      ) as Record<string, ExtractedSpeciesRecord>;
+    },
     [datasets],
   );
 
@@ -977,7 +1125,8 @@ export function PokemonPlannerApp() {
     for (const evolutionRecord of datasets?.evolutions ?? []) {
       for (const evolution of evolutionRecord.evolutions) {
         const parentIds =
-          parentsBySpeciesId.get(evolution.targetSpeciesId) ?? new Set<number>();
+          parentsBySpeciesId.get(evolution.targetSpeciesId) ??
+          new Set<number>();
         parentIds.add(evolutionRecord.speciesId);
         parentsBySpeciesId.set(evolution.targetSpeciesId, parentIds);
       }
@@ -997,6 +1146,38 @@ export function PokemonPlannerApp() {
       ) as Record<number, string>,
     [datasets],
   );
+
+  const canonicalSpeciesIdByName = useMemo(() => {
+    const speciesByName = new Map<string, ExtractedSpeciesRecord[]>();
+
+    for (const species of datasets?.species ?? []) {
+      const rows = speciesByName.get(species.name) ?? [];
+      rows.push(species);
+      speciesByName.set(species.name, rows);
+    }
+
+    const entries: Array<[string, number]> = [];
+    for (const [name, rows] of speciesByName.entries()) {
+      const unlabeledRows = rows.filter((row) => !row.displayName);
+      if (unlabeledRows.length === 0) {
+        continue;
+      }
+
+      const canonicalRow =
+        unlabeledRows.find(
+          (row) => row.sourceNationalDex != null || "wikiPage" in row,
+        ) ??
+        [...unlabeledRows].sort(
+          (left, right) => left.speciesId - right.speciesId,
+        )[0];
+
+      if (canonicalRow) {
+        entries.push([name, canonicalRow.speciesId]);
+      }
+    }
+
+    return Object.fromEntries(entries) as Record<string, number>;
+  }, [datasets]);
 
   const availableGyms = datasets?.gymLeaders.gyms ?? [];
   const effectiveSelectedGymLeader = availableGyms.some(
@@ -1026,6 +1207,7 @@ export function PokemonPlannerApp() {
             ability: pokemon.ability,
             baseStats: species?.baseStats ?? EMPTY_STATS,
             evSpread: pokemon.evSpread,
+            form: pokemon.form,
             gender: pokemon.gender,
             heldItem: pokemon.heldItem,
             id: `${selectedGym.leader}-${selectedGymDifficulty.difficulty}-${index}`,
@@ -1044,10 +1226,11 @@ export function PokemonPlannerApp() {
               };
             }),
             name: pokemon.form
-              ? `${pokemon.pokemon}${pokemon.form}`
-              : pokemon.pokemon,
+              ? `${formatSpeciesName(pokemon.pokemon)}${pokemon.form}`
+              : formatSpeciesName(pokemon.pokemon),
             nature: pokemon.nature,
             nationalDex: pokemon.nationalDex,
+            speciesName: formatSpeciesName(pokemon.pokemon),
             types: species?.types ?? pokemon.types,
           } satisfies GymTeamMember;
         })
@@ -1075,13 +1258,18 @@ export function PokemonPlannerApp() {
     const roster: RosterCandidate[] = [];
 
     for (const pokemon of saveData.pokemon) {
-      const species = speciesById[pokemon.speciesId];
+      const resolvedSpeciesId = resolveCanonicalSpeciesId(
+        pokemon.speciesId,
+        speciesById,
+        canonicalSpeciesIdByName,
+      );
+      const species = speciesById[resolvedSpeciesId];
       if (!species) {
         continue;
       }
 
       const learnset = buildCandidateLearnset(
-        pokemon.speciesId,
+        resolvedSpeciesId,
         combinedLearnsetBySpeciesId,
         combinedLearnsetBySpeciesName,
         moveById,
@@ -1102,14 +1290,14 @@ export function PokemonPlannerApp() {
       roster.push({
         currentMoves,
         currentMoveSummary: buildMoveSummary(currentMoves),
-        currentSpeciesName: species.name,
+        currentSpeciesName: getSpeciesDisplayName(species),
         displayName: pokemon.nickname
-          ? `${pokemon.nickname} (${species.name})`
-          : species.name,
+          ? `${pokemon.nickname} (${getSpeciesDisplayName(species)})`
+          : getSpeciesDisplayName(species),
         heldItemName: itemById[pokemon.heldItemId] ?? null,
         key: pokemon.isParty
-          ? `party:${pokemon.slotIndex}:${pokemon.speciesId}`
-          : `box:${pokemon.boxIndex}:${pokemon.slotIndex}:${pokemon.speciesId}`,
+          ? `party:${pokemon.slotIndex}:${resolvedSpeciesId}`
+          : `box:${pokemon.boxIndex}:${pokemon.slotIndex}:${resolvedSpeciesId}`,
         learnset,
         level: pokemon.level,
         locationLabel: pokemon.isParty
@@ -1117,9 +1305,10 @@ export function PokemonPlannerApp() {
           : `Box ${(pokemon.boxIndex ?? 0) + 1}, Slot ${pokemon.slotIndex + 1}`,
         methodLabel: null,
         nature: pokemon.nature,
+        nationalDex: species.sourceNationalDex ?? null,
         possibleAbilities: buildPossibleAbilities(species, abilityEffectById),
-        speciesId: pokemon.speciesId,
-        speciesName: species.name,
+        speciesId: resolvedSpeciesId,
+        speciesName: getSpeciesDisplayName(species),
         stats: species.baseStats,
         types: species.types,
       });
@@ -1134,24 +1323,37 @@ export function PokemonPlannerApp() {
     moveById,
     preEvolutionIdsBySpeciesId,
     saveData,
+    canonicalSpeciesIdByName,
     speciesById,
   ]);
 
   const searchCandidates = useMemo(() => {
-    const candidates: RosterCandidate[] = [...baseRoster];
+    const candidates: RosterCandidate[] = [];
 
     if (!showEvolutions) {
-      return candidates;
+      return baseRoster;
     }
 
-    for (const candidate of baseRoster) {
+    function appendCandidateWithEvolutions(
+      candidate: RosterCandidate,
+      visitedSpeciesIds: Set<number>,
+    ) {
+      candidates.push(candidate);
+
       const evolutionRecord = evolutionsBySpeciesId[candidate.speciesId];
       if (!evolutionRecord) {
-        continue;
+        return;
       }
 
-      for (const evolution of evolutionRecord.evolutions) {
-        if (!canShowEvolutionUnderCap(evolution, candidate.level, levelCap)) {
+      for (const [evolutionIndex, evolution] of evolutionRecord.evolutions.entries()) {
+        if (!canShowEvolutionUnderCap(evolution, levelCap)) {
+          continue;
+        }
+
+        if (
+          evolution.targetSpeciesId === candidate.speciesId ||
+          visitedSpeciesIds.has(evolution.targetSpeciesId)
+        ) {
           continue;
         }
 
@@ -1169,22 +1371,32 @@ export function PokemonPlannerApp() {
           preEvolutionIdsBySpeciesId,
         );
 
-        candidates.push({
+        const evolvedCandidate: RosterCandidate = {
           ...candidate,
-          displayName: `${evolvedSpecies.name} (${candidate.displayName})`,
-          key: `${candidate.key}:evo:${evolution.targetSpeciesId}:${evolution.method}:${evolution.param ?? "na"}`,
+          displayName: `${getSpeciesDisplayName(evolvedSpecies)} (${candidate.displayName})`,
+          key: `${candidate.key}:evo:${evolutionIndex}:${evolution.targetSpeciesId}:${evolution.method}:${evolution.param ?? "na"}`,
           learnset: evolvedLearnset,
           methodLabel: formatEvolutionMethod(evolution),
+          nationalDex: evolvedSpecies.sourceNationalDex ?? null,
           possibleAbilities: buildPossibleAbilities(
             evolvedSpecies,
             abilityEffectById,
           ),
           speciesId: evolvedSpecies.speciesId,
-          speciesName: evolvedSpecies.name,
+          speciesName: getSpeciesDisplayName(evolvedSpecies),
           stats: evolvedSpecies.baseStats,
           types: evolvedSpecies.types,
-        });
+        };
+
+        appendCandidateWithEvolutions(
+          evolvedCandidate,
+          new Set([...visitedSpeciesIds, evolution.targetSpeciesId]),
+        );
       }
+    }
+
+    for (const candidate of baseRoster) {
+      appendCandidateWithEvolutions(candidate, new Set([candidate.speciesId]));
     }
 
     return candidates;
@@ -1222,10 +1434,13 @@ export function PokemonPlannerApp() {
       );
     const matchesType =
       typeFilters.length === 0 ||
-      (onlyIncludeSelectedTypes
+      (typeFilterMode === "exact-selected"
         ? candidate.types.every((type) => typeFilters.includes(type)) &&
           typeFilters.every((type) => candidate.types.includes(type))
-        : typeFilters.some((type) => candidate.types.includes(type)));
+        : typeFilterMode === "only-selected"
+          ? candidate.types.some((type) => typeFilters.includes(type)) &&
+            candidate.types.every((type) => typeFilters.includes(type))
+          : typeFilters.some((type) => candidate.types.includes(type)));
     const matchesIncomingDamage =
       incomingDamageFilters.length === 0 ||
       !selectedEnemy ||
@@ -1400,12 +1615,15 @@ export function PokemonPlannerApp() {
                   >
                     <div className="flex justify-center">
                       <div className="flex items-center justify-center rounded-[14px] bg-white/95 p-2">
-                        {getSpriteUrl(pokemon) ? (
+                        {getSpriteUrl(pokemon, datasets?.frontSprites) ? (
                           // eslint-disable-next-line @next/next/no-img-element
                           <img
                             alt={pokemon.name}
                             className="h-[70] w-[70] object-contain"
-                            src={getSpriteUrl(pokemon) ?? undefined}
+                            src={
+                              getSpriteUrl(pokemon, datasets?.frontSprites) ??
+                              undefined
+                            }
                           />
                         ) : (
                           <div className="flex h-16 w-16 items-center justify-center border border-[rgba(31,122,92,0.16)] bg-[rgba(31,122,92,0.12)] text-[1.15rem] font-extrabold text-[var(--accent-strong)]">
@@ -1529,7 +1747,9 @@ export function PokemonPlannerApp() {
                                   <span
                                     className="rounded px-1.5 py-1 text-center text-[0.72rem] font-bold capitalize text-white"
                                     style={{
-                                      background: getCategoryColor(move.category),
+                                      background: getCategoryColor(
+                                        move.category,
+                                      ),
                                     }}
                                   >
                                     {move.category === "physical"
@@ -1614,7 +1834,25 @@ export function PokemonPlannerApp() {
                     {slot === "left" ? "Slot 1" : "Slot 2"}
                   </span>
                   <div className="flex h-16 w-16 items-center justify-center rounded-2xl border border-[rgba(31,122,92,0.16)] bg-[rgba(31,122,92,0.12)] text-[1.15rem] font-extrabold text-[var(--accent-strong)]">
-                    {candidate ? getPortraitLabel(candidate.speciesName) : "?"}
+                    {getCandidateSpriteUrl(candidate, datasets?.frontSprites) ? (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        alt={candidate?.displayName ?? candidate?.speciesName ?? "Pokemon"}
+                        className="h-[70px] w-[70px] object-contain"
+                        src={
+                          getCandidateSpriteUrl(
+                            candidate,
+                            datasets?.frontSprites,
+                          ) ?? undefined
+                        }
+                      />
+                    ) : (
+                      <span>
+                        {candidate
+                          ? getPortraitLabel(candidate.speciesName)
+                          : "?"}
+                      </span>
+                    )}
                   </div>
                 </div>
                 {candidate ? (
@@ -1707,12 +1945,18 @@ export function PokemonPlannerApp() {
                   Enemy focus
                 </span>
                 <div className="flex h-16 w-16 items-center justify-center rounded-2xl border border-[rgba(31,122,92,0.16)] bg-[rgba(31,122,92,0.12)] text-[1.15rem] font-extrabold text-[var(--accent-strong)]">
-                  {selectedEnemy && getSpriteUrl(selectedEnemy) ? (
+                  {selectedEnemy &&
+                  getSpriteUrl(selectedEnemy, datasets?.frontSprites) ? (
                     // eslint-disable-next-line @next/next/no-img-element
                     <img
                       alt={selectedEnemy.name}
                       className="h-[70px] w-[70px] object-contain"
-                      src={getSpriteUrl(selectedEnemy) ?? undefined}
+                      src={
+                        getSpriteUrl(
+                          selectedEnemy,
+                          datasets?.frontSprites,
+                        ) ?? undefined
+                      }
                     />
                   ) : (
                     <span>
@@ -1869,14 +2113,19 @@ export function PokemonPlannerApp() {
               Show evolutions under cap
             </label>
             <label className="inline-flex items-center gap-2 text-[var(--foreground)]">
-              <input
-                checked={onlyIncludeSelectedTypes}
+              <span>Type match</span>
+              <select
+                aria-label="Type match mode"
+                className="min-h-11 rounded-[14px] border border-[rgba(29,35,48,0.12)] bg-white/90 px-3.5 text-[var(--foreground)]"
+                value={typeFilterMode}
                 onChange={(event) =>
-                  setOnlyIncludeSelectedTypes(event.target.checked)
+                  setTypeFilterMode(event.target.value as TypeFilterMode)
                 }
-                type="checkbox"
-              />
-              Only include exact selected types
+              >
+                <option value="any-selected">Any selected type</option>
+                <option value="only-selected">Only selected types</option>
+                <option value="exact-selected">Exact selected types</option>
+              </select>
             </label>
           </div>
           <div className="mt-3 flex flex-wrap items-center gap-2">
@@ -1955,21 +2204,61 @@ export function PokemonPlannerApp() {
             {filteredCandidates.map((candidate) => {
               const isLeft = leftCandidate?.key === candidate.key;
               const isRight = rightCandidate?.key === candidate.key;
+              const borderClass =
+                isLeft && isRight
+                  ? "border-[rgba(125,87,184,0.7)] bg-[rgba(125,87,184,0.08)]"
+                  : isLeft
+                    ? "border-[rgba(31,122,92,0.7)] bg-[rgba(31,122,92,0.08)]"
+                    : isRight
+                      ? "border-[rgba(226,170,61,0.75)] bg-[rgba(226,170,61,0.12)]"
+                      : "border-[rgba(29,35,48,0.12)] bg-white/70";
 
               return (
                 <div
-                  className="grid gap-3 rounded-[18px] border border-[rgba(29,35,48,0.12)] bg-white/70 p-4 text-left"
+                  className={`grid cursor-pointer gap-3 rounded-[18px] border p-4 text-left transition ${borderClass}`}
                   key={candidate.key}
+                  onClick={() => assignCandidate(activeCompareSlot, candidate.key)}
+                  role="button"
+                  tabIndex={0}
+                  onKeyDown={(event) => {
+                    if (event.key === "Enter" || event.key === " ") {
+                      event.preventDefault();
+                      assignCandidate(activeCompareSlot, candidate.key);
+                    }
+                  }}
                 >
                   <div className="flex items-center gap-[14px]">
                     <div className="flex h-[52px] w-[52px] items-center justify-center rounded-2xl border border-[rgba(31,122,92,0.16)] bg-[rgba(31,122,92,0.12)] text-base font-extrabold text-[var(--accent-strong)]">
-                      {getPortraitLabel(candidate.speciesName)}
+                      {getCandidateSpriteUrl(candidate, datasets?.frontSprites) ? (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img
+                          alt={candidate.displayName}
+                          className="h-[52px] w-[52px] object-contain"
+                          src={
+                            getCandidateSpriteUrl(
+                              candidate,
+                              datasets?.frontSprites,
+                            ) ?? undefined
+                          }
+                        />
+                      ) : (
+                        getPortraitLabel(candidate.speciesName)
+                      )}
                     </div>
                     <div>
                       <strong>{candidate.displayName}</strong>
                       <span className="block text-[var(--muted)]">
                         {candidate.locationLabel} • Lv.{candidate.level}
                       </span>
+                      {isLeft || isRight ? (
+                        <span className="mt-1 block text-[0.76rem] font-semibold text-[var(--muted)]">
+                          {isLeft && isRight
+                            ? "Selected in slot 1 and slot 2"
+                            : isLeft
+                              ? "Selected in slot 1"
+                              : "Selected in slot 2"}
+                        </span>
+                      ) : null}
                     </div>
                   </div>
                   <div className="flex flex-wrap gap-x-3 gap-y-2 text-[0.84rem] leading-[1.4] text-[var(--muted)]">
@@ -1998,9 +2287,7 @@ export function PokemonPlannerApp() {
                         </a>
                         <span className="text-[var(--muted)]">
                           {" "}
-                          -{" "}
-                          {ability.effect ??
-                            "Effect text unavailable locally. Open the link for full details."}
+                          - {ability.effect}
                         </span>
                       </div>
                     ))}
@@ -2013,30 +2300,6 @@ export function PokemonPlannerApp() {
                   <p className="leading-6 text-[var(--muted)]">
                     Current moves: {candidate.currentMoveSummary}
                   </p>
-                  <div className="mt-1 flex flex-wrap gap-2.5">
-                    <button
-                      className={`inline-flex min-h-11 cursor-pointer items-center justify-center gap-2 rounded-full border px-[18px] font-bold ${
-                        isLeft
-                          ? "border-transparent bg-[var(--accent)] text-white"
-                          : "border-[rgba(31,122,92,0.18)] bg-[rgba(31,122,92,0.12)] text-[var(--accent-strong)]"
-                      }`}
-                      onClick={() => assignCandidate("left", candidate.key)}
-                      type="button"
-                    >
-                      {isLeft ? "Assigned to slot 1" : "Use in slot 1"}
-                    </button>
-                    <button
-                      className={`inline-flex min-h-11 cursor-pointer items-center justify-center gap-2 rounded-full border px-[18px] font-bold ${
-                        isRight
-                          ? "border-transparent bg-[var(--accent)] text-white"
-                          : "border-[rgba(31,122,92,0.18)] bg-[rgba(31,122,92,0.12)] text-[var(--accent-strong)]"
-                      }`}
-                      onClick={() => assignCandidate("right", candidate.key)}
-                      type="button"
-                    >
-                      {isRight ? "Assigned to slot 2" : "Use in slot 2"}
-                    </button>
-                  </div>
                 </div>
               );
             })}

@@ -9,7 +9,7 @@
   },
   {
     "itemId": 20,
-    "name": "when there is at least 1 empty space in the party and 1 available Pokeball"
+    "name": "Nighttime"
   },
   {
     "itemId": 21,
@@ -25,7 +25,7 @@
   },
   {
     "itemId": 28,
-    "name": "Daytime"
+    "name": "Nighttime"
   },
   {
     "itemId": 29,
@@ -44,8 +44,24 @@
     "name": "Daytime"
   },
   {
+    "itemId": 35,
+    "name": "Nighttime"
+  },
+  {
+    "itemId": 36,
+    "name": "while Dewott holds a Hisui Rock"
+  },
+  {
+    "itemId": 37,
+    "name": "while holding Hisui Rock"
+  },
+  {
     "itemId": 39,
     "name": "Night"
+  },
+  {
+    "itemId": 40,
+    "name": "while holding Hisui Rock"
   },
   {
     "itemId": 44,

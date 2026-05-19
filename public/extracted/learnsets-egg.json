@@ -5436,21 +5436,21 @@
   },
   {
     "speciesId": 83,
-    "speciesName": "Farfetch'd",
+    "speciesName": "Galarian Farfetch\u2019d",
     "moves": [
       {
-        "moveId": 16,
-        "moveName": "Gust",
+        "moveId": 38,
+        "moveName": "Double-Edge",
+        "source": "egg"
+      },
+      {
+        "moveId": 68,
+        "moveName": "Counter",
         "source": "egg"
       },
       {
         "moveId": 98,
         "moveName": "Quick Attack",
-        "source": "egg"
-      },
-      {
-        "moveId": 119,
-        "moveName": "Mirror Move",
         "source": "egg"
       },
       {
@@ -5469,68 +5469,28 @@
         "source": "egg"
       },
       {
-        "moveId": 189,
-        "moveName": "Mud-Slap",
-        "source": "egg"
-      },
-      {
-        "moveId": 193,
-        "moveName": "Foresight",
-        "source": "egg"
-      },
-      {
-        "moveId": 211,
-        "moveName": "Steel Wing",
-        "source": "egg"
-      },
-      {
-        "moveId": 273,
-        "moveName": "Wish",
-        "source": "egg"
-      },
-      {
-        "moveId": 279,
-        "moveName": "Revenge",
-        "source": "egg"
-      },
-      {
-        "moveId": 281,
-        "moveName": "Yawn",
-        "source": "egg"
-      },
-      {
-        "moveId": 297,
-        "moveName": "FeatherDance",
-        "source": "egg"
-      },
-      {
         "moveId": 343,
         "moveName": "Covet",
         "source": "egg"
       },
       {
-        "moveId": 356,
-        "moveName": "Air Slash",
+        "moveId": 387,
+        "moveName": "Night Slash",
         "source": "egg"
       },
       {
-        "moveId": 395,
-        "moveName": "Roost",
+        "moveId": 488,
+        "moveName": "Feint",
         "source": "egg"
       },
       {
-        "moveId": 495,
-        "moveName": "Final Gambit",
+        "moveId": 637,
+        "moveName": "Quick Guard",
         "source": "egg"
       },
       {
         "moveId": 655,
         "moveName": "Simple Beam",
-        "source": "egg"
-      },
-      {
-        "moveId": 668,
-        "moveName": "Trump Card",
         "source": "egg"
       }
     ],
@@ -7284,77 +7244,6 @@
       {
         "moveId": 641,
         "moveName": "Belch",
-        "source": "egg"
-      }
-    ],
-    "source": {
-      "kind": "wiki-page",
-      "base": "https://unboundwiki.com/pokemon/",
-      "learnsetType": "egg"
-    }
-  },
-  {
-    "speciesId": 109,
-    "speciesName": "Koffing",
-    "moves": [
-      {
-        "moveId": 60,
-        "moveName": "Psybeam",
-        "source": "egg"
-      },
-      {
-        "moveId": 103,
-        "moveName": "Screech",
-        "source": "egg"
-      },
-      {
-        "moveId": 149,
-        "moveName": "Psywave",
-        "source": "egg"
-      },
-      {
-        "moveId": 174,
-        "moveName": "Curse",
-        "source": "egg"
-      },
-      {
-        "moveId": 180,
-        "moveName": "Spite",
-        "source": "egg"
-      },
-      {
-        "moveId": 220,
-        "moveName": "Pain Split",
-        "source": "egg"
-      },
-      {
-        "moveId": 254,
-        "moveName": "Stockpile",
-        "source": "egg"
-      },
-      {
-        "moveId": 255,
-        "moveName": "Spit Up",
-        "source": "egg"
-      },
-      {
-        "moveId": 256,
-        "moveName": "Swallow",
-        "source": "egg"
-      },
-      {
-        "moveId": 288,
-        "moveName": "Grudge",
-        "source": "egg"
-      },
-      {
-        "moveId": 469,
-        "moveName": "Toxic Spikes",
-        "source": "egg"
-      },
-      {
-        "moveId": 659,
-        "moveName": "Venom Drench",
         "source": "egg"
       }
     ],
@@ -9548,7 +9437,7 @@
   },
   {
     "speciesId": 144,
-    "speciesName": "Articuno",
+    "speciesName": "Galarian Articuno",
     "moves": [],
     "source": {
       "kind": "wiki-page",
@@ -14639,66 +14528,26 @@
   },
   {
     "speciesId": 222,
-    "speciesName": "Corsola",
+    "speciesName": "Galarian Corsola",
     "moves": [
-      {
-        "moveId": 54,
-        "moveName": "Mist",
-        "source": "egg"
-      },
-      {
-        "moveId": 103,
-        "moveName": "Screech",
-        "source": "egg"
-      },
       {
         "moveId": 109,
         "moveName": "Confuse Ray",
         "source": "egg"
       },
       {
-        "moveId": 112,
-        "moveName": "Barrier",
+        "moveId": 114,
+        "moveName": "Haze",
         "source": "egg"
       },
       {
-        "moveId": 117,
-        "moveName": "Bide",
-        "source": "egg"
-      },
-      {
-        "moveId": 133,
-        "moveName": "Amnesia",
-        "source": "egg"
-      },
-      {
-        "moveId": 174,
-        "moveName": "Curse",
+        "moveId": 194,
+        "moveName": "Destiny Bond",
         "source": "egg"
       },
       {
         "moveId": 267,
         "moveName": "Nature Power",
-        "source": "egg"
-      },
-      {
-        "moveId": 275,
-        "moveName": "Ingrain",
-        "source": "egg"
-      },
-      {
-        "moveId": 293,
-        "moveName": "Camouflage",
-        "source": "egg"
-      },
-      {
-        "moveId": 300,
-        "moveName": "Mud Sport",
-        "source": "egg"
-      },
-      {
-        "moveId": 333,
-        "moveName": "Icicle Spear",
         "source": "egg"
       },
       {
@@ -14709,11 +14558,6 @@
       {
         "moveId": 380,
         "moveName": "Head Smash",
-        "source": "egg"
-      },
-      {
-        "moveId": 596,
-        "moveName": "Liquidation",
         "source": "egg"
       }
     ],
@@ -33636,7 +33480,7 @@
   },
   {
     "speciesId": 603,
-    "speciesName": "Basculin",
+    "speciesName": "Hisuian Basculin",
     "moves": [
       {
         "moveId": 61,
@@ -33686,16 +33530,6 @@
       {
         "moveId": 341,
         "moveName": "Mud Shot",
-        "source": "egg"
-      },
-      {
-        "moveId": 460,
-        "moveName": "Brine",
-        "source": "egg"
-      },
-      {
-        "moveId": 749,
-        "moveName": "Wave Crash",
         "source": "egg"
       }
     ],
@@ -33965,7 +33799,7 @@
   },
   {
     "speciesId": 607,
-    "speciesName": "Darumaka",
+    "speciesName": "Galarian Darumaka",
     "moves": [
       {
         "moveId": 36,
@@ -33973,33 +33807,8 @@
         "source": "egg"
       },
       {
-        "moveId": 99,
-        "moveName": "Rage",
-        "source": "egg"
-      },
-      {
-        "moveId": 116,
-        "moveName": "Focus Energy",
-        "source": "egg"
-      },
-      {
         "moveId": 172,
         "moveName": "Flame Wheel",
-        "source": "egg"
-      },
-      {
-        "moveId": 203,
-        "moveName": "Endure",
-        "source": "egg"
-      },
-      {
-        "moveId": 214,
-        "moveName": "Sleep Talk",
-        "source": "egg"
-      },
-      {
-        "moveId": 227,
-        "moveName": "Encore",
         "source": "egg"
       },
       {
@@ -34013,18 +33822,18 @@
         "source": "egg"
       },
       {
-        "moveId": 289,
-        "moveName": "Snatch",
-        "source": "egg"
-      },
-      {
-        "moveId": 326,
-        "moveName": "Extrasensory",
-        "source": "egg"
-      },
-      {
         "moveId": 379,
         "moveName": "Hammer Arm",
+        "source": "egg"
+      },
+      {
+        "moveId": 474,
+        "moveName": "Incinerate",
+        "source": "egg"
+      },
+      {
+        "moveId": 501,
+        "moveName": "Freeze-Dry",
         "source": "egg"
       }
     ],
@@ -34036,7 +33845,7 @@
   },
   {
     "speciesId": 608,
-    "speciesName": "Darmanitan",
+    "speciesName": "Galarian Darmanitan",
     "moves": [
       {
         "moveId": 36,
@@ -34044,33 +33853,8 @@
         "source": "egg"
       },
       {
-        "moveId": 99,
-        "moveName": "Rage",
-        "source": "egg"
-      },
-      {
-        "moveId": 116,
-        "moveName": "Focus Energy",
-        "source": "egg"
-      },
-      {
         "moveId": 172,
         "moveName": "Flame Wheel",
-        "source": "egg"
-      },
-      {
-        "moveId": 203,
-        "moveName": "Endure",
-        "source": "egg"
-      },
-      {
-        "moveId": 214,
-        "moveName": "Sleep Talk",
-        "source": "egg"
-      },
-      {
-        "moveId": 227,
-        "moveName": "Encore",
         "source": "egg"
       },
       {
@@ -34084,18 +33868,18 @@
         "source": "egg"
       },
       {
-        "moveId": 289,
-        "moveName": "Snatch",
-        "source": "egg"
-      },
-      {
-        "moveId": 326,
-        "moveName": "Extrasensory",
-        "source": "egg"
-      },
-      {
         "moveId": 379,
         "moveName": "Hammer Arm",
+        "source": "egg"
+      },
+      {
+        "moveId": 474,
+        "moveName": "Incinerate",
+        "source": "egg"
+      },
+      {
+        "moveId": 501,
+        "moveName": "Freeze-Dry",
         "source": "egg"
       }
     ],
@@ -39148,7 +38932,7 @@
   },
   {
     "speciesId": 777,
-    "speciesName": "Flab\\eb\\e",
+    "speciesName": "Flabebe",
     "moves": [
       {
         "moveId": 76,
@@ -43565,6 +43349,1339 @@
     }
   },
   {
+    "speciesId": 1020,
+    "speciesName": "Alolan Rattata",
+    "moves": [
+      {
+        "moveId": 68,
+        "moveName": "Counter",
+        "source": "egg"
+      },
+      {
+        "moveId": 154,
+        "moveName": "Fury Swipes",
+        "source": "egg"
+      },
+      {
+        "moveId": 179,
+        "moveName": "Reversal",
+        "source": "egg"
+      },
+      {
+        "moveId": 253,
+        "moveName": "Uproar",
+        "source": "egg"
+      },
+      {
+        "moveId": 254,
+        "moveName": "Stockpile",
+        "source": "egg"
+      },
+      {
+        "moveId": 256,
+        "moveName": "Swallow",
+        "source": "egg"
+      },
+      {
+        "moveId": 279,
+        "moveName": "Revenge",
+        "source": "egg"
+      },
+      {
+        "moveId": 289,
+        "moveName": "Snatch",
+        "source": "egg"
+      },
+      {
+        "moveId": 402,
+        "moveName": "Switcheroo",
+        "source": "egg"
+      },
+      {
+        "moveId": 495,
+        "moveName": "Final Gambit",
+        "source": "egg"
+      },
+      {
+        "moveId": 522,
+        "moveName": "Me First",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1021,
+    "speciesName": "Alolan Raticate",
+    "moves": [
+      {
+        "moveId": 68,
+        "moveName": "Counter",
+        "source": "egg"
+      },
+      {
+        "moveId": 154,
+        "moveName": "Fury Swipes",
+        "source": "egg"
+      },
+      {
+        "moveId": 179,
+        "moveName": "Reversal",
+        "source": "egg"
+      },
+      {
+        "moveId": 253,
+        "moveName": "Uproar",
+        "source": "egg"
+      },
+      {
+        "moveId": 254,
+        "moveName": "Stockpile",
+        "source": "egg"
+      },
+      {
+        "moveId": 256,
+        "moveName": "Swallow",
+        "source": "egg"
+      },
+      {
+        "moveId": 279,
+        "moveName": "Revenge",
+        "source": "egg"
+      },
+      {
+        "moveId": 289,
+        "moveName": "Snatch",
+        "source": "egg"
+      },
+      {
+        "moveId": 402,
+        "moveName": "Switcheroo",
+        "source": "egg"
+      },
+      {
+        "moveId": 495,
+        "moveName": "Final Gambit",
+        "source": "egg"
+      },
+      {
+        "moveId": 522,
+        "moveName": "Me First",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1022,
+    "speciesName": "Alolan Raichu",
+    "moves": [
+      {
+        "moveId": 3,
+        "moveName": "Double Slap",
+        "source": "egg"
+      },
+      {
+        "moveId": 9,
+        "moveName": "ThunderPunch",
+        "source": "egg"
+      },
+      {
+        "moveId": 117,
+        "moveName": "Bide",
+        "source": "egg"
+      },
+      {
+        "moveId": 175,
+        "moveName": "Flail",
+        "source": "egg"
+      },
+      {
+        "moveId": 179,
+        "moveName": "Reversal",
+        "source": "egg"
+      },
+      {
+        "moveId": 203,
+        "moveName": "Endure",
+        "source": "egg"
+      },
+      {
+        "moveId": 217,
+        "moveName": "Present",
+        "source": "egg"
+      },
+      {
+        "moveId": 227,
+        "moveName": "Encore",
+        "source": "egg"
+      },
+      {
+        "moveId": 245,
+        "moveName": "ExtremeSpeed",
+        "source": "egg"
+      },
+      {
+        "moveId": 252,
+        "moveName": "Fake Out",
+        "source": "egg"
+      },
+      {
+        "moveId": 268,
+        "moveName": "Charge",
+        "source": "egg"
+      },
+      {
+        "moveId": 273,
+        "moveName": "Wish",
+        "source": "egg"
+      },
+      {
+        "moveId": 321,
+        "moveName": "Tickle",
+        "source": "egg"
+      },
+      {
+        "moveId": 642,
+        "moveName": "Bestow",
+        "source": "egg"
+      },
+      {
+        "moveId": 649,
+        "moveName": "Lucky Chant",
+        "source": "egg"
+      },
+      {
+        "moveId": 676,
+        "moveName": "Celebrate",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1023,
+    "speciesName": "Alolan Sandshrew",
+    "moves": [
+      {
+        "moveId": 68,
+        "moveName": "Counter",
+        "source": "egg"
+      },
+      {
+        "moveId": 133,
+        "moveName": "Amnesia",
+        "source": "egg"
+      },
+      {
+        "moveId": 174,
+        "moveName": "Curse",
+        "source": "egg"
+      },
+      {
+        "moveId": 175,
+        "moveName": "Flail",
+        "source": "egg"
+      },
+      {
+        "moveId": 203,
+        "moveName": "Endure",
+        "source": "egg"
+      },
+      {
+        "moveId": 306,
+        "moveName": "Crush Claw",
+        "source": "egg"
+      },
+      {
+        "moveId": 333,
+        "moveName": "Icicle Spear",
+        "source": "egg"
+      },
+      {
+        "moveId": 387,
+        "moveName": "Night Slash",
+        "source": "egg"
+      },
+      {
+        "moveId": 409,
+        "moveName": "Hone Claws",
+        "source": "egg"
+      },
+      {
+        "moveId": 413,
+        "moveName": "Icicle Crash",
+        "source": "egg"
+      },
+      {
+        "moveId": 507,
+        "moveName": "Chip Away",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1024,
+    "speciesName": "Alolan Sandslash",
+    "moves": [
+      {
+        "moveId": 68,
+        "moveName": "Counter",
+        "source": "egg"
+      },
+      {
+        "moveId": 133,
+        "moveName": "Amnesia",
+        "source": "egg"
+      },
+      {
+        "moveId": 174,
+        "moveName": "Curse",
+        "source": "egg"
+      },
+      {
+        "moveId": 175,
+        "moveName": "Flail",
+        "source": "egg"
+      },
+      {
+        "moveId": 203,
+        "moveName": "Endure",
+        "source": "egg"
+      },
+      {
+        "moveId": 306,
+        "moveName": "Crush Claw",
+        "source": "egg"
+      },
+      {
+        "moveId": 333,
+        "moveName": "Icicle Spear",
+        "source": "egg"
+      },
+      {
+        "moveId": 387,
+        "moveName": "Night Slash",
+        "source": "egg"
+      },
+      {
+        "moveId": 409,
+        "moveName": "Hone Claws",
+        "source": "egg"
+      },
+      {
+        "moveId": 413,
+        "moveName": "Icicle Crash",
+        "source": "egg"
+      },
+      {
+        "moveId": 507,
+        "moveName": "Chip Away",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1025,
+    "speciesName": "Alolan Vulpix",
+    "moves": [
+      {
+        "moveId": 46,
+        "moveName": "Roar",
+        "source": "egg"
+      },
+      {
+        "moveId": 95,
+        "moveName": "Hypnosis",
+        "source": "egg"
+      },
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "egg"
+      },
+      {
+        "moveId": 98,
+        "moveName": "Quick Attack",
+        "source": "egg"
+      },
+      {
+        "moveId": 175,
+        "moveName": "Flail",
+        "source": "egg"
+      },
+      {
+        "moveId": 185,
+        "moveName": "Feint Attack",
+        "source": "egg"
+      },
+      {
+        "moveId": 204,
+        "moveName": "Charm",
+        "source": "egg"
+      },
+      {
+        "moveId": 227,
+        "moveName": "Encore",
+        "source": "egg"
+      },
+      {
+        "moveId": 290,
+        "moveName": "Secret Power",
+        "source": "egg"
+      },
+      {
+        "moveId": 336,
+        "moveName": "Howl",
+        "source": "egg"
+      },
+      {
+        "moveId": 464,
+        "moveName": "Moonblast",
+        "source": "egg"
+      },
+      {
+        "moveId": 501,
+        "moveName": "Freeze-Dry",
+        "source": "egg"
+      },
+      {
+        "moveId": 504,
+        "moveName": "Tail Slap",
+        "source": "egg"
+      },
+      {
+        "moveId": 523,
+        "moveName": "Power Swap",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1026,
+    "speciesName": "Alolan Ninetales",
+    "moves": [
+      {
+        "moveId": 46,
+        "moveName": "Roar",
+        "source": "egg"
+      },
+      {
+        "moveId": 95,
+        "moveName": "Hypnosis",
+        "source": "egg"
+      },
+      {
+        "moveId": 97,
+        "moveName": "Agility",
+        "source": "egg"
+      },
+      {
+        "moveId": 98,
+        "moveName": "Quick Attack",
+        "source": "egg"
+      },
+      {
+        "moveId": 175,
+        "moveName": "Flail",
+        "source": "egg"
+      },
+      {
+        "moveId": 185,
+        "moveName": "Feint Attack",
+        "source": "egg"
+      },
+      {
+        "moveId": 204,
+        "moveName": "Charm",
+        "source": "egg"
+      },
+      {
+        "moveId": 227,
+        "moveName": "Encore",
+        "source": "egg"
+      },
+      {
+        "moveId": 290,
+        "moveName": "Secret Power",
+        "source": "egg"
+      },
+      {
+        "moveId": 336,
+        "moveName": "Howl",
+        "source": "egg"
+      },
+      {
+        "moveId": 464,
+        "moveName": "Moonblast",
+        "source": "egg"
+      },
+      {
+        "moveId": 501,
+        "moveName": "Freeze-Dry",
+        "source": "egg"
+      },
+      {
+        "moveId": 504,
+        "moveName": "Tail Slap",
+        "source": "egg"
+      },
+      {
+        "moveId": 523,
+        "moveName": "Power Swap",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1027,
+    "speciesName": "Alolan Diglett",
+    "moves": [
+      {
+        "moveId": 29,
+        "moveName": "Headbutt",
+        "source": "egg"
+      },
+      {
+        "moveId": 37,
+        "moveName": "Thrash",
+        "source": "egg"
+      },
+      {
+        "moveId": 179,
+        "moveName": "Reversal",
+        "source": "egg"
+      },
+      {
+        "moveId": 185,
+        "moveName": "Feint Attack",
+        "source": "egg"
+      },
+      {
+        "moveId": 203,
+        "moveName": "Endure",
+        "source": "egg"
+      },
+      {
+        "moveId": 228,
+        "moveName": "Pursuit",
+        "source": "egg"
+      },
+      {
+        "moveId": 246,
+        "moveName": "AncientPower",
+        "source": "egg"
+      },
+      {
+        "moveId": 251,
+        "moveName": "Beat Up",
+        "source": "egg"
+      },
+      {
+        "moveId": 262,
+        "moveName": "Memento",
+        "source": "egg"
+      },
+      {
+        "moveId": 319,
+        "moveName": "Metal Sound",
+        "source": "egg"
+      },
+      {
+        "moveId": 409,
+        "moveName": "Hone Claws",
+        "source": "egg"
+      },
+      {
+        "moveId": 495,
+        "moveName": "Final Gambit",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1028,
+    "speciesName": "Alolan Dugtrio",
+    "moves": [
+      {
+        "moveId": 29,
+        "moveName": "Headbutt",
+        "source": "egg"
+      },
+      {
+        "moveId": 37,
+        "moveName": "Thrash",
+        "source": "egg"
+      },
+      {
+        "moveId": 179,
+        "moveName": "Reversal",
+        "source": "egg"
+      },
+      {
+        "moveId": 185,
+        "moveName": "Feint Attack",
+        "source": "egg"
+      },
+      {
+        "moveId": 203,
+        "moveName": "Endure",
+        "source": "egg"
+      },
+      {
+        "moveId": 228,
+        "moveName": "Pursuit",
+        "source": "egg"
+      },
+      {
+        "moveId": 246,
+        "moveName": "AncientPower",
+        "source": "egg"
+      },
+      {
+        "moveId": 251,
+        "moveName": "Beat Up",
+        "source": "egg"
+      },
+      {
+        "moveId": 262,
+        "moveName": "Memento",
+        "source": "egg"
+      },
+      {
+        "moveId": 319,
+        "moveName": "Metal Sound",
+        "source": "egg"
+      },
+      {
+        "moveId": 409,
+        "moveName": "Hone Claws",
+        "source": "egg"
+      },
+      {
+        "moveId": 495,
+        "moveName": "Final Gambit",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1029,
+    "speciesName": "Alolan Meowth",
+    "moves": [
+      {
+        "moveId": 95,
+        "moveName": "Hypnosis",
+        "source": "egg"
+      },
+      {
+        "moveId": 133,
+        "moveName": "Amnesia",
+        "source": "egg"
+      },
+      {
+        "moveId": 175,
+        "moveName": "Flail",
+        "source": "egg"
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "egg"
+      },
+      {
+        "moveId": 204,
+        "moveName": "Charm",
+        "source": "egg"
+      },
+      {
+        "moveId": 260,
+        "moveName": "Flatter",
+        "source": "egg"
+      },
+      {
+        "moveId": 274,
+        "moveName": "Assist",
+        "source": "egg"
+      },
+      {
+        "moveId": 289,
+        "moveName": "Snatch",
+        "source": "egg"
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "egg"
+      },
+      {
+        "moveId": 484,
+        "moveName": "Punishment",
+        "source": "egg"
+      },
+      {
+        "moveId": 485,
+        "moveName": "Assurance",
+        "source": "egg"
+      },
+      {
+        "moveId": 515,
+        "moveName": "Captivate",
+        "source": "egg"
+      },
+      {
+        "moveId": 535,
+        "moveName": "Foul Play",
+        "source": "egg"
+      },
+      {
+        "moveId": 537,
+        "moveName": "Night Daze",
+        "source": "egg"
+      },
+      {
+        "moveId": 560,
+        "moveName": "Parting Shot",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1030,
+    "speciesName": "Alolan Persian",
+    "moves": [
+      {
+        "moveId": 95,
+        "moveName": "Hypnosis",
+        "source": "egg"
+      },
+      {
+        "moveId": 133,
+        "moveName": "Amnesia",
+        "source": "egg"
+      },
+      {
+        "moveId": 175,
+        "moveName": "Flail",
+        "source": "egg"
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "egg"
+      },
+      {
+        "moveId": 204,
+        "moveName": "Charm",
+        "source": "egg"
+      },
+      {
+        "moveId": 260,
+        "moveName": "Flatter",
+        "source": "egg"
+      },
+      {
+        "moveId": 274,
+        "moveName": "Assist",
+        "source": "egg"
+      },
+      {
+        "moveId": 289,
+        "moveName": "Snatch",
+        "source": "egg"
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "egg"
+      },
+      {
+        "moveId": 484,
+        "moveName": "Punishment",
+        "source": "egg"
+      },
+      {
+        "moveId": 485,
+        "moveName": "Assurance",
+        "source": "egg"
+      },
+      {
+        "moveId": 515,
+        "moveName": "Captivate",
+        "source": "egg"
+      },
+      {
+        "moveId": 535,
+        "moveName": "Foul Play",
+        "source": "egg"
+      },
+      {
+        "moveId": 537,
+        "moveName": "Night Daze",
+        "source": "egg"
+      },
+      {
+        "moveId": 560,
+        "moveName": "Parting Shot",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1031,
+    "speciesName": "Alolan Geodude",
+    "moves": [
+      {
+        "moveId": 68,
+        "moveName": "Counter",
+        "source": "egg"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "egg"
+      },
+      {
+        "moveId": 174,
+        "moveName": "Curse",
+        "source": "egg"
+      },
+      {
+        "moveId": 175,
+        "moveName": "Flail",
+        "source": "egg"
+      },
+      {
+        "moveId": 203,
+        "moveName": "Endure",
+        "source": "egg"
+      },
+      {
+        "moveId": 335,
+        "moveName": "Block",
+        "source": "egg"
+      },
+      {
+        "moveId": 392,
+        "moveName": "Rock Climb",
+        "source": "egg"
+      },
+      {
+        "moveId": 458,
+        "moveName": "Sucker Punch",
+        "source": "egg"
+      },
+      {
+        "moveId": 529,
+        "moveName": "Autotomize",
+        "source": "egg"
+      },
+      {
+        "moveId": 638,
+        "moveName": "Wide Guard",
+        "source": "egg"
+      },
+      {
+        "moveId": 650,
+        "moveName": "Magnet Rise",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1032,
+    "speciesName": "Alolan Graveler",
+    "moves": [
+      {
+        "moveId": 68,
+        "moveName": "Counter",
+        "source": "egg"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "egg"
+      },
+      {
+        "moveId": 174,
+        "moveName": "Curse",
+        "source": "egg"
+      },
+      {
+        "moveId": 175,
+        "moveName": "Flail",
+        "source": "egg"
+      },
+      {
+        "moveId": 203,
+        "moveName": "Endure",
+        "source": "egg"
+      },
+      {
+        "moveId": 335,
+        "moveName": "Block",
+        "source": "egg"
+      },
+      {
+        "moveId": 392,
+        "moveName": "Rock Climb",
+        "source": "egg"
+      },
+      {
+        "moveId": 458,
+        "moveName": "Sucker Punch",
+        "source": "egg"
+      },
+      {
+        "moveId": 529,
+        "moveName": "Autotomize",
+        "source": "egg"
+      },
+      {
+        "moveId": 638,
+        "moveName": "Wide Guard",
+        "source": "egg"
+      },
+      {
+        "moveId": 650,
+        "moveName": "Magnet Rise",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1033,
+    "speciesName": "Alolan Golem",
+    "moves": [
+      {
+        "moveId": 68,
+        "moveName": "Counter",
+        "source": "egg"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "egg"
+      },
+      {
+        "moveId": 174,
+        "moveName": "Curse",
+        "source": "egg"
+      },
+      {
+        "moveId": 175,
+        "moveName": "Flail",
+        "source": "egg"
+      },
+      {
+        "moveId": 203,
+        "moveName": "Endure",
+        "source": "egg"
+      },
+      {
+        "moveId": 335,
+        "moveName": "Block",
+        "source": "egg"
+      },
+      {
+        "moveId": 392,
+        "moveName": "Rock Climb",
+        "source": "egg"
+      },
+      {
+        "moveId": 458,
+        "moveName": "Sucker Punch",
+        "source": "egg"
+      },
+      {
+        "moveId": 529,
+        "moveName": "Autotomize",
+        "source": "egg"
+      },
+      {
+        "moveId": 638,
+        "moveName": "Wide Guard",
+        "source": "egg"
+      },
+      {
+        "moveId": 650,
+        "moveName": "Magnet Rise",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1034,
+    "speciesName": "Alolan Grimer",
+    "moves": [
+      {
+        "moveId": 174,
+        "moveName": "Curse",
+        "source": "egg"
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "egg"
+      },
+      {
+        "moveId": 184,
+        "moveName": "Scary Face",
+        "source": "egg"
+      },
+      {
+        "moveId": 212,
+        "moveName": "Mean Look",
+        "source": "egg"
+      },
+      {
+        "moveId": 228,
+        "moveName": "Pursuit",
+        "source": "egg"
+      },
+      {
+        "moveId": 254,
+        "moveName": "Stockpile",
+        "source": "egg"
+      },
+      {
+        "moveId": 255,
+        "moveName": "Spit Up",
+        "source": "egg"
+      },
+      {
+        "moveId": 256,
+        "moveName": "Swallow",
+        "source": "egg"
+      },
+      {
+        "moveId": 286,
+        "moveName": "Imprison",
+        "source": "egg"
+      },
+      {
+        "moveId": 398,
+        "moveName": "Shadow Sneak",
+        "source": "egg"
+      },
+      {
+        "moveId": 427,
+        "moveName": "Clear Smog",
+        "source": "egg"
+      },
+      {
+        "moveId": 485,
+        "moveName": "Assurance",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1035,
+    "speciesName": "Alolan Muk",
+    "moves": [
+      {
+        "moveId": 174,
+        "moveName": "Curse",
+        "source": "egg"
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "egg"
+      },
+      {
+        "moveId": 184,
+        "moveName": "Scary Face",
+        "source": "egg"
+      },
+      {
+        "moveId": 212,
+        "moveName": "Mean Look",
+        "source": "egg"
+      },
+      {
+        "moveId": 228,
+        "moveName": "Pursuit",
+        "source": "egg"
+      },
+      {
+        "moveId": 254,
+        "moveName": "Stockpile",
+        "source": "egg"
+      },
+      {
+        "moveId": 255,
+        "moveName": "Spit Up",
+        "source": "egg"
+      },
+      {
+        "moveId": 256,
+        "moveName": "Swallow",
+        "source": "egg"
+      },
+      {
+        "moveId": 286,
+        "moveName": "Imprison",
+        "source": "egg"
+      },
+      {
+        "moveId": 398,
+        "moveName": "Shadow Sneak",
+        "source": "egg"
+      },
+      {
+        "moveId": 427,
+        "moveName": "Clear Smog",
+        "source": "egg"
+      },
+      {
+        "moveId": 485,
+        "moveName": "Assurance",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1037,
+    "speciesName": "Alolan Exeggutor",
+    "moves": [
+      {
+        "moveId": 77,
+        "moveName": "PoisonPowder",
+        "source": "egg"
+      },
+      {
+        "moveId": 78,
+        "moveName": "Stun Spore",
+        "source": "egg"
+      },
+      {
+        "moveId": 79,
+        "moveName": "Sleep Powder",
+        "source": "egg"
+      },
+      {
+        "moveId": 100,
+        "moveName": "Teleport",
+        "source": "egg"
+      },
+      {
+        "moveId": 174,
+        "moveName": "Curse",
+        "source": "egg"
+      },
+      {
+        "moveId": 236,
+        "moveName": "Moonlight",
+        "source": "egg"
+      },
+      {
+        "moveId": 246,
+        "moveName": "AncientPower",
+        "source": "egg"
+      },
+      {
+        "moveId": 267,
+        "moveName": "Nature Power",
+        "source": "egg"
+      },
+      {
+        "moveId": 273,
+        "moveName": "Wish",
+        "source": "egg"
+      },
+      {
+        "moveId": 275,
+        "moveName": "Ingrain",
+        "source": "egg"
+      },
+      {
+        "moveId": 285,
+        "moveName": "Skill Swap",
+        "source": "egg"
+      },
+      {
+        "moveId": 335,
+        "moveName": "Block",
+        "source": "egg"
+      },
+      {
+        "moveId": 428,
+        "moveName": "Leaf Storm",
+        "source": "egg"
+      },
+      {
+        "moveId": 523,
+        "moveName": "Power Swap",
+        "source": "egg"
+      },
+      {
+        "moveId": 642,
+        "moveName": "Bestow",
+        "source": "egg"
+      },
+      {
+        "moveId": 649,
+        "moveName": "Lucky Chant",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1039,
+    "speciesName": "Alolan Marowak",
+    "moves": [
+      {
+        "moveId": 24,
+        "moveName": "Double Kick",
+        "source": "egg"
+      },
+      {
+        "moveId": 37,
+        "moveName": "Thrash",
+        "source": "egg"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "egg"
+      },
+      {
+        "moveId": 130,
+        "moveName": "Skull Bash",
+        "source": "egg"
+      },
+      {
+        "moveId": 174,
+        "moveName": "Curse",
+        "source": "egg"
+      },
+      {
+        "moveId": 187,
+        "moveName": "Belly Drum",
+        "source": "egg"
+      },
+      {
+        "moveId": 195,
+        "moveName": "Perish Song",
+        "source": "egg"
+      },
+      {
+        "moveId": 197,
+        "moveName": "Detect",
+        "source": "egg"
+      },
+      {
+        "moveId": 203,
+        "moveName": "Endure",
+        "source": "egg"
+      },
+      {
+        "moveId": 246,
+        "moveName": "AncientPower",
+        "source": "egg"
+      },
+      {
+        "moveId": 382,
+        "moveName": "Iron Head",
+        "source": "egg"
+      },
+      {
+        "moveId": 507,
+        "moveName": "Chip Away",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
     "speciesId": 1074,
     "speciesName": "Poipole",
     "moves": [],
@@ -45197,7 +46314,7 @@
   },
   {
     "speciesId": 1157,
-    "speciesName": "Sirfetch'd",
+    "speciesName": "Sirfetch\u2019d",
     "moves": [
       {
         "moveId": 38,
@@ -45936,6 +47053,1317 @@
     "speciesId": 1190,
     "speciesName": "Calyrex",
     "moves": [],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1212,
+    "speciesName": "Galarian Meowth",
+    "moves": [
+      {
+        "moveId": 38,
+        "moveName": "Double-Edge",
+        "source": "egg"
+      },
+      {
+        "moveId": 174,
+        "moveName": "Curse",
+        "source": "egg"
+      },
+      {
+        "moveId": 175,
+        "moveName": "Flail",
+        "source": "egg"
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "egg"
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "egg"
+      },
+      {
+        "moveId": 387,
+        "moveName": "Night Slash",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1213,
+    "speciesName": "Galarian Ponyta",
+    "moves": [
+      {
+        "moveId": 24,
+        "moveName": "Double Kick",
+        "source": "egg"
+      },
+      {
+        "moveId": 32,
+        "moveName": "Horn Drill",
+        "source": "egg"
+      },
+      {
+        "moveId": 37,
+        "moveName": "Thrash",
+        "source": "egg"
+      },
+      {
+        "moveId": 38,
+        "moveName": "Double-Edge",
+        "source": "egg"
+      },
+      {
+        "moveId": 95,
+        "moveName": "Hypnosis",
+        "source": "egg"
+      },
+      {
+        "moveId": 234,
+        "moveName": "Morning Sun",
+        "source": "egg"
+      },
+      {
+        "moveId": 470,
+        "moveName": "Healing Wish",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1214,
+    "speciesName": "Galarian Rapidash",
+    "moves": [
+      {
+        "moveId": 24,
+        "moveName": "Double Kick",
+        "source": "egg"
+      },
+      {
+        "moveId": 32,
+        "moveName": "Horn Drill",
+        "source": "egg"
+      },
+      {
+        "moveId": 37,
+        "moveName": "Thrash",
+        "source": "egg"
+      },
+      {
+        "moveId": 38,
+        "moveName": "Double-Edge",
+        "source": "egg"
+      },
+      {
+        "moveId": 95,
+        "moveName": "Hypnosis",
+        "source": "egg"
+      },
+      {
+        "moveId": 234,
+        "moveName": "Morning Sun",
+        "source": "egg"
+      },
+      {
+        "moveId": 470,
+        "moveName": "Healing Wish",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1215,
+    "speciesName": "Galarian Slowpoke",
+    "moves": [
+      {
+        "moveId": 23,
+        "moveName": "Stomp",
+        "source": "egg"
+      },
+      {
+        "moveId": 100,
+        "moveName": "Teleport",
+        "source": "egg"
+      },
+      {
+        "moveId": 187,
+        "moveName": "Belly Drum",
+        "source": "egg"
+      },
+      {
+        "moveId": 248,
+        "moveName": "Future Sight",
+        "source": "egg"
+      },
+      {
+        "moveId": 335,
+        "moveName": "Block",
+        "source": "egg"
+      },
+      {
+        "moveId": 641,
+        "moveName": "Belch",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1216,
+    "speciesName": "Galarian Slowbro",
+    "moves": [
+      {
+        "moveId": 23,
+        "moveName": "Stomp",
+        "source": "egg"
+      },
+      {
+        "moveId": 100,
+        "moveName": "Teleport",
+        "source": "egg"
+      },
+      {
+        "moveId": 187,
+        "moveName": "Belly Drum",
+        "source": "egg"
+      },
+      {
+        "moveId": 248,
+        "moveName": "Future Sight",
+        "source": "egg"
+      },
+      {
+        "moveId": 335,
+        "moveName": "Block",
+        "source": "egg"
+      },
+      {
+        "moveId": 641,
+        "moveName": "Belch",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1218,
+    "speciesName": "Koffing",
+    "moves": [
+      {
+        "moveId": 60,
+        "moveName": "Psybeam",
+        "source": "egg"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "egg"
+      },
+      {
+        "moveId": 149,
+        "moveName": "Psywave",
+        "source": "egg"
+      },
+      {
+        "moveId": 174,
+        "moveName": "Curse",
+        "source": "egg"
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "egg"
+      },
+      {
+        "moveId": 220,
+        "moveName": "Pain Split",
+        "source": "egg"
+      },
+      {
+        "moveId": 254,
+        "moveName": "Stockpile",
+        "source": "egg"
+      },
+      {
+        "moveId": 255,
+        "moveName": "Spit Up",
+        "source": "egg"
+      },
+      {
+        "moveId": 256,
+        "moveName": "Swallow",
+        "source": "egg"
+      },
+      {
+        "moveId": 288,
+        "moveName": "Grudge",
+        "source": "egg"
+      },
+      {
+        "moveId": 469,
+        "moveName": "Toxic Spikes",
+        "source": "egg"
+      },
+      {
+        "moveId": 659,
+        "moveName": "Venom Drench",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1219,
+    "speciesName": "Galarian Weezing",
+    "moves": [
+      {
+        "moveId": 60,
+        "moveName": "Psybeam",
+        "source": "egg"
+      },
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "egg"
+      },
+      {
+        "moveId": 149,
+        "moveName": "Psywave",
+        "source": "egg"
+      },
+      {
+        "moveId": 174,
+        "moveName": "Curse",
+        "source": "egg"
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "egg"
+      },
+      {
+        "moveId": 220,
+        "moveName": "Pain Split",
+        "source": "egg"
+      },
+      {
+        "moveId": 254,
+        "moveName": "Stockpile",
+        "source": "egg"
+      },
+      {
+        "moveId": 255,
+        "moveName": "Spit Up",
+        "source": "egg"
+      },
+      {
+        "moveId": 256,
+        "moveName": "Swallow",
+        "source": "egg"
+      },
+      {
+        "moveId": 288,
+        "moveName": "Grudge",
+        "source": "egg"
+      },
+      {
+        "moveId": 469,
+        "moveName": "Toxic Spikes",
+        "source": "egg"
+      },
+      {
+        "moveId": 659,
+        "moveName": "Venom Drench",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1220,
+    "speciesName": "Galarian Mr. Mime",
+    "moves": [
+      {
+        "moveId": 109,
+        "moveName": "Confuse Ray",
+        "source": "egg"
+      },
+      {
+        "moveId": 252,
+        "moveName": "Fake Out",
+        "source": "egg"
+      },
+      {
+        "moveId": 321,
+        "moveName": "Tickle",
+        "source": "egg"
+      },
+      {
+        "moveId": 653,
+        "moveName": "Power Split",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1222,
+    "speciesName": "Galarian Zapdos",
+    "moves": [],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1223,
+    "speciesName": "Galarian Moltres",
+    "moves": [],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1224,
+    "speciesName": "Galarian Slowking",
+    "moves": [
+      {
+        "moveId": 23,
+        "moveName": "Stomp",
+        "source": "egg"
+      },
+      {
+        "moveId": 100,
+        "moveName": "Teleport",
+        "source": "egg"
+      },
+      {
+        "moveId": 187,
+        "moveName": "Belly Drum",
+        "source": "egg"
+      },
+      {
+        "moveId": 248,
+        "moveName": "Future Sight",
+        "source": "egg"
+      },
+      {
+        "moveId": 335,
+        "moveName": "Block",
+        "source": "egg"
+      },
+      {
+        "moveId": 641,
+        "moveName": "Belch",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1226,
+    "speciesName": "Galarian Zigzagoon",
+    "moves": [
+      {
+        "moveId": 282,
+        "moveName": "Knock Off",
+        "source": "egg"
+      },
+      {
+        "moveId": 560,
+        "moveName": "Parting Shot",
+        "source": "egg"
+      },
+      {
+        "moveId": 637,
+        "moveName": "Quick Guard",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1227,
+    "speciesName": "Galarian Linoone",
+    "moves": [
+      {
+        "moveId": 282,
+        "moveName": "Knock Off",
+        "source": "egg"
+      },
+      {
+        "moveId": 560,
+        "moveName": "Parting Shot",
+        "source": "egg"
+      },
+      {
+        "moveId": 637,
+        "moveName": "Quick Guard",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1232,
+    "speciesName": "Galarian Yamask",
+    "moves": [
+      {
+        "moveId": 262,
+        "moveName": "Memento",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1233,
+    "speciesName": "Galarian Stunfisk",
+    "moves": [
+      {
+        "moveId": 20,
+        "moveName": "Bind",
+        "source": "egg"
+      },
+      {
+        "moveId": 68,
+        "moveName": "Counter",
+        "source": "egg"
+      },
+      {
+        "moveId": 174,
+        "moveName": "Curse",
+        "source": "egg"
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "egg"
+      },
+      {
+        "moveId": 220,
+        "moveName": "Pain Split",
+        "source": "egg"
+      },
+      {
+        "moveId": 281,
+        "moveName": "Yawn",
+        "source": "egg"
+      },
+      {
+        "moveId": 310,
+        "moveName": "Astonish",
+        "source": "egg"
+      },
+      {
+        "moveId": 654,
+        "moveName": "Reflect Type",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1268,
+    "speciesName": "Hisuian Arcanine",
+    "moves": [
+      {
+        "moveId": 24,
+        "moveName": "Double Kick",
+        "source": "egg"
+      },
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "egg"
+      },
+      {
+        "moveId": 37,
+        "moveName": "Thrash",
+        "source": "egg"
+      },
+      {
+        "moveId": 38,
+        "moveName": "Double-Edge",
+        "source": "egg"
+      },
+      {
+        "moveId": 83,
+        "moveName": "Fire Spin",
+        "source": "egg"
+      },
+      {
+        "moveId": 100,
+        "moveName": "Teleport",
+        "source": "egg"
+      },
+      {
+        "moveId": 234,
+        "moveName": "Morning Sun",
+        "source": "egg"
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "egg"
+      },
+      {
+        "moveId": 365,
+        "moveName": "Close Combat",
+        "source": "egg"
+      },
+      {
+        "moveId": 441,
+        "moveName": "Flame Burst",
+        "source": "egg"
+      },
+      {
+        "moveId": 583,
+        "moveName": "Burn Up",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1269,
+    "speciesName": "Hisuian Avalugg",
+    "moves": [
+      {
+        "moveId": 54,
+        "moveName": "Mist",
+        "source": "egg"
+      },
+      {
+        "moveId": 112,
+        "moveName": "Barrier",
+        "source": "egg"
+      },
+      {
+        "moveId": 243,
+        "moveName": "Mirror Coat",
+        "source": "egg"
+      },
+      {
+        "moveId": 381,
+        "moveName": "Ice Shard",
+        "source": "egg"
+      },
+      {
+        "moveId": 579,
+        "moveName": "Aurora Veil",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1270,
+    "speciesName": "Hisuian Braviary",
+    "moves": [],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1271,
+    "speciesName": "Hisuian Decidueye",
+    "moves": [
+      {
+        "moveId": 109,
+        "moveName": "Confuse Ray",
+        "source": "egg"
+      },
+      {
+        "moveId": 114,
+        "moveName": "Haze",
+        "source": "egg"
+      },
+      {
+        "moveId": 174,
+        "moveName": "Curse",
+        "source": "egg"
+      },
+      {
+        "moveId": 226,
+        "moveName": "Baton Pass",
+        "source": "egg"
+      },
+      {
+        "moveId": 282,
+        "moveName": "Knock Off",
+        "source": "egg"
+      },
+      {
+        "moveId": 516,
+        "moveName": "Defog",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1272,
+    "speciesName": "Hisuian Electrode",
+    "moves": [],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1273,
+    "speciesName": "Hisuian Goodra",
+    "moves": [
+      {
+        "moveId": 68,
+        "moveName": "Counter",
+        "source": "egg"
+      },
+      {
+        "moveId": 151,
+        "moveName": "Acid Armor",
+        "source": "egg"
+      },
+      {
+        "moveId": 174,
+        "moveName": "Curse",
+        "source": "egg"
+      },
+      {
+        "moveId": 175,
+        "moveName": "Flail",
+        "source": "egg"
+      },
+      {
+        "moveId": 203,
+        "moveName": "Endure",
+        "source": "egg"
+      },
+      {
+        "moveId": 231,
+        "moveName": "Iron Tail",
+        "source": "egg"
+      },
+      {
+        "moveId": 342,
+        "moveName": "Poison Tail",
+        "source": "egg"
+      },
+      {
+        "moveId": 707,
+        "moveName": "Life Dew",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1274,
+    "speciesName": "Hisuian Growlithe",
+    "moves": [
+      {
+        "moveId": 24,
+        "moveName": "Double Kick",
+        "source": "egg"
+      },
+      {
+        "moveId": 34,
+        "moveName": "Body Slam",
+        "source": "egg"
+      },
+      {
+        "moveId": 37,
+        "moveName": "Thrash",
+        "source": "egg"
+      },
+      {
+        "moveId": 38,
+        "moveName": "Double-Edge",
+        "source": "egg"
+      },
+      {
+        "moveId": 83,
+        "moveName": "Fire Spin",
+        "source": "egg"
+      },
+      {
+        "moveId": 100,
+        "moveName": "Teleport",
+        "source": "egg"
+      },
+      {
+        "moveId": 234,
+        "moveName": "Morning Sun",
+        "source": "egg"
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "egg"
+      },
+      {
+        "moveId": 365,
+        "moveName": "Close Combat",
+        "source": "egg"
+      },
+      {
+        "moveId": 441,
+        "moveName": "Flame Burst",
+        "source": "egg"
+      },
+      {
+        "moveId": 583,
+        "moveName": "Burn Up",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1275,
+    "speciesName": "Hisuian Lilligant",
+    "moves": [
+      {
+        "moveId": 105,
+        "moveName": "Recover",
+        "source": "egg"
+      },
+      {
+        "moveId": 117,
+        "moveName": "Bide",
+        "source": "egg"
+      },
+      {
+        "moveId": 203,
+        "moveName": "Endure",
+        "source": "egg"
+      },
+      {
+        "moveId": 204,
+        "moveName": "Charm",
+        "source": "egg"
+      },
+      {
+        "moveId": 227,
+        "moveName": "Encore",
+        "source": "egg"
+      },
+      {
+        "moveId": 230,
+        "moveName": "Sweet Scent",
+        "source": "egg"
+      },
+      {
+        "moveId": 275,
+        "moveName": "Ingrain",
+        "source": "egg"
+      },
+      {
+        "moveId": 320,
+        "moveName": "Grasswhistle",
+        "source": "egg"
+      },
+      {
+        "moveId": 470,
+        "moveName": "Healing Wish",
+        "source": "egg"
+      },
+      {
+        "moveId": 475,
+        "moveName": "Worry Seed",
+        "source": "egg"
+      },
+      {
+        "moveId": 506,
+        "moveName": "Natural Gift",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1276,
+    "speciesName": "Hisuian Qwilfish",
+    "moves": [
+      {
+        "moveId": 48,
+        "moveName": "Supersonic",
+        "source": "egg"
+      },
+      {
+        "moveId": 61,
+        "moveName": "Bubble Beam",
+        "source": "egg"
+      },
+      {
+        "moveId": 114,
+        "moveName": "Haze",
+        "source": "egg"
+      },
+      {
+        "moveId": 175,
+        "moveName": "Flail",
+        "source": "egg"
+      },
+      {
+        "moveId": 301,
+        "moveName": "Ice Ball",
+        "source": "egg"
+      },
+      {
+        "moveId": 310,
+        "moveName": "Astonish",
+        "source": "egg"
+      },
+      {
+        "moveId": 324,
+        "moveName": "Signal Beam",
+        "source": "egg"
+      },
+      {
+        "moveId": 357,
+        "moveName": "Aqua Jet",
+        "source": "egg"
+      },
+      {
+        "moveId": 425,
+        "moveName": "Acid Spray",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1277,
+    "speciesName": "Hisuian Samurott",
+    "moves": [
+      {
+        "moveId": 103,
+        "moveName": "Screech",
+        "source": "egg"
+      },
+      {
+        "moveId": 197,
+        "moveName": "Detect",
+        "source": "egg"
+      },
+      {
+        "moveId": 356,
+        "moveName": "Air Slash",
+        "source": "egg"
+      },
+      {
+        "moveId": 387,
+        "moveName": "Night Slash",
+        "source": "egg"
+      },
+      {
+        "moveId": 456,
+        "moveName": "Copycat",
+        "source": "egg"
+      },
+      {
+        "moveId": 460,
+        "moveName": "Brine",
+        "source": "egg"
+      },
+      {
+        "moveId": 485,
+        "moveName": "Assurance",
+        "source": "egg"
+      },
+      {
+        "moveId": 543,
+        "moveName": "Sacred Sword",
+        "source": "egg"
+      },
+      {
+        "moveId": 548,
+        "moveName": "Secret Sword",
+        "source": "egg"
+      },
+      {
+        "moveId": 668,
+        "moveName": "Trump Card",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1278,
+    "speciesName": "Hisuian Sliggoo",
+    "moves": [
+      {
+        "moveId": 68,
+        "moveName": "Counter",
+        "source": "egg"
+      },
+      {
+        "moveId": 151,
+        "moveName": "Acid Armor",
+        "source": "egg"
+      },
+      {
+        "moveId": 174,
+        "moveName": "Curse",
+        "source": "egg"
+      },
+      {
+        "moveId": 175,
+        "moveName": "Flail",
+        "source": "egg"
+      },
+      {
+        "moveId": 203,
+        "moveName": "Endure",
+        "source": "egg"
+      },
+      {
+        "moveId": 231,
+        "moveName": "Iron Tail",
+        "source": "egg"
+      },
+      {
+        "moveId": 342,
+        "moveName": "Poison Tail",
+        "source": "egg"
+      },
+      {
+        "moveId": 707,
+        "moveName": "Life Dew",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1279,
+    "speciesName": "Hisuian Sneasel",
+    "moves": [
+      {
+        "moveId": 68,
+        "moveName": "Counter",
+        "source": "egg"
+      },
+      {
+        "moveId": 116,
+        "moveName": "Focus Energy",
+        "source": "egg"
+      },
+      {
+        "moveId": 129,
+        "moveName": "Swift",
+        "source": "egg"
+      },
+      {
+        "moveId": 180,
+        "moveName": "Spite",
+        "source": "egg"
+      },
+      {
+        "moveId": 228,
+        "moveName": "Pursuit",
+        "source": "egg"
+      },
+      {
+        "moveId": 252,
+        "moveName": "Fake Out",
+        "source": "egg"
+      },
+      {
+        "moveId": 274,
+        "moveName": "Assist",
+        "source": "egg"
+      },
+      {
+        "moveId": 306,
+        "moveName": "Crush Claw",
+        "source": "egg"
+      },
+      {
+        "moveId": 438,
+        "moveName": "Double Hit",
+        "source": "egg"
+      },
+      {
+        "moveId": 488,
+        "moveName": "Feint",
+        "source": "egg"
+      },
+      {
+        "moveId": 621,
+        "moveName": "Throat Chop",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1280,
+    "speciesName": "Hisuian Typhlosion",
+    "moves": [
+      {
+        "moveId": 24,
+        "moveName": "Double Kick",
+        "source": "egg"
+      },
+      {
+        "moveId": 37,
+        "moveName": "Thrash",
+        "source": "egg"
+      },
+      {
+        "moveId": 154,
+        "moveName": "Fury Swipes",
+        "source": "egg"
+      },
+      {
+        "moveId": 179,
+        "moveName": "Reversal",
+        "source": "egg"
+      },
+      {
+        "moveId": 193,
+        "moveName": "Foresight",
+        "source": "egg"
+      },
+      {
+        "moveId": 267,
+        "moveName": "Nature Power",
+        "source": "egg"
+      },
+      {
+        "moveId": 306,
+        "moveName": "Crush Claw",
+        "source": "egg"
+      },
+      {
+        "moveId": 326,
+        "moveName": "Extrasensory",
+        "source": "egg"
+      },
+      {
+        "moveId": 336,
+        "moveName": "Howl",
+        "source": "egg"
+      },
+      {
+        "moveId": 343,
+        "moveName": "Covet",
+        "source": "egg"
+      },
+      {
+        "moveId": 434,
+        "moveName": "Flare Blitz",
+        "source": "egg"
+      },
+      {
+        "moveId": 441,
+        "moveName": "Flame Burst",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1281,
+    "speciesName": "Hisuian Voltorb",
+    "moves": [],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1282,
+    "speciesName": "Hisuian Zoroark",
+    "moves": [
+      {
+        "moveId": 68,
+        "moveName": "Counter",
+        "source": "egg"
+      },
+      {
+        "moveId": 197,
+        "moveName": "Detect",
+        "source": "egg"
+      },
+      {
+        "moveId": 262,
+        "moveName": "Memento",
+        "source": "egg"
+      },
+      {
+        "moveId": 326,
+        "moveName": "Extrasensory",
+        "source": "egg"
+      },
+      {
+        "moveId": 456,
+        "moveName": "Copycat",
+        "source": "egg"
+      },
+      {
+        "moveId": 458,
+        "moveName": "Sucker Punch",
+        "source": "egg"
+      }
+    ],
+    "source": {
+      "kind": "wiki-page",
+      "base": "https://unboundwiki.com/pokemon/",
+      "learnsetType": "egg"
+    }
+  },
+  {
+    "speciesId": 1283,
+    "speciesName": "Hisuian Zorua",
+    "moves": [
+      {
+        "moveId": 68,
+        "moveName": "Counter",
+        "source": "egg"
+      },
+      {
+        "moveId": 197,
+        "moveName": "Detect",
+        "source": "egg"
+      },
+      {
+        "moveId": 262,
+        "moveName": "Memento",
+        "source": "egg"
+      },
+      {
+        "moveId": 326,
+        "moveName": "Extrasensory",
+        "source": "egg"
+      },
+      {
+        "moveId": 456,
+        "moveName": "Copycat",
+        "source": "egg"
+      },
+      {
+        "moveId": 458,
+        "moveName": "Sucker Punch",
+        "source": "egg"
+      }
+    ],
     "source": {
       "kind": "wiki-page",
       "base": "https://unboundwiki.com/pokemon/",

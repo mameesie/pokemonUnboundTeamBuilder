@@ -20,6 +20,9 @@ const EXTRA_BOXES_CONFIRMED = 3;
 const MAIN_BOXES_OFFSET = 0x4;
 const EXTRA_DATA_SIZE = 0x2ea4;
 const EXTRA_BOXES_OFFSET = 0x19d0;
+const SAVE_BLOCK1_BOX23_OFFSET = 0x1f08;
+const SAVE_BLOCK1_BOX24_OFFSET = SAVE_BLOCK1_BOX23_OFFSET + MONS_PER_BOX * COMPRESSED_BOX_MON_SIZE;
+const SAVE_BLOCK2_BOX25_OFFSET = 0x0b0;
 const FILE_SIGNATURE = 0x08012025;
 
 const PARTY_MON_LEVEL_OFFSET = 0x54;
@@ -129,6 +132,7 @@ export function parsePokemonUnboundSave(buffer: ArrayBuffer): ParsedSaveFile {
     throw new Error("Could not find a valid save slot in this `.sav` file.");
   }
 
+  const saveBlock2 = concatChunkData(activeSlot.sectors, [0]);
   const saveBlock1 = concatChunkData(activeSlot.sectors, [1, 2, 3, 4]);
   const storageChunk = concatChunkData(activeSlot.sectors, [5, 6, 7, 8, 9, 10, 11, 12, 13]);
   const extraData = buildExpandedSaveData(activeSlot.sectors, sectors);
@@ -136,11 +140,9 @@ export function parsePokemonUnboundSave(buffer: ArrayBuffer): ParsedSaveFile {
   const currentBox = storageChunk[0] ?? 0;
   const partyCount = clamp(saveBlock1[PARTY_COUNT_OFFSET] ?? 0, 0, PARTY_SIZE);
   const party = parsePartyPokemon(saveBlock1, partyCount);
-  const boxed = parseBoxPokemon(storageChunk, extraData);
+  const boxed = parseBoxPokemon(saveBlock1, saveBlock2, storageChunk, extraData);
   const pokemon = [...party, ...boxed];
-  const warnings: string[] = [
-    "The current parser covers the party, boxes 1-19, and the confirmed expanded storage chunk. The final expanded box layout still needs validation against a real Unbound save.",
-  ];
+  const warnings: string[] = [];
 
   if (extraData.length < EXTRA_DATA_SIZE) {
     warnings.push("Expanded Unbound save data is incomplete; some extra boxes may be missing.");
@@ -333,7 +335,12 @@ function parsePartyPokemon(saveBlock1: Uint8Array, partyCount: number) {
   return party;
 }
 
-function parseBoxPokemon(storageChunk: Uint8Array, extraData: Uint8Array) {
+function parseBoxPokemon(
+  saveBlock1: Uint8Array,
+  saveBlock2: Uint8Array,
+  storageChunk: Uint8Array,
+  extraData: Uint8Array,
+) {
   const boxed: ParsedSavePokemon[] = [];
 
   for (let boxIndex = 0; boxIndex < BOX_COUNT_MAIN; boxIndex += 1) {
@@ -346,6 +353,10 @@ function parseBoxPokemon(storageChunk: Uint8Array, extraData: Uint8Array) {
       EXTRA_BOXES_OFFSET + extraBoxIndex * MONS_PER_BOX * COMPRESSED_BOX_MON_SIZE;
     boxed.push(...parseCompressedBox(baseOffset, extraData, BOX_COUNT_MAIN + extraBoxIndex));
   }
+
+  boxed.push(...parseCompressedBox(SAVE_BLOCK1_BOX23_OFFSET, saveBlock1, 22));
+  boxed.push(...parseCompressedBox(SAVE_BLOCK1_BOX24_OFFSET, saveBlock1, 23));
+  boxed.push(...parseCompressedBox(SAVE_BLOCK2_BOX25_OFFSET, saveBlock2, 24));
 
   return boxed;
 }

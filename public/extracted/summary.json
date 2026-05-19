@@ -3,7 +3,9 @@
     "primaryDataset": "Pok\u00e9mon Unbound Wiki",
     "primaryUrl": "https://unboundwiki.com/pokemon/",
     "fallbackDataset": "Skeli789 source repositories",
-    "generatedAt": "2026-05-19"
+    "generatedAt": "2026-05-19",
+    "cacheOnly": true,
+    "missingCachedPages": 0
   },
   "generatedFiles": [
     "/extracted/summary.json",
@@ -20,46 +22,36 @@
   ],
   "sections": {
     "species": {
-      "status": "wiki-merged",
-      "count": 1239,
-      "notes": [
-        "Types, ability slots, and locations are refreshed from unboundwiki.com where a matching page exists.",
-        "Base stats and canonical numeric IDs remain sourced from the local DPE/CFRU tables."
-      ]
+      "status": "wiki-merged-cache",
+      "count": 1255
     },
     "abilities": {
-      "status": "wiki-merged",
-      "count": 256,
-      "notes": [
-        "Ability effect text is aggregated from per-Pok\u00e9mon wiki pages."
-      ]
+      "status": "wiki-merged-cache",
+      "count": 256
     },
     "evolutions": {
-      "status": "wiki-scraped",
-      "count": 418,
-      "notes": [
-        "Evolution chains and acquire conditions are scraped from each wiki Pok\u00e9mon page."
-      ]
+      "status": "wiki-scraped-cache",
+      "count": 441
     },
     "learnsetsLevel": {
-      "status": "wiki-scraped",
-      "count": 882
+      "status": "wiki-scraped-cache",
+      "count": 930
     },
     "learnsetsEgg": {
-      "status": "wiki-scraped",
-      "count": 882
+      "status": "wiki-scraped-cache",
+      "count": 930
     },
     "learnsetsTmHm": {
-      "status": "wiki-scraped",
-      "count": 882
+      "status": "wiki-scraped-cache",
+      "count": 930
     },
     "learnsetsTutor": {
-      "status": "wiki-scraped",
-      "count": 882
+      "status": "wiki-scraped-cache",
+      "count": 930
     },
     "learnsetsCombined": {
-      "status": "wiki-scraped",
-      "count": 882
+      "status": "wiki-scraped-cache",
+      "count": 930
     }
   }
 }

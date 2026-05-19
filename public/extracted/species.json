@@ -4733,8 +4733,8 @@
       "spd": 62
     },
     "types": [
-      "Normal",
-      "Flying"
+      "Fighting",
+      "Fighting"
     ],
     "catchRate": 45,
     "expYield": 94,
@@ -4756,10 +4756,10 @@
     "growthRateToken": "GROWTH_MEDIUM_FAST",
     "eggGroup1Token": "EGG_GROUP_FLYING",
     "eggGroup2Token": "EGG_GROUP_FIELD",
-    "ability1Id": 51,
-    "ability1Name": "Keen Eye",
-    "ability2Id": 39,
-    "ability2Name": "Inner Focus",
+    "ability1Id": 196,
+    "ability1Name": "Steadfast",
+    "ability2Id": 83,
+    "ability2Name": "Scrappy",
     "hiddenAbilityId": 142,
     "hiddenAbilityName": "Defiant",
     "safariFleeRate": 0,
@@ -4768,15 +4768,16 @@
       "kind": "merged-source",
       "primary": "unboundwiki.com",
       "fallback": "Skeli789 source repositories",
-      "wikiPage": "https://unboundwiki.com/pokemon/farfetchd/"
+      "wikiPage": "https://unboundwiki.com/pokemon/galarian-farfetchd/"
     },
     "sourceNationalDex": 83,
+    "displayName": "Galarian Farfetch\u2019d",
     "locations": [
-      "Route 18 (Tall Grass) (Daytime)",
-      "Route 18 Raid Den (4-5 star)"
+      "Route 17 (Tall Grass) (Day) (Requires Gen 8 Activation)",
+      "Route 17 Raid Den (3 star)"
     ],
-    "locationSummary": "Route 18 (Tall Grass) (Daytime) / Route 18 Raid Den (4-5 star)",
-    "wikiPage": "https://unboundwiki.com/pokemon/farfetchd/"
+    "locationSummary": "Route 17 (Tall Grass) (Day) (Requires Gen 8 Activation) / Route 17 Raid Den (3 star)",
+    "wikiPage": "https://unboundwiki.com/pokemon/galarian-farfetchd/"
   },
   {
     "speciesId": 84,
@@ -6280,23 +6281,17 @@
     "ability1Id": 26,
     "ability1Name": "Levitate",
     "ability2Id": 74,
-    "ability2Name": "Neutralizinggas",
-    "hiddenAbilityId": 1,
-    "hiddenAbilityName": "Stench",
+    "ability2Name": "Neutralize Gas",
+    "hiddenAbilityId": 0,
+    "hiddenAbilityName": null,
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "merged-source",
-      "primary": "unboundwiki.com",
-      "fallback": "Skeli789 source repositories",
-      "wikiPage": "https://unboundwiki.com/pokemon/koffing/"
+      "kind": "source-table",
+      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
+      "symbol": "gBaseStats"
     },
-    "sourceNationalDex": 109,
-    "locations": [
-      "Antisis Sewers (interior)"
-    ],
-    "locationSummary": "Antisis Sewers (interior)",
-    "wikiPage": "https://unboundwiki.com/pokemon/koffing/"
+    "sourceNationalDex": null
   },
   {
     "speciesId": 110,
@@ -8300,7 +8295,7 @@
       "spd": 125
     },
     "types": [
-      "Ice",
+      "Psychic",
       "Flying"
     ],
     "catchRate": 3,
@@ -8323,8 +8318,8 @@
     "growthRateToken": "GROWTH_SLOW",
     "eggGroup1Token": "EGG_GROUP_UNDISCOVERED",
     "eggGroup2Token": "EGG_GROUP_UNDISCOVERED",
-    "ability1Id": 46,
-    "ability1Name": "Pressure",
+    "ability1Id": 143,
+    "ability1Name": "Competitive",
     "ability2Id": 109,
     "ability2Name": "Snow Cloak",
     "hiddenAbilityId": 143,
@@ -8335,14 +8330,15 @@
       "kind": "merged-source",
       "primary": "unboundwiki.com",
       "fallback": "Skeli789 source repositories",
-      "wikiPage": "https://unboundwiki.com/pokemon/articuno/"
+      "wikiPage": "https://unboundwiki.com/pokemon/galarian-articuno/"
     },
     "sourceNationalDex": 144,
     "locations": [
-      "North of Frozen Heights (post-game only)"
+      "Post-Game Mystery Gift code: 2XH4TC5JY4MG"
     ],
-    "locationSummary": "North of Frozen Heights (post-game only)",
-    "wikiPage": "https://unboundwiki.com/pokemon/articuno/"
+    "locationSummary": "Post-Game Mystery Gift code: 2XH4TC5JY4MG",
+    "wikiPage": "https://unboundwiki.com/pokemon/galarian-articuno/",
+    "displayName": "Galarian Articuno"
   },
   {
     "speciesId": 145,
@@ -12770,8 +12766,8 @@
       "spd": 95
     },
     "types": [
-      "Water",
-      "Rock"
+      "Ghost",
+      "Ghost"
     ],
     "catchRate": 60,
     "expYield": 113,
@@ -12793,10 +12789,10 @@
     "growthRateToken": "GROWTH_FAST",
     "eggGroup1Token": "EGG_GROUP_WATER_1",
     "eggGroup2Token": "EGG_GROUP_WATER_3",
-    "ability1Id": 55,
-    "ability1Name": "Hustle",
-    "ability2Id": 30,
-    "ability2Name": "Natural Cure",
+    "ability1Id": 193,
+    "ability1Name": "Weak Armor",
+    "ability2Id": 120,
+    "ability2Name": "Cursed Body",
     "hiddenAbilityId": 86,
     "hiddenAbilityName": "Regenerator",
     "safariFleeRate": 0,
@@ -12805,22 +12801,15 @@
       "kind": "merged-source",
       "primary": "unboundwiki.com",
       "fallback": "Skeli789 source repositories",
-      "wikiPage": "https://unboundwiki.com/pokemon/corsola/"
+      "wikiPage": "https://unboundwiki.com/pokemon/galarian-corsola/"
     },
     "sourceNationalDex": 222,
     "locations": [
-      "Route 13 (Rock Smash)",
-      "Route 14 (Rock Smash)",
-      "Route 16 (Rock Smash, Good Rod, Super Rod, Underwater)",
-      "Route 17 (Rock Smash, Good Rod, Super Rod, Underwater)",
-      "Route 18 (Rock Smash, Good Rod, Super Rod)",
-      "Thundercap Mountain (Rock Smash)",
-      "Gurun Town (Good Rod, Super Rod)",
-      "Seaport City (Good Rod, Super Rod)",
-      "Underwater Raid Den (4-5 star)"
+      "Breed a Cursola"
     ],
-    "locationSummary": "Route 13 (Rock Smash) / Route 14 (Rock Smash) / Route 16 (Rock Smash, Good Rod, Super Rod, Underwater) / Route 17 (Rock Smash, Good Rod, Super Rod, Underwater) / Route 18 (Rock Smash, Good Rod, Super Rod) / Thundercap Mountain (Rock Smash) / Gurun Town (Good Rod, Super Rod) / Seaport City (Good Rod, Super Rod) / Underwater Raid Den (4-5 star)",
-    "wikiPage": "https://unboundwiki.com/pokemon/corsola/"
+    "locationSummary": "Breed a Cursola",
+    "wikiPage": "https://unboundwiki.com/pokemon/galarian-corsola/",
+    "displayName": "Galarian Corsola"
   },
   {
     "speciesId": 223,
@@ -32945,8 +32934,8 @@
     "growthRateToken": "GROWTH_MEDIUM_FAST",
     "eggGroup1Token": "EGG_GROUP_WATER_2",
     "eggGroup2Token": "EGG_GROUP_WATER_2",
-    "ability1Id": 91,
-    "ability1Name": "Reckless",
+    "ability1Id": 199,
+    "ability1Name": "Rattled",
     "ability2Id": 88,
     "ability2Name": "Adaptability",
     "hiddenAbilityId": 152,
@@ -32957,21 +32946,16 @@
       "kind": "merged-source",
       "primary": "unboundwiki.com",
       "fallback": "Skeli789 source repositories",
-      "wikiPage": "https://unboundwiki.com/pokemon/basculin/"
+      "wikiPage": "https://unboundwiki.com/pokemon/hisuian-basculin/"
     },
     "sourceNationalDex": 550,
     "locations": [
-      "Blue-Striped Basculin: Victory Road (Surf)",
-      "Red-Striped Basculin:",
-      "Route 2 (Surf)",
-      "Route 4 (Surf)",
-      "Route 5 (Surf)",
-      "Route 11 (Surf)",
-      "Route 15 (Surf)",
-      "Dresco Town (Surf)"
+      "Breed a Basculegion",
+      "Unbound Cloud Trade from a supported CFRU Rom Hack"
     ],
-    "locationSummary": "Blue-Striped Basculin: Victory Road (Surf) / Red-Striped Basculin: / Route 2 (Surf) / Route 4 (Surf) / Route 5 (Surf) / Route 11 (Surf) / Route 15 (Surf) / Dresco Town (Surf)",
-    "wikiPage": "https://unboundwiki.com/pokemon/basculin/"
+    "locationSummary": "Breed a Basculegion / Unbound Cloud Trade from a supported CFRU Rom Hack",
+    "wikiPage": "https://unboundwiki.com/pokemon/hisuian-basculin/",
+    "displayName": "Hisuian Basculin"
   },
   {
     "speciesId": 604,
@@ -33157,8 +33141,8 @@
       "spd": 45
     },
     "types": [
-      "Fire",
-      "Fire"
+      "Ice",
+      "Ice"
     ],
     "catchRate": 120,
     "expYield": 63,
@@ -33192,14 +33176,16 @@
       "kind": "merged-source",
       "primary": "unboundwiki.com",
       "fallback": "Skeli789 source repositories",
-      "wikiPage": "https://unboundwiki.com/pokemon/darumaka/"
+      "wikiPage": "https://unboundwiki.com/pokemon/galarian-darumaka/"
     },
     "sourceNationalDex": 554,
     "locations": [
-      "Great Desert (Sands)"
+      "Breed a Galarian Darmanitan",
+      "Unbound Cloud Trade from a supported CFRU Rom Hack"
     ],
-    "locationSummary": "Great Desert (Sands)",
-    "wikiPage": "https://unboundwiki.com/pokemon/darumaka/"
+    "locationSummary": "Breed a Galarian Darmanitan / Unbound Cloud Trade from a supported CFRU Rom Hack",
+    "wikiPage": "https://unboundwiki.com/pokemon/galarian-darumaka/",
+    "displayName": "Galarian Darumaka"
   },
   {
     "speciesId": 608,
@@ -33213,8 +33199,8 @@
       "spd": 55
     },
     "types": [
-      "Fire",
-      "Fire"
+      "Ice",
+      "Ice"
     ],
     "catchRate": 60,
     "expYield": 168,
@@ -33236,8 +33222,8 @@
     "growthRateToken": "GROWTH_MEDIUM_SLOW",
     "eggGroup1Token": "EGG_GROUP_FIELD",
     "eggGroup2Token": "EGG_GROUP_FIELD",
-    "ability1Id": 92,
-    "ability1Name": "Sheer Force",
+    "ability1Id": 215,
+    "ability1Name": "Gorilla Tactics",
     "ability2Id": 0,
     "ability2Name": null,
     "hiddenAbilityId": 155,
@@ -33248,15 +33234,17 @@
       "kind": "merged-source",
       "primary": "unboundwiki.com",
       "fallback": "Skeli789 source repositories",
-      "wikiPage": "https://unboundwiki.com/pokemon/darmanitan/"
+      "wikiPage": "https://unboundwiki.com/pokemon/galarian-darmanitan/"
     },
     "sourceNationalDex": 555,
     "locations": [
-      "Evolve a Darumaka at Level 35",
-      "Great Desert Raid Den (3-5 star)"
+      "Victory Road \u2013 Snowy Area (Requires Gen 8 Activation)",
+      "Victory Road Raid Den (4-5 star)",
+      "Evolve Galarian Darumaka with an Ice Stone"
     ],
-    "locationSummary": "Evolve a Darumaka at Level 35 / Great Desert Raid Den (3-5 star)",
-    "wikiPage": "https://unboundwiki.com/pokemon/darmanitan/"
+    "locationSummary": "Victory Road \u2013 Snowy Area (Requires Gen 8 Activation) / Victory Road Raid Den (4-5 star) / Evolve Galarian Darumaka with an Ice Stone",
+    "wikiPage": "https://unboundwiki.com/pokemon/galarian-darmanitan/",
+    "displayName": "Galarian Darmanitan"
   },
   {
     "speciesId": 609,
@@ -42410,6 +42398,7 @@
       "wikiPage": "https://unboundwiki.com/pokemon/flabebe/"
     },
     "sourceNationalDex": 669,
+    "displayName": "Flabebe",
     "locations": [
       "Flower Paradise (All Flowers)"
     ],
@@ -55335,11 +55324,19 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/alolan-rattata/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 19,
+    "displayName": "Alolan Rattata",
+    "locations": [
+      "Route 7 (Tall Grass \u2013 Night)",
+      "Route 7 Raid Den (1 star)"
+    ],
+    "locationSummary": "Route 7 (Tall Grass \u2013 Night) / Route 7 Raid Den (1 star)",
+    "wikiPage": "https://unboundwiki.com/pokemon/alolan-rattata/"
   },
   {
     "speciesId": 1021,
@@ -55385,11 +55382,20 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/alolan-raticate/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 20,
+    "displayName": "Alolan Raticate",
+    "locations": [
+      "Route 7 (Tall Grass \u2013 Night)",
+      "Route 7 Raid Den (2-5 star)",
+      "Evolve Alolan Rattata at Level 20 during the Night"
+    ],
+    "locationSummary": "Route 7 (Tall Grass \u2013 Night) / Route 7 Raid Den (2-5 star) / Evolve Alolan Rattata at Level 20 during the Night",
+    "wikiPage": "https://unboundwiki.com/pokemon/alolan-raticate/"
   },
   {
     "speciesId": 1022,
@@ -55435,11 +55441,18 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/alolan-raichu/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 26,
+    "displayName": "Alolan Raichu",
+    "locations": [
+      "Evolve Pikachu on a beach using a Thunder Stone"
+    ],
+    "locationSummary": "Evolve Pikachu on a beach using a Thunder Stone",
+    "wikiPage": "https://unboundwiki.com/pokemon/alolan-raichu/"
   },
   {
     "speciesId": 1023,
@@ -55485,11 +55498,18 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/alolan-sandshrew/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 27,
+    "displayName": "Alolan Sandshrew",
+    "locations": [
+      "Icicle Cave Hidden Valley (Tall Grass) (After Mission #067 The Food Thief)"
+    ],
+    "locationSummary": "Icicle Cave Hidden Valley (Tall Grass) (After Mission #067 The Food Thief)",
+    "wikiPage": "https://unboundwiki.com/pokemon/alolan-sandshrew/"
   },
   {
     "speciesId": 1024,
@@ -55535,11 +55555,18 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/alolan-sandslash/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 28,
+    "displayName": "Alolan Sandslash",
+    "locations": [
+      "Evolve Alolan Sandshrew with an Ice Stone"
+    ],
+    "locationSummary": "Evolve Alolan Sandshrew with an Ice Stone",
+    "wikiPage": "https://unboundwiki.com/pokemon/alolan-sandslash/"
   },
   {
     "speciesId": 1025,
@@ -55585,11 +55612,18 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/alolan-vulpix/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 37,
+    "displayName": "Alolan Vulpix",
+    "locations": [
+      "Reward from Mission #043: Ninetales of Snow"
+    ],
+    "locationSummary": "Reward from Mission #043: Ninetales of Snow",
+    "wikiPage": "https://unboundwiki.com/pokemon/alolan-vulpix/"
   },
   {
     "speciesId": 1026,
@@ -55635,11 +55669,18 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/alolan-ninetales/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 38,
+    "displayName": "Alolan Ninetales",
+    "locations": [
+      "Evolve Alolan Vulpix with an Ice Stone"
+    ],
+    "locationSummary": "Evolve Alolan Vulpix with an Ice Stone",
+    "wikiPage": "https://unboundwiki.com/pokemon/alolan-ninetales/"
   },
   {
     "speciesId": 1027,
@@ -55676,20 +55717,27 @@
     "growthRateToken": "GROWTH_MEDIUM_FAST",
     "eggGroup1Token": "EGG_GROUP_FIELD",
     "eggGroup2Token": "EGG_GROUP_FIELD",
-    "ability1Id": 8,
-    "ability1Name": "Sand Veil",
+    "ability1Id": 95,
+    "ability1Name": "Sand Force",
     "ability2Id": 175,
-    "ability2Name": "Full Metal Body",
-    "hiddenAbilityId": 95,
-    "hiddenAbilityName": "Sand Force",
+    "ability2Name": "Tangling Hair",
+    "hiddenAbilityId": 162,
+    "hiddenAbilityName": "Steely Spirit",
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/alolan-diglett/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 50,
+    "displayName": "Alolan Diglett",
+    "locations": [
+      "Safari Zone (Medium, Hard)"
+    ],
+    "locationSummary": "Safari Zone (Medium, Hard)",
+    "wikiPage": "https://unboundwiki.com/pokemon/alolan-diglett/"
   },
   {
     "speciesId": 1028,
@@ -55726,20 +55774,28 @@
     "growthRateToken": "GROWTH_MEDIUM_FAST",
     "eggGroup1Token": "EGG_GROUP_FIELD",
     "eggGroup2Token": "EGG_GROUP_FIELD",
-    "ability1Id": 8,
-    "ability1Name": "Sand Veil",
+    "ability1Id": 95,
+    "ability1Name": "Sand Force",
     "ability2Id": 175,
-    "ability2Name": "Full Metal Body",
-    "hiddenAbilityId": 95,
-    "hiddenAbilityName": "Sand Force",
+    "ability2Name": "Tangling Hair",
+    "hiddenAbilityId": 162,
+    "hiddenAbilityName": "Steely Spirit",
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/alolan-dugtrio/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 51,
+    "displayName": "Alolan Dugtrio",
+    "locations": [
+      "Safari Zone (Insane)",
+      "Evolve Alolan Diglett at Level 26"
+    ],
+    "locationSummary": "Safari Zone (Insane) / Evolve Alolan Diglett at Level 26",
+    "wikiPage": "https://unboundwiki.com/pokemon/alolan-dugtrio/"
   },
   {
     "speciesId": 1029,
@@ -55785,11 +55841,18 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/alolan-meowth/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 52,
+    "displayName": "Alolan Meowth",
+    "locations": [
+      "Safari Zone (Easy)"
+    ],
+    "locationSummary": "Safari Zone (Easy)",
+    "wikiPage": "https://unboundwiki.com/pokemon/alolan-meowth/"
   },
   {
     "speciesId": 1030,
@@ -55835,11 +55898,18 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/alolan-persian/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 53,
+    "displayName": "Alolan Persian",
+    "locations": [
+      "Evolve Alolan Meowth via high Friendship"
+    ],
+    "locationSummary": "Evolve Alolan Meowth via high Friendship",
+    "wikiPage": "https://unboundwiki.com/pokemon/alolan-persian/"
   },
   {
     "speciesId": 1031,
@@ -55885,11 +55955,20 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/alolan-geodude/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 74,
+    "displayName": "Alolan Geodude",
+    "locations": [
+      "Cliff Cave (Cave)",
+      "Thundercap Mountain (Rock Smash)",
+      "Route 11 Raid Den (2 star)"
+    ],
+    "locationSummary": "Cliff Cave (Cave) / Thundercap Mountain (Rock Smash) / Route 11 Raid Den (2 star)",
+    "wikiPage": "https://unboundwiki.com/pokemon/alolan-geodude/"
   },
   {
     "speciesId": 1032,
@@ -55935,11 +56014,21 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/alolan-graveler/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 75,
+    "displayName": "Alolan Graveler",
+    "locations": [
+      "Cliff Cave (Cave)",
+      "Thundercap Mountain (Rock Smash)",
+      "Route 11 Raid Den (3 star)",
+      "Evolve Alolan Geodude at Level 25"
+    ],
+    "locationSummary": "Cliff Cave (Cave) / Thundercap Mountain (Rock Smash) / Route 11 Raid Den (3 star) / Evolve Alolan Geodude at Level 25",
+    "wikiPage": "https://unboundwiki.com/pokemon/alolan-graveler/"
   },
   {
     "speciesId": 1033,
@@ -55985,11 +56074,19 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/alolan-golem/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 76,
+    "displayName": "Alolan Golem",
+    "locations": [
+      "Evolve an Alolan Graveler with a Link Stone",
+      "Route 11 Raid Den (4-5 star)"
+    ],
+    "locationSummary": "Evolve an Alolan Graveler with a Link Stone / Route 11 Raid Den (4-5 star)",
+    "wikiPage": "https://unboundwiki.com/pokemon/alolan-golem/"
   },
   {
     "speciesId": 1034,
@@ -56031,15 +56128,22 @@
     "ability2Id": 222,
     "ability2Name": "Gluttony",
     "hiddenAbilityId": 235,
-    "hiddenAbilityName": "Odd Medicine",
+    "hiddenAbilityName": "Power Of Alchemy",
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/alolan-grimer/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 88,
+    "displayName": "Alolan Grimer",
+    "locations": [
+      "Reward from Mission #057: Supply and Demand"
+    ],
+    "locationSummary": "Reward from Mission #057: Supply and Demand",
+    "wikiPage": "https://unboundwiki.com/pokemon/alolan-grimer/"
   },
   {
     "speciesId": 1035,
@@ -56081,15 +56185,22 @@
     "ability2Id": 222,
     "ability2Name": "Gluttony",
     "hiddenAbilityId": 235,
-    "hiddenAbilityName": "Odd Medicine",
+    "hiddenAbilityName": "Power Of Alchemy",
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/alolan-muk/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 89,
+    "displayName": "Alolan Muk",
+    "locations": [
+      "Evolve Alolan Grimer at Level 38"
+    ],
+    "locationSummary": "Evolve Alolan Grimer at Level 38",
+    "wikiPage": "https://unboundwiki.com/pokemon/alolan-muk/"
   },
   {
     "speciesId": 1036,
@@ -56185,11 +56296,18 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/alolan-exeggutor/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 103,
+    "displayName": "Alolan Exeggutor",
+    "locations": [
+      "Evolve an Exeggcute caught in the Safari Zone with a Leaf Stone"
+    ],
+    "locationSummary": "Evolve an Exeggcute caught in the Safari Zone with a Leaf Stone",
+    "wikiPage": "https://unboundwiki.com/pokemon/alolan-exeggutor/"
   },
   {
     "speciesId": 1038,
@@ -56285,11 +56403,18 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/alolan-marowak/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 105,
+    "displayName": "Alolan Marowak",
+    "locations": [
+      "Evolve a Cubone at Level 28 during the nighttime"
+    ],
+    "locationSummary": "Evolve a Cubone at Level 28 during the nighttime",
+    "wikiPage": "https://unboundwiki.com/pokemon/alolan-marowak/"
   },
   {
     "speciesId": 1040,
@@ -62563,6 +62688,7 @@
       "wikiPage": "https://unboundwiki.com/pokemon/sirfetchd/"
     },
     "sourceNationalDex": 865,
+    "displayName": "Sirfetch\u2019d",
     "locations": [
       "Route 17 (Tall Grass) (Requires Gen 8 Activation)",
       "Evolve Galarian Farfetch\u2019d by getting 3 critical hits in a single battle",
@@ -65521,11 +65647,19 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/galarian-meowth/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 52,
+    "displayName": "Galarian Meowth",
+    "locations": [
+      "Valley Cave (Requires Gen 8 Activation)",
+      "Valley Cave Raid Den (3 star)"
+    ],
+    "locationSummary": "Valley Cave (Requires Gen 8 Activation) / Valley Cave Raid Den (3 star)",
+    "wikiPage": "https://unboundwiki.com/pokemon/galarian-meowth/"
   },
   {
     "speciesId": 1213,
@@ -65571,11 +65705,19 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/galarian-ponyta/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 77,
+    "displayName": "Galarian Ponyta",
+    "locations": [
+      "Route 12 (Tall Grass) (Gen 8 Activation Required)",
+      "Route 12 Raid Den (2-3 star)"
+    ],
+    "locationSummary": "Route 12 (Tall Grass) (Gen 8 Activation Required) / Route 12 Raid Den (2-3 star)",
+    "wikiPage": "https://unboundwiki.com/pokemon/galarian-ponyta/"
   },
   {
     "speciesId": 1214,
@@ -65621,11 +65763,19 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/galarian-rapidash/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 78,
+    "displayName": "Galarian Rapidash",
+    "locations": [
+      "Evolve Galarian Ponyta at Level 40",
+      "Route 12 Raid Den (4-5 star)"
+    ],
+    "locationSummary": "Evolve Galarian Ponyta at Level 40 / Route 12 Raid Den (4-5 star)",
+    "wikiPage": "https://unboundwiki.com/pokemon/galarian-rapidash/"
   },
   {
     "speciesId": 1215,
@@ -65671,11 +65821,19 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/galarian-slowpoke/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 79,
+    "displayName": "Galarian Slowpoke",
+    "locations": [
+      "Route 13 (Surfing), Route 14 (Surfing) (Requires Gen 8 Activation)",
+      "Route 14 Raid Den (3 star)"
+    ],
+    "locationSummary": "Route 13 (Surfing), Route 14 (Surfing) (Requires Gen 8 Activation) / Route 14 Raid Den (3 star)",
+    "wikiPage": "https://unboundwiki.com/pokemon/galarian-slowpoke/"
   },
   {
     "speciesId": 1216,
@@ -65712,8 +65870,8 @@
     "growthRateToken": "GROWTH_MEDIUM_FAST",
     "eggGroup1Token": "EGG_GROUP_MONSTER",
     "eggGroup2Token": "EGG_GROUP_WATER_1",
-    "ability1Id": 222,
-    "ability1Name": "Gluttony",
+    "ability1Id": 219,
+    "ability1Name": "Quick Draw",
     "ability2Id": 20,
     "ability2Name": "Own Tempo",
     "hiddenAbilityId": 86,
@@ -65721,11 +65879,19 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/galarian-slowbro/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 80,
+    "displayName": "Galarian Slowbro",
+    "locations": [
+      "Evolve a Galarian Slowpoke with a Galarica Cuff",
+      "Route 14 Raid Den (4-5 star)"
+    ],
+    "locationSummary": "Evolve a Galarian Slowpoke with a Galarica Cuff / Route 14 Raid Den (4-5 star)",
+    "wikiPage": "https://unboundwiki.com/pokemon/galarian-slowbro/"
   },
   {
     "speciesId": 1217,
@@ -65815,17 +65981,23 @@
     "ability1Id": 26,
     "ability1Name": "Levitate",
     "ability2Id": 74,
-    "ability2Name": "Neutralize Gas",
+    "ability2Name": "Neutralizinggas",
     "hiddenAbilityId": 1,
     "hiddenAbilityName": "Stench",
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/koffing/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 109,
+    "locations": [
+      "Antisis Sewers (interior)"
+    ],
+    "locationSummary": "Antisis Sewers (interior)",
+    "wikiPage": "https://unboundwiki.com/pokemon/koffing/"
   },
   {
     "speciesId": 1219,
@@ -65865,17 +66037,24 @@
     "ability1Id": 26,
     "ability1Name": "Levitate",
     "ability2Id": 74,
-    "ability2Name": "Neutralize Gas",
+    "ability2Name": "Neutralizinggas",
     "hiddenAbilityId": 183,
     "hiddenAbilityName": "Misty Surge",
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/galarian-weezing/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 110,
+    "displayName": "Galarian Weezing",
+    "locations": [
+      "Antisis Sewers Interior (Requires Gen 8 Activation)"
+    ],
+    "locationSummary": "Antisis Sewers Interior (Requires Gen 8 Activation)",
+    "wikiPage": "https://unboundwiki.com/pokemon/galarian-weezing/"
   },
   {
     "speciesId": 1220,
@@ -65915,17 +66094,25 @@
     "ability1Id": 253,
     "ability1Name": "Screen Cleaner",
     "ability2Id": 72,
-    "ability2Name": "Transistor",
+    "ability2Name": "Vital Spirit",
     "hiddenAbilityId": 105,
     "hiddenAbilityName": "Ice Body",
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/galarian-mr-mime/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 122,
+    "displayName": "Galarian Mr. Mime",
+    "locations": [
+      "Route 8 (Tall Grass) (Requires Gen 8 Activation)",
+      "Route 8 Raid Den (2-3 star)"
+    ],
+    "locationSummary": "Route 8 (Tall Grass) (Requires Gen 8 Activation) / Route 8 Raid Den (2-3 star)",
+    "wikiPage": "https://unboundwiki.com/pokemon/galarian-mr-mime/"
   },
   {
     "speciesId": 1221,
@@ -66021,11 +66208,18 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/galarian-zapdos/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 145,
+    "displayName": "Galarian Zapdos",
+    "locations": [
+      "Post-Game Mystery Gift code: 9TA2WT6TW5AP"
+    ],
+    "locationSummary": "Post-Game Mystery Gift code: 9TA2WT6TW5AP",
+    "wikiPage": "https://unboundwiki.com/pokemon/galarian-zapdos/"
   },
   {
     "speciesId": 1223,
@@ -66071,11 +66265,18 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/galarian-moltres/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 145,
+    "displayName": "Galarian Moltres",
+    "locations": [
+      "Post-Game Mystery Gift code: 9TA2WT6TW5AP"
+    ],
+    "locationSummary": "Post-Game Mystery Gift code: 9TA2WT6TW5AP",
+    "wikiPage": "https://unboundwiki.com/pokemon/galarian-moltres/"
   },
   {
     "speciesId": 1224,
@@ -66112,8 +66313,8 @@
     "growthRateToken": "GROWTH_MEDIUM_FAST",
     "eggGroup1Token": "EGG_GROUP_MONSTER",
     "eggGroup2Token": "EGG_GROUP_WATER_1",
-    "ability1Id": 222,
-    "ability1Name": "Gluttony",
+    "ability1Id": 235,
+    "ability1Name": "Odd Medicine",
     "ability2Id": 20,
     "ability2Name": "Own Tempo",
     "hiddenAbilityId": 86,
@@ -66121,11 +66322,19 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/galarian-slowking/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 199,
+    "displayName": "Galarian Slowking",
+    "locations": [
+      "Evolve a Galarian Slowpoke wih a Galarica Wreath",
+      "Route 14 Raid Den (4-5 star)"
+    ],
+    "locationSummary": "Evolve a Galarian Slowpoke wih a Galarica Wreath / Route 14 Raid Den (4-5 star)",
+    "wikiPage": "https://unboundwiki.com/pokemon/galarian-slowking/"
   },
   {
     "speciesId": 1225,
@@ -66221,11 +66430,18 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/galarian-zigzagoon/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 263,
+    "displayName": "Galarian Zigzagoon",
+    "locations": [
+      "Breed Galarian Linoone or Galarian Obstagoon"
+    ],
+    "locationSummary": "Breed Galarian Linoone or Galarian Obstagoon",
+    "wikiPage": "https://unboundwiki.com/pokemon/galarian-zigzagoon/"
   },
   {
     "speciesId": 1227,
@@ -66271,11 +66487,20 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/galarian-linoone/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 264,
+    "displayName": "Galarian Linoone",
+    "locations": [
+      "Route 10 (tall grass) (requires gen 8 activation)",
+      "Route 10 Raid Den (2 star)",
+      "Evolve Galarian Zigzagoon at Level 20"
+    ],
+    "locationSummary": "Route 10 (tall grass) (requires gen 8 activation) / Route 10 Raid Den (2 star) / Evolve Galarian Zigzagoon at Level 20",
+    "wikiPage": "https://unboundwiki.com/pokemon/galarian-linoone/"
   },
   {
     "speciesId": 1228,
@@ -66521,11 +66746,18 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/galarian-yamask/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 562,
+    "displayName": "Galarian Yamask",
+    "locations": [
+      "Ruins of Void (Requires Gen 8 Activation)"
+    ],
+    "locationSummary": "Ruins of Void (Requires Gen 8 Activation)",
+    "wikiPage": "https://unboundwiki.com/pokemon/galarian-yamask/"
   },
   {
     "speciesId": 1233,
@@ -66571,11 +66803,19 @@
     "safariFleeRate": 0,
     "noFlip": true,
     "source": {
-      "kind": "source-table",
-      "file": "public/Dynamic-Pokemon-Expansion/src/Base_Stats.c",
-      "symbol": "gBaseStats"
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/galarian-stunfisk/"
     },
-    "sourceNationalDex": null
+    "sourceNationalDex": 618,
+    "displayName": "Galarian Stunfisk",
+    "locations": [
+      "Cootes Bog (Surf) (Requires Gen 8 Activation)",
+      "Cootes Bog Raid Den (3-5 star)"
+    ],
+    "locationSummary": "Cootes Bog (Surf) (Requires Gen 8 Activation) / Cootes Bog Raid Den (3-5 star)",
+    "wikiPage": "https://unboundwiki.com/pokemon/galarian-stunfisk/"
   },
   {
     "speciesId": 1234,
@@ -68276,5 +68516,900 @@
       "symbol": "gBaseStats"
     },
     "sourceNationalDex": null
+  },
+  {
+    "speciesId": 1268,
+    "name": "Hisuian Arcanine",
+    "baseStats": {
+      "hp": 95,
+      "atk": 115,
+      "def": 80,
+      "spe": 90,
+      "spa": 95,
+      "spd": 80
+    },
+    "types": [
+      "Fire",
+      "Rock"
+    ],
+    "catchRate": 75,
+    "expYield": 213,
+    "evYield": {
+      "hp": 0,
+      "atk": 2,
+      "def": 0,
+      "spe": 0,
+      "spa": 0,
+      "spd": 0
+    },
+    "heldItem1Id": 136,
+    "heldItem1Name": null,
+    "heldItem2Id": 136,
+    "heldItem2Name": null,
+    "genderRatio": 63,
+    "eggCycles": 20,
+    "friendship": 50,
+    "growthRateToken": null,
+    "eggGroup1Token": null,
+    "eggGroup2Token": null,
+    "ability1Id": 22,
+    "ability1Name": "Intimidate",
+    "ability2Id": 18,
+    "ability2Name": "Flash Fire",
+    "hiddenAbilityId": 198,
+    "hiddenAbilityName": "Justified",
+    "safariFleeRate": 0,
+    "noFlip": true,
+    "sourceNationalDex": 59,
+    "source": {
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/hisuian-arcanine/"
+    },
+    "locations": [
+      "Post-Game Mystery Gift code: 1WX2KX7RA1HT"
+    ],
+    "locationSummary": "Post-Game Mystery Gift code: 1WX2KX7RA1HT",
+    "wikiPage": "https://unboundwiki.com/pokemon/hisuian-arcanine/"
+  },
+  {
+    "speciesId": 1269,
+    "name": "Hisuian Avalugg",
+    "baseStats": {
+      "hp": 95,
+      "atk": 127,
+      "def": 184,
+      "spe": 38,
+      "spa": 34,
+      "spd": 36
+    },
+    "types": [
+      "Ice",
+      "Rock"
+    ],
+    "catchRate": 55,
+    "expYield": 180,
+    "evYield": {
+      "hp": 0,
+      "atk": 0,
+      "def": 2,
+      "spe": 0,
+      "spa": 0,
+      "spd": 0
+    },
+    "heldItem1Id": 0,
+    "heldItem1Name": null,
+    "heldItem2Id": 0,
+    "heldItem2Name": null,
+    "genderRatio": 127,
+    "eggCycles": 20,
+    "friendship": 50,
+    "growthRateToken": null,
+    "eggGroup1Token": null,
+    "eggGroup2Token": null,
+    "ability1Id": 129,
+    "ability1Name": "Strong Jaw",
+    "ability2Id": 105,
+    "ability2Name": "Ice Body",
+    "hiddenAbilityId": 5,
+    "hiddenAbilityName": "Sturdy",
+    "safariFleeRate": 0,
+    "noFlip": true,
+    "sourceNationalDex": 713,
+    "source": {
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/hisuian-avalugg/"
+    },
+    "locations": [
+      "Evolve a Bergmite at Level 37 while it holds a Hisui Rock"
+    ],
+    "locationSummary": "Evolve a Bergmite at Level 37 while it holds a Hisui Rock",
+    "wikiPage": "https://unboundwiki.com/pokemon/hisuian-avalugg/"
+  },
+  {
+    "speciesId": 1270,
+    "name": "Hisuian Braviary",
+    "baseStats": {
+      "hp": 110,
+      "atk": 83,
+      "def": 70,
+      "spe": 65,
+      "spa": 112,
+      "spd": 70
+    },
+    "types": [
+      "Psychic",
+      "Flying"
+    ],
+    "catchRate": 60,
+    "expYield": 179,
+    "evYield": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 0,
+      "spa": 2,
+      "spd": 0
+    },
+    "heldItem1Id": 0,
+    "heldItem1Name": null,
+    "heldItem2Id": 0,
+    "heldItem2Name": null,
+    "genderRatio": 0,
+    "eggCycles": 20,
+    "friendship": 50,
+    "growthRateToken": null,
+    "eggGroup1Token": null,
+    "eggGroup2Token": null,
+    "ability1Id": 51,
+    "ability1Name": "Keen Eye",
+    "ability2Id": 92,
+    "ability2Name": "Sheer Force",
+    "hiddenAbilityId": 143,
+    "hiddenAbilityName": "Competitive",
+    "safariFleeRate": 0,
+    "noFlip": true,
+    "sourceNationalDex": 628,
+    "source": {
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/hisuian-braviary/"
+    },
+    "locations": [
+      "Evolve Rufflet at Level 50 while it\u2019s holding a Hisui Rock"
+    ],
+    "locationSummary": "Evolve Rufflet at Level 50 while it\u2019s holding a Hisui Rock",
+    "wikiPage": "https://unboundwiki.com/pokemon/hisuian-braviary/"
+  },
+  {
+    "speciesId": 1271,
+    "name": "Hisuian Decidueye",
+    "baseStats": {
+      "hp": 88,
+      "atk": 112,
+      "def": 80,
+      "spe": 60,
+      "spa": 95,
+      "spd": 95
+    },
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "catchRate": 45,
+    "expYield": 210,
+    "evYield": {
+      "hp": 0,
+      "atk": 3,
+      "def": 0,
+      "spe": 0,
+      "spa": 0,
+      "spd": 0
+    },
+    "heldItem1Id": 0,
+    "heldItem1Name": null,
+    "heldItem2Id": 0,
+    "heldItem2Name": null,
+    "genderRatio": 31,
+    "eggCycles": 15,
+    "friendship": 50,
+    "growthRateToken": null,
+    "eggGroup1Token": null,
+    "eggGroup2Token": null,
+    "ability1Id": 65,
+    "ability1Name": "Overgrow",
+    "ability2Id": 217,
+    "ability2Name": "Long Reach",
+    "hiddenAbilityId": 0,
+    "hiddenAbilityName": null,
+    "safariFleeRate": 0,
+    "noFlip": true,
+    "sourceNationalDex": 724,
+    "source": {
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/hisuian-decidueye/"
+    },
+    "wikiPage": "https://unboundwiki.com/pokemon/hisuian-decidueye/"
+  },
+  {
+    "speciesId": 1272,
+    "name": "Hisuian Electrode",
+    "baseStats": {
+      "hp": 60,
+      "atk": 50,
+      "def": 70,
+      "spe": 150,
+      "spa": 80,
+      "spd": 80
+    },
+    "types": [
+      "Electric",
+      "Grass"
+    ],
+    "catchRate": 60,
+    "expYield": 150,
+    "evYield": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 2,
+      "spa": 0,
+      "spd": 0
+    },
+    "heldItem1Id": 0,
+    "heldItem1Name": null,
+    "heldItem2Id": 0,
+    "heldItem2Name": null,
+    "genderRatio": 255,
+    "eggCycles": 20,
+    "friendship": 50,
+    "growthRateToken": null,
+    "eggGroup1Token": null,
+    "eggGroup2Token": null,
+    "ability1Id": 43,
+    "ability1Name": "Soundproof",
+    "ability2Id": 9,
+    "ability2Name": "Static",
+    "hiddenAbilityId": 119,
+    "hiddenAbilityName": "Aftermath",
+    "safariFleeRate": 0,
+    "noFlip": true,
+    "sourceNationalDex": 101,
+    "source": {
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/hisuian-electrode/"
+    },
+    "locations": [
+      "Post-Game Mystery Gift code: 4BN3PR8SR9ED",
+      "Evolve Hisuian Voltorb with a Leaf Stone"
+    ],
+    "locationSummary": "Post-Game Mystery Gift code: 4BN3PR8SR9ED / Evolve Hisuian Voltorb with a Leaf Stone",
+    "wikiPage": "https://unboundwiki.com/pokemon/hisuian-electrode/"
+  },
+  {
+    "speciesId": 1273,
+    "name": "Hisuian Goodra",
+    "baseStats": {
+      "hp": 80,
+      "atk": 100,
+      "def": 100,
+      "spe": 60,
+      "spa": 110,
+      "spd": 150
+    },
+    "types": [
+      "Dragon",
+      "Steel"
+    ],
+    "catchRate": 45,
+    "expYield": 255,
+    "evYield": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 0,
+      "spa": 0,
+      "spd": 3
+    },
+    "heldItem1Id": 0,
+    "heldItem1Name": null,
+    "heldItem2Id": 0,
+    "heldItem2Name": null,
+    "genderRatio": 127,
+    "eggCycles": 40,
+    "friendship": 35,
+    "growthRateToken": null,
+    "eggGroup1Token": null,
+    "eggGroup2Token": null,
+    "ability1Id": 113,
+    "ability1Name": "Sap Sipper",
+    "ability2Id": 114,
+    "ability2Name": "Overcoat",
+    "hiddenAbilityId": 121,
+    "hiddenAbilityName": "Gooey",
+    "safariFleeRate": 0,
+    "noFlip": true,
+    "sourceNationalDex": 706,
+    "source": {
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/hisuian-goodra/"
+    },
+    "locations": [
+      "Evolve a Hisuian Sliggoo at Level 50 in Rain or Fog"
+    ],
+    "locationSummary": "Evolve a Hisuian Sliggoo at Level 50 in Rain or Fog",
+    "wikiPage": "https://unboundwiki.com/pokemon/hisuian-goodra/"
+  },
+  {
+    "speciesId": 1274,
+    "name": "Hisuian Growlithe",
+    "baseStats": {
+      "hp": 60,
+      "atk": 75,
+      "def": 45,
+      "spe": 55,
+      "spa": 65,
+      "spd": 50
+    },
+    "types": [
+      "Fire",
+      "Rock"
+    ],
+    "catchRate": 190,
+    "expYield": 91,
+    "evYield": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spe": 0,
+      "spa": 0,
+      "spd": 0
+    },
+    "heldItem1Id": 136,
+    "heldItem1Name": null,
+    "heldItem2Id": 136,
+    "heldItem2Name": null,
+    "genderRatio": 63,
+    "eggCycles": 20,
+    "friendship": 50,
+    "growthRateToken": null,
+    "eggGroup1Token": null,
+    "eggGroup2Token": null,
+    "ability1Id": 22,
+    "ability1Name": "Intimidate",
+    "ability2Id": 18,
+    "ability2Name": "Flash Fire",
+    "hiddenAbilityId": 198,
+    "hiddenAbilityName": "Justified",
+    "safariFleeRate": 0,
+    "noFlip": true,
+    "sourceNationalDex": 58,
+    "source": {
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/hisuian-growlithe/"
+    },
+    "locations": [
+      "Breed a Hisuian Arcanine",
+      "Unbound Cloud Trade from a supported CFRU Rom Hack"
+    ],
+    "locationSummary": "Breed a Hisuian Arcanine / Unbound Cloud Trade from a supported CFRU Rom Hack",
+    "wikiPage": "https://unboundwiki.com/pokemon/hisuian-growlithe/"
+  },
+  {
+    "speciesId": 1275,
+    "name": "Hisuian Lilligant",
+    "baseStats": {
+      "hp": 70,
+      "atk": 105,
+      "def": 75,
+      "spe": 105,
+      "spa": 50,
+      "spd": 75
+    },
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "catchRate": 75,
+    "expYield": 128,
+    "evYield": {
+      "hp": 0,
+      "atk": 2,
+      "def": 0,
+      "spe": 0,
+      "spa": 0,
+      "spd": 0
+    },
+    "heldItem1Id": 0,
+    "heldItem1Name": null,
+    "heldItem2Id": 563,
+    "heldItem2Name": null,
+    "genderRatio": 254,
+    "eggCycles": 20,
+    "friendship": 50,
+    "growthRateToken": null,
+    "eggGroup1Token": null,
+    "eggGroup2Token": null,
+    "ability1Id": 34,
+    "ability1Name": "Chlorophyll",
+    "ability2Id": 55,
+    "ability2Name": "Hustle",
+    "hiddenAbilityId": 203,
+    "hiddenAbilityName": "Leaf Guard",
+    "safariFleeRate": 0,
+    "noFlip": true,
+    "sourceNationalDex": 549,
+    "source": {
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/hisuian-lilligant/"
+    },
+    "locations": [
+      "Evolve Petilil with a Sun Stone while it\u2019s holding a Hisui Rock"
+    ],
+    "locationSummary": "Evolve Petilil with a Sun Stone while it\u2019s holding a Hisui Rock",
+    "wikiPage": "https://unboundwiki.com/pokemon/hisuian-lilligant/"
+  },
+  {
+    "speciesId": 1276,
+    "name": "Hisuian Qwilfish",
+    "baseStats": {
+      "hp": 65,
+      "atk": 95,
+      "def": 85,
+      "spe": 85,
+      "spa": 55,
+      "spd": 55
+    },
+    "types": [
+      "Dark",
+      "Poison"
+    ],
+    "catchRate": 45,
+    "expYield": 100,
+    "evYield": {
+      "hp": 0,
+      "atk": 1,
+      "def": 0,
+      "spe": 0,
+      "spa": 0,
+      "spd": 0
+    },
+    "heldItem1Id": 0,
+    "heldItem1Name": null,
+    "heldItem2Id": 211,
+    "heldItem2Name": "Poison Barb",
+    "genderRatio": 127,
+    "eggCycles": 20,
+    "friendship": 50,
+    "growthRateToken": null,
+    "eggGroup1Token": null,
+    "eggGroup2Token": null,
+    "ability1Id": 38,
+    "ability1Name": "Poison Point",
+    "ability2Id": 33,
+    "ability2Name": "Swift Swim",
+    "hiddenAbilityId": 22,
+    "hiddenAbilityName": "Intimidate",
+    "safariFleeRate": 0,
+    "noFlip": true,
+    "sourceNationalDex": 211,
+    "source": {
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/hisuian-qwilfish/"
+    },
+    "locations": [
+      "Unbound Cloud Trade from a supported CFRU Rom Hack"
+    ],
+    "locationSummary": "Unbound Cloud Trade from a supported CFRU Rom Hack",
+    "wikiPage": "https://unboundwiki.com/pokemon/hisuian-qwilfish/"
+  },
+  {
+    "speciesId": 1277,
+    "name": "Hisuian Samurott",
+    "baseStats": {
+      "hp": 90,
+      "atk": 108,
+      "def": 80,
+      "spe": 85,
+      "spa": 100,
+      "spd": 65
+    },
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "catchRate": 45,
+    "expYield": 209,
+    "evYield": {
+      "hp": 0,
+      "atk": 3,
+      "def": 0,
+      "spe": 0,
+      "spa": 0,
+      "spd": 0
+    },
+    "heldItem1Id": 0,
+    "heldItem1Name": null,
+    "heldItem2Id": 0,
+    "heldItem2Name": null,
+    "genderRatio": 31,
+    "eggCycles": 20,
+    "friendship": 50,
+    "growthRateToken": null,
+    "eggGroup1Token": null,
+    "eggGroup2Token": null,
+    "ability1Id": 67,
+    "ability1Name": "Torrent",
+    "ability2Id": 75,
+    "ability2Name": "Shell Armor",
+    "hiddenAbilityId": 0,
+    "hiddenAbilityName": null,
+    "safariFleeRate": 0,
+    "noFlip": true,
+    "sourceNationalDex": 503,
+    "source": {
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/hisuian-samurott/"
+    },
+    "locations": [
+      "Evolve a Dewott at Level 36 while holding a Hisui Rock"
+    ],
+    "locationSummary": "Evolve a Dewott at Level 36 while holding a Hisui Rock",
+    "wikiPage": "https://unboundwiki.com/pokemon/hisuian-samurott/"
+  },
+  {
+    "speciesId": 1278,
+    "name": "Hisuian Sliggoo",
+    "baseStats": {
+      "hp": 58,
+      "atk": 75,
+      "def": 83,
+      "spe": 40,
+      "spa": 83,
+      "spd": 113
+    },
+    "types": [
+      "Dragon",
+      "Steel"
+    ],
+    "catchRate": 45,
+    "expYield": 158,
+    "evYield": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 0,
+      "spa": 0,
+      "spd": 2
+    },
+    "heldItem1Id": 0,
+    "heldItem1Name": null,
+    "heldItem2Id": 581,
+    "heldItem2Name": null,
+    "genderRatio": 127,
+    "eggCycles": 40,
+    "friendship": 35,
+    "growthRateToken": null,
+    "eggGroup1Token": null,
+    "eggGroup2Token": null,
+    "ability1Id": 113,
+    "ability1Name": "Sap Sipper",
+    "ability2Id": 114,
+    "ability2Name": "Overcoat",
+    "hiddenAbilityId": 121,
+    "hiddenAbilityName": "Gooey",
+    "safariFleeRate": 0,
+    "noFlip": true,
+    "sourceNationalDex": 705,
+    "source": {
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/hisuian-sliggoo/"
+    },
+    "locations": [
+      "Evolve a Goomy at Level 40 while it\u2019s holding a Hisui Rock"
+    ],
+    "locationSummary": "Evolve a Goomy at Level 40 while it\u2019s holding a Hisui Rock",
+    "wikiPage": "https://unboundwiki.com/pokemon/hisuian-sliggoo/"
+  },
+  {
+    "speciesId": 1279,
+    "name": "Hisuian Sneasel",
+    "baseStats": {
+      "hp": 55,
+      "atk": 95,
+      "def": 55,
+      "spe": 115,
+      "spa": 35,
+      "spd": 75
+    },
+    "types": [
+      "Poison",
+      "Fighting"
+    ],
+    "catchRate": 200,
+    "expYield": 132,
+    "evYield": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 1,
+      "spa": 0,
+      "spd": 0
+    },
+    "heldItem1Id": 571,
+    "heldItem1Name": null,
+    "heldItem2Id": 183,
+    "heldItem2Name": null,
+    "genderRatio": 127,
+    "eggCycles": 20,
+    "friendship": 35,
+    "growthRateToken": null,
+    "eggGroup1Token": null,
+    "eggGroup2Token": null,
+    "ability1Id": 39,
+    "ability1Name": "Inner Focus",
+    "ability2Id": 51,
+    "ability2Name": "Keen Eye",
+    "hiddenAbilityId": 209,
+    "hiddenAbilityName": "Poison Touch",
+    "safariFleeRate": 0,
+    "noFlip": true,
+    "sourceNationalDex": 215,
+    "source": {
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/hisuian-sneasel/"
+    },
+    "locations": [
+      "Unbound Cloud Trade from a supported CFRU Rom Hack"
+    ],
+    "locationSummary": "Unbound Cloud Trade from a supported CFRU Rom Hack",
+    "wikiPage": "https://unboundwiki.com/pokemon/hisuian-sneasel/"
+  },
+  {
+    "speciesId": 1280,
+    "name": "Hisuian Typhlosion",
+    "baseStats": {
+      "hp": 73,
+      "atk": 84,
+      "def": 78,
+      "spe": 95,
+      "spa": 119,
+      "spd": 85
+    },
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "catchRate": 45,
+    "expYield": 209,
+    "evYield": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 0,
+      "spa": 3,
+      "spd": 0
+    },
+    "heldItem1Id": 0,
+    "heldItem1Name": null,
+    "heldItem2Id": 0,
+    "heldItem2Name": null,
+    "genderRatio": 31,
+    "eggCycles": 20,
+    "friendship": 50,
+    "growthRateToken": null,
+    "eggGroup1Token": null,
+    "eggGroup2Token": null,
+    "ability1Id": 66,
+    "ability1Name": "Blaze",
+    "ability2Id": 18,
+    "ability2Name": "Flash Fire",
+    "hiddenAbilityId": 0,
+    "hiddenAbilityName": null,
+    "safariFleeRate": 0,
+    "noFlip": true,
+    "sourceNationalDex": 157,
+    "source": {
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/hisuian-typhlosion/"
+    },
+    "locations": [
+      "Evolve Quilava at Level 36 while it holds a Hisui Rock"
+    ],
+    "locationSummary": "Evolve Quilava at Level 36 while it holds a Hisui Rock",
+    "wikiPage": "https://unboundwiki.com/pokemon/hisuian-typhlosion/"
+  },
+  {
+    "speciesId": 1281,
+    "name": "Hisuian Voltorb",
+    "baseStats": {
+      "hp": 40,
+      "atk": 30,
+      "def": 50,
+      "spe": 100,
+      "spa": 55,
+      "spd": 55
+    },
+    "types": [
+      "Electric",
+      "Grass"
+    ],
+    "catchRate": 190,
+    "expYield": 103,
+    "evYield": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 1,
+      "spa": 0,
+      "spd": 0
+    },
+    "heldItem1Id": 0,
+    "heldItem1Name": null,
+    "heldItem2Id": 0,
+    "heldItem2Name": null,
+    "genderRatio": 255,
+    "eggCycles": 20,
+    "friendship": 50,
+    "growthRateToken": null,
+    "eggGroup1Token": null,
+    "eggGroup2Token": null,
+    "ability1Id": 43,
+    "ability1Name": "Soundproof",
+    "ability2Id": 9,
+    "ability2Name": "Static",
+    "hiddenAbilityId": 119,
+    "hiddenAbilityName": "Aftermath",
+    "safariFleeRate": 0,
+    "noFlip": true,
+    "sourceNationalDex": 100,
+    "source": {
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/hisuian-voltorb/"
+    },
+    "locations": [
+      "Unbound Cloud (Trade)"
+    ],
+    "locationSummary": "Unbound Cloud (Trade)",
+    "wikiPage": "https://unboundwiki.com/pokemon/hisuian-voltorb/"
+  },
+  {
+    "speciesId": 1282,
+    "name": "Hisuian Zoroark",
+    "baseStats": {
+      "hp": 55,
+      "atk": 100,
+      "def": 60,
+      "spe": 110,
+      "spa": 125,
+      "spd": 60
+    },
+    "types": [
+      "Normal",
+      "Ghost"
+    ],
+    "catchRate": 45,
+    "expYield": 179,
+    "evYield": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 0,
+      "spa": 2,
+      "spd": 0
+    },
+    "heldItem1Id": 0,
+    "heldItem1Name": null,
+    "heldItem2Id": 0,
+    "heldItem2Name": null,
+    "genderRatio": 31,
+    "eggCycles": 20,
+    "friendship": 50,
+    "growthRateToken": null,
+    "eggGroup1Token": null,
+    "eggGroup2Token": null,
+    "ability1Id": 227,
+    "ability1Name": "Illusion",
+    "ability2Id": 0,
+    "ability2Name": null,
+    "hiddenAbilityId": 0,
+    "hiddenAbilityName": null,
+    "safariFleeRate": 0,
+    "noFlip": true,
+    "sourceNationalDex": 571,
+    "source": {
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/hisuian-zoroark/"
+    },
+    "locations": [
+      "Post-Game Mystery Gift code: 6QW3ZY6EA1SQ",
+      "Evolve Hisuian Zorua at Level 30"
+    ],
+    "locationSummary": "Post-Game Mystery Gift code: 6QW3ZY6EA1SQ / Evolve Hisuian Zorua at Level 30",
+    "wikiPage": "https://unboundwiki.com/pokemon/hisuian-zoroark/"
+  },
+  {
+    "speciesId": 1283,
+    "name": "Hisuian Zorua",
+    "baseStats": {
+      "hp": 35,
+      "atk": 60,
+      "def": 40,
+      "spe": 70,
+      "spa": 85,
+      "spd": 40
+    },
+    "types": [
+      "Normal",
+      "Ghost"
+    ],
+    "catchRate": 75,
+    "expYield": 66,
+    "evYield": {
+      "hp": 0,
+      "atk": 0,
+      "def": 0,
+      "spe": 0,
+      "spa": 1,
+      "spd": 0
+    },
+    "heldItem1Id": 0,
+    "heldItem1Name": null,
+    "heldItem2Id": 0,
+    "heldItem2Name": null,
+    "genderRatio": 31,
+    "eggCycles": 25,
+    "friendship": 50,
+    "growthRateToken": null,
+    "eggGroup1Token": null,
+    "eggGroup2Token": null,
+    "ability1Id": 227,
+    "ability1Name": "Illusion",
+    "ability2Id": 0,
+    "ability2Name": null,
+    "hiddenAbilityId": 0,
+    "hiddenAbilityName": null,
+    "safariFleeRate": 0,
+    "noFlip": true,
+    "sourceNationalDex": 570,
+    "source": {
+      "kind": "merged-source",
+      "primary": "unboundwiki.com",
+      "fallback": "Skeli789 source repositories",
+      "wikiPage": "https://unboundwiki.com/pokemon/hisuian-zorua/"
+    },
+    "locations": [
+      "Breed a Hisuian Zoroark"
+    ],
+    "locationSummary": "Breed a Hisuian Zoroark",
+    "wikiPage": "https://unboundwiki.com/pokemon/hisuian-zorua/"
   }
 ]

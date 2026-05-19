@@ -920,7 +920,8 @@
   },
   {
     "abilityId": 185,
-    "name": "Surge Surfer"
+    "name": "Surge Surfer",
+    "effect": "Boosts Speed on Electric Terrain."
   },
   {
     "abilityId": 186,
@@ -1065,7 +1066,8 @@
   },
   {
     "abilityId": 215,
-    "name": "Gorilla Tactics"
+    "name": "Gorilla Tactics",
+    "effect": "Ups Attack, but allows one move."
   },
   {
     "abilityId": 216,
@@ -1084,7 +1086,8 @@
   },
   {
     "abilityId": 219,
-    "name": "Quick Draw"
+    "name": "Quick Draw",
+    "effect": "Sometimes moves quicker."
   },
   {
     "abilityId": 220,
@@ -1163,7 +1166,8 @@
   },
   {
     "abilityId": 235,
-    "name": "Odd Medicine"
+    "name": "Odd Medicine",
+    "effect": "Resets ally\u2019s stat changes."
   },
   {
     "abilityId": 236,
@@ -1172,7 +1176,8 @@
   },
   {
     "abilityId": 237,
-    "name": "Galvanize"
+    "name": "Galvanize",
+    "effect": "Normal moves become Electric."
   },
   {
     "abilityId": 238,
@@ -1246,7 +1251,8 @@
   },
   {
     "abilityId": 252,
-    "name": "Mimicry"
+    "name": "Mimicry",
+    "effect": "Changes type with terrain."
   },
   {
     "abilityId": 253,
@@ -1255,7 +1261,8 @@
   },
   {
     "abilityId": 254,
-    "name": "Pastel Veil"
+    "name": "Pastel Veil",
+    "effect": "Protects team from poison."
   },
   {
     "abilityId": 255,
