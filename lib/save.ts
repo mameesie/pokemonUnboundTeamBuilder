@@ -29,6 +29,9 @@ const PARTY_MON_MOVES_OFFSET = 0x2c;
 const PARTY_MON_NICKNAME_OFFSET = 0x08;
 const PARTY_MON_OTID_OFFSET = 0x04;
 const PARTY_MON_PERSONALITY_OFFSET = 0x00;
+const SAFE_BACKUP_PARTY_OFFSET = 0x458;
+const BOX_MON_SIZE = 80;
+const BOX_MON_SUBSTRUCT_OFFSET = 0x20;
 
 const COMPRESSED_SPECIES_OFFSET = 0x1c;
 const COMPRESSED_ITEM_OFFSET = 0x1e;
@@ -301,7 +304,12 @@ function parsePartyPokemon(saveBlock1: Uint8Array, partyCount: number) {
   for (let slotIndex = 0; slotIndex < PARTY_SIZE; slotIndex += 1) {
     const offset = PARTY_OFFSET + slotIndex * PARTY_MON_SIZE;
     const mon = saveBlock1.slice(offset, offset + PARTY_MON_SIZE);
-    const speciesId = readU16(mon, PARTY_MON_SPECIES_OFFSET);
+    const backupOffset = SAFE_BACKUP_PARTY_OFFSET + slotIndex * BOX_MON_SIZE;
+    const backupMon = saveBlock1.slice(backupOffset, backupOffset + BOX_MON_SIZE);
+    const fallback = decodeBoxMon(backupMon);
+    const liveSpeciesId = readU16(mon, PARTY_MON_SPECIES_OFFSET);
+    const liveMoveIds = readPartyMoveIds(mon);
+    const speciesId = liveSpeciesId || fallback.speciesId;
 
     if (speciesId === 0 || slotIndex >= partyCount) {
       continue;
@@ -309,10 +317,10 @@ function parsePartyPokemon(saveBlock1: Uint8Array, partyCount: number) {
 
     party.push({
       boxIndex: null,
-      heldItemId: readU16(mon, PARTY_MON_ITEM_OFFSET),
+      heldItemId: readU16(mon, PARTY_MON_ITEM_OFFSET) || fallback.heldItemId,
       isParty: true,
       level: mon[PARTY_MON_LEVEL_OFFSET] ?? 1,
-      moveIds: readPartyMoveIds(mon),
+      moveIds: liveMoveIds.length > 0 ? liveMoveIds : fallback.moveIds,
       nickname: decodePokemonText(mon.slice(PARTY_MON_NICKNAME_OFFSET, PARTY_MON_NICKNAME_OFFSET + 10)),
       nature: readNature(readU32(mon, PARTY_MON_PERSONALITY_OFFSET)),
       personality: readU32(mon, PARTY_MON_PERSONALITY_OFFSET),
@@ -388,6 +396,46 @@ function readPartyMoveIds(mon: Uint8Array) {
   }
 
   return moves;
+}
+
+function decodeBoxMon(mon: Uint8Array) {
+  if (mon.length < BOX_MON_SIZE) {
+    return {
+      heldItemId: 0,
+      moveIds: [] as number[],
+      speciesId: 0,
+    };
+  }
+
+  const personality = readU32(mon, COMPRESSED_PERSONALITY_OFFSET);
+  const trainerId = readU32(mon, COMPRESSED_OTID_OFFSET);
+  const key = personality ^ trainerId;
+  const order = BOX_SUBSTRUCT_ORDERS[personality % BOX_SUBSTRUCT_ORDERS.length];
+  const decryptedSubstructs = new Uint8Array(48);
+
+  for (let offset = 0; offset < decryptedSubstructs.length; offset += 4) {
+    const value = readU32(mon, BOX_MON_SUBSTRUCT_OFFSET + offset) ^ key;
+    writeU32(decryptedSubstructs, offset, value);
+  }
+
+  const growthOffset = order.indexOf(0) * 12;
+  const attacksOffset = order.indexOf(1) * 12;
+  const speciesId = readU16(decryptedSubstructs, growthOffset);
+  const heldItemId = readU16(decryptedSubstructs, growthOffset + 2);
+  const moveIds: number[] = [];
+
+  for (let index = 0; index < 4; index += 1) {
+    const moveId = readU16(decryptedSubstructs, attacksOffset + index * 2);
+    if (moveId > 0) {
+      moveIds.push(moveId);
+    }
+  }
+
+  return {
+    heldItemId,
+    moveIds,
+    speciesId,
+  };
 }
 
 function readCompressedMoveIds(mon: Uint8Array) {
@@ -494,6 +542,13 @@ function readU32(bytes: Uint8Array, offset: number) {
   ) >>> 0;
 }
 
+function writeU32(bytes: Uint8Array, offset: number, value: number) {
+  bytes[offset] = value & 0xff;
+  bytes[offset + 1] = (value >>> 8) & 0xff;
+  bytes[offset + 2] = (value >>> 16) & 0xff;
+  bytes[offset + 3] = (value >>> 24) & 0xff;
+}
+
 function clamp(value: number, min: number, max: number) {
   return Math.min(max, Math.max(min, value));
 }
@@ -510,3 +565,30 @@ const CHAR_MAP: Record<number, string> = {
   0xba: "/",
   0xf0: ":",
 };
+
+const BOX_SUBSTRUCT_ORDERS = [
+  [0, 1, 2, 3],
+  [0, 1, 3, 2],
+  [0, 2, 1, 3],
+  [0, 3, 1, 2],
+  [0, 2, 3, 1],
+  [0, 3, 2, 1],
+  [1, 0, 2, 3],
+  [1, 0, 3, 2],
+  [2, 0, 1, 3],
+  [3, 0, 1, 2],
+  [2, 0, 3, 1],
+  [3, 0, 2, 1],
+  [1, 2, 0, 3],
+  [1, 3, 0, 2],
+  [2, 1, 0, 3],
+  [3, 1, 0, 2],
+  [2, 3, 0, 1],
+  [3, 2, 0, 1],
+  [1, 2, 3, 0],
+  [1, 3, 2, 0],
+  [2, 1, 3, 0],
+  [3, 1, 2, 0],
+  [2, 3, 1, 0],
+  [3, 2, 1, 0],
+] as const;

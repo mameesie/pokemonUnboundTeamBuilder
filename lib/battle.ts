@@ -154,8 +154,13 @@ export function getTypeEffectiveness(
     return 1;
   }
 
+  const typeMatchups = TYPE_CHART[attackingType];
+  if (!typeMatchups) {
+    return 1;
+  }
+
   return defendingTypes.reduce((multiplier, defendingType) => {
-    return multiplier * (TYPE_CHART[attackingType][defendingType] ?? 1);
+    return multiplier * (typeMatchups[defendingType] ?? 1);
   }, 1);
 }
 
@@ -181,7 +186,7 @@ export function getMoveEffectivenessColor(multiplier: number) {
   }
 
   if (multiplier === 0) {
-    return "#111827";
+    return "#4b5563";
   }
 
   if (multiplier > 2) {

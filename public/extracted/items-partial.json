@@ -1,7 +1,19 @@
 [
   {
+    "itemId": 7,
+    "name": "random chance"
+  },
+  {
     "itemId": 13,
     "name": "Potion"
+  },
+  {
+    "itemId": 20,
+    "name": "when there is at least 1 empty space in the party and 1 available Pokeball"
+  },
+  {
+    "itemId": 21,
+    "name": "female only"
   },
   {
     "itemId": 24,
@@ -12,8 +24,28 @@
     "name": "Max Revive"
   },
   {
+    "itemId": 28,
+    "name": "Daytime"
+  },
+  {
     "itemId": 29,
     "name": "Moomoo Milk"
+  },
+  {
+    "itemId": 30,
+    "name": "East & West Sea forms"
+  },
+  {
+    "itemId": 32,
+    "name": "with a Dark-type in your party"
+  },
+  {
+    "itemId": 34,
+    "name": "Daytime"
+  },
+  {
+    "itemId": 39,
+    "name": "Night"
   },
   {
     "itemId": 44,
@@ -22,6 +54,14 @@
   {
     "itemId": 45,
     "name": "Sacred Ash"
+  },
+  {
+    "itemId": 50,
+    "name": "in Rain or Fog Weather"
+  },
+  {
+    "itemId": 53,
+    "name": "during night"
   },
   {
     "itemId": 55,
@@ -44,44 +84,12 @@
     "name": "Light Clay"
   },
   {
-    "itemId": 91,
-    "name": "Link Stone"
-  },
-  {
     "itemId": 93,
     "name": "Sun Stone"
   },
   {
     "itemId": 94,
     "name": "Moon Stone"
-  },
-  {
-    "itemId": 95,
-    "name": "Fire Stone"
-  },
-  {
-    "itemId": 96,
-    "name": "Thunder Stone"
-  },
-  {
-    "itemId": 97,
-    "name": "Water Stone"
-  },
-  {
-    "itemId": 98,
-    "name": "Leaf Stone"
-  },
-  {
-    "itemId": 99,
-    "name": "Dusk Stone"
-  },
-  {
-    "itemId": 100,
-    "name": "Dawn Stone"
-  },
-  {
-    "itemId": 101,
-    "name": "Shiny Stone"
   },
   {
     "itemId": 102,
@@ -94,10 +102,6 @@
   {
     "itemId": 104,
     "name": "Big Mushroom"
-  },
-  {
-    "itemId": 105,
-    "name": "Ice Stone"
   },
   {
     "itemId": 106,
@@ -124,24 +128,8 @@
     "name": "Heart Scale"
   },
   {
-    "itemId": 112,
-    "name": "Protector"
-  },
-  {
     "itemId": 113,
     "name": "Magmarizer"
-  },
-  {
-    "itemId": 115,
-    "name": "Prism Scale"
-  },
-  {
-    "itemId": 116,
-    "name": "Sachet"
-  },
-  {
-    "itemId": 117,
-    "name": "Whipped Dream"
   },
   {
     "itemId": 133,
@@ -332,14 +320,6 @@
     "name": "Razor Fang"
   },
   {
-    "itemId": 232,
-    "name": "Reaper Cloth"
-  },
-  {
-    "itemId": 233,
-    "name": "Dubious Disc"
-  },
-  {
     "itemId": 234,
     "name": "Electirizer"
   },
@@ -358,206 +338,6 @@
   {
     "itemId": 250,
     "name": "Big Root"
-  },
-  {
-    "itemId": 276,
-    "name": "Red Orb"
-  },
-  {
-    "itemId": 277,
-    "name": "Blue Orb"
-  },
-  {
-    "itemId": 445,
-    "name": "Ultranecrozium Z"
-  },
-  {
-    "itemId": 446,
-    "name": "Venusaurite"
-  },
-  {
-    "itemId": 447,
-    "name": "Charizardite X"
-  },
-  {
-    "itemId": 448,
-    "name": "Charizardite Y"
-  },
-  {
-    "itemId": 449,
-    "name": "Blastoisinite"
-  },
-  {
-    "itemId": 450,
-    "name": "Beedrillite"
-  },
-  {
-    "itemId": 451,
-    "name": "Pidgeotite"
-  },
-  {
-    "itemId": 452,
-    "name": "Alakazite"
-  },
-  {
-    "itemId": 453,
-    "name": "Slowbronite"
-  },
-  {
-    "itemId": 454,
-    "name": "Gengarite"
-  },
-  {
-    "itemId": 455,
-    "name": "Kangaskhanite"
-  },
-  {
-    "itemId": 456,
-    "name": "Pinsirite"
-  },
-  {
-    "itemId": 457,
-    "name": "Gyaradosite"
-  },
-  {
-    "itemId": 458,
-    "name": "Aerodactylite"
-  },
-  {
-    "itemId": 459,
-    "name": "Mewtwonite X"
-  },
-  {
-    "itemId": 460,
-    "name": "Mewtwonite Y"
-  },
-  {
-    "itemId": 461,
-    "name": "Ampharosite"
-  },
-  {
-    "itemId": 462,
-    "name": "Steelixite"
-  },
-  {
-    "itemId": 463,
-    "name": "Scizorite"
-  },
-  {
-    "itemId": 464,
-    "name": "Heracronite"
-  },
-  {
-    "itemId": 465,
-    "name": "Houndoominite"
-  },
-  {
-    "itemId": 466,
-    "name": "Tyranitarite"
-  },
-  {
-    "itemId": 467,
-    "name": "Sceptilite"
-  },
-  {
-    "itemId": 468,
-    "name": "Blazikenite"
-  },
-  {
-    "itemId": 469,
-    "name": "Swampertite"
-  },
-  {
-    "itemId": 470,
-    "name": "Gardevoirite"
-  },
-  {
-    "itemId": 471,
-    "name": "Sablenite"
-  },
-  {
-    "itemId": 472,
-    "name": "Mawilite"
-  },
-  {
-    "itemId": 473,
-    "name": "Aggronite"
-  },
-  {
-    "itemId": 474,
-    "name": "Medichamite"
-  },
-  {
-    "itemId": 475,
-    "name": "Manectite"
-  },
-  {
-    "itemId": 476,
-    "name": "Sharpedonite"
-  },
-  {
-    "itemId": 477,
-    "name": "Cameruptite"
-  },
-  {
-    "itemId": 478,
-    "name": "Altarianite"
-  },
-  {
-    "itemId": 479,
-    "name": "Banettite"
-  },
-  {
-    "itemId": 480,
-    "name": "Absolite"
-  },
-  {
-    "itemId": 481,
-    "name": "Glalitite"
-  },
-  {
-    "itemId": 482,
-    "name": "Salamencite"
-  },
-  {
-    "itemId": 483,
-    "name": "Metagrossite"
-  },
-  {
-    "itemId": 484,
-    "name": "Latiasite"
-  },
-  {
-    "itemId": 485,
-    "name": "Latiosite"
-  },
-  {
-    "itemId": 486,
-    "name": "Lopunnite"
-  },
-  {
-    "itemId": 487,
-    "name": "Garchompite"
-  },
-  {
-    "itemId": 488,
-    "name": "Lucarionite"
-  },
-  {
-    "itemId": 489,
-    "name": "Abomasite"
-  },
-  {
-    "itemId": 490,
-    "name": "Galladite"
-  },
-  {
-    "itemId": 491,
-    "name": "Audinite"
-  },
-  {
-    "itemId": 492,
-    "name": "Diancite"
   },
   {
     "itemId": 539,
@@ -686,57 +466,5 @@
   {
     "itemId": 615,
     "name": "Pretty Wing"
-  },
-  {
-    "itemId": 712,
-    "name": "Sweet Apple"
-  },
-  {
-    "itemId": 713,
-    "name": "Tart Apple"
-  },
-  {
-    "itemId": 714,
-    "name": "Cracked Pot"
-  },
-  {
-    "itemId": 715,
-    "name": "Chipped Pot"
-  },
-  {
-    "itemId": 716,
-    "name": "Strawberry Sweet"
-  },
-  {
-    "itemId": 717,
-    "name": "Berry Sweet"
-  },
-  {
-    "itemId": 718,
-    "name": "Love Sweet"
-  },
-  {
-    "itemId": 719,
-    "name": "Clover Sweet"
-  },
-  {
-    "itemId": 720,
-    "name": "Flower Sweet"
-  },
-  {
-    "itemId": 721,
-    "name": "Ribbon Sweet"
-  },
-  {
-    "itemId": 722,
-    "name": "Star Sweet"
-  },
-  {
-    "itemId": 723,
-    "name": "Galarica Cuff"
-  },
-  {
-    "itemId": 724,
-    "name": "Galarica Wreath"
   }
 ]

@@ -22,6 +22,18 @@ type ExtractedSpeciesRecord = {
   name: string;
   baseStats: Stats;
   types: PokemonType[];
+  ability1Id: number;
+  ability1Name: string | null;
+  ability2Id: number;
+  ability2Name: string | null;
+  hiddenAbilityId: number;
+  hiddenAbilityName: string | null;
+};
+
+type ExtractedAbilityRecord = {
+  abilityId: number;
+  effect?: string | null;
+  name: string;
 };
 
 type ExtractedMoveRecord = {
@@ -118,6 +130,13 @@ type CandidateMove = LearnableMove & {
   detailLabel: string;
 };
 
+type CandidateAbility = {
+  effect: string | null;
+  name: string;
+  slotLabel: string;
+  url: string;
+};
+
 type RosterCandidate = {
   currentMoves: Move[];
   currentMoveSummary: string;
@@ -130,6 +149,7 @@ type RosterCandidate = {
   locationLabel: string;
   methodLabel: string | null;
   nature: string;
+  possibleAbilities: CandidateAbility[];
   speciesId: number;
   speciesName: string;
   stats: Stats;
@@ -139,6 +159,7 @@ type RosterCandidate = {
 type CompareSlotId = "left" | "right";
 
 type LoadedDatasets = {
+  abilities: ExtractedAbilityRecord[];
   combinedLearnsets: ExtractedCombinedLearnset[];
   evolutions: ExtractedEvolutionRecord[];
   gymLeaders: ScrapedGymLeaderSet;
@@ -156,8 +177,7 @@ const EMPTY_STATS: Stats = {
   spe: 0,
 };
 
-const TYPE_OPTIONS: Array<PokemonType | "All"> = [
-  "All",
+const TYPE_OPTIONS: PokemonType[] = [
   "Normal",
   "Fire",
   "Water",
@@ -178,6 +198,8 @@ const TYPE_OPTIONS: Array<PokemonType | "All"> = [
   "Fairy",
 ];
 
+const INCOMING_DAMAGE_MULTIPLIERS = [4, 2, 1, 0.5, 0.25, 0] as const;
+
 function toMoveCategory(
   category: "Physical" | "Special" | "Status",
 ): MoveCategory {
@@ -190,6 +212,197 @@ function toMoveCategory(
   }
 
   return "status";
+}
+
+function toAbilitySlug(name: string) {
+  return name
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function buildAbilityUrl(name: string) {
+  return `https://pokemondb.net/ability/${toAbilitySlug(name)}`;
+}
+
+function buildMoveUrl(name: string) {
+  return `https://pokemondb.net/move/${toAbilitySlug(name)}`;
+}
+
+function buildItemUrl(name: string) {
+  return `https://pokemondb.net/item/${toAbilitySlug(name)}`;
+}
+
+function normalizeMoveName(name: string) {
+  return name
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "");
+}
+
+function normalizeAbilityToken(token: string) {
+  return token
+    .replace(/^(ABILITY_|DESC_)/, "")
+    .replace(/[^A-Za-z0-9]/g, "")
+    .toUpperCase();
+}
+
+function cleanAbilityDescription(text: string) {
+  return text.replaceAll('\\"', '"').replaceAll("\\", "").trim();
+}
+
+function parseAbilityDescriptionText(source: string) {
+  const enabledDefines = new Set(["UNBOUND"]);
+  const descriptions = new Map<string, string>();
+  const conditionalStack: boolean[] = [];
+  let currentLabel: string | null = null;
+  let currentLines: string[] = [];
+
+  function isActive() {
+    return conditionalStack.every(Boolean);
+  }
+
+  function flushCurrentLabel() {
+    if (!currentLabel) {
+      return;
+    }
+
+    const text = cleanAbilityDescription(currentLines.join(" ").trim());
+    if (text.length > 0) {
+      descriptions.set(currentLabel, text);
+    }
+  }
+
+  for (const rawLine of source.split("\n")) {
+    const line = rawLine.trim();
+
+    if (line.startsWith("#org @DESC_")) {
+      flushCurrentLabel();
+      currentLabel = line.slice("#org @".length).trim();
+      currentLines = [];
+      continue;
+    }
+
+    if (line.startsWith("#ifdef ")) {
+      conditionalStack.push(enabledDefines.has(line.slice("#ifdef ".length)));
+      continue;
+    }
+
+    if (line.startsWith("#ifndef ")) {
+      conditionalStack.push(!enabledDefines.has(line.slice("#ifndef ".length)));
+      continue;
+    }
+
+    if (line === "#else") {
+      const currentState = conditionalStack.pop() ?? true;
+      conditionalStack.push(!currentState);
+      continue;
+    }
+
+    if (line === "#endif") {
+      conditionalStack.pop();
+      continue;
+    }
+
+    if (!currentLabel || !isActive()) {
+      continue;
+    }
+
+    if (line.length === 0 || line.startsWith("#")) {
+      continue;
+    }
+
+    currentLines.push(line);
+  }
+
+  flushCurrentLabel();
+
+  return descriptions;
+}
+
+function buildAbilityEffectsById(
+  abilities: ExtractedAbilityRecord[],
+  abilityDescriptionTableSource: string,
+  abilityDescriptionsSource: string,
+) {
+  const descriptionsByLabel = parseAbilityDescriptionText(
+    abilityDescriptionsSource,
+  );
+  const effectsById: Record<number, string | null> = {};
+
+  for (const line of abilityDescriptionTableSource.split("\n")) {
+    const match = line.match(
+      /\.word\s+([A-Za-z0-9_]+)\s+@ABILITY_([A-Z0-9_]+)/,
+    );
+
+    if (!match) {
+      continue;
+    }
+
+    const [, descriptionToken, abilityToken] = match;
+    const normalizedAbilityToken = normalizeAbilityToken(
+      `ABILITY_${abilityToken}`,
+    );
+    const ability = abilities.find(
+      (entry) =>
+        normalizeAbilityToken(entry.name.toUpperCase().replaceAll(" ", "_")) ===
+        normalizedAbilityToken,
+    );
+
+    if (!ability) {
+      continue;
+    }
+
+    effectsById[ability.abilityId] = descriptionToken.startsWith("DESC_")
+      ? (descriptionsByLabel.get(descriptionToken) ?? null)
+      : null;
+  }
+
+  return effectsById;
+}
+
+function buildPossibleAbilities(
+  species: ExtractedSpeciesRecord,
+  abilityEffectsById: Record<number, string | null>,
+) {
+  const abilities = [
+    {
+      abilityId: species.ability1Id,
+      name: species.ability1Name,
+      slotLabel: "Primary",
+    },
+    {
+      abilityId: species.ability2Id,
+      name: species.ability2Name,
+      slotLabel: "Secondary",
+    },
+    {
+      abilityId: species.hiddenAbilityId,
+      name: species.hiddenAbilityName,
+      slotLabel: "Hidden",
+    },
+  ]
+    .filter(
+      (
+        ability,
+      ): ability is { abilityId: number; name: string; slotLabel: string } =>
+        ability.abilityId > 0 && Boolean(ability.name),
+    )
+    .filter(
+      (ability, index, array) =>
+        array.findIndex(
+          (candidate) => candidate.abilityId === ability.abilityId,
+        ) === index,
+    )
+    .map((ability) => ({
+      effect: abilityEffectsById[ability.abilityId] ?? null,
+      name: ability.name,
+      slotLabel: ability.slotLabel,
+      url: buildAbilityUrl(ability.name),
+    }));
+
+  return abilities satisfies CandidateAbility[];
 }
 
 function formatMoveSource(move: ExtractedCombinedLearnset["moves"][number]) {
@@ -208,6 +421,120 @@ function formatMoveSource(move: ExtractedCombinedLearnset["moves"][number]) {
   return "Egg";
 }
 
+function formatInheritedLevelUpSource(
+  move: ExtractedCombinedLearnset["moves"][number],
+  speciesName: string,
+) {
+  return `${formatMoveSource(move)} (${speciesName})`;
+}
+
+function getCombinedLearnsetForSpecies(
+  speciesId: number,
+  combinedLearnsetBySpeciesId: Record<number, ExtractedCombinedLearnset>,
+  combinedLearnsetBySpeciesName: Record<string, ExtractedCombinedLearnset>,
+  speciesById: Record<number, ExtractedSpeciesRecord>,
+) {
+  const exactLearnset = combinedLearnsetBySpeciesId[speciesId];
+  if (exactLearnset) {
+    return exactLearnset;
+  }
+
+  const speciesName = speciesById[speciesId]?.name;
+  if (!speciesName) {
+    return null;
+  }
+
+  return combinedLearnsetBySpeciesName[speciesName] ?? null;
+}
+
+function buildCandidateLearnset(
+  speciesId: number,
+  combinedLearnsetBySpeciesId: Record<number, ExtractedCombinedLearnset>,
+  combinedLearnsetBySpeciesName: Record<string, ExtractedCombinedLearnset>,
+  moveById: Record<number, ExtractedMoveRecord>,
+  speciesById: Record<number, ExtractedSpeciesRecord>,
+  preEvolutionIdsBySpeciesId: Record<number, number[]>,
+) {
+  const learnset: CandidateMove[] = [];
+  const seenMoveIds = new Set<number>();
+
+  const ownMoves =
+    getCombinedLearnsetForSpecies(
+      speciesId,
+      combinedLearnsetBySpeciesId,
+      combinedLearnsetBySpeciesName,
+      speciesById,
+    )?.moves ?? [];
+  for (const move of ownMoves) {
+    const extractedMove = moveById[move.moveId];
+    if (!extractedMove) {
+      continue;
+    }
+
+    learnset.push({
+      category: extractedMove.categoryName,
+      detailLabel: formatMoveSource(move),
+      name: extractedMove.name,
+      power: extractedMove.power,
+      source: move.source,
+      type: extractedMove.typeName,
+    });
+    seenMoveIds.add(move.moveId);
+  }
+
+  const queue = [...(preEvolutionIdsBySpeciesId[speciesId] ?? [])];
+  const visited = new Set<number>(queue);
+
+  while (queue.length > 0) {
+    const ancestorSpeciesId = queue.shift();
+    if (ancestorSpeciesId === undefined) {
+      continue;
+    }
+
+    const ancestorSpecies = speciesById[ancestorSpeciesId];
+    const ancestorMoves =
+      getCombinedLearnsetForSpecies(
+        ancestorSpeciesId,
+        combinedLearnsetBySpeciesId,
+        combinedLearnsetBySpeciesName,
+        speciesById,
+      )?.moves ?? [];
+
+    for (const move of ancestorMoves) {
+      if (move.source !== "level-up" || seenMoveIds.has(move.moveId)) {
+        continue;
+      }
+
+      const extractedMove = moveById[move.moveId];
+      if (!extractedMove || !ancestorSpecies) {
+        continue;
+      }
+
+      learnset.push({
+        category: extractedMove.categoryName,
+        detailLabel: formatInheritedLevelUpSource(move, ancestorSpecies.name),
+        name: extractedMove.name,
+        power: extractedMove.power,
+        source: move.source,
+        type: extractedMove.typeName,
+      });
+      seenMoveIds.add(move.moveId);
+    }
+
+    for (const nextAncestorId of preEvolutionIdsBySpeciesId[ancestorSpeciesId] ??
+      []) {
+      if (visited.has(nextAncestorId)) {
+        continue;
+      }
+
+      visited.add(nextAncestorId);
+      queue.push(nextAncestorId);
+    }
+  }
+
+  return learnset;
+}
+
 function moveMatchesFilter(
   move: Pick<LearnableMove, "type">,
   defendingTypes: PokemonType[],
@@ -223,7 +550,7 @@ function moveMatchesFilter(
     return multiplier === 1;
   }
 
-  return multiplier > 0 && multiplier <= 0.5;
+  return multiplier <= 0.5;
 }
 
 function canShowEvolutionUnderCap(
@@ -438,7 +765,7 @@ function StatBlock({ stats }: { stats: Stats }) {
                 <span className="w-8 shrink-0 text-right font-mono font-bold text-slate-800">
                   {value}
                 </span>
-                <div className="h-2 flex-1 overflow-hidden rounded-full bg-slate-200 shadow-inner">
+                <div className="h-2 flex-1 overflow-hidden rounded-full bg-slate-200">
                   <div
                     className={`h-full rounded-full ${getStatBarColor(value)}`}
                     style={{ width }}
@@ -461,7 +788,12 @@ export function PokemonPlannerApp() {
   const [saveData, setSaveData] = useState<ParsedSaveFile | null>(null);
   const [search, setSearch] = useState("");
   const deferredSearch = useDeferredValue(search);
-  const [typeFilter, setTypeFilter] = useState<PokemonType | "All">("All");
+  const [typeFilters, setTypeFilters] = useState<PokemonType[]>([]);
+  const [incomingDamageFilters, setIncomingDamageFilters] = useState<number[]>(
+    [],
+  );
+  const [onlyIncludeSelectedTypes, setOnlyIncludeSelectedTypes] =
+    useState(false);
   const [showEvolutions, setShowEvolutions] = useState(true);
   const [selectedGymLeader, setSelectedGymLeader] = useState("");
   const [selectedDifficulty, setSelectedDifficulty] = useState("");
@@ -481,6 +813,9 @@ export function PokemonPlannerApp() {
     async function load() {
       try {
         const [
+          abilitiesResponse,
+          abilityDescriptionTableResponse,
+          abilityDescriptionsResponse,
           speciesResponse,
           movesResponse,
           learnsetsResponse,
@@ -488,6 +823,11 @@ export function PokemonPlannerApp() {
           gymsResponse,
           itemsResponse,
         ] = await Promise.all([
+          fetch("/extracted/abilities.json"),
+          fetch(
+            "/Complete-Fire-Red-Upgrade/assembly/data/ability_description_table.s",
+          ),
+          fetch("/Complete-Fire-Red-Upgrade/strings/ability_descriptions.string"),
           fetch("/extracted/species.json"),
           fetch("/extracted/moves.json"),
           fetch("/extracted/learnsets-combined.json"),
@@ -496,7 +836,18 @@ export function PokemonPlannerApp() {
           fetch("/extracted/items-partial.json"),
         ]);
 
+        const abilities = (await abilitiesResponse.json()) as ExtractedAbilityRecord[];
+        const abilityEffectsById = buildAbilityEffectsById(
+          abilities,
+          await abilityDescriptionTableResponse.text(),
+          await abilityDescriptionsResponse.text(),
+        );
+
         const nextDatasets: LoadedDatasets = {
+          abilities: abilities.map((ability) => ({
+            ...ability,
+            effect: abilityEffectsById[ability.abilityId] ?? null,
+          })),
           combinedLearnsets:
             (await learnsetsResponse.json()) as ExtractedCombinedLearnset[],
           evolutions:
@@ -540,6 +891,17 @@ export function PokemonPlannerApp() {
     [datasets],
   );
 
+  const abilityEffectById = useMemo(
+    () =>
+      Object.fromEntries(
+        (datasets?.abilities ?? []).map((ability) => [
+          ability.abilityId,
+          ability.effect ?? null,
+        ]),
+      ) as Record<number, string | null>,
+    [datasets],
+  );
+
   const speciesByName = useMemo(
     () =>
       Object.fromEntries(
@@ -564,6 +926,17 @@ export function PokemonPlannerApp() {
     [datasets],
   );
 
+  const moveByNormalizedName = useMemo(
+    () =>
+      Object.fromEntries(
+        (datasets?.moves ?? []).map((move) => [
+          normalizeMoveName(move.name),
+          move,
+        ]),
+      ) as Record<string, ExtractedMoveRecord>,
+    [datasets],
+  );
+
   const combinedLearnsetBySpeciesId = useMemo(
     () =>
       Object.fromEntries(
@@ -572,6 +945,17 @@ export function PokemonPlannerApp() {
           learnset,
         ]),
       ) as Record<number, ExtractedCombinedLearnset>,
+    [datasets],
+  );
+
+  const combinedLearnsetBySpeciesName = useMemo(
+    () =>
+      Object.fromEntries(
+        (datasets?.combinedLearnsets ?? []).map((learnset) => [
+          learnset.speciesName,
+          learnset,
+        ]),
+      ) as Record<string, ExtractedCombinedLearnset>,
     [datasets],
   );
 
@@ -585,6 +969,26 @@ export function PokemonPlannerApp() {
       ) as Record<number, ExtractedEvolutionRecord>,
     [datasets],
   );
+
+  const preEvolutionIdsBySpeciesId = useMemo(() => {
+    const entries: Array<[number, number[]]> = [];
+    const parentsBySpeciesId = new Map<number, Set<number>>();
+
+    for (const evolutionRecord of datasets?.evolutions ?? []) {
+      for (const evolution of evolutionRecord.evolutions) {
+        const parentIds =
+          parentsBySpeciesId.get(evolution.targetSpeciesId) ?? new Set<number>();
+        parentIds.add(evolutionRecord.speciesId);
+        parentsBySpeciesId.set(evolution.targetSpeciesId, parentIds);
+      }
+    }
+
+    for (const [speciesId, parentIds] of parentsBySpeciesId.entries()) {
+      entries.push([speciesId, [...parentIds]]);
+    }
+
+    return Object.fromEntries(entries) as Record<number, number[]>;
+  }, [datasets]);
 
   const itemById = useMemo(
     () =>
@@ -627,7 +1031,9 @@ export function PokemonPlannerApp() {
             id: `${selectedGym.leader}-${selectedGymDifficulty.difficulty}-${index}`,
             level: pokemon.level ?? 1,
             moveSummaries: pokemon.moves.map((move) => {
-              const extractedMove = moveByName[move.name];
+              const extractedMove =
+                moveByName[move.name] ??
+                moveByNormalizedName[normalizeMoveName(move.name)];
               return {
                 category:
                   extractedMove?.categoryName ?? toMoveCategory(move.category),
@@ -674,24 +1080,14 @@ export function PokemonPlannerApp() {
         continue;
       }
 
-      const learnset =
-        combinedLearnsetBySpeciesId[pokemon.speciesId]?.moves
-          .map((move) => {
-            const extractedMove = moveById[move.moveId];
-            if (!extractedMove) {
-              return null;
-            }
-
-            return {
-              category: extractedMove.categoryName,
-              detailLabel: formatMoveSource(move),
-              name: extractedMove.name,
-              power: extractedMove.power,
-              source: move.source,
-              type: extractedMove.typeName,
-            } satisfies CandidateMove;
-          })
-          .filter((move): move is CandidateMove => move !== null) ?? [];
+      const learnset = buildCandidateLearnset(
+        pokemon.speciesId,
+        combinedLearnsetBySpeciesId,
+        combinedLearnsetBySpeciesName,
+        moveById,
+        speciesById,
+        preEvolutionIdsBySpeciesId,
+      );
 
       const currentMoves = pokemon.moveIds
         .map((moveId) => moveById[moveId])
@@ -721,6 +1117,7 @@ export function PokemonPlannerApp() {
           : `Box ${(pokemon.boxIndex ?? 0) + 1}, Slot ${pokemon.slotIndex + 1}`,
         methodLabel: null,
         nature: pokemon.nature,
+        possibleAbilities: buildPossibleAbilities(species, abilityEffectById),
         speciesId: pokemon.speciesId,
         speciesName: species.name,
         stats: species.baseStats,
@@ -729,7 +1126,16 @@ export function PokemonPlannerApp() {
     }
 
     return roster;
-  }, [combinedLearnsetBySpeciesId, itemById, moveById, saveData, speciesById]);
+  }, [
+    abilityEffectById,
+    combinedLearnsetBySpeciesId,
+    combinedLearnsetBySpeciesName,
+    itemById,
+    moveById,
+    preEvolutionIdsBySpeciesId,
+    saveData,
+    speciesById,
+  ]);
 
   const searchCandidates = useMemo(() => {
     const candidates: RosterCandidate[] = [...baseRoster];
@@ -754,24 +1160,14 @@ export function PokemonPlannerApp() {
           continue;
         }
 
-        const evolvedLearnset =
-          combinedLearnsetBySpeciesId[evolution.targetSpeciesId]?.moves
-            .map((move) => {
-              const extractedMove = moveById[move.moveId];
-              if (!extractedMove) {
-                return null;
-              }
-
-              return {
-                category: extractedMove.categoryName,
-                detailLabel: formatMoveSource(move),
-                name: extractedMove.name,
-                power: extractedMove.power,
-                source: move.source,
-                type: extractedMove.typeName,
-              } satisfies CandidateMove;
-            })
-            .filter((move): move is CandidateMove => move !== null) ?? [];
+        const evolvedLearnset = buildCandidateLearnset(
+          evolution.targetSpeciesId,
+          combinedLearnsetBySpeciesId,
+          combinedLearnsetBySpeciesName,
+          moveById,
+          speciesById,
+          preEvolutionIdsBySpeciesId,
+        );
 
         candidates.push({
           ...candidate,
@@ -779,6 +1175,10 @@ export function PokemonPlannerApp() {
           key: `${candidate.key}:evo:${evolution.targetSpeciesId}:${evolution.method}:${evolution.param ?? "na"}`,
           learnset: evolvedLearnset,
           methodLabel: formatEvolutionMethod(evolution),
+          possibleAbilities: buildPossibleAbilities(
+            evolvedSpecies,
+            abilityEffectById,
+          ),
           speciesId: evolvedSpecies.speciesId,
           speciesName: evolvedSpecies.name,
           stats: evolvedSpecies.baseStats,
@@ -789,32 +1189,55 @@ export function PokemonPlannerApp() {
 
     return candidates;
   }, [
+    abilityEffectById,
     baseRoster,
     combinedLearnsetBySpeciesId,
+    combinedLearnsetBySpeciesName,
     evolutionsBySpeciesId,
     levelCap,
     moveById,
+    preEvolutionIdsBySpeciesId,
     showEvolutions,
     speciesById,
   ]);
 
+  const selectedEnemy =
+    gymTeam.find((pokemon) => pokemon.id === selectedEnemyId) ??
+    gymTeam[0] ??
+    null;
+
   const normalizedSearch = deferredSearch.trim().toLowerCase();
-  const filteredCandidates = useMemo(
-    () =>
-      searchCandidates.filter((candidate) => {
-        const matchesSearch =
-          normalizedSearch.length === 0 ||
-          candidate.displayName.toLowerCase().includes(normalizedSearch) ||
-          candidate.speciesName.toLowerCase().includes(normalizedSearch) ||
-          candidate.types.some((type) =>
-            type.toLowerCase().includes(normalizedSearch),
-          );
-        const matchesType =
-          typeFilter === "All" || candidate.types.includes(typeFilter);
-        return matchesSearch && matchesType;
-      }),
-    [normalizedSearch, searchCandidates, typeFilter],
-  );
+  const filteredCandidates = searchCandidates.filter((candidate) => {
+    const matchesSearch =
+      normalizedSearch.length === 0 ||
+      candidate.displayName.toLowerCase().includes(normalizedSearch) ||
+      candidate.speciesName.toLowerCase().includes(normalizedSearch) ||
+      candidate.types.some((type) =>
+        type.toLowerCase().includes(normalizedSearch),
+      ) ||
+      candidate.possibleAbilities.some(
+        (ability) =>
+          ability.name.toLowerCase().includes(normalizedSearch) ||
+          (ability.effect?.toLowerCase().includes(normalizedSearch) ?? false),
+      );
+    const matchesType =
+      typeFilters.length === 0 ||
+      (onlyIncludeSelectedTypes
+        ? candidate.types.every((type) => typeFilters.includes(type)) &&
+          typeFilters.every((type) => candidate.types.includes(type))
+        : typeFilters.some((type) => candidate.types.includes(type)));
+    const matchesIncomingDamage =
+      incomingDamageFilters.length === 0 ||
+      !selectedEnemy ||
+      selectedEnemy.moveSummaries
+        .filter((move) => move.category !== "status")
+        .every((move) =>
+          incomingDamageFilters.includes(
+            getTypeEffectiveness(move.type, candidate.types),
+          ),
+        );
+    return matchesSearch && matchesType && matchesIncomingDamage;
+  });
 
   const candidateByKey = useMemo(
     () =>
@@ -832,10 +1255,6 @@ export function PokemonPlannerApp() {
     rightCandidateKey && candidateByKey[rightCandidateKey]
       ? rightCandidateKey
       : (baseRoster[1]?.key ?? baseRoster[0]?.key ?? null);
-  const selectedEnemy =
-    gymTeam.find((pokemon) => pokemon.id === selectedEnemyId) ??
-    gymTeam[0] ??
-    null;
   const leftCandidate =
     (effectiveLeftCandidateKey
       ? candidateByKey[effectiveLeftCandidateKey]
@@ -870,6 +1289,24 @@ export function PokemonPlannerApp() {
     }
   }
 
+  function toggleTypeFilter(type: PokemonType) {
+    setTypeFilters((currentFilters) =>
+      currentFilters.includes(type)
+        ? currentFilters.filter((currentType) => currentType !== type)
+        : [...currentFilters, type],
+    );
+  }
+
+  function toggleIncomingDamageFilter(multiplier: number) {
+    setIncomingDamageFilters((currentFilters) =>
+      currentFilters.includes(multiplier)
+        ? currentFilters.filter(
+            (currentMultiplier) => currentMultiplier !== multiplier,
+          )
+        : [...currentFilters, multiplier],
+    );
+  }
+
   function assignCandidate(slot: CompareSlotId, candidateKey: string) {
     if (slot === "left") {
       setLeftCandidateKey(candidateKey);
@@ -883,7 +1320,7 @@ export function PokemonPlannerApp() {
 
   return (
     <main className="mx-auto w-[min(1440px,calc(100vw-32px))] px-0 pb-12 pt-8 max-md:w-[min(100vw-20px,1440px)] max-md:pt-5">
-      <section className="rounded-[28px] border border-white/10 bg-[linear-gradient(135deg,rgba(16,39,52,0.95),rgba(31,122,92,0.88))] p-8 text-slate-50 shadow-[0_24px_60px_rgba(38,43,53,0.12)] max-md:rounded-[20px] max-md:p-5">
+      <section className="rounded-[28px] border border-[rgba(17,24,39,0.08)] bg-[#1d4f48] p-8 text-slate-50 shadow-sm max-md:rounded-[20px] max-md:p-5">
         <p className="mb-2 text-[0.72rem] font-bold uppercase tracking-[0.18em] text-[var(--accent)]">
           Pokemon Unbound Save Reader
         </p>
@@ -902,7 +1339,7 @@ export function PokemonPlannerApp() {
       ) : null}
 
       <section className="flex flex-col ">
-        <article className=" border border-[rgba(29,35,48,0.12)] bg-[rgba(255,252,245,0.84)]  shadow-[0_24px_60px_rgba(38,43,53,0.12)] backdrop-blur-[14px] max-md:rounded-[20px] max-md:p-5">
+        <article className="border border-[rgba(29,35,48,0.12)] bg-[#fffaf2] shadow-sm max-md:rounded-[20px] max-md:p-5">
           <div className=" flex items-start justify-between gap-4">
             <div className="flex flex-row ">
               <p className="text-[16px] font-bold tracking-[-0.04em]">
@@ -971,7 +1408,7 @@ export function PokemonPlannerApp() {
                             src={getSpriteUrl(pokemon) ?? undefined}
                           />
                         ) : (
-                          <div className="flex h-16 w-16 items-center justify-center border border-[rgba(31,122,92,0.16)] bg-[linear-gradient(135deg,rgba(31,122,92,0.16),rgba(226,170,61,0.3))] text-[1.15rem] font-extrabold text-[var(--accent-strong)]">
+                          <div className="flex h-16 w-16 items-center justify-center border border-[rgba(31,122,92,0.16)] bg-[rgba(31,122,92,0.12)] text-[1.15rem] font-extrabold text-[var(--accent-strong)]">
                             {getPortraitLabel(pokemon.name)}
                           </div>
                         )}
@@ -979,10 +1416,10 @@ export function PokemonPlannerApp() {
                       <div className="flex flex-col  bg-white/30">
                         <div className="text-center">
                           <div className="flex flex-wrap justify-center ">
-                            {pokemon.types.map((type) => (
+                            {pokemon.types.map((type, index) => (
                               <span
                                 className="min-w-16 rounded px-2 py-1 text-center text-[0.8rem] font-bold text-white"
-                                key={`${pokemon.id}:${type}`}
+                                key={`${pokemon.id}:${type}:${index}`}
                                 style={{ background: getTypeColor(type) }}
                               >
                                 {type}
@@ -994,7 +1431,18 @@ export function PokemonPlannerApp() {
                         <div className="relative group">
                           {/* Trigger */}
                           <div className="rounded-xl bg-white/80 p-1 text-[0.8rem] text-center text-[#111827]">
-                            {pokemon.ability ?? "Unknown ability"}
+                            {pokemon.ability ? (
+                              <a
+                                className="underline underline-offset-2"
+                                href={buildAbilityUrl(pokemon.ability)}
+                                rel="noreferrer"
+                                target="_blank"
+                              >
+                                {pokemon.ability}
+                              </a>
+                            ) : (
+                              "Unknown ability"
+                            )}
                           </div>
 
                           {/* Tooltip shown on hover */}
@@ -1006,7 +1454,18 @@ export function PokemonPlannerApp() {
                           <div className="relative group">
                             {/* Trigger */}
                             <div className="text-[0.8rem]">
-                              {pokemon.heldItem ?? "None"}
+                              {pokemon.heldItem ? (
+                                <a
+                                  className="underline underline-offset-2"
+                                  href={buildItemUrl(pokemon.heldItem)}
+                                  rel="noreferrer"
+                                  target="_blank"
+                                >
+                                  {pokemon.heldItem}
+                                </a>
+                              ) : (
+                                "None"
+                              )}
                             </div>
 
                             {/* Tooltip shown on hover */}
@@ -1045,34 +1504,44 @@ export function PokemonPlannerApp() {
                               background: getMoveEffectivenessColor(multiplier),
                             }}
                           >
-                            <div className="flex justify-between w-full items-center text-center font-bold text-[0.8rem] text-[#111827]">
-                              {move.name}
-                            </div>
-                            <div className="flex">
-                              <div className="flex gap-0">
-                                <span
-                                  className="rounded w-full px-1.5 py-1 text-center text-[0.72rem] font-bold text-white"
-                                  style={{
-                                    background: getTypeColor(move.type),
-                                  }}
-                                >
-                                  {move.type}
-                                </span>
-                                <span
-                                  className="rounded px-1.5 py-1 text-center text-[0.72rem] font-bold capitalize text-white"
-                                  style={{
-                                    background: getCategoryColor(move.category),
-                                  }}
-                                >
-                                  {move.category === "physical"
-                                    ? "phy"
-                                    : move.category === "special"
-                                      ? "spe"
-                                      : "sta"}
-                                </span>
-                              </div>
-                              <div className="text-center text-[0.78rem] w-[25px] font-bold text-black]">
-                                {formatMultiplier(multiplier)}
+                            <div className="flex w-full items-center justify-between gap-2">
+                              <a
+                                className="flex-1 text-center text-[0.8rem] font-bold text-[#111827] underline underline-offset-2"
+                                href={buildMoveUrl(move.name)}
+                                rel="noreferrer"
+                                target="_blank"
+                              >
+                                {move.name}
+                              </a>
+                              <div className="flex items-center">
+                                <div className="flex gap-0">
+                                  <span className="px-1 text-[0.72rem] font-bold text-[#111827]">
+                                    {move.power}
+                                  </span>
+                                  <span
+                                    className="rounded w-full px-1.5 py-1 text-center text-[0.72rem] font-bold text-white"
+                                    style={{
+                                      background: getTypeColor(move.type),
+                                    }}
+                                  >
+                                    {move.type}
+                                  </span>
+                                  <span
+                                    className="rounded px-1.5 py-1 text-center text-[0.72rem] font-bold capitalize text-white"
+                                    style={{
+                                      background: getCategoryColor(move.category),
+                                    }}
+                                  >
+                                    {move.category === "physical"
+                                      ? "phy"
+                                      : move.category === "special"
+                                        ? "spe"
+                                        : "sta"}
+                                  </span>
+                                </div>
+                                <div className="text-center text-[0.78rem] w-[25px] font-bold text-black]">
+                                  {formatMultiplier(multiplier)}
+                                </div>
                               </div>
                             </div>
                           </div>
@@ -1090,7 +1559,7 @@ export function PokemonPlannerApp() {
           )}
         </article>
 
-        <article className=" border border-[rgba(29,35,48,0.12)] bg-[rgba(255,252,245,0.84)] p-6 shadow-[0_24px_60px_rgba(38,43,53,0.12)] backdrop-blur-[14px] max-md:rounded-[20px] max-md:p-5">
+        <article className="border border-[rgba(29,35,48,0.12)] bg-[#fffaf2] p-6 shadow-sm max-md:rounded-[20px] max-md:p-5">
           <div className="mb-4 flex items-start justify-between gap-4">
             <div>
               <p className="mb-2 text-[0.72rem] font-bold uppercase tracking-[0.18em] text-[var(--accent)]">
@@ -1134,7 +1603,7 @@ export function PokemonPlannerApp() {
               <article
                 className={`grid gap-[14px] rounded-[22px] border border-[rgba(29,35,48,0.12)] bg-white/70 p-5 ${
                   activeCompareSlot === slot
-                    ? "border-[rgba(31,122,92,0.45)] bg-[rgba(31,122,92,0.1)] shadow-[inset_0_0_0_1px_rgba(31,122,92,0.2)]"
+                    ? "border-[rgba(31,122,92,0.45)] bg-[rgba(31,122,92,0.1)]"
                     : ""
                 }`}
                 key={slot}
@@ -1144,7 +1613,7 @@ export function PokemonPlannerApp() {
                   <span className="text-[0.75rem] font-bold uppercase tracking-[0.14em] text-[var(--accent)]">
                     {slot === "left" ? "Slot 1" : "Slot 2"}
                   </span>
-                  <div className="flex h-16 w-16 items-center justify-center rounded-2xl border border-[rgba(31,122,92,0.16)] bg-[linear-gradient(135deg,rgba(31,122,92,0.16),rgba(226,170,61,0.3))] text-[1.15rem] font-extrabold text-[var(--accent-strong)]">
+                  <div className="flex h-16 w-16 items-center justify-center rounded-2xl border border-[rgba(31,122,92,0.16)] bg-[rgba(31,122,92,0.12)] text-[1.15rem] font-extrabold text-[var(--accent-strong)]">
                     {candidate ? getPortraitLabel(candidate.speciesName) : "?"}
                   </div>
                 </div>
@@ -1203,7 +1672,14 @@ export function PokemonPlannerApp() {
                               key={`${candidate.key}:${move.name}:${move.source}:${move.detailLabel}`}
                             >
                               <strong>
-                                {move.name}{" "}
+                                <a
+                                  className="text-[var(--foreground)] underline underline-offset-2"
+                                  href={buildMoveUrl(move.name)}
+                                  rel="noreferrer"
+                                  target="_blank"
+                                >
+                                  {move.name}
+                                </a>{" "}
                                 {selectedEnemy
                                   ? formatMultiplier(multiplier)
                                   : ""}
@@ -1225,13 +1701,14 @@ export function PokemonPlannerApp() {
               </article>
             ))}
 
-            <article className="flex flex-col  border border-[rgba(29,35,48,0.12)] bg-[radial-gradient(circle_at_top_right,rgba(226,170,61,0.18),transparent_34%),rgba(255,255,255,0.74)] p-5">
+            <article className="flex flex-col border border-[rgba(29,35,48,0.12)] bg-[#fffaf2] p-5">
               <div className="flex items-center justify-between gap-3">
                 <span className="text-[0.75rem] font-bold uppercase tracking-[0.14em] text-[var(--accent)]">
                   Enemy focus
                 </span>
-                <div className="flex h-16 w-16 items-center justify-center rounded-2xl border border-[rgba(31,122,92,0.16)] bg-[linear-gradient(135deg,rgba(31,122,92,0.16),rgba(226,170,61,0.3))] text-[1.15rem] font-extrabold text-[var(--accent-strong)]">
+                <div className="flex h-16 w-16 items-center justify-center rounded-2xl border border-[rgba(31,122,92,0.16)] bg-[rgba(31,122,92,0.12)] text-[1.15rem] font-extrabold text-[var(--accent-strong)]">
                   {selectedEnemy && getSpriteUrl(selectedEnemy) ? (
+                    // eslint-disable-next-line @next/next/no-img-element
                     <img
                       alt={selectedEnemy.name}
                       className="h-[70px] w-[70px] object-contain"
@@ -1315,7 +1792,7 @@ export function PokemonPlannerApp() {
           </div>
         </article>
 
-        <article className="rounded-[24px] border border-[rgba(29,35,48,0.12)] bg-[rgba(255,252,245,0.84)] p-6 shadow-[0_24px_60px_rgba(38,43,53,0.12)] backdrop-blur-[14px] max-md:rounded-[20px] max-md:p-5">
+        <article className="rounded-[24px] border border-[rgba(29,35,48,0.12)] bg-[#fffaf2] p-6 shadow-sm max-md:rounded-[20px] max-md:p-5">
           <div className="mb-4 flex items-start justify-between gap-4">
             <div>
               <p className="mb-2 text-[0.72rem] font-bold uppercase tracking-[0.18em] text-[var(--accent)]">
@@ -1377,24 +1854,12 @@ export function PokemonPlannerApp() {
 
           <div className="flex flex-wrap items-center gap-3">
             <input
+              aria-label="Search Pokemon by species, type, or possible ability"
               className="min-h-11 min-w-[180px] min-w-[min(320px,100%)] rounded-[14px] border border-[rgba(29,35,48,0.12)] bg-white/90 px-3.5 text-[var(--foreground)]"
-              placeholder="Search by species or type"
+              placeholder="Search by species, type, or ability"
               value={search}
               onChange={(event) => setSearch(event.target.value)}
             />
-            <select
-              className="min-h-11 min-w-[180px] rounded-[14px] border border-[rgba(29,35,48,0.12)] bg-white/90 px-3.5 text-[var(--foreground)]"
-              value={typeFilter}
-              onChange={(event) =>
-                setTypeFilter(event.target.value as PokemonType | "All")
-              }
-            >
-              {TYPE_OPTIONS.map((type) => (
-                <option key={type} value={type}>
-                  {type === "All" ? "All types" : type}
-                </option>
-              ))}
-            </select>
             <label className="inline-flex items-center gap-2 text-[var(--foreground)]">
               <input
                 checked={showEvolutions}
@@ -1403,6 +1868,87 @@ export function PokemonPlannerApp() {
               />
               Show evolutions under cap
             </label>
+            <label className="inline-flex items-center gap-2 text-[var(--foreground)]">
+              <input
+                checked={onlyIncludeSelectedTypes}
+                onChange={(event) =>
+                  setOnlyIncludeSelectedTypes(event.target.checked)
+                }
+                type="checkbox"
+              />
+              Only include exact selected types
+            </label>
+          </div>
+          <div className="mt-3 flex flex-wrap items-center gap-2">
+            {TYPE_OPTIONS.map((type) => {
+              const isSelected = typeFilters.includes(type);
+
+              return (
+                <button
+                  key={type}
+                  type="button"
+                  className="rounded-full border px-3 py-1.5 text-sm font-semibold text-slate-900 transition"
+                  style={{
+                    background: isSelected ? getTypeColor(type) : "white",
+                    borderColor: isSelected
+                      ? getTypeColor(type)
+                      : "rgba(29,35,48,0.12)",
+                    color: isSelected ? "white" : "var(--foreground)",
+                  }}
+                  onClick={() => toggleTypeFilter(type)}
+                >
+                  {type}
+                </button>
+              );
+            })}
+            {typeFilters.length > 0 ? (
+              <button
+                type="button"
+                className="rounded-full border border-[rgba(29,35,48,0.12)] bg-white px-3 py-1.5 text-sm font-semibold text-[var(--foreground)] transition"
+                onClick={() => setTypeFilters([])}
+              >
+                Clear types
+              </button>
+            ) : null}
+          </div>
+          <div className="mt-3">
+            <p className="mb-2 text-[0.8rem] font-semibold text-[var(--muted)]">
+              Incoming move damage filter
+            </p>
+            <div className="flex flex-wrap items-center gap-2">
+              {INCOMING_DAMAGE_MULTIPLIERS.map((multiplier) => {
+                const isSelected = incomingDamageFilters.includes(multiplier);
+
+                return (
+                  <button
+                    key={multiplier}
+                    type="button"
+                    className={`rounded-full border px-3 py-1.5 text-sm font-semibold transition ${
+                      isSelected
+                        ? "border-transparent bg-[var(--accent)] text-white"
+                        : "border-[rgba(29,35,48,0.12)] bg-white text-[var(--foreground)]"
+                    }`}
+                    onClick={() => toggleIncomingDamageFilter(multiplier)}
+                  >
+                    {formatMultiplier(multiplier)}
+                  </button>
+                );
+              })}
+              {incomingDamageFilters.length > 0 ? (
+                <button
+                  type="button"
+                  className="rounded-full border border-[rgba(29,35,48,0.12)] bg-white px-3 py-1.5 text-sm font-semibold text-[var(--foreground)] transition"
+                  onClick={() => setIncomingDamageFilters([])}
+                >
+                  Clear damage filter
+                </button>
+              ) : null}
+            </div>
+            <p className="mt-2 text-[0.78rem] leading-5 text-[var(--muted)]">
+              Uses the currently selected gym Pokemon, ignores status moves, and
+              keeps only Pokemon whose damaging matchups all fit the selected
+              multipliers.
+            </p>
           </div>
 
           <div className="mt-4 grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-3 max-md:grid-cols-1">
@@ -1416,7 +1962,7 @@ export function PokemonPlannerApp() {
                   key={candidate.key}
                 >
                   <div className="flex items-center gap-[14px]">
-                    <div className="flex h-[52px] w-[52px] items-center justify-center rounded-2xl border border-[rgba(31,122,92,0.16)] bg-[linear-gradient(135deg,rgba(31,122,92,0.16),rgba(226,170,61,0.3))] text-base font-extrabold text-[var(--accent-strong)]">
+                    <div className="flex h-[52px] w-[52px] items-center justify-center rounded-2xl border border-[rgba(31,122,92,0.16)] bg-[rgba(31,122,92,0.12)] text-base font-extrabold text-[var(--accent-strong)]">
                       {getPortraitLabel(candidate.speciesName)}
                     </div>
                     <div>
@@ -1430,6 +1976,34 @@ export function PokemonPlannerApp() {
                     <span>{candidate.types.join(" / ")}</span>
                     <span>Held item: {candidate.heldItemName ?? "None"}</span>
                     <span>Nature: {candidate.nature}</span>
+                  </div>
+                  <div className="grid gap-2 rounded-[14px] bg-[rgba(29,35,48,0.04)] p-3 text-[0.84rem] leading-[1.5] text-[var(--foreground)]">
+                    <strong className="text-[0.78rem] uppercase tracking-[0.14em] text-[var(--muted)]">
+                      Possible abilities
+                    </strong>
+                    {candidate.possibleAbilities.map((ability) => (
+                      <div
+                        key={`${candidate.key}:${ability.slotLabel}:${ability.name}`}
+                      >
+                        <span className="font-semibold">
+                          {ability.slotLabel}:{" "}
+                        </span>
+                        <a
+                          className="font-semibold text-[var(--accent-strong)] underline underline-offset-2"
+                          href={ability.url}
+                          rel="noreferrer"
+                          target="_blank"
+                        >
+                          {ability.name}
+                        </a>
+                        <span className="text-[var(--muted)]">
+                          {" "}
+                          -{" "}
+                          {ability.effect ??
+                            "Effect text unavailable locally. Open the link for full details."}
+                        </span>
+                      </div>
+                    ))}
                   </div>
                   {candidate.methodLabel ? (
                     <p className="leading-6 text-[var(--muted)]">
@@ -1468,7 +2042,8 @@ export function PokemonPlannerApp() {
             })}
             {saveData && filteredCandidates.length === 0 ? (
               <p className="leading-6 text-[var(--muted)]">
-                No Pokemon match the current search and type filters.
+                No Pokemon match the current search, selected types, or incoming
+                damage filters.
               </p>
             ) : null}
           </div>

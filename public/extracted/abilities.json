@@ -5,295 +5,368 @@
   },
   {
     "abilityId": 1,
-    "name": "Stench"
+    "name": "Stench",
+    "effect": "Helps repel wild Pok\u00e9mon."
   },
   {
     "abilityId": 2,
-    "name": "Drizzle"
+    "name": "Drizzle",
+    "effect": "Summons rain in battle."
   },
   {
     "abilityId": 3,
-    "name": "Speed Boost"
+    "name": "Speed Boost",
+    "effect": "Gradually boosts Speed."
   },
   {
     "abilityId": 4,
-    "name": "Battle Armor"
+    "name": "Battle Armor",
+    "effect": "Blocks critical hits."
   },
   {
     "abilityId": 5,
-    "name": "Sturdy"
+    "name": "Sturdy",
+    "effect": "Negates 1-hit KO attacks."
   },
   {
     "abilityId": 6,
-    "name": "Damp"
+    "name": "Damp",
+    "effect": "Prevents self-destruction."
   },
   {
     "abilityId": 7,
-    "name": "Limber"
+    "name": "Limber",
+    "effect": "Prevents paralysis."
   },
   {
     "abilityId": 8,
-    "name": "Sand Veil"
+    "name": "Sand Veil",
+    "effect": "Ups evasion in a sandstorm."
   },
   {
     "abilityId": 9,
-    "name": "Static"
+    "name": "Static",
+    "effect": "Paralyzes on contact."
   },
   {
     "abilityId": 10,
-    "name": "Volt Absorb"
+    "name": "Volt Absorb",
+    "effect": "Turns electricity into HP."
   },
   {
     "abilityId": 11,
-    "name": "Water Absorb"
+    "name": "Water Absorb",
+    "effect": "Changes water into HP."
   },
   {
     "abilityId": 12,
-    "name": "Oblivious"
+    "name": "Oblivious",
+    "effect": "Prevents attraction."
   },
   {
     "abilityId": 13,
-    "name": "Cloud Nine"
+    "name": "Cloud Nine",
+    "effect": "Negates weather effects."
   },
   {
     "abilityId": 14,
-    "name": "Compound Eyes"
+    "name": "Compound Eyes",
+    "effect": "Raises accuracy."
   },
   {
     "abilityId": 15,
-    "name": "Insomnia"
+    "name": "Insomnia",
+    "effect": "Prevents sleep."
   },
   {
     "abilityId": 16,
-    "name": "Color Change"
+    "name": "Color Change",
+    "effect": "Changes type to foe's move."
   },
   {
     "abilityId": 17,
-    "name": "Immunity"
+    "name": "Immunity",
+    "effect": "Prevents poisoning."
   },
   {
     "abilityId": 18,
-    "name": "Flash Fire"
+    "name": "Flash Fire",
+    "effect": "Powers up if hit by fire."
   },
   {
     "abilityId": 19,
-    "name": "Shield Dust"
+    "name": "Shield Dust",
+    "effect": "Prevents added effects."
   },
   {
     "abilityId": 20,
-    "name": "Own Tempo"
+    "name": "Own Tempo",
+    "effect": "Prevents confusion."
   },
   {
     "abilityId": 21,
-    "name": "Suction Cups"
+    "name": "Suction Cups",
+    "effect": "Firmly anchors the body."
   },
   {
     "abilityId": 22,
-    "name": "Intimidate"
+    "name": "Intimidate",
+    "effect": "Lowers the foe's Attack."
   },
   {
     "abilityId": 23,
-    "name": "Shadow Tag"
+    "name": "Shadow Tag",
+    "effect": "Prevents the foe's escape."
   },
   {
     "abilityId": 24,
-    "name": "Rough Skin"
+    "name": "Rough Skin",
+    "effect": "Hurts to touch."
   },
   {
     "abilityId": 25,
-    "name": "Wonder Guard"
+    "name": "Wonder Guard",
+    "effect": "\u201cSuper effective\u201d hits."
   },
   {
     "abilityId": 26,
-    "name": "Levitate"
+    "name": "Levitate",
+    "effect": "Not hit by Ground attacks."
   },
   {
     "abilityId": 27,
-    "name": "Effect Spore"
+    "name": "Effect Spore",
+    "effect": "Leaves spores on contact."
   },
   {
     "abilityId": 28,
-    "name": "Synchronize"
+    "name": "Synchronize",
+    "effect": "Passes on status problems."
   },
   {
     "abilityId": 29,
-    "name": "Clear Body"
+    "name": "Clear Body",
+    "effect": "Prevents ability reduction."
   },
   {
     "abilityId": 30,
-    "name": "Natural Cure"
+    "name": "Natural Cure",
+    "effect": "Heals upon switching out."
   },
   {
     "abilityId": 31,
-    "name": "Lightning Rod"
+    "name": "Lightning Rod",
+    "effect": "Draws electrical moves."
   },
   {
     "abilityId": 32,
-    "name": "Serene Grace"
+    "name": "Serene Grace",
+    "effect": "Promotes added effects."
   },
   {
     "abilityId": 33,
-    "name": "Swift Swim"
+    "name": "Swift Swim",
+    "effect": "Raises Speed in rain."
   },
   {
     "abilityId": 34,
-    "name": "Chlorophyll"
+    "name": "Chlorophyll",
+    "effect": "Raises Speed in sunshine."
   },
   {
     "abilityId": 35,
-    "name": "Illuminate"
+    "name": "Illuminate",
+    "effect": "Encounter rate increases."
   },
   {
     "abilityId": 36,
-    "name": "Trace"
+    "name": "Trace",
+    "effect": "Copies special ability."
   },
   {
     "abilityId": 37,
-    "name": "Huge Power"
+    "name": "Huge Power",
+    "effect": "Raises Attack."
   },
   {
     "abilityId": 38,
-    "name": "Poison Point"
+    "name": "Poison Point",
+    "effect": "Poisons foe on contact."
   },
   {
     "abilityId": 39,
-    "name": "Inner Focus"
+    "name": "Inner Focus",
+    "effect": "Prevents flinching."
   },
   {
     "abilityId": 40,
-    "name": "Magma Armor"
+    "name": "Magma Armor",
+    "effect": "Can't get frostbite."
   },
   {
     "abilityId": 41,
-    "name": "Water Veil"
+    "name": "Water Veil",
+    "effect": "Prevents burns."
   },
   {
     "abilityId": 42,
-    "name": "Magnet Pull"
+    "name": "Magnet Pull",
+    "effect": "Traps Steel-type Pok\u00e9mon."
   },
   {
     "abilityId": 43,
-    "name": "Soundproof"
+    "name": "Soundproof",
+    "effect": "Avoids sound-based moves."
   },
   {
     "abilityId": 44,
-    "name": "Rain Dish"
+    "name": "Rain Dish",
+    "effect": "Slight HP recovery in rain."
   },
   {
     "abilityId": 45,
-    "name": "Sand Stream"
+    "name": "Sand Stream",
+    "effect": "Summons a sandstorm."
   },
   {
     "abilityId": 46,
-    "name": "Pressure"
+    "name": "Pressure",
+    "effect": "Raises foe's PP usage."
   },
   {
     "abilityId": 47,
-    "name": "Thick Fat"
+    "name": "Thick Fat",
+    "effect": "Heat-and-cold protection."
   },
   {
     "abilityId": 48,
-    "name": "Early Bird"
+    "name": "Early Bird",
+    "effect": "Awakens quickly from sleep."
   },
   {
     "abilityId": 49,
-    "name": "Flame Body"
+    "name": "Flame Body",
+    "effect": "Burns the foe on contact."
   },
   {
     "abilityId": 50,
-    "name": "Run Away"
+    "name": "Run Away",
+    "effect": "Makes escaping easier."
   },
   {
     "abilityId": 51,
-    "name": "Keen Eye"
+    "name": "Keen Eye",
+    "effect": "Prevents loss of accuracy."
   },
   {
     "abilityId": 52,
-    "name": "Hyper Cutter"
+    "name": "Hyper Cutter",
+    "effect": "Prevents Attack reduction."
   },
   {
     "abilityId": 53,
-    "name": "Pickup"
+    "name": "Pickup",
+    "effect": "May pick up items."
   },
   {
     "abilityId": 54,
-    "name": "Truant"
+    "name": "Truant",
+    "effect": "Moves only every two turns."
   },
   {
     "abilityId": 55,
-    "name": "Hustle"
+    "name": "Hustle",
+    "effect": "Trades accuracy for power."
   },
   {
     "abilityId": 56,
-    "name": "Cute Charm"
+    "name": "Cute Charm",
+    "effect": "Infatuates on contact."
   },
   {
     "abilityId": 57,
-    "name": "Plus"
+    "name": "Plus",
+    "effect": "Powers up with Minus."
   },
   {
     "abilityId": 58,
-    "name": "Minus"
+    "name": "Minus",
+    "effect": "Powers up with Plus."
   },
   {
     "abilityId": 59,
-    "name": "Forecast"
+    "name": "Forecast",
+    "effect": "Changes with the weather."
   },
   {
     "abilityId": 60,
-    "name": "Sticky Hold"
+    "name": "Sticky Hold",
+    "effect": "Prevents item theft."
   },
   {
     "abilityId": 61,
-    "name": "Shed Skin"
+    "name": "Shed Skin",
+    "effect": "Heals the body by shedding."
   },
   {
     "abilityId": 62,
-    "name": "Guts"
+    "name": "Guts",
+    "effect": "Ups Attack if suffering from a status condition."
   },
   {
     "abilityId": 63,
-    "name": "Marvel Scale"
+    "name": "Marvel Scale",
+    "effect": "Ups Defense if suffering."
   },
   {
     "abilityId": 64,
-    "name": "Liquid Ooze"
+    "name": "Liquid Ooze",
+    "effect": "Draining causes injury."
   },
   {
     "abilityId": 65,
-    "name": "Overgrow"
+    "name": "Overgrow",
+    "effect": "Ups Grass moves in a pinch."
   },
   {
     "abilityId": 66,
-    "name": "Blaze"
+    "name": "Blaze",
+    "effect": "Ups Fire moves in a pinch."
   },
   {
     "abilityId": 67,
-    "name": "Torrent"
+    "name": "Torrent",
+    "effect": "Ups Water moves in a pinch."
   },
   {
     "abilityId": 68,
-    "name": "Swarm"
+    "name": "Swarm",
+    "effect": "Ups Bug moves in a pinch."
   },
   {
     "abilityId": 69,
-    "name": "Rock Head"
+    "name": "Rock Head",
+    "effect": "Prevents recoil damage."
   },
   {
     "abilityId": 70,
-    "name": "Drought"
+    "name": "Drought",
+    "effect": "Summons sunlight in battle."
   },
   {
     "abilityId": 71,
-    "name": "Arena Trap"
+    "name": "Arena Trap",
+    "effect": "Prevents fleeing."
   },
   {
     "abilityId": 72,
-    "name": "Transistor"
+    "name": "Transistor",
+    "effect": "Powers up Electric-type moves."
   },
   {
     "abilityId": 73,
-    "name": "Dragon's Maw"
+    "name": "Dragon's Maw",
+    "effect": "Powers up Dragon-type moves."
   },
   {
     "abilityId": 74,
@@ -301,11 +374,13 @@
   },
   {
     "abilityId": 75,
-    "name": "Shell Armor"
+    "name": "Shell Armor",
+    "effect": "Blocks critical hits."
   },
   {
     "abilityId": 76,
-    "name": "Hunger Switch"
+    "name": "Hunger Switch",
+    "effect": "Changes form each turn."
   },
   {
     "abilityId": 77,
@@ -313,295 +388,368 @@
   },
   {
     "abilityId": 78,
-    "name": "Sweet Veil"
+    "name": "Sweet Veil",
+    "effect": "Keeps user and allies awake."
   },
   {
     "abilityId": 79,
-    "name": "Skill Link"
+    "name": "Skill Link",
+    "effect": "Multi-hit moves hit five times."
   },
   {
     "abilityId": 80,
-    "name": "Motor Drive"
+    "name": "Motor Drive",
+    "effect": "Turns electricity into Speed."
   },
   {
     "abilityId": 81,
-    "name": "Multiscale"
+    "name": "Multiscale",
+    "effect": "Reduces damage at full HP."
   },
   {
     "abilityId": 82,
-    "name": "Technician"
+    "name": "Technician",
+    "effect": "Boosts weaker moves."
   },
   {
     "abilityId": 83,
-    "name": "Scrappy"
+    "name": "Scrappy",
+    "effect": "Moves hit Ghost-type Pok\\emon."
   },
   {
     "abilityId": 84,
-    "name": "Super Luck"
+    "name": "Super Luck",
+    "effect": "Critical hits land more often."
   },
   {
     "abilityId": 85,
-    "name": "Sniper"
+    "name": "Sniper",
+    "effect": "Boosts critical hits."
   },
   {
     "abilityId": 86,
-    "name": "Regenerator"
+    "name": "Regenerator",
+    "effect": "Heals upon switching out."
   },
   {
     "abilityId": 87,
-    "name": "Prankster"
+    "name": "Prankster",
+    "effect": "Status moves hit first."
   },
   {
     "abilityId": 88,
-    "name": "Adaptability"
+    "name": "Adaptability",
+    "effect": "Boosts same type attacks."
   },
   {
     "abilityId": 89,
-    "name": "Big Pecks"
+    "name": "Big Pecks",
+    "effect": "Prevents Defense reduction."
   },
   {
     "abilityId": 90,
-    "name": "Magic Bounce"
+    "name": "Magic Bounce",
+    "effect": "Reflects status moves."
   },
   {
     "abilityId": 91,
-    "name": "Reckless"
+    "name": "Reckless",
+    "effect": "Boosts moves with recoil."
   },
   {
     "abilityId": 92,
-    "name": "Sheer Force"
+    "name": "Sheer Force",
+    "effect": "Trades added effects for power."
   },
   {
     "abilityId": 93,
-    "name": "Iron Fist"
+    "name": "Iron Fist",
+    "effect": "Boosts punching moves."
   },
   {
     "abilityId": 94,
-    "name": "Rivalry"
+    "name": "Rivalry",
+    "effect": "Ups power against same gender."
   },
   {
     "abilityId": 95,
-    "name": "Sand Force"
+    "name": "Sand Force",
+    "effect": "Boosts moves in a sandstorm."
   },
   {
     "abilityId": 96,
-    "name": "Solar Power"
+    "name": "Solar Power",
+    "effect": "Trades HP for power in sunshine."
   },
   {
     "abilityId": 97,
-    "name": "Heatproof"
+    "name": "Heatproof",
+    "effect": "Heat protection."
   },
   {
     "abilityId": 98,
-    "name": "Dry Skin"
+    "name": "Dry Skin",
+    "effect": "Prefers the rain to heat."
   },
   {
     "abilityId": 99,
-    "name": "Tinted Lens"
+    "name": "Tinted Lens",
+    "effect": "Boosts \u201cnot very effective\u201d moves."
   },
   {
     "abilityId": 100,
-    "name": "Unseen Fist"
+    "name": "Unseen Fist",
+    "effect": "Contact moves bypass Protect."
   },
   {
     "abilityId": 101,
-    "name": "Filter"
+    "name": "Filter",
+    "effect": "Weakens super effective moves."
   },
   {
     "abilityId": 102,
-    "name": "Infiltrator"
+    "name": "Infiltrator",
+    "effect": "Passes through barriers and Fog."
   },
   {
     "abilityId": 103,
-    "name": "Download"
+    "name": "Download",
+    "effect": "Adjusts power from foe's stats."
   },
   {
     "abilityId": 104,
-    "name": "Poison Heal"
+    "name": "Poison Heal",
+    "effect": "Restores HP if poisoned."
   },
   {
     "abilityId": 105,
-    "name": "Ice Body"
+    "name": "Ice Body",
+    "effect": "Slight HP recovery in hail."
   },
   {
     "abilityId": 106,
-    "name": "Moody"
+    "name": "Moody",
+    "effect": "Ups one stat and downs another."
   },
   {
     "abilityId": 107,
-    "name": "Hydration"
+    "name": "Hydration",
+    "effect": "Heals status problems in rain."
   },
   {
     "abilityId": 108,
-    "name": "Healer"
+    "name": "Healer",
+    "effect": "May heal ally's status problems."
   },
   {
     "abilityId": 109,
-    "name": "Snow Cloak"
+    "name": "Snow Cloak",
+    "effect": "Ups evasion in hail."
   },
   {
     "abilityId": 110,
-    "name": "Tangled Feet"
+    "name": "Tangled Feet",
+    "effect": "Ups evasion if confused."
   },
   {
     "abilityId": 111,
-    "name": "Snow Warning"
+    "name": "Snow Warning",
+    "effect": "Summons a hailstorm in battle."
   },
   {
     "abilityId": 112,
-    "name": "Quick Feet"
+    "name": "Quick Feet",
+    "effect": "Ups Speed if suffering."
   },
   {
     "abilityId": 113,
-    "name": "Sap Sipper"
+    "name": "Sap Sipper",
+    "effect": "Boosts Attack if hit by Grass."
   },
   {
     "abilityId": 114,
-    "name": "Overcoat"
+    "name": "Overcoat",
+    "effect": "Immune to weather and powder."
   },
   {
     "abilityId": 115,
-    "name": "Magic Guard"
+    "name": "Magic Guard",
+    "effect": "Only damaged by attacks."
   },
   {
     "abilityId": 116,
-    "name": "Bulletproof"
+    "name": "Bulletproof",
+    "effect": "Avoids ball and bomb moves."
   },
   {
     "abilityId": 117,
-    "name": "Gale Wings"
+    "name": "Gale Wings",
+    "effect": "Flying-type moves hit first."
   },
   {
     "abilityId": 118,
-    "name": "Moxie"
+    "name": "Moxie",
+    "effect": "Knockouts boost Attack."
   },
   {
     "abilityId": 119,
-    "name": "Aftermath"
+    "name": "Aftermath",
+    "effect": "Fainting damages the foe."
   },
   {
     "abilityId": 120,
-    "name": "Cursed Body"
+    "name": "Cursed Body",
+    "effect": "May disable a foe's move."
   },
   {
     "abilityId": 121,
-    "name": "Gooey"
+    "name": "Gooey",
+    "effect": "Lowers the foe's Speed if hit."
   },
   {
     "abilityId": 122,
-    "name": "Mummy"
+    "name": "Mummy",
+    "effect": "Spreads with contact."
   },
   {
     "abilityId": 123,
-    "name": "Grim Neigh"
+    "name": "Grim Neigh",
+    "effect": "Knockouts boost Sp. Atk."
   },
   {
     "abilityId": 124,
-    "name": "Sand Rush"
+    "name": "Sand Rush",
+    "effect": "Raises Speed in a sandstorm."
   },
   {
     "abilityId": 125,
-    "name": "Analytic"
+    "name": "Analytic",
+    "effect": "Moving last boosts power."
   },
   {
     "abilityId": 126,
-    "name": "No Guard"
+    "name": "No Guard",
+    "effect": "Ensures that all moves land."
   },
   {
     "abilityId": 127,
-    "name": "Mega Launcher"
+    "name": "Mega Launcher",
+    "effect": "Boosts aura and pulse moves."
   },
   {
     "abilityId": 128,
-    "name": "Tough Claws"
+    "name": "Tough Claws",
+    "effect": "Boosts moves that make contact."
   },
   {
     "abilityId": 129,
-    "name": "Strong Jaw"
+    "name": "Strong Jaw",
+    "effect": "Boosts biting moves."
   },
   {
     "abilityId": 130,
-    "name": "Victory Star"
+    "name": "Victory Star",
+    "effect": "Raises own and ally\u2019s accuracy."
   },
   {
     "abilityId": 131,
-    "name": "Storm Drain"
+    "name": "Storm Drain",
+    "effect": "Draws in water to up Sp. Atk."
   },
   {
     "abilityId": 132,
-    "name": "Dark Aura"
+    "name": "Dark Aura",
+    "effect": "Powers up Dark-type moves."
   },
   {
     "abilityId": 133,
-    "name": "Fairy Aura"
+    "name": "Fairy Aura",
+    "effect": "Powers up Fairy-type moves."
   },
   {
     "abilityId": 134,
-    "name": "Aura Break"
+    "name": "Aura Break",
+    "effect": "Reverses Aura Abilities."
   },
   {
     "abilityId": 135,
-    "name": "Refrigerate"
+    "name": "Refrigerate",
+    "effect": "Normal moves become Ice."
   },
   {
     "abilityId": 136,
-    "name": "Pixilate"
+    "name": "Pixilate",
+    "effect": "Normal moves become Fairy."
   },
   {
     "abilityId": 137,
-    "name": "Aerilate"
+    "name": "Aerilate",
+    "effect": "Normal moves become Flying."
   },
   {
     "abilityId": 138,
-    "name": "Normalize"
+    "name": "Normalize",
+    "effect": "All moves become Normal-type."
   },
   {
     "abilityId": 139,
-    "name": "Unburden"
+    "name": "Unburden",
+    "effect": "Doubles Speed if item is lost."
   },
   {
     "abilityId": 140,
-    "name": "Simple"
+    "name": "Simple",
+    "effect": "Doubles stat changes."
   },
   {
     "abilityId": 141,
-    "name": "Unaware"
+    "name": "Unaware",
+    "effect": "Ignores foe's stat changes."
   },
   {
     "abilityId": 142,
-    "name": "Defiant"
+    "name": "Defiant",
+    "effect": "Attack rises when stats fall."
   },
   {
     "abilityId": 143,
-    "name": "Competitive"
+    "name": "Competitive",
+    "effect": "Sp. Atk rises when stats fall."
   },
   {
     "abilityId": 144,
-    "name": "Defeatist"
+    "name": "Defeatist",
+    "effect": "Gives up at half HP."
   },
   {
     "abilityId": 145,
-    "name": "Slow Start"
+    "name": "Slow Start",
+    "effect": "Takes a while to get going."
   },
   {
     "abilityId": 146,
-    "name": "Toxic Boost"
+    "name": "Toxic Boost",
+    "effect": "Attack rises when poisoned."
   },
   {
     "abilityId": 147,
-    "name": "Flare Boost"
+    "name": "Flare Boost",
+    "effect": "Sp. Atk rises when burned."
   },
   {
     "abilityId": 148,
-    "name": "Fur Coat"
+    "name": "Fur Coat",
+    "effect": "Halves physical damage."
   },
   {
     "abilityId": 149,
-    "name": "Wonder Skin"
+    "name": "Wonder Skin",
+    "effect": "Ups status move evasion."
   },
   {
     "abilityId": 150,
-    "name": "Protean"
+    "name": "Protean",
+    "effect": "Changes type to match move."
   },
   {
     "abilityId": 151,
@@ -609,7 +757,8 @@
   },
   {
     "abilityId": 152,
-    "name": "Mold Breaker"
+    "name": "Mold Breaker",
+    "effect": "Moves ignore Abilities."
   },
   {
     "abilityId": 153,
@@ -621,123 +770,153 @@
   },
   {
     "abilityId": 155,
-    "name": "Zen Mode"
+    "name": "Zen Mode",
+    "effect": "Transforms below half HP."
   },
   {
     "abilityId": 156,
-    "name": "Battle Bond"
+    "name": "Battle Bond",
+    "effect": "Transforms after a KO."
   },
   {
     "abilityId": 157,
-    "name": "Beast Boost"
+    "name": "Beast Boost",
+    "effect": "KOing a foe ups highest stat."
   },
   {
     "abilityId": 158,
-    "name": "Corrosion"
+    "name": "Corrosion",
+    "effect": "May poison any type."
   },
   {
     "abilityId": 159,
-    "name": "Disguise"
+    "name": "Disguise",
+    "effect": "Takes one hit with no damage."
   },
   {
     "abilityId": 160,
-    "name": "Emergency Exit"
+    "name": "Emergency Exit",
+    "effect": "Switches out below half HP."
   },
   {
     "abilityId": 161,
-    "name": "Fluffy"
+    "name": "Fluffy",
+    "effect": "Halves contact hits. Weak to Fire."
   },
   {
     "abilityId": 162,
-    "name": "Steely Spirit"
+    "name": "Steely Spirit",
+    "effect": "Boosts own and ally Steel moves."
   },
   {
     "abilityId": 163,
-    "name": "Perish Body"
+    "name": "Perish Body",
+    "effect": "Gives a perish count on contact."
   },
   {
     "abilityId": 164,
-    "name": "Wandering Soul"
+    "name": "Wandering Soul",
+    "effect": "Trades Abilities on contact."
   },
   {
     "abilityId": 165,
-    "name": "Power Construct"
+    "name": "Power Construct",
+    "effect": "Transforms below half HP."
   },
   {
     "abilityId": 166,
-    "name": "Prism Armor"
+    "name": "Prism Armor",
+    "effect": "Weakens super effective moves."
   },
   {
     "abilityId": 167,
-    "name": "RKS System"
+    "name": "RKS System",
+    "effect": "Changes type to match Memory."
   },
   {
     "abilityId": 168,
-    "name": "Schooling"
+    "name": "Schooling",
+    "effect": "Schools up with high HP."
   },
   {
     "abilityId": 169,
-    "name": "Shadow Shield"
+    "name": "Shadow Shield",
+    "effect": "Reduces damage at full HP."
   },
   {
     "abilityId": 170,
-    "name": "Shields Down"
+    "name": "Shields Down",
+    "effect": "Lowers shields below half HP."
   },
   {
     "abilityId": 171,
-    "name": "Slush Rush"
+    "name": "Slush Rush",
+    "effect": "Boosts speed in Hail."
   },
   {
     "abilityId": 172,
-    "name": "Soul-Heart"
+    "name": "Soul-Heart",
+    "effect": "Knockouts boost Sp. Atk."
   },
   {
     "abilityId": 173,
-    "name": "Stamina"
+    "name": "Stamina",
+    "effect": "Taking a hit raises Defense."
   },
   {
     "abilityId": 174,
-    "name": "Steelworker"
+    "name": "Steelworker",
+    "effect": "Powers up Steel-type moves."
   },
   {
     "abilityId": 175,
-    "name": "Full Metal Body"
+    "name": "Full Metal Body",
+    "effect": "Prevents ability reduction."
   },
   {
     "abilityId": 176,
-    "name": "Triage"
+    "name": "Triage",
+    "effect": "Gives priority to healing moves."
   },
   {
     "abilityId": 177,
-    "name": "Water Bubble"
+    "name": "Water Bubble",
+    "effect": "Ups Water attacks. Prevents burn."
   },
   {
     "abilityId": 178,
-    "name": "Water Compact"
+    "name": "Water Compact",
+    "effect": "Water-type hits raise Defense."
   },
   {
     "abilityId": 179,
-    "name": "Stall"
+    "name": "Stall",
+    "effect": "Often attacks last."
   },
   {
     "abilityId": 180,
-    "name": "Multitype"
+    "name": "Multitype",
+    "effect": "Changes type to match held Plate."
   },
   {
     "abilityId": 181,
-    "name": "Electric Surge"
+    "name": "Electric Surge",
+    "effect": "Creates an Electric Terrain."
   },
   {
     "abilityId": 182,
-    "name": "Grassy Surge"
+    "name": "Grassy Surge",
+    "effect": "Creates a Grassy Terrain."
   },
   {
     "abilityId": 183,
-    "name": "Misty Surge"
+    "name": "Misty Surge",
+    "effect": "Creates a Misty Terrain."
   },
   {
     "abilityId": 184,
-    "name": "Psychic Surge"
+    "name": "Psychic Surge",
+    "effect": "Creates a Psychic Terrain."
   },
   {
     "abilityId": 185,
@@ -745,91 +924,113 @@
   },
   {
     "abilityId": 186,
-    "name": "Grass Pelt"
+    "name": "Grass Pelt",
+    "effect": "Ups Defense on Grassy Terrain."
   },
   {
     "abilityId": 187,
-    "name": "Anger Point"
+    "name": "Anger Point",
+    "effect": "Maxes Attack after a critical hit."
   },
   {
     "abilityId": 188,
-    "name": "Anticipation"
+    "name": "Anticipation",
+    "effect": "Senses super effective moves."
   },
   {
     "abilityId": 189,
-    "name": "Forewarn"
+    "name": "Forewarn",
+    "effect": "Warns of the foe\u2019s strongest move."
   },
   {
     "abilityId": 190,
-    "name": "Frisk"
+    "name": "Frisk",
+    "effect": "Reveals the foe\u2019s held item."
   },
   {
     "abilityId": 191,
-    "name": "Contrary"
+    "name": "Contrary",
+    "effect": "Reverses stat changes."
   },
   {
     "abilityId": 192,
-    "name": "Unnerve"
+    "name": "Unnerve",
+    "effect": "Stops the foe from eating Berries."
   },
   {
     "abilityId": 193,
-    "name": "Weak Armor"
+    "name": "Weak Armor",
+    "effect": "Hits up Speed but drop Defense."
   },
   {
     "abilityId": 194,
-    "name": "Heavy Metal"
+    "name": "Heavy Metal",
+    "effect": "Doubles weight."
   },
   {
     "abilityId": 195,
-    "name": "Light Metal"
+    "name": "Light Metal",
+    "effect": "Halves weight."
   },
   {
     "abilityId": 196,
-    "name": "Steadfast"
+    "name": "Steadfast",
+    "effect": "Flinching raises Speed."
   },
   {
     "abilityId": 197,
-    "name": "Imposter"
+    "name": "Imposter",
+    "effect": "Transforms upon entering battle."
   },
   {
     "abilityId": 198,
-    "name": "Justified"
+    "name": "Justified",
+    "effect": "Dark-type hits raise Attack."
   },
   {
     "abilityId": 199,
-    "name": "Rattled"
+    "name": "Rattled",
+    "effect": "Scary move types raise Speed."
   },
   {
     "abilityId": 200,
-    "name": "Merciless"
+    "name": "Merciless",
+    "effect": "Critically hits poisoned foes."
   },
   {
     "abilityId": 201,
-    "name": "Aroma Veil"
+    "name": "Aroma Veil",
+    "effect": "Protects against mental problems."
   },
   {
     "abilityId": 202,
-    "name": "Flower Veil"
+    "name": "Flower Veil",
+    "effect": "Protects Grass-types from status."
   },
   {
     "abilityId": 203,
-    "name": "Leaf Guard"
+    "name": "Leaf Guard",
+    "effect": "Protects from status when sunny."
   },
   {
     "abilityId": 204,
-    "name": "Klutz"
+    "name": "Klutz",
+    "effect": "Can't use items."
   },
   {
     "abilityId": 205,
-    "name": "Flower Gift"
+    "name": "Flower Gift",
+    "effect": "Powers up team when sunny."
   },
   {
     "abilityId": 206,
-    "name": "Bad Dreams"
+    "name": "Bad Dreams",
+    "effect": "Hurts sleeping foes."
   },
   {
     "abilityId": 207,
-    "name": "Pickpocket"
+    "name": "Pickpocket",
+    "effect": "Steals foe\u2019s item when hit."
   },
   {
     "abilityId": 208,
@@ -837,15 +1038,18 @@
   },
   {
     "abilityId": 209,
-    "name": "Poison Touch"
+    "name": "Poison Touch",
+    "effect": "Can poison foe on contact."
   },
   {
     "abilityId": 210,
-    "name": "Magician"
+    "name": "Magician",
+    "effect": "Can steal foe's item after attack."
   },
   {
     "abilityId": 211,
-    "name": "Stance Change"
+    "name": "Stance Change",
+    "effect": "Switches form when attacking."
   },
   {
     "abilityId": 212,
@@ -865,15 +1069,18 @@
   },
   {
     "abilityId": 216,
-    "name": "Berserk"
+    "name": "Berserk",
+    "effect": "Ups Sp. Atk below half HP."
   },
   {
     "abilityId": 217,
-    "name": "Long Reach"
+    "name": "Long Reach",
+    "effect": "Never makes contact."
   },
   {
     "abilityId": 218,
-    "name": "Liquid Voice"
+    "name": "Liquid Voice",
+    "effect": "Sound moves become Water-type."
   },
   {
     "abilityId": 219,
@@ -881,63 +1088,78 @@
   },
   {
     "abilityId": 220,
-    "name": "Innards Out"
+    "name": "Innards Out",
+    "effect": "Fainting damages the foe."
   },
   {
     "abilityId": 221,
-    "name": "Dazzling"
+    "name": "Dazzling",
+    "effect": "Blocks priority moves."
   },
   {
     "abilityId": 222,
-    "name": "Gluttony"
+    "name": "Gluttony",
+    "effect": "Eats Berries early."
   },
   {
     "abilityId": 223,
-    "name": "Honey Gather"
+    "name": "Honey Gather",
+    "effect": "Picks up Honey after battle."
   },
   {
     "abilityId": 224,
-    "name": "Friend Guard"
+    "name": "Friend Guard",
+    "effect": "Reduces damage done to allies."
   },
   {
     "abilityId": 225,
-    "name": "Harvest"
+    "name": "Harvest",
+    "effect": "Can regain consumed Berries."
   },
   {
     "abilityId": 226,
-    "name": "Telepathy"
+    "name": "Telepathy",
+    "effect": "Protects from allies' moves."
   },
   {
     "abilityId": 227,
-    "name": "Illusion"
+    "name": "Illusion",
+    "effect": "Enters battle disguised."
   },
   {
     "abilityId": 228,
-    "name": "Cheek Pouch"
+    "name": "Cheek Pouch",
+    "effect": "Eating Berries restores HP."
   },
   {
     "abilityId": 229,
-    "name": "Symbiosis"
+    "name": "Symbiosis",
+    "effect": "Gives item to ally after use."
   },
   {
     "abilityId": 230,
-    "name": "Stakeout"
+    "name": "Stakeout",
+    "effect": "Doubles damage on replacements."
   },
   {
     "abilityId": 231,
-    "name": "Comatose"
+    "name": "Comatose",
+    "effect": "Acts as if asleep."
   },
   {
     "abilityId": 232,
-    "name": "Dancer"
+    "name": "Dancer",
+    "effect": "Copies dance moves."
   },
   {
     "abilityId": 233,
-    "name": "Battery"
+    "name": "Battery",
+    "effect": "Powers up allies."
   },
   {
     "abilityId": 234,
-    "name": "Receiver"
+    "name": "Receiver",
+    "effect": "Takes over a KOed ally\u2019s Ability."
   },
   {
     "abilityId": 235,
@@ -945,7 +1167,8 @@
   },
   {
     "abilityId": 236,
-    "name": "Neuroforce"
+    "name": "Neuroforce",
+    "effect": "Powers up super effective hits."
   },
   {
     "abilityId": 237,
@@ -953,59 +1176,73 @@
   },
   {
     "abilityId": 238,
-    "name": "Intrepid Sword"
+    "name": "Intrepid Sword",
+    "effect": "Ups Attack on entry."
   },
   {
     "abilityId": 239,
-    "name": "Valiant Shield"
+    "name": "Valiant Shield",
+    "effect": "Ups Defense on entry."
   },
   {
     "abilityId": 240,
-    "name": "Ball Fetch"
+    "name": "Ball Fetch",
+    "effect": "Fetches first failed Pok\\e Ball."
   },
   {
     "abilityId": 241,
-    "name": "Cotton Down"
+    "name": "Cotton Down",
+    "effect": "Lowers everyone's Speed when hit."
   },
   {
     "abilityId": 242,
-    "name": "Mirror Armor"
+    "name": "Mirror Armor",
+    "effect": "Bounces back stat decreases."
   },
   {
     "abilityId": 243,
-    "name": "Gulp Missile"
+    "name": "Gulp Missile",
+    "effect": "Spits prey if hit after a swim."
   },
   {
     "abilityId": 244,
-    "name": "Stalwart"
+    "name": "Stalwart",
+    "effect": "Moves ignore redirection."
   },
   {
     "abilityId": 245,
-    "name": "Steam Engine"
+    "name": "Steam Engine",
+    "effect": "Fire and Water hits boost Speed."
   },
   {
     "abilityId": 246,
-    "name": "Punk Rock"
+    "name": "Punk Rock",
+    "effect": "Ups and resists sound moves."
   },
   {
     "abilityId": 247,
-    "name": "Sand Spit"
+    "name": "Sand Spit",
+    "effect": "Creates a sandstorm when hit."
   },
   {
     "abilityId": 248,
-    "name": "Ice Scales"
+    "name": "Ice Scales",
+    "effect": "Halves special damage."
   },
   {
     "abilityId": 249,
-    "name": "Ripen"
+    "name": "Ripen",
+    "effect": "Doubles Berry effects."
   },
   {
     "abilityId": 250,
-    "name": "Ice Face"
+    "name": "Ice Face",
+    "effect": "Free physical hit. Hail renews."
   },
   {
     "abilityId": 251,
-    "name": "Power Spot"
+    "name": "Power Spot",
+    "effect": "Powers up ally moves."
   },
   {
     "abilityId": 252,
@@ -1013,7 +1250,8 @@
   },
   {
     "abilityId": 253,
-    "name": "Screen Cleaner"
+    "name": "Screen Cleaner",
+    "effect": "Screens are removed on entry."
   },
   {
     "abilityId": 254,
